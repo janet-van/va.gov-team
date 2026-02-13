@@ -9,7 +9,15 @@ In April 2025, IIR met with Chris Johnston & Melissa Rebstock and shared that mu
 
 IIR has tickets in our backlog to do this work but it's just a matter of prioritization now. We don't expect access rates to JUMP up if we look at both APIs, but they would likely go up a little. There's no way to tell how much before doing it.
 
-## Future Ineligibility Logic - TBD
+The Mobile Feature Support (MFS) Team collaborated with the CVE team (formerly IIR) on the effort to update the logic to populate the Veteran Status Card, as well as update content and ineligibility messages. Michelle Middaugh worked with Dave Conlon and Chris Johnston to incorporate Service Summary Codes (SSC) into the logic. The goal of updating the logic was to provide Veterans who might not have a Veteran Status Card, but should, a way to access a Veteran Status Card. The other goal was to provide Veterans who do not receive a Veteran Status Card with an explanation of it. Reasons include:
+ - Missing records
+ - Service history and discharge status do not meet the requirements
+ - Missing information about service history or discharge status
+ - They are currently serving
+
+**Note:** As part of the update to the Veteran Status Card logic, a shared service was built, which allows any future iterations to make any changes in one place to be reflected on VA.gov and the VAHB mobile app. 
+
+## Current Ineligibility Logic: As of 3/30/2026
 
 #### Summary 
 
@@ -22,7 +30,7 @@ Rather than relying on just the [Veteran Service History & Eligibility API](http
 - Second, if a user comes back as "Not Confirmed" check their discharge statuses via VA Profile API and if they have at least one discharge status that isn't unknown or isn't dishonorable, give them access to the Veteran Status Card.
 
 
-## Current Ineligibility Logic - 2025
+## Ineligibility Logic: 2025 - 3/30/2026
 
 #### Summary
    
@@ -38,7 +46,7 @@ When we reached out to Lighthouse to ask more questions about how those status a
 <img width="697" height="259" alt="Screenshot 2025-08-07 at 8 49 54 AM" src="https://github.com/user-attachments/assets/0d84463d-042e-4c6b-8f82-71c1e7bf812f" />
 
 
-## Previous Ineligibility Logic - Prior to 2025
+## Previous Ineligibility Logic: Prior to 2025
 
 #### Parent Component
 
