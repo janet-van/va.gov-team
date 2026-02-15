@@ -3,6 +3,15 @@
 **Quick Reference Guide**  
 **Last Updated:** February 15, 2026
 
+⚠️ **IMPORTANT UPDATE:** User testing revealed that many of the documented scenarios below do NOT actually cause 422 errors. The backend appears more permissive than initially documented. See **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** for actual curl commands to test and confirm real validation failures.
+
+**Confirmed NOT to cause 422:**
+- ❌ SSN with dashes (`"123-45-6789"`) - backend accepts and normalizes
+- ❌ Date in US format (`"01/01/1980"`) - backend parses various formats  
+- ❌ Invalid email format - backend has lenient validation
+
+The scenarios below are theoretical based on test plan documentation but require actual testing to confirm.
+
 ---
 
 ## 🎯 Answer to "What fields cause 422 errors?"

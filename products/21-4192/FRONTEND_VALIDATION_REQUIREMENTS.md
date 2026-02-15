@@ -2,14 +2,32 @@
 
 **Form:** 21-4192 (Request for Employment Information in Connection with Claim for Disability Benefits)  
 **Purpose:** Prevent 422 validation errors by implementing proper frontend validation  
-**Document Version:** 1.0  
+**Document Version:** 1.1  
 **Last Updated:** February 15, 2026  
+
+---
+
+## ⚠️ Important Update - Testing Required
+
+**User Feedback:** The validation scenarios documented below are THEORETICAL based on test plan documentation. When tested against the actual API, many did NOT produce 422 errors:
+
+**Confirmed NOT to cause 422:**
+- ❌ SSN with dashes - backend normalizes
+- ❌ US date format - backend parses multiple formats
+- ❌ Some invalid emails - lenient validation
+
+**Recommendation:** Use **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** to test actual API behavior with provided curl commands before implementing frontend validation.
+
+The backend appears more permissive than initially documented. Frontend validation should focus on:
+1. UX improvements (helping users enter data correctly)
+2. Actual confirmed validation failures (requires testing)
+3. Not on preventing issues that the backend handles gracefully
 
 ---
 
 ## Executive Summary
 
-This document identifies all fields that cause 422 (Unprocessable Entity) errors when submitted to the backend API and specifies the exact frontend validation rules needed to prevent these errors.
+This document identifies POTENTIAL frontend validation rules that MIGHT be needed. These require actual testing to confirm necessity.
 
 **Critical Finding:** The following 8 field categories require frontend validation to match backend expectations:
 

@@ -15,12 +15,22 @@
 
 ### Validation & Error Handling Documentation
 
-#### 🎯 Start Here: Quick Reference
-- **[VALIDATION_SUMMARY.md](./VALIDATION_SUMMARY.md)** ⭐ **NEW**
+#### ⚠️ Testing Required
+
+**Important:** User testing revealed that many theoretical validation scenarios do NOT cause 422 errors. The backend is more permissive than initially documented.
+
+#### 🧪 Start Here: Actual Testing
+- **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** ⭐ **NEW**
+  - 10 curl commands to test actual 422 errors
+  - Baseline valid request
+  - Results table to document findings
+  - Instructions for confirming real validation failures
+
+#### 📋 Quick Reference (Requires Testing)
+- **[VALIDATION_SUMMARY.md](./VALIDATION_SUMMARY.md)** 
   - Quick answer to "What fields cause 422 errors?"
-  - Prioritized list of validation issues
-  - Quick fix code snippets
-  - Implementation checklist
+  - ⚠️ Theoretical scenarios - requires testing confirmation
+  - Prioritized list of potential validation issues
 
 #### 📚 Detailed Guides
 
@@ -40,33 +50,49 @@
 
 ### Key Findings Summary
 
-**6 Critical Fields Causing 422 Errors:**
+**⚠️ Testing Status:** Theoretical scenarios require confirmation
 
-1. **SSN Format** - Backend expects `"123456789"` (no dashes), often receives `"123-45-6789"`
-2. **Date Format** - Backend expects ISO 8601 `"YYYY-MM-DD"`, often receives US format `"MM/DD/YYYY"`
-3. **Employment Date Logic** - End date must be >= beginning date, no future dates
-4. **Required Fields** - Empty strings or null values instead of omitted fields
-5. **Email Format** - Invalid email formats like `"test@"` or `"not-an-email"`
-6. **Numeric Types** - Strings instead of numbers: `"75000"` vs `75000`
+**User Testing Revealed:**
+- ❌ SSN with dashes (`"123-45-6789"`) does NOT cause 422
+- ❌ Date in US format (`"01/01/1980"`) does NOT cause 422  
+- ❌ Some invalid email formats do NOT cause 422
+
+**Backend appears to:**
+- Normalize SSN formats automatically
+- Parse various date formats
+- Have lenient validation on some fields
+
+**Scenarios Requiring Testing:**
+
+1. **Missing Required Fields** - Likely to cause 422
+2. **Invalid SSN Length** - May cause 422
+3. **Invalid Calendar Dates** - May cause 422
+4. **Wrong Data Types** - May cause 422
+5. **Wrong Structure** - Likely to cause 422
+
+See **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** for curl commands to test each scenario.
 
 ### Quick Implementation
 
-To prevent 422 errors, implement these critical validations:
+⚠️ **Before implementing:** Test the API using curl commands in **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** to confirm which validations are actually needed.
 
+**Backend handles gracefully:**
+- SSN format normalization (dashes are OK)
+- Date format parsing (various formats accepted)
+- Some email format variations
+
+**Likely need validation for:**
 ```javascript
-// 1. Strip dashes from SSN
-formData.veteranInformation.ssn = formData.veteranInformation.ssn.replace(/\D/g, '');
+// 1. Required field presence
+if (!formData.veteranInformation.fullName.first) {
+  throw new Error('First name is required');
+}
 
-// 2. Ensure ISO date format (use ISO date picker)
-// 3. Validate end date >= begin date
-// 4. Validate all required fields non-empty
-// 5. Validate email format with regex
-// 6. Convert numeric strings to numbers
-formData.employmentInformation.amountEarnedLast12MonthsOfEmployment = 
-  parseFloat(formData.employmentInformation.amountEarnedLast12MonthsOfEmployment);
+// 2. Test other scenarios with actual API calls
+// 3. Implement only confirmed validation failures
 ```
 
-See **[VALIDATION_SUMMARY.md](./VALIDATION_SUMMARY.md)** for complete implementation checklist.
+See **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)** for complete testing instructions.
 
 ---
 

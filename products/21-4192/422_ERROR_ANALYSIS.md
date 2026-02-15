@@ -3,14 +3,29 @@
 **Form:** 21-4192 (Request for Employment Information in Connection with Claim for Disability Benefits)  
 **Environment:** Staging (https://staging.va.gov)  
 **API Endpoint:** POST /v0/form214192  
-**Document Version:** 1.0  
+**Document Version:** 1.1  
 **Last Updated:** February 15, 2026  
+
+---
+
+## ⚠️ Important Update
+
+**User Testing Feedback:** Many of the scenarios documented below did NOT produce 422 errors when tested against the actual API. The backend validation appears to be more permissive than the test plan suggested.
+
+**Status:** These are THEORETICAL scenarios based on test plan documentation. For actual curl commands to test real validation, see **[422_ERROR_TESTING_GUIDE.md](./422_ERROR_TESTING_GUIDE.md)**.
+
+**Confirmed Not to Fail:**
+- SSN with dashes
+- US date format (MM/DD/YYYY)
+- Some invalid email formats
+
+The backend likely normalizes and parses various input formats. Use the testing guide to identify what ACTUALLY causes 422 errors.
 
 ---
 
 ## Executive Summary
 
-This document identifies potential schema mismatches that can cause HTTP 422 (Unprocessable Entity) errors when submitting Form 21-4192. These errors occur when the frontend sends data that doesn't match the backend validation schema.
+This document identifies POTENTIAL schema mismatches that MIGHT cause HTTP 422 (Unprocessable Entity) errors when submitting Form 21-4192. These scenarios require actual testing to confirm.
 
 **Key Finding:** Based on the test plan and endpoint documentation, there are several critical schema validation points where mismatches commonly occur:
 
