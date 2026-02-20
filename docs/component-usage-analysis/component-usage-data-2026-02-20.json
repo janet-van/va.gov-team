@@ -1,0 +1,379 @@
+{
+  "components": {
+    "va-accordion": {
+      "count": 1,
+      "sampleLocations": [
+        "./products/health-care/champva/va-forms-design-content.md"
+      ]
+    },
+    "va-additional-info": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-breadcrumbs": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-button": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-button-destructive": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-calendar-event": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-card-status": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-combo-box": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-file-input": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-link": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-maintenance-banner": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-modal": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-search-filter": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-segmented-button": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-select": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-sidenav": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-sort": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-tabs": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-tag-status": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "va-telephone-input": {
+      "count": 1,
+      "sampleLocations": [
+        "./products/platform/design-system/components/form-control-components/onblur-validation/design-decision-log.md"
+      ]
+    }
+  },
+  "widgets": {
+    "ArrayField": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "ObjectField": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FieldTemplate": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "DateWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "PhoneNumberWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "SSNWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "SelectWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "RadioWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "CheckboxWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "CurrencyWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "EmailWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "TextWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "YesNoWidget": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "AutosuggestField": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FileField": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FullNameField": {
+      "count": 0,
+      "sampleLocations": []
+    }
+  },
+  "formComponents": {
+    "FormApp": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FormPage": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FormNav": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "ReviewPage": {
+      "count": 1,
+      "sampleLocations": [
+        "./teams/_archive/vsa/engineering/forms-system/list_loop_v2_add_item.md"
+      ]
+    },
+    "SaveStatus": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "SchemaForm": {
+      "count": 3,
+      "sampleLocations": [
+        "./products/identity-personalization/profile/forms-discovery/Discovery-Formik_New-forms-system-migration.md",
+        "./teams/_archive/vsa/engineering/forms-system/list_loop_v2_contact_info.md",
+        "./teams/_archive/vsa/engineering/forms-system/list_loop_v2_add_item.md"
+      ]
+    },
+    "PrefillMessage": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "FormTitle": {
+      "count": 1,
+      "sampleLocations": [
+        "./products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md"
+      ]
+    },
+    "SaveInProgressIntro": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "SubmitButtons": {
+      "count": 0,
+      "sampleLocations": []
+    }
+  },
+  "patterns": {
+    "Service History": {
+      "count": 22,
+      "sampleLocations": [
+        "./products/education-careers/application/1990/design/form-outline.md",
+        "./products/content/content-patterns-and-standards/form-intro-pages.md",
+        "./products/my-education-benefits/education-benefits-form/product-outline.md",
+        "./products/my-education-benefits/education-benefits-form/release-plan.md",
+        "./products/education-careers/application/family-of-forms/initial-questions.md",
+        "./products/health-care/application/health-update-form/10-10EZR Product Brief (standalone form).md",
+        "./products/health-care/application/health-update-form/Add Service History/2025-08-18 Response from Joshua F on Service history on EZR.md",
+        "./products/health-care/application/health-update-form/Add Service History/2026-01-23 Meeting with Tracey Ghandour (OIT) to discuss VA Profile API existing connection.md",
+        "./products/health-care/application/health-update-form/Add Service History/2025-10-14 Meeting with HEC and Josh F on adding Service History.md",
+        "./products/health-care/application/health-update-form/Add Service History/Add Service History - Initiative Brief.md"
+      ]
+    },
+    "Prefill": {
+      "count": 25,
+      "sampleLocations": [
+        "./products/decision-reviews/form-data-fields.md",
+        "./products/authenticated-patterns/Patterns/smart-forms/README.md",
+        "./products/authenticated-patterns/Engineering/#261-codify-prefill-within-forms-system.md",
+        "./products/education-careers/vocational-rehab/research/eligibility-wizard-and-ch-36-form-findings.md",
+        "./products/health-care/application/health-update-form/10-10EZR Product Brief (standalone form).md",
+        "./products/health-care/application/health-update-form/Household Section V2/Household section V2: Financials - Release Plan.md",
+        "./products/health-care/application/health-update-form/Household Section V2/Household Section V2 Initiative Brief.md",
+        "./products/health-care/application/health-update-form/Add Service History/2025-07-07 HEC meeting on adding Military Svc History to EZR.md",
+        "./products/health-care/application/health-update-form/Choose your own adventure/Choose your own adventure - Initiative brief.md",
+        "./products/health-care/application/health-update-form/10-10EZR Health update form - MVP Product Outline.md"
+      ]
+    },
+    "Multiple Responses": {
+      "count": 1,
+      "sampleLocations": [
+        "./products/health-care/application/health-update-form/10-10EZR Form/10-10EZR-ErrorMatrix.md"
+      ]
+    },
+    "Name and Date of Birth": {
+      "count": 2,
+      "sampleLocations": [
+        "./products/information-architecture/ia-design-docs/form-digitization-21-4138.md",
+        "./products/content/content-patterns-and-standards/form-standards/terms.md"
+      ]
+    },
+    "Address": {
+      "count": 35,
+      "sampleLocations": [
+        "./products/find-a-va-form/initiatives/2021-01-mvp/form-detail-landing-pages/status-and-decisions.md",
+        "./products/education-careers/application/1990/design/form-outline.md",
+        "./products/information-architecture/ia-design-docs/form-digitization-21-4138.md",
+        "./products/caregivers/design-content specifications/form-intro-page.md",
+        "./products/decision-reviews/form-data-fields.md",
+        "./products/content/content-patterns-and-standards/form-standards/terms.md",
+        "./products/content/content-patterns-and-standards/form-standards/punctuation.md",
+        "./products/disability/526ez/archive/ux-enhancements/form-4192.md",
+        "./products/burials-memorials/pre-need/form-outline.md",
+        "./products/pension/form-deactivation/Release Plan-527EZ and 530 Temp Deactivation.md"
+      ]
+    },
+    "Phone and Email": {
+      "count": 2,
+      "sampleLocations": [
+        "./products/information-architecture/ia-design-docs/form-digitization-21-4138.md",
+        "./products/health-care/application/health-update-form/10-10EZR Form/10-10EZR-application-content.md"
+      ]
+    },
+    "Housing Status": {
+      "count": 0,
+      "sampleLocations": []
+    },
+    "Identification Information": {
+      "count": 4,
+      "sampleLocations": [
+        "./products/information-architecture/ia-design-docs/form-digitization-21-4138.md",
+        "./products/content/content-patterns-and-standards/form-standards/terms.md",
+        "./products/content/content-patterns-and-standards/form-standards/punctuation.md",
+        "./products/health-care/champva/10-7959c/10-7959C-OHI-cert-form Field-audit-required-fields.md"
+      ]
+    },
+    "Relationship to Veteran": {
+      "count": 1,
+      "sampleLocations": [
+        "./products/accredited-representation-management/product-documentation/appoint-a-representative/required-form-fields.md"
+      ]
+    }
+  },
+  "timestamp": "2026-02-20T23:04:12.490Z",
+  "summary": {
+    "totalComponents": 55,
+    "totalUsages": 99,
+    "mostUsed": [
+      {
+        "name": "Address",
+        "count": 35
+      },
+      {
+        "name": "Prefill",
+        "count": 25
+      },
+      {
+        "name": "Service History",
+        "count": 22
+      },
+      {
+        "name": "Identification Information",
+        "count": 4
+      },
+      {
+        "name": "SchemaForm",
+        "count": 3
+      },
+      {
+        "name": "Name and Date of Birth",
+        "count": 2
+      },
+      {
+        "name": "Phone and Email",
+        "count": 2
+      },
+      {
+        "name": "va-accordion",
+        "count": 1
+      },
+      {
+        "name": "va-telephone-input",
+        "count": 1
+      },
+      {
+        "name": "ReviewPage",
+        "count": 1
+      }
+    ],
+    "leastUsed": [
+      {
+        "name": "FileField",
+        "count": 0
+      },
+      {
+        "name": "FullNameField",
+        "count": 0
+      },
+      {
+        "name": "FormApp",
+        "count": 0
+      },
+      {
+        "name": "FormPage",
+        "count": 0
+      },
+      {
+        "name": "FormNav",
+        "count": 0
+      },
+      {
+        "name": "SaveStatus",
+        "count": 0
+      },
+      {
+        "name": "PrefillMessage",
+        "count": 0
+      },
+      {
+        "name": "SaveInProgressIntro",
+        "count": 0
+      },
+      {
+        "name": "SubmitButtons",
+        "count": 0
+      },
+      {
+        "name": "Housing Status",
+        "count": 0
+      }
+    ]
+  }
+}
