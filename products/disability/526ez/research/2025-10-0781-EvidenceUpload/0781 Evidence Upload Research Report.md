@@ -5,8 +5,7 @@ team: Disability Benefits Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2025-10-07"
 researchers:
-- understanding
-- but if it isn't
+- Not specified
 research_goals:
 - "Goal 1: Gather feedback on the instructional content on each page"
 - "Goal 2: Evaluate the effectiveness of the formatting and visual hierarchy of the information presented"

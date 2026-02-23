@@ -6,9 +6,6 @@ office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2020-08-06"
 researchers:
 - Liz Lantz
-- Public Websites
-- August 6
-- '2020'
 research_goals:
 - "Not specified - goals not explicitly stated in report"
 methodology:

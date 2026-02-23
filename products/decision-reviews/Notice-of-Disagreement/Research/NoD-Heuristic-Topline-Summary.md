@@ -5,9 +5,7 @@ team: Benefits Team 1
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: Not specified
 researchers:
-- "using the lens of two VA personas: Proud Patriot"
-- Day by Day Veteran
-- covering a set of heuristics that can be found
+- Not specified
 research_goals:
 - "Not specified - goals not explicitly stated in report"
 methodology:
