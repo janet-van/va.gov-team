@@ -1,104 +1,125 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "[2023-06-Priority Group and Financial Disclosure] Research Findings"
+product: "Health Care Application (10-10EZ)"
+team: "10-10 Health Apps Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-09"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- specifically around awareness of their Priority Group and that impact as well as updating financial information after initial enrollment
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- discovery
+- generative
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 4
+    "45-54": 2
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), 10-10EZR, 1010 Team"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Provide a clear access point on the VA.gov Profile to update health enrollment information, including financial information."
+- VA.gov Profile access point is in addition to other VA.gov cross linking opportunities.
+- "Use VA.gov-based content (unauthenticated and authenticated pages) to increase awareness about the impact of financial information on health care benefits."
+- Explore push and other types of notifications that direct Veterans to VA.gov to update health enrollment information when needed.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- discovery
+- generative
+- "in-person-research"
+- "moderated-research"
+- "semi-structured-interviews"
 ---
+
 # [2023-06-Priority Group and Financial Disclosure] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZR, 1010 Team**

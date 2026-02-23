@@ -1,95 +1,136 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Chatbot Controlled Study Research Report Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: Not specified
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- the ultimate goal to understand if participants would use the chatbot again
+- "Understand how well the chatbot performed (answered questions accurately, understood what participants were trying to ask, and if participants had information needed to take the next step to complete\
+  \ a task"
+- Understand if and how poor performance affected participants
+- Understand if people preferred to sign in (get answers to personal questions) or not to sign in (even if it means no personalized answers) and if they trusted the chatbot
+- Understand how participants felt about the voice and tone of the chatbot
+- "Understand how often participants speak with a VA help desk/contact center, reasons why and how a chatbot can reduce how often they call the VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "unmoderated-testing"
+- "semi-structured-interviews"
+- survey
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "The chatbot was rated as being fairly accurate, although the level of accuracy left some participants feeling frustrated."
+- Participants understood the chatbot wasn’t a human but still felt they could trust it.
+- Participation from marginalized populations was low and understanding their needs will be key to ensuring trust is built into the heart of the product.
+- Participants reacted positively to the personality of the chatbot in terms of voice and tone.
+- "Participants experience challenges with current VA customer support channels, and a VA chatbot was viewed as an opportunity to avoid those challenges."
+- "Overall users indicated a willingness to not only try the chatbot, but to use it again, and seemed excited about the product, how it could evolve and how it might help them and the VA."
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Medallia feedback
+- Call center data
+- Contact center data
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Optimal Workshop
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Claim-status-tool"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Discharge-upgrade-wizard"
+- "PRDT: Facilities"
+- "PRDT: Form 21-686c"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- "in-person-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- survey
+- "unmoderated-testing"
 ---
 
 # Chatbot Controlled Study Research Report

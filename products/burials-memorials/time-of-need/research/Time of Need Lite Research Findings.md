@@ -1,100 +1,138 @@
 ---
-title: "Time of Need Lite Research Findings"
-product: "Form: Schedule a burial in a national cemetery"
-team: "Self Service"
+title: Time of Need Lite Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-12-10"
+date: "2026-01-05"
 researchers:
-  - "Carly Yamrus"
-  - "Brian Campbell"
+- Not specified
 research_goals:
-- 1. Evaluate the usability and accessibility of the Time of Need Lite digital form for scheduling a burial.
-
-- 2. Identify pain points and barriers that Veterans' family members, personal representatives, and funeral home staff experience when using the form.
-
-- 3. Gauge user satisfaction with the digital experience compared to the current phone-based process.
-
+- "2. **Identify pain points and barriers that Veterans' family members, personal representatives, and funeral home staff experience when using the form.**"
 methodology:
-  - Moderated usability testing via Microsoft Teams. Participants will be asked to schedule a burial for a Veteran, spouse, or dependent child using the Time of Need Lite prototype. This method is appropriate as it allows observation of user interactions, collection of real-time feedback, and facilitates accessibility accommodations.
-  
+- "usability-testing"
+- "semi-structured-interviews"
+- "desk-research"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: 
-    smartphone: X
-    assistive_technology: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: 
-  dependents: 
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": 
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 4
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Schedule a burial in a national cemetery, Memorials Self Service"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "1. Recommendation: ​"
+- "Supporting evidence: 9 out of 14 participants hesitated when selecting their relationship to the deceased; some were uncertain which option best described their connection to the deceased, while others\
+  \ wanted the ability to choose more than one relationship type."
+- Optimize the placement of the personal representative question. Assess where this question best fits within the user flow for clarity and effectiveness.
+- "Supporting evidence: 8 out of 14 participants were confident with the definition of \"personal representative,\" but few expressed confusion with giving the personal representatives information after\
+  \ they had already indicated that they were a family member or funeral home representative.​"
+- "Enhance supporting text for the pre-need decision letter. Collaborate to add clear descriptions explaining the letter’s role and relevance to the Time of Need burial scheduling process."
+- "Supporting evidence: 6 out of 14 participants were unclear about the meaning of “pre-need decision letter.”"
+- Streamline cemetery selection guidance. Work together on solutions to better assist users when their preferred cemetery is unavailable.​
+- "Supporting evidence: 9 out of 14 participants wanted expanded capabilities with cemetery selection, or were unaware of the features offered via the external link."
+- "​Clarify terminology and context for cemetery options. Add explanations about each choice, including any cemetery-specific restrictions."
+- "Supporting evidence: 6 out of 14 participants had questions about the unique burial types beyond the traditional \"casket\" or \"cremation\" selections."
+- ​Evaluate the relevance of the emblem of belief screen. Consider whether to ​keep this screen if there are no additional questions on headstones or markers.
+- "Supporting evidence: 8 out of 14 users noted the form's length, even though most though it was on par with other VA.gov forms. Removing extraneous screens that don't add vital data can cut down on user\
+  \ time spent completing the form and overall user satisfaction."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Web analytics
+- SME interviews
+- Desk research
+- Call center data
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
-
+- Mural
+- Spreadsheet analysis
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Memorialization"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Form 21-686c"
+- "PRDT: Search"
+- "desk-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 # Time of Need Lite Research Findings 

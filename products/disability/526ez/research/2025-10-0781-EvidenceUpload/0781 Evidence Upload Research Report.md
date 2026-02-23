@@ -1,95 +1,141 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: 0781 Evidence Upload Research Report Research Findings
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-10-07"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- understanding
+- but if it isn't
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Goal 1: Gather feedback on the instructional content on each page"
+- "Goal 2: Evaluate the effectiveness of the formatting and visual hierarchy of the information presented"
+- "Goal 3: Evaluate whether users are able to navigate through the document upload sections"
+- "Goal 4: Understand how users think through uploading evidence in support of their condition(s)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "unmoderated-testing"
+- "semi-structured-interviews"
+- discovery
+- "prototype-testing"
+- "remote-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "[Finding #1:](#finding-1-most-participants-struggled-to-understand-the-differences-between-the-three-sections-of-the-supporting-evidence-upload-experience) Most participants struggled to understand the\
+  \ differences between the three sections of the supporting evidence upload experience."
+- "[Finding #2:](#finding-2-7-out-of-8-participants-could-navigate-the-document-upload-process) 7 out of 8 participants could navigate the document upload process."
+- "[Finding #3:](#finding-3-8-out-of-10-participants-wanted-more-information-up-front-about-the-evidence-they-could-submit-to-support-their-claim) 8 out of 10 participants wanted more information up front\
+  \ about the evidence they could submit to support their claim."
+- "[Finding #4:](#finding-4-2-out-of-10-participants-were-drawn-to-the-notice-of-evidence-needed-alert-but-only-skimmed-the-instructional-content-above) 2 out of 10 participants were drawn to the “Notice\
+  \ of evidence needed” alert but only skimmed the instructional content above."
+- "[Finding #5:](#finding-5-6-out-of-10-participants-didnt-understand-they-would-be-asked-for-information-about-the-medical-centers-they-visited-they-had-inaccurate-expectations-for-what-would-happen-next)\
+  \ 6 out of 10 participants didn’t understand they would be asked for information about the medical centers they visited. They had inaccurate expectations for what would happen next."
+- "[Finding #6:](#finding-6-6-out-of-10-participants-found-the-detailed-list-of-document-types-helpful) 6 out of 10 participants found the detailed list of document types helpful."
+- "[Finding #7:](#finding-7-5-out-of-8-participants-didnt-find-the-how-to-scan-a-file-instructions-helpful) 5 out of 8 participants didn’t find the ‘How to scan a file’ instructions helpful."
+- "[Finding #8:](#finding-8-4-out-of-8-participants-appreciated-that-the-examples-of-supporting-documents-accordion-repeated-content-from-the-previous-page-others-felt-the-accordion-should-provide-more-information-about-supporting-documents)\
+  \ 4 out of 8 participants appreciated that the “Examples of supporting documents” accordion repeated content from the previous page. Others felt the accordion should provide more information about supporting\
+  \ documents."
+- "[Finding #9:](#finding-9-4-out-of-5-participants-successfully-completed-or-predicted-how-to-delete-a-document) 4 out of 5 participants successfully completed or predicted how to delete a document."
+- "[Finding #10:](#finding-10-6-out-of-8-participants-expected-a-summary-page-to-confirm-which-documents-they-uploaded) 6 out of 8 participants expected a summary page to confirm which documents they uploaded."
+- "[Finding #11:](#finding-11-3-out-of-5-participants-found-it-confusing-that-the-two-upload-pages-looked-identical-and-didnt-know-what-to-upload) 3 out of 5 participants found it confusing that the two\
+  \ upload pages looked identical and therefore they didn’t know what to upload."
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Accredited-Reps"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Find-a-va-form"
+- "PRDT: Search"
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "unmoderated-testing"
+- "usability-testing"
 ---
 
 # **0781 Evidence Upload Research Report**

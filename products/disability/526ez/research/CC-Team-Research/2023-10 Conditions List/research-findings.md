@@ -1,106 +1,162 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Conditions List Veteran Research Findings
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-15"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Goal 1: Learn how Veterans think and talk about what conditions to claim"
+- "Goal 2: Assess whether a type-ahead field with autosuggestions is a usable/desirable way for Veterans to name conditions they want to claim. (and evaluate the component overall for usability)"
+- "Goal 3: Evaluate the revised conditions list"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), 526EZ, Contention Classification"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Text input with type-ahead functionality."
+- "This is appropriate for this use case since Veterans usually know their condition. While we can improve the implementation, we do not need to pivot away from this concept altogether."
+- Current approach for writing terms for the suggested conditions list. Having plain language and medical variations together in a term is helpful.
+- "Over time, add new terms to the list, working down the list of most frequently awarded disabilities."
+- "Right/left/bilateral in condition name. Exploring alternative methods for collecting this information could be considered in future updates; however, it is not a current priority."
+- Improve the component interaction design and instructions.
+- "Make it more evident there is a free-text option while still encouraging Veterans to use an auto-suggested term where accurate."
+- Improve the clarity of the interaction between saving and adding a new condition.
+- "Reduce need for extensive scrolling, for instance, by changing the requirement to display 20 autosuggestions every time, only providing suggestions after a minimum number of letters are entered, and/or\
+  \ gradually reducing the list as a user types in more."
+- Consider including an additional (optional) text field where Veterans can add additional detail about their condition.
+- Make instructions shorter and to the point. Place longer text in accordions so that users can view them as needed.
+- "Update the conditions list to ensure the most common conditions, especially musculoskeletal, are represented."
+- "Technical solutions to improve the relevance of autosuggestions. The current component employs [“Levenshtein distance”](https://en.wikipedia.org/wiki/Levenshtein_distance)  to propose terms that most\
+  \ closely match the user input string. We can improve on simple string matching."
+- "Prioritization criteria might consider:"
+- Frequency of condition
+- "Example: Terms are weighted by frequency of award."
+- Semantic relationship with user input
+- "Example: If the user types in dermatology, suggested terms will include the most common dermatological conditions."
+- Other potential improvements
+- "Give a lower weight to words like “right,” “left” and “bilateral.” It is more important that a user first find the relevant condition, before selecting among variations of a condition."
+- Split apart every term into words so that the string match can be on any word in the term.
+- Group variations of the same condition together.
+- "Example: “ankle sprain, right,” “ankle sprain, left,” and ankle sprain, bilateral” are grouped together on the list."
+- "Require a minimum “match score,” while using the current matching algorithm or an upgrade, so that only terms that meet this minimum threshold render as autosuggestions."
+- "Ideas for Veterans who would benefit from more support to identify potential conditions, understand what conditions are, and to determine service connections. Here are some ideas (many of which have\
+  \ been discussed previously):"
+- "Interactive tool to help Veterans identify conditions to apply for based on their service dates and any other available personal information. See \\[PACT Act wizard]\\(https\\://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pact-act-wizard)\
+  \ concept that is being explored by another team."
+- "Pathway for users to start from a broader category and narrow to a specific condition from there, rather than having to start by typing a specific condition."
+- Browsable medical dictionary of the more commonly rated disabilities.
+- "Prompts or in-text guidance to help them remember and submit any related or secondary conditions."
+- "Compare autosuggestion usage after the release of the revised list with historical usage. Track usage over time, as we add more terms to the conditions list."
+- "Periodically analyze free-text entries to identify patterns where free-text is used instead of an equivalent term on the suggested conditions list. This might suggest that a term should be updated or\
+  \ the solution for autosuggestions could be improved."
+- Assess Veteran confidence in the accuracy of their entries when testing future design ideas.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
+- EnjoyHQ
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Accredited-Reps'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Conditions List Veteran Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 526EZ, Contention Classification**

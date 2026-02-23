@@ -1,95 +1,189 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Report: ARP pilot (POA request management) research Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Evaluate the usability of ARP, finding, reviewing, and accepting/declining a POA request"
+- "Understand accredited representative workflows more fully, especially related to POA"
+- "Understand high-level organizational procedures of a small NE state VSO, in this case, CT DVA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- "concept-testing"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- 2. Usability of POA functionality in ARP and concept testing of future design ideas
+- 3. Notifications
+- "4. Cross-accreditation"
+- 5. Technology setup and usage of help resources
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "- As expected, participants who currently use VetraSpec, which has “instant submission” of POA, did not value the new ARP method as much as participants without access to “instant submission.”"
+- "“This is just another avenue for submitting POA, no better or worse.” — P6 (uses VetraSpec for POA)"
+- "Most VetraSpec users complete the form in person with the Veteran and submit it during the meeting. But VetraSpec recently released another method for establishing POA that can be done 100% electronically.\
+  \ It involves sending documents to the Veteran (directly from VetraSpec) to digitally sign."
+- The one participant who used QuickSubmit for POA submission thought they would prefer the new ARP method because of speed.
+- "“I think it is better and I’ll tell you why …We can’t have a deeper conversation about their claim until I can see their file. If this were instantaneous and on the very first meeting with a Veteran…If\
+  \ I could as a VSO see the file on that first meeting, that is a game changer.” — P2 (uses QuickSubmit for POA)"
+- "Two participants in the study used VetPro for POA submission. They estimated 24-72 hours and 1-4 business days from submission to VBMS access. This wait time suggests that VetPro uses the Benefits Intake\
+  \ API and not the faster Benefits Claims API for 21-22 submission."
+- "- Conduct research with pilot organizations to better understand the feature set of popular tools like VetPro and VetraSpec and determine whether and how our product can provide incremental value beyond\
+  \ these tools."
+- "Ask our pilot organization, CT DVA, to give us a demo of 21-22 submission using VetraSpec, including the in-person and all electronic methods."
+- Consider piloting with a VetPro organization to learn more about this tool. Confirm whether and how VetPro is leveraging Lighthouse APIs.
+- "Roll-out: Continue with the current strategy of targeting organizations that do not use third-party tools and instead rely on QuickSubmit or SEP for establishing POA. An exception is the recommendation\
+  \ to pilot with a VetPro organization for learning purposes."
+- "To support this approach, compile intel on what tools organizations use for 21-22 submission."
+- "- All participants preferred in-person interaction, at least initially. Participants from all organizations described a similar process of meeting in person with a Veteran at the start of the engagement\
+  \ and using part of this initial meeting to establish POA. When meeting in-person and using current tools for 21-22 submission (VetraSpec, VetPro, or QuickSubmit), it does not matter whether the Veteran\
+  \ has a VA.gov account because the representative is filling out and submitting the form. All the Veteran needs to do is review and sign the form."
+- "“Ideally, I do have Veterans come into the office because the conversations we have sometimes are difficult and complicated. Sometimes there are pictures and drawings involved, and it makes it a lot\
+  \ easier if they’re here in person.” — P2"
+- "[See Appendix ](https://docs.google.com/document/d/1xnDp0MbgVIkj79msIeQCWLrXfB_fwVD0/edit#heading=h.od1e275705x)for a more detailed description of the current process for CT DVA."
+- "Even though the new ARP method could be used in-person if the Veteran has a VA.gov account and a device for completing the Appoint a Rep flow, some participants did not think of using it this way. Instead,\
+  \ they perceived it as a method for a remote scenario only."
+- “Because they’re not in front of me…..This is pretty impersonal. I don’t care for it.” — P4
+- "“I think the portal is great, but I’m not sure there is a use for it during in-person” — P7 (This was the only pilot participant who had gotten requests into the portal at the time we did the interviews.\
+  \ See [Appendix](https://docs.google.com/document/d/1xnDp0MbgVIkj79msIeQCWLrXfB_fwVD0/edit#heading=h.78gl1oy2rv6z) for stories of the first two submissions to the portal.)"
+- "One participant envisioned establishing POA using the new ARP method, PRIOR to meeting with the Veteran for the first time. He would call all of his appointments ahead of time and ask them to submit\
+  \ POA before the meeting, so that they don’t need to take time for this and can instead look at the Veteran’s files during the first in-person meeting."
+- "Many Veterans, particularly older Veterans, do not have a VA.gov account, which is required to submit the 21-22 online on VA.gov. Even for representatives that do adopt this new ARP method, they will\
+  \ still need to rely on other methods, e.g., third-party tools or Quick Submit, for Veterans without VA.gov accounts."
+- "“As time goes on, there will be fewer and fewer Veterans who do not have a way to log into VA.gov. But we still have a huge swath of Veterans who are not going to have a VA.gov account….They are homeless,\
+  \ they do not own technology.  Even if they have a phone, which most people do, they’re not capable of navigating these apps and doing that.” — P6"
+- "One participant estimated that about a third of the Veterans he works with have a VA.gov account, while another estimated “fewer than 50%.”"
+- "While participants recognize that there is value for Veterans in having a VA.gov account, only one participant mentioned helping Veterans set it up as part of their services. Other participants wish\
+  \ there were more resources to help with account setup."
+- "Two participants noted referring Veterans to external resources for help, like VA hospitals and a local non-profit."
+- "One participant was not aware of any support for this: “It would be terrific if they had kiosks somewhere, where these guys who don’t have laptops, where they can set it \\[VA.gov] up in some way and\
+  \ then be shown how to get the app on their phone.” — P6"
+- "Short-term (before broad release)"
+- Compile a list of resources that representatives can share with Veterans for help with setting up VA.gov accounts.
+- "When onboarding a new pilot organization, talk to organization leadership (including at least one experienced representative) early to understand their current process and talk through how the new ARP\
+  \ method could be incorporated."
+- Consider prioritizing a method for POA establishment that can be completed in person by the representative and the Veteran together and that does not require the Veteran to have a VA.gov account.
+- "Participants had other concerns with the new ARP method, related to their lack of understanding how Veterans would authenticate and submit the request on their end of the process. We anticipate that\
+  \ these concerns are not blockers to adoption, if we address them proactively."
+- Four participants expressed concerns about the security of the system. They wondered how they could confirm where the request is coming from and that the Veteran is who they say they are.
+- "“The other thing you worry about is if somebody else is submitting the POA for somebody else, and I know it might take a lot to do that because you have to sign into VA.gov, etcetera, but you never know.” \
+  \ — P8"
+- "Two participants talked about the importance of understanding the Veteran side of the process more fully before recommending it to a Veteran. Because we did not go through the full Appoint a Rep flow\
+  \ during the interviews, they were not familiar with the Veteran submission process, unless they were a pilot participant from CT DVA."
+- "“I would never use the system with a Veteran until I was familiar with it… I am a Veteran but also I like putting myself as the test case. I would go to VA.gov and I would try to do a 21-22 and know\
+  \ those steps, so that when I tell them, I am telling them not just from me guessing what it is but from me knowing what it is.” — P2"
+- "Other one-off concerns"
+- "One pilot participant was concerned with using their personal email for login.gov, and co-mingling personal and business accounts."
+- One participant wondered if representatives could get overwhelmed by too many requests. They were not aware that a repeat request would replace a prior pending request in the portal.
+- "Short-term (before broad release)"
+- "Create a new ARP portal 101 document that explains in plain language how the portal works. Proactively address fraud concerns by explaining the required authentication on VA.gov. Talk about how the Appoint\
+  \ a Rep flow was designed for ease of use and encourage representatives to test the experience for themselves. Explain that the ARP Portal is a separate website (with its own subdomain) from VA.gov and\
+  \ that there is no co-mingling of information between the two."
+- Adjustments to the onboarding process for pilot participants.
+- Have all pilot participants go through the Appoint a Rep flow during an onboarding session.
+- "Remind participants that they can associate multiple emails with their login.gov accounts and that at least one of them should be their professional email that is on file with OGC (this is necessary\
+  \ for our upcoming self-authentication method anyway)."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Accredited-Reps"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Find-a-va-form"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "concept-testing"
+- "in-person-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 # Research Report: ARP pilot (POA request management) research

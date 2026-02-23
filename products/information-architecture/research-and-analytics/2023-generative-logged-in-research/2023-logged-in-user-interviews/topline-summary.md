@@ -1,3 +1,106 @@
+---
+title: "Topline Summary for Logged-in IA and Nav Wayfinding Study Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-04-04"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- Not specified
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "Participants heavily relied on the homepage to navigate VA.gov, and My VA to a lesser degree."
+- "When asked to find content without using links on the homepage or My VA, about half of the participants used the mega menu, and the other half used search."
+- "All participants logged-in as a first step when they got to the website."
+- Participants who were not able to find what they were looking for stated they would call VA to get help.
+- "Most participants clearly understood that “logged in / authenticated” parts of the website were all about them, and the unauthenticated parts of the website were generic and targeted toward everyone."
+- "Participants struggled to find dependent information, which wasn’t linked from the homepage, My VA, or the mega menu links."
+- "When asked how the logged-in experience of VA.gov compared to other websites they log in to, most participants said it was “okay”."
+- "Authenticating across multiple sites created a fractured experience, and made some participants feel frustrated or hesitant."
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit Hubs"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+---
+
 # Topline Summary for Logged-in IA and Nav Wayfinding Study
  April 4, 2023
 

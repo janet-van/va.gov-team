@@ -1,95 +1,126 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Appoint a Representative Digital Submit User Test Research Finding Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-08-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Michael Tri
+- Sr. Product Designer
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Evaluate the usability of Appoint a Representative on VA.gov. Usability includes understandability of content, whether the experience meets user expectations, and identifying system bugs"
+- "Stretch goal: Evaluate the usability of the Representative Status Widget on VA.gov"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 1
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Report Date:"
+- "User Test Date:"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- Clarify the Relationship of Accredited Representatives to the VA
+- "Participant 03: \"This VA Accredited Representative works for the VA.\""
+- "To address this, the page should include a clear and concise explanation, perhaps in a tooltip or a small information box near the \"Find a VA Accredited Representative\" action link, that these individuals\
+  \ or organizations are accredited (approved) by the VA but generally operate independently. This would help set accurate expectations for users engaging with representatives found through VA.gov."
+- Improve the Discoverability of "Start your form without signing in"
+- "Participant 03 initially missed this option and expected to log in, which indicates a discoverability issue. The \"Start your form without signing in\" link should be highlighted or moved to a more visible\
+  \ spot on the page, possibly near the top of the \"Sign in with a verified account\" section or as a clearly marked alternative. This change would help users immediately see that login is optional and\
+  \ accommodate those who want to explore the forms first."
+- "Participant 03: \"So I did not scroll down far enough to know that I could proceed without logging in... I'm wondering if up somewhere up near the top it needs to say, you don't need to sign in, instead\
+  \ of going all the way to the bottom and it's saying start the form without signing in. Maybe something at the top saying FYI or whatever the proper terminology that you, you will be able to complete\
+  \ the form without help, without logging in.\""
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "in-person-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
 
 # Appoint a Representative Digital Submit User Test Research Finding

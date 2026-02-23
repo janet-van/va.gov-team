@@ -1,107 +1,151 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VA Mobile App - IA & Navigation: Evaluative Research - Usability Study Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-09-26"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "High Level Summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-design/information-architecture-navigation/High%20Level%20Project%20Summary.md)\
+  \ for a high level summary of the entire 3-phase process"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "card-sort"
+- evaluative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), VA Mobile App"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Overall IA & navigation model:"
+- "Move forward with proposed information architecture, navigation pattern and labels."
+- "Home screen:"
+- Keep name and service badge as a personalized element on the home screen.
+- "Think through the home screen hierarchy and treatment of the non-personalized content vs the personalized content when moving into the next phase of design."
+- "Consider a cross-reference for manually updating email address within Contact VA."
+- Consider a potential higher placement for messages within the app’s hierarchy.
+- Investigate moving Manage Dependents into the Profile section.
+- "Research ops:"
+- Continue to iterate on the app user vetting method within our recruiting process.
+- "Use web-based Figma prototype method and section of protocol in future mobile studies."
+- "Modify prototype-related protocol to better preserve participant privacy related to browser history."
+- "Individual screen design & hierarchy:"
+- "Consider a cross-reference for manually updating email address within Contact VA."
+- Consider a potential higher placement for messages within the app’s hierarchy.
+- Investigate moving Manage Dependents into the Profile section.
+- Consider modifying the treatment of the save button on the Email Address screen.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Claim-status-tool'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Claim-status-tool"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "card-sort"
+- evaluative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # VA Mobile App - IA & Navigation: Evaluative Research - Usability Study Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Mobile App**

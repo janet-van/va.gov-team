@@ -1,101 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Data Grid Usability Test Research Findings
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-11"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 5
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 35
+    "35-44": 45
+    "45-54": 55
+    "55-64": 54
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Finding 1: Participants described the Data Grid as generally intuitive and effective, noting that it supported their workflows and made it relatively easy to find and interpret patient information."
+- "Finding 2: Participants require more flexible date range filters that support approximate or open-ended dates, since exact dates are often unknown."
+- All participants tried to drag and drop the columns when asked to reorder them.
+- "Finding 4: Participants often didn’t realize additional columns were available resulting in missed information and frustration when expected data wasn’t immediately visible."
+- "Finding 5: When the data grid displays only a few rows, the reduced height can make it difficult to access or use column menus effectively."
+- "Provide more flexible date range filters that support approximate or open-ended dates."
+- "Add drag-and-drop functionality so clinicians can easily reorder columns to fit their needs."
+- "Add visual cues—such as shadows, gradients, or edge fades—to signal that additional columns are available by scrolling horizontally."
+- "Ensure a consistent minimum table height to maintain visibility and accessibility of column menus, even when only a few rows are displayed."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "All participants stated that they are used to using date range pickers in similar tools. This date range picker can live in the top toolbar of the Data Grid. Another option would be to add more open-ended\
+  \ date options in a dropdown filter."
+- "During testing, all participants tried to drag and drop the columns to reorder them."
+- "Currently, it is not obvious at a glance to users that there are more columns."
+- All participants complained that they could not interact with column menus when there were only a few rows displayed. A standard minimum table height would solve this problem and make Data Grid more accessible
+  at all sizes.
+- The Data Visualization team will revise Data Grid designs based on the findings.
+- The Data Visualization team will work with other CDS app teams to implement Data Grid.
+- The Data Visualization team will continue to test accessibility features.
+- Research Plan
+- Conversation Guide
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- usability-testing
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Search"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # **Data Grid Usability Test Research Findings**
 
 **Office of the CTO - Digital Experience (OCTO-DE), Data Grid, Data Visualization**

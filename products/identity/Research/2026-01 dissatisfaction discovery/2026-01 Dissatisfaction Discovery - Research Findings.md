@@ -1,95 +1,253 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2026-01 Dissatisfaction Discovery - Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-09-30"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- tags
+- some minimal risk of PII in Subject field
+- applied additional tags based on Subject lines
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- survey
+- "heuristic-evaluation"
+- discovery
+- "intercept-interviews"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 487
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Sign in, Identity"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- Critical data gaps (missing behavioral context)
+- Weak triangulation (we mention correlation but don't show systematic methods)
+- "Inconsistent tagging across quarters (44 tags in Q1, 39 tags in Q4)"
+- Limited ability to distinguish technical failures from user confusion
+- No established baseline to measure improvement against
+- "Consideration: Behavioral context is missing. Much data tells us users are frustrated but it’s not always evident WHERE in the flow they're encountering problems"
+- "Recommendations:"
+- "Request funnel reports from ID.me and Login.gov to better understand drop-off points in the identity verification process"
+- "Now that SiS is live for the vast majority of authentications, we can better pinpoint errors starting in Q4 2025\\. We should plan to incorporate the DataDog error reporting dashboard as a data source\
+  \ going forward."
+- "Consideration: Show systematic correlation with more visibility into backend logs from sign-in Service"
+- "Recommendations:"
+- "Leverage data from back-end logs and call center volume to better understand technical errors"
+- Take a deeper look at error rates and spikes in call center/survey responses
+- Track lag time between error spike and call/survey response spikes
+- "Medallia location \\+ Issue type (to distinguish page-specific bugs from systemic issues)"
+- Map which pages generate which complaint types
+- "e.g.: Do prescription refill page surveys specifically mention sign-in loops more than other pages?"
+- CSP data \+ Call center categorization
+- "Cross-reference Login.gov/ID.me monthly reports with MyVA411 \"verification\" category"
+- Identify if CSPs categorize issues differently than HRC
+- "Consideration: Sentiment analysis on free-text could be further mined"
+- "Current approach: Mixes manual tagging with ML/AI tagging and has used different tags with different time periods and data sets"
+- "Recommendations:"
+- Rigorously validate VA GPT tagging accuracy
+- Consider adding  a sentiment intensity scoring (eg frustrated vs angry vs defeated language)
+- "Track sentiment intensity over time (e.g. is frustration increasing even if volume is stable?)"
+- "Consideration: App Store Review Mining (limited in scope; should consider how much time we want to spend on the app)"
+- "Current: This is the first time our team has analysed this data set"
+- "Recommendations:"
+- Set up automated scraping
+- "Track rating trends (eg if 1-star reviews are increasing)"
+- Flag new issues appearing in reviews that don't yet show in Medallia as an early warning system
+- "Cross-reference review dates with deployment dates to catch new bugs faster"
+- "Consideration: When to Baseline"
+- "Recommendations:"
+- Don't attempt baseline until 6 months post deprecation of both MHV and DSLogon
+- "Collect 3-4 months of \"steady state\" data before declaring baseline; use this period to validate whether issues decreased or persisted"
+- "Segment baselines by:"
+- "User journey stage: new account setup vs returning user sign-in"
+- "Device type: Mobile vs desktop (already seeing mobile has worse outcomes)"
+- "CSP: Login.gov vs ID.me (already seeing Login.gov has 2x verification calls)"
+- "Page context: Help pages (expect negative) vs feature pages (expect neutral/positive)"
+- "Consideration: Track Leading Indicators along with overall sentiment"
+- "Recommendations:"
+- "track specific issue tags as KPIs:"
+- "% of feedback mentioning \"verification loop\""
+- "% of feedback mentioning \"can't find sign in\""
+- "% of feedback mentioning \"prescription refill\""
+- "If these don't decrease post-transition, they're product issues requiring fixes."
+- "Issue: Better align between call center classifications and researcher tags"
+- "Recommendation:"
+- Conduct alignment workshop with HRC representatives
+- Review sample tickets together to understand why categorization diverges
+- "Example flagged: \"Forgot Password\" category containing \"change phone number\" subject"
+- Create shared taxonomy or crosswalk between HRC categories and research tags
+- "If HRC can't change categories, document mapping for consistent interpretation"
+- "Issue: Q1 2024 used 44 tags vs Q4 2024 used 39 tags. Using different tags across quarters can make it hard to compare trends"
+- "Recommendation:"
+- "Document tag definitions clearly (what qualifies as \"verify\" vs \"set up account\"?)"
+- "Lock tag set for 12 months to allow year-over-year comparison"
+- "If new tags needed, create additive approach (don't retire old tags mid-year)"
+- "Consideration: more web analytics or metrics could prove useful"
+- "Issue: We can’t track the full funnel in GA due to redirects"
+- "Recommendation: Work in other metrics to evaluate UX"
+- "Page-level bounce rates on sign-in flow pages"
+- Consider incorporating authentication timing as a proxy metric
+- Collect device/browser breakdown for error rates
+- "Consideration: Accessibility-Specific Feedback is important to properly represent"
+- "Recommendations:"
+- Partner with accessibility team to recruit assistive tech users specifically
+- "Conduct quarterly accessibility-focused usability testing on sign-in flows"
+- "Add accessibility-specific survey questions to Medallia (using assistive tech? which kind?)"
+- "Track if accessibility issues show up in call center data (can HRC flag these?)"
+- "Consideration: utilize other data sources we can readily access"
+- "Recommendation: Spend time to figure out if Ask VA or Chatbot data makes sense to incorporate"
+- "Data source: Backend logs"
+- "Current: Datadog mentioned but volume/methodology not specified"
+- "Recommendations:"
+- "Quantify error volumes (how many 500 errors? how many 403s?)"
+- "Note: we’ll have access to this data in the future now that SiS is brokering authentications"
+- "Investigate if we can determine how users recover after being served a FE error page on [VA.gov](http://VA.gov)"
+- "Were they able to sign in successfully within a certain period of time?"
+- "Break down by endpoint (is /verify endpoint failing more than /login?)"
+- Correlate success ratios to specific user complaints
+- Identify if certain error codes correlate with specific user complaints
+- "Data source:  CSP call centers"
+- "Current: Monthly SLA reports (with ID.me), but specifics unclear"
+- "Recommendations:"
+- Request CSP verification success rates specifically for VA.gov users
+- "Request CSP \"time to verify\" metrics (how long does photo ID upload take on average?)"
+- "Request CSP abandonment rates (how many start verification but don't finish?)"
+- "Use this to pressure CSPs on specific improvements (barcode scanning, better instructions)"
+- Regular Reporting Cadence
+- "Current: Quarterly analysis"
+- "Recommendation:"
+- "Monthly dashboard with key metrics (call volume by category, Medallia sentiment, top tags)"
+- "Continue with quarterly deep-dive reports"
+- "Schedule  weekly spot-checks during high-risk periods (transitions, major deployments)"
+- Stakeholder Sharing
+- "Recommendation:"
+- Share findings with CSPs monthly (especially Login.gov given their disproportionate burden)
+- "Present to call center quarterly (helps them anticipate issues, improve categorization)"
+- "Brief leadership on trends (are things getting better/worse? what's driving volume?)"
+- "Create public-facing transparency report (builds trust, shows VA is listening)"
+- Automated Alerting
+- "Recommendation: spike to see if there’s a way to set up any this data with automation. Some ideas could include"
+- Set thresholds for when issues need immediate attention
+- Create Slack/email alerts for threshold breaches
+- "Usability testing: Recruit 8-10 users who experienced looping"
+- "Moderated sessions: have them show us exactly what happened"
+- "Goal: Understand if technical bug, communication failure, or user error in order to develop a solution"
+- "Technical spike: explore errors, when and where they occur"
+- Discover if there are any that we can better keep from occurring with BE or technical work
+- "Goal: reduce sign in errors"
+- "Usability study: Dedicated sessions with veterans in the 65+ age group"
+- Understand specific verify barriers beyond "photo upload is hard"
+- "Goal: Inform alternative verification pathway design. Requires collaboration with Login.gov/ID.me for solution implementation"
+- "Usability study: recruit groups who feel that MFA is a hardship"
+- Understand specific verify barriers beyond "I hate MFA”
+- "Goal: understand if there are ways we can encourage folks to use alternative MFA methods that work better for their lifestyle or individual dexterity or technology levels"
+- "Technical spike: if this is possible from a technical perspective, when and how the button would not show up for folks"
+- "Heuristics review: find out if there is a way folks are getting to the unauthed terms of use page, if this is the case, then a content or UI change might be needed"
+- "Goal: keep TOU from being a blocker to entry, and/or keep folks from feeling stuck"
+- "Heuristics analysis: Test authentication flow on iOS and Android, various screen sizes"
+- "Mobile sign-in makes up 14.8% of complaints, what unspoken pain points can we find"
+- "Goal: Identify specific mobile-only issues vs desktop-and-mobile issues"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: Not specified
+  business: Not specified
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- "Consideration: Behavioral context is missing. Much data tells us users are frustrated but it’s not always evident WHERE in the flow they're encountering problems"
+- "Recommendations:"
+- "Request funnel reports from ID.me and Login.gov to better understand drop-off points in the identity verification process"
+- "Now that SiS is live for the vast majority of authentications, we can better pinpoint errors starting in Q4 2025\\. We should plan to incorporate the DataDog error reporting dashboard as a data source\
+  \ going forward."
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Web analytics
+- DataDog monitoring
+- Medallia feedback
+- Call center data
+synthesis_tools_used: []
+tags:
+- "AUD: Caregivers"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- discovery
+- "heuristic-evaluation"
+- "in-person-research"
+- "intercept-interviews"
+- "moderated-research"
+- survey
+- "usability-testing"
 ---
 
 # 2026-01 Dissatisfaction Discovery - Research Findings 

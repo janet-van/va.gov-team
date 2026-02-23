@@ -1,103 +1,136 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Modernized Check-In Experience: Travel Reimbursement Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-10-10"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Do Veterans prefer to be asked if they’re interested in filing for travel reimbursement as a precursor to reviewing and confirming their eligibility within PCI?"
+- "Is it confusing to check in for an appointment and submit a travel reimbursement claim at the same time?"
+- "Does knowing that VA checks travel reimbursement and claim eligibility after a claim has been submitted deter Veterans from filing a travel reimbursement claim?"
+- "What is the cognitive load required for Veterans when they review and confirm their travel reimbursement claim eligibility?"
+- "How well or not so well do Veterans understand the status of their submitted claim or how to file a claim later on the PCI application’s confirmation page?"
 methodology:
-- Method 1
-- Method 2
+- "a-b-testing"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 20
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 20
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 5
+    "45-54": 4
+    "55-64": 9
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience"
+- For later down the road…
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Utilize a user flow that includes asking Veterans if they want to file a travel reimbursement claim before being presented with questions to review and confirm eligibility of a claim, and present them\
+  \ as one question per page."
+- "Include clear paths to information (or where to find relevant information) for Veterans to understand travel reimbursement and claim eligibility, without affecting the Veteran’s ability to easily complete\
+  \ checking in to their appointment."
+- "Include clearer information on the application’s confirmation pages for Veterans to understand where to check the status of their claim (e.g., link to the AccessVA travel claim portal), who to contact\
+  \ if they have questions about their claim and why their travel reimbursement claim couldn’t be submitted."
+- Talk to the Travel Reimbursement Business and BTSSS API partners about finding a way to check a Veteran’s travel reimbursement eligibility prior to them submitting a claim and making that function available
+  within the online travel reimbursement ecosystem.
+- "Talk to the BTSSS API partners about expanding the API to support accepting more types of travel reimbursement claims beyond only mileage without other expenses. E.g., traveled from an address other\
+  \ than their home, tolls, meals, public transportation, etc."
+- "Knowing that Veterans thought that having the option to file a travel reimbursement claim while checking in for their appointment was easy and convenient, talk to staff-facing application partners about\
+  \ adding travel reimbursement into VistA Scheduling Enhancements (VSE)."
+- "Include more information into travel reimbursement claim eligibility questions about common Veteran travel arrangements and trip types (e.g., tolls, meals, Uber, etc.) for Veterans to better understand\
+  \ the questions and feel more confident in their responses."
+- Avoid using “we may be able to” phrasing in favor of more precise information.
+- "- Include support for Veterans to file a travel reimbursement claim after their appointment through something like a post-visit SMS message for those opted in to receive messages from VEText."
+- "Send Veterans a confirmation of their submitted claim through SMS that includes their claim number and where to check the status of their claim (e.g., AccessVA travel claim portal)."
+- "Review additional functionality that Veterans asked about with PCI product owners. E.g., estimated claim reimbursement dollar amount, health insurance confirmation, editing demographics, etc."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "a-b-testing"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
 ---
+
 # Modernized Check-In Experience: Travel Reimbursement Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**

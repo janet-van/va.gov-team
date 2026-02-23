@@ -1,104 +1,170 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2026-01 Save in Progress (2nd round of usability testing) Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-03-14"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "is an interaction for which the current implementation on VA.gov has two known accessibility issues, and a revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md)\
+  \ didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational\
+  \ alerts about saving"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 1
+    "55-64": 5
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "(e.g., \"Your information is being saved automatically\")."
+- "_Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't\
+  \ seem relevant."
+- "- _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., \"Statement of truth\" when you open the \"Additional information\" accordion) or\
+  \ scrolls so far that the accordion content is no longer in view when using a screen magnifier."
+- "--> Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026."
+- "_Supporting evidence_: 6 of 7 people who reached the \"Review and submit\" page used the accordions, and none had any issues interacting with the \"+\" control being on the left side, including the participant\
+  \ who was using a screen magnifier."
+- "after they've signed in. --> Is this being worked on?"
+- "_Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability\
+  \ testing had the same expectation."
+- "_Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither \"Required\" nor \"optional\", such as \"VA file number\"."
+- "_Supporting evidence_: One participant didn't notice the form number below the big \"Request personal records\" heading, perhaps because it was split across two vertical lines: (1) (VA Form 20-, and\
+  \ (2) 10206."
+- "- _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it."
+- "- _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page."
+- "- _Supporting evidence:_ One participant said that he never uses \"Expand all\" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time."
+- "_Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small."
+- "- _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the \"Finish later\" informational alert."
+- "_Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select \"3 of 6 records requested\"."
+- "(iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production. Is it only an issue with the Codespace?"
+- "_Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the \"Sign in\" or \"Continue\" button in the Codespace."
+- "to include a reference to what you entered before: \"Your name as entered previously\", and also consider changing the \"Middle initial\" prompt to \"Middle name\"."
+- "_Supporting evidence_: Participants didn't realize that the name that you enter for \"Your full name\" must exactly match what they entered as their name at the beginning of the form. One participant\
+  \ called out that \"Full name\" requires your full middle name, not just your middle initial, as asked for earlier."
+- "_Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include."
+- near the bottom of the list.
+- "_Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to see \"United States\" at the top of the dropdown list, and he then looked near the bottom of the\
+  \ list where it would fit alphabetically, and it wasn't there either."
+- "_Supporting evidence_:  The prompt \"VA file number\" has only \"VA\" capitalized, but the hint text also capitalizes the word \"File\"."
+- "- _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other wanted to select from\
+  \ a list of offices."
+- "(and \"Country\"?)."
+- "_Supporting evidence_: One participant was unsure how to enter both city and state into the \"Place of birth\" field because it's a single text box. A participant in the previous round of usability testing\
+  \ expressed the same concern."
+- "_Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better."
+- 1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
+- "1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> Future work for Cindy"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Find-a-va-form"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
+
 > [!TIP]
 > **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
 > 

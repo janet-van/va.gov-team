@@ -1,3 +1,105 @@
+---
+title: "Income Limits App Usability Testing -- Topline Summary Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-04-13"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Usability Successes
+- Usability Issues
+recommendations:
+- Synthesize data
+- Write research report
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Debt-portal"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "prototype-testing"
+- "usability-testing"
+---
+
 # Income Limits App Usability Testing -- Topline Summary
 
 Cindy Merrill, Sitewide Public Websites team, April 13, 2023

@@ -1,100 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Round 1 - Review Page Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-05-23"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Veteran's general experience around filling out VA forms
+- Veteran's practices around the Review Page in VA forms
+- Identify which of the three Review page design variations work best for Veterans
+- "How Veterans use the Review Page in the forms experience by using the Burial Benefits form Review Page as an example?"
+- "What are the pain points and issues on the Review Page?"
+- "How Veterans interact with the Review Page components? (help determine which of the design variations best suit their needs)"
+- "11, 2022"
+- Participants were asked to imagine that they just filled out the Burial Benefits form and to provide feedback on the Review page to better understand their experience working with the current Review Page
+- Participants were asked how they would edit a wrong entry in the review page
+- Each participant saw three proposed variation (in different order) and were asked to provide feedback on the design variation
+- Participants were also asked how they would edit a wrong entry in that design variation
+- "Finally, each participant was asked to choose a design variation that allowed them to quickly and effeciently review information and edit any mistakes"
+- "Veterans find it easier to quickly review all the information in the Review page with information always visible. <br>"
+- "Veterans find it easier to edit individal data fields rather than entire sections. <br>"
+- Veterans find it easier to edit any information that might need updating on the original page rather than the Review page
+- "5 out of 6 Participants preferred Design Option #2 for the following reasons:"
+- "Visibility of information - always visible to review"
+- "Edit option - ability to edit individual data fields"
+- All participants preferred the Review page with the information always open so they can review the information with ease
+- 4 out of 6 participants preferred the editing individual fields instead of entire sections to avoid editing other fields by mistake
+- 2 out of 6 participants preferred to edit the entire section instead of individual data fields to edit entire section/multiple data fields at the same time thus saving time and effort
+- "No participant interacted with anchors in the top of the page until prompted.  However, all participants valued the ability to easily get to a section from the top of the page"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 2
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 1
+    "55-64": 1
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Forms Library Team"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Engineers will create a visual prototype of the Review page pattern based on Design #3. Although this was not the most preferred design, we want to use this more common pattern as a baseline for further\
+  \ testing with the more experimental Design #2."
+- "Further usability research with Veterans to get feedback on desktop designs, accessibility issues and the new edit design."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- "Further usability research with Veterans to get feedback on desktop designs, accessibility issues and the new edit design."
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Spreadsheet analysis
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Memorialization"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Burials-memorials"
+- "PRDT: Find-a-va-form"
+- "PRDT: Search"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Round 1 - Review Page Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Forms Library Team**

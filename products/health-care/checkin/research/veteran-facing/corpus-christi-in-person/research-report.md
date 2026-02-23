@@ -1,97 +1,184 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Modernized Check-In Experience: Corpus Christi In-Person Visit Veteran Interviews Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-08-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- ran into difficulty. Therefore
+- they were hesitant to try again
+- offered to provide support throughout the process
+- intercepted
+- observed long load times for a few Veterans
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "24 was 1.2%. Within that week, Texas Valley Coastal Bend HCS (Harlingen, TX) VISN had a utilization of 11%, which far exceeded the average. Our goal is to uncover how Texas Valley Coastal Bend HCS has\
+  \ implemented and operationalized check-in in order to share those findings with product owners, trainers and other VISNs"
+- "Evaluate the effectiveness of pre-check-in and check-in with Veterans"
+- "Observe the utilization of the Spanish version of check-in, evaluate accuracy annd quality of the translations"
+- "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+- "Evaluate effectiveness of check-in poster"
+- Gain insights into product naming
+- "Gain insights on understanding the optimal experience for incorporating travel reimbursement into the check-in experience for Veterans"
+- "How often are Veterans using pre-check-in?"
+- "Do Veterans assume they still have to do day-of check-in when pre-check-in is complete?"
+- "What’s working and not working with pre-check-in and check-in?"
+- "What changes could help improve the check-in process?"
+- "What percentage of Veterans and/or caregivers (if any) do we observe using the Spanish translation toggle? Of those who do, what is their proficiency in English?"
+- "Was there anything difficult to understand or could be communicated more clearly with the Spanish version of check-in?"
+- "How often are MSAs interacting with Veterans during the check-in process?"
+- "Are MSAs checking in Veterans with VSE that need help versus requiring them to use mobile check in?"
+- "How often are MSAs troubleshooting errors or clearing review flags?"
+- "What are the issues that MSAs are helping Veterans troubleshoot?"
+- "How do Veterans feel about pre-check-in and check-in?"
+- "Are Veterans able to use the check-in poster?"
+- "What would Veterans call this process?"
+- "When do Veterans expect to complete a travel reimbursement claim in relation to their appointment?"
+- "What steps should a Veteran have to complete for filing a travel reimbursement claim?"
+- "What steps could be removed from the existing BTSSS process to make it easier for Veterans to file a claim?"
+- "Veterans who use pre-check-in are able to complete the required steps"
+- "NOT ENOUGH INFORMATION: We weren't able to talk to any Veterans who completed pre-check-in during this trip"
+- "Veterans who complete pre-check-in realize that they’re still required to use check-in on the day of their appointment"
+- "LIKELY FALSE: 13 staff members mentioned that Veterans don’t know the difference between pre-check-in and day of the appointment check-in. Most often Veterans assume that they are completely checked\
+  \ in, because they completed pre-check-in"
+- "Completing the pre-check-in experience makes day-of check-in easier for Veterans since contact information, emergency contact information and next of kin information has been reviewed"
+- "NOT ENOUGH INFORMATION: Not enough information captured"
+- "When presented with an opportunity to check in via Spanish, Veterans may choose to check in using their preferred language"
+- "NOT ENOUGH INFORMATION: Not enough information captured"
+- "Check-in was easy to understand and used plain language for Spanish speakers"
+- "NOT ENOUGH INFORMATION: Not enough information captured"
+- "MSAs will have limited interaction with Veterans during check-in since Veterans are able to check-in on their smartphone"
+- "DEFINITELY FALSE: Even though there is a portion of Veterans who do not need MSAs assistance when using PCI. MSAs spend a lot of time troubleshooting PCI for Veterans"
+- MSAs will check Veterans in with VSE that don’t have a smartphone or have difficulty using their smartphone
+- "DEFINITELY TRUE: No MSA forced Veterans to use mobile check-in"
+- MSAs will have shorter lines of Veterans waiting to be checked in
+- "LIKELY FALSE: MSAs reported that more Veterans are checking in with them now compared to before PCI's launch"
+- MSAs are comfortable with troubleshooting error messages with Veterans and know how to clear appropriate review flags in VSE
+- "LIKELY FALSE: While staff often help troubleshoot, they aren't always sure what each error means. For instance, MSAs noticed Veterans coming to them, because they need to review their insurance. However,\
+  \ ICB won't have them listed"
+- "Veterans will indicate that check-in does not affect their care experience"
+- "MAYBE TRUE: We did not encouter any Veterans who had a negative experience with PCI or who weren't able to go to MSAs after receiving a PCI error message to resolve the problem"
+- "Veterans are able to use the check-in poster without friction"
+- "DEFINITELY TRUE: All 16 participants, who attempted PCI, were able to use the check-in poster. Many had difficultly creating a new text message or scanning the QR code, but they understood what the poster\
+  \ was asking them to do"
+- Veterans refer to the process as “check in” or “mobile check in.”
+- "NOT ENOUGH INFORMATION: Not enough information captured. However, some Veterans did describe it as \"check-in.\""
+- "Veterans are called for their appointment once check-in is complete"
+- "SOMEWHAT TRUE: Veterans who we observed using mobile check-in were updated in VSE. However, we did hear from MSAs that some Veterans don't finish PCI completely, but thought that they did. Therefore,\
+  \ they sit in the waiting room, while staff are unaware that they are there"
+- Veterans will indicate that the workflow in the travel reimbursement prototypes are optimal and that no required steps are missing
+- "NOT ENOUGH INFORMATION: Not enough information captured. We were unable to talk to Veterans about travel reimbursement during this trip"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- discovery
+- "intercept-interviews"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Share with the training team that education initiatives, poster placement, and facility appointment volume might be contributing factors to Corpus Christi’s higher usage numbers, so they can pass this\
+  \ information along to the field."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- discovery
+- "in-person-research"
+- "intercept-interviews"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
-
 
 # Modernized Check-In Experience: Corpus Christi In-Person Visit Veteran Interviews Research Findings 
 

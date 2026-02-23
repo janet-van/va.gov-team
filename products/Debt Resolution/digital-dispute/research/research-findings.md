@@ -1,103 +1,148 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Financial Management Team, Resources & Support page (R&S page) and Digital Dispute Form, May 2025 Research Findings"
+product: Debt Resolution
+team: Debt Resolution Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-02"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "[Hypotheses and conclusions](#hypotheses-and-conclusions)"
+- "[Key findings](#key-findings)"
+- "[Recommendations](#recommendations)"
+- "[Product User and Business Outcomes](#product-user-and-business-outcomes)"
+- "[Key Performance Indicators](#key-performance-indicators)"
+- "[Next Steps](#next-steps)"
+- "[Further research needed](#further-research-needed)"
+- "[Who we talked to](#who-we-talked-to)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "- Add additional context to more than 5 years ago/ less than 5 years ago sections"
+- "Supporting evidence: [Finding 3](#finding-3)"
+- "- Adding more context under the section titles for clarity"
+- "Add the word \"debt\" next to appropriate section titles for additional clarity, example: Rogers STEM Scholarship Debt"
+- "Supporting evidence: [Finding 4](#finding-4)"
+- "- “Tell us why you're disputing this debt” page should have additional context and examples to help Veterans understand what information should be shared."
+- "Supporting evidence: Finding 5"
+- "- Implement a way to upload documents"
+- "Supporting evidence: Finding 5"
+- "- Add edit buttons that take users back into the form on the Review page."
+- Edit buttons were not available on the prototype but will be available on production when the dispute form launches.
+- "Supporting evidence: Finding 5"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- Review of external pages
+- Veterans with copay debt
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
+- Medallia feedback
 - SME interviews
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Housing"
+- "BNFT: Pension"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Disability-526EZ"
+- "PRDT: Find-a-va-form"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Harassment-reporting"
+- "PRDT: Header-footer"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Financial Management Team, Resources & Support page (R&S page) and Digital Dispute Form, May 2025
 
 ### Research Findings

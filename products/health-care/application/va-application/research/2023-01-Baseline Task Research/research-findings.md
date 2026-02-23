@@ -1,106 +1,152 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2023-01 10-10EZ Usability baseline tasks study research findings"
+product: "Health Care Application (10-10EZ)"
+team: "10-10 Health Apps Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-02-10"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Product | [10-10EZ Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Health%20Care%20Application%20-%20Product%20Outline.md)"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- discovery
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 4
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 2
+    "55-64": 4
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ health care application, 1010 Team"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "- Research and discovery where utilizing additional “shortened form flows” to allow more applicants to skip providing some information where appropriate."
+- "Additional testing with authenticated users/flows to understand how pre-filled information changes the experience and expectations."
+- "- Review recent changes to financial disclosure and income pages currently in content review and add these findings for additional consideration."
+- "Discovery: what integrations, automations, and prefills can be incorporated for income calculation and how can these questions be aligned with the enrollment system."
+- "Business/stakeholder questions for follow up: What are the downstream implications of not providing financial/household information? Slower time until decision for the Veteran because they have to supply\
+  \ this info anyways? Would this be an initially positive but long-term negative impact to the Veteran?"
+- "- Implement recent household information section study content updates with additional information content for “Who does VA consider a dependent?”."
+- "Research: can any of these questions be removed or simplified?"
+- "- Additional discovery on this page and how to best simplify and separate the existing 3 questions on the page: enrolling for Affordable Care Act, Selecting a VA facility, and being contacted regarding\
+  \ scheduling their first appointment."
+- "Leverage learnings and designs from 10-10 CG application of facility selection updates."
+- "[Improve Facility Selection Epic (CG)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/19433)"
+- "[Initiative brief(10-10CG)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/Improve%20Facility%20Selection/Improve%20Facility%20Selection%20-%20Initiative%20Brief.md)"
+- "- Confirm if there is any missing information with the business/stakeholders for the military service list, refine content on the military service dates page to make it clear the task is for the last\
+  \ service period."
+- "Business and user research on if this content is complete, clear and maps to positive outcomes for the Veteran and downstream for processing applications."
+- "Do any of these situations result in additional short-form flow patterns? Ie. not needing to provide certain information on following sections/questions."
+- "- On paper SIGI is used for both the Veteran and Spouse, and birth sex is used only for the Veteran."
+- "What is needed for enrollment only needs?"
+- "- In future studies, recruit for participants not represented in this study and conduct studies that are both targeted and more free-form."
+- And include multiple cohorts/studies as needed when targeting groups to meet focused goals (example; recruit or use a scenario to follow if needing to gather feedback on dependents multiple responses
+  pattern).
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- Assistive technology users
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
+- Google Analytics
+- Domo analytics
+- Previous research studies
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Search"
+- discovery
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # 2023-01 10-10EZ Usability baseline tasks study research findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ health care application, 1010 Team**

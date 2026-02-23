@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Certificate of Eligibility (C.O.E.) Research Findings
+product: Certificate of Eligibility (COE)
+team: eBenefits Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 1
+    "55-64": 4
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Certificate of Eligibility, IIR"
+- "[Link to Research Readout](add link)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "If it exists, add a link to a new page that provides details on the COE options"
+- Ship the form in it's current state (after it's cleared by content review)
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- SME interviews
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Dovetail
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: VA Staff"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Housing"
+- "DSC: Accordions"
+- "DSC: Form"
+- "DSC: Links"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Search"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
 
 # Certificate of Eligibility (C.O.E.) Research Findings 

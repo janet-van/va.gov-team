@@ -1,3 +1,133 @@
+---
+title: "Topline summary for usability testing of Direct Deposit for Educational Payments (DD-EDU) feature Research Findings"
+product: Direct Deposit
+team: Authenticated Experience Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "Where on VA.gov do users expect to find direct deposit (DD) information?"
+- "How often do users expect to review and/or update their DD information?"
+- "What barriers prevent users from easily submitting changes to their DD info?"
+- "How do users react to the two different \"categories\" of payments--and having to change them separately?"
+- "What other features do users expect on the DD screen?"
+- Users may have some difficulty locating their direct deposit information
+- "Users will rarely, some occasionally, change their direct deposit information"
+- Participants will accept and easily navigate the DD edit function
+- Participants will have some questions/hesitation about two distinct Direct Deposit features
+- Users may want more information about the DD change process
+recommendations:
+- "Participants who were prompted to scan other content pages skimmed the text (older users), or ignored it (younger participants) and looked for an actionable element"
+- The most significant hurdle for participants looking to change their DD info was the relative obscurity of the feature described above
+- Every user said the feature itself was easy to use
+- No user encountered any difficulty updating their DD information once they navigated to the prototype
+- One user did not notice the validation error when they entered seven digits for the routing number
+- One user suggested that it might be helpful or "elders" if the bank name appeared once the routing number was entered (rather than after submission)
+- The note regarding bank fraud was universally missed; three participants saw the box only when prompted to scan the page
+- Almost every participant said they expected further notification that their DD change was made
+- Email and texts were cited as examples for expected confirmation
+- Several users expected a long wait if they needed to call the 800 number with an inquiry
+- Most users felt the DD change would take effect (or should take effect) immediately or soon
+- A pair of participants believed there could be a processing delay of 30 days or a month
+- Almost all participant accepted that there were two DD features; one explained that it was acceptable since there were two types of payments
+- One user was notably irritated that there were two direct deposit "boxes" and wanted to know why there couldn't be just one
+- "Users who were directed to change their EDU payments used the correct feature; participants who were not directed to a particular payment type, went to C&P first"
+- "Participants generally accepted, and even regarded favorably the \"you don't receive this kind of payment\" notice"
+- "The top improvement cited by participants was a chat-box for inquiries and confirmation"
+- Another notable suggestion was to move the "fraud" notice into the boxes themselves; every user initially missed the note about bank fraud
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+- Call center data
+synthesis_tools_used: []
+tags:
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "PRDT: eBenefits"
+- "prototype-testing"
+- "usability-testing"
+---
+
 # Topline summary for usability testing of Direct Deposit for Educational Payments (DD-EDU) feature
 **VSA AuthdExp/eBenefits Teams | December 2020**
 

@@ -1,101 +1,190 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Round 2 Research Findings
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- How Veterans use the Review Page in the forms experience by using the Application for Burial Benefits form Review Page as an example
+- Pain points and accessibility issues on the Review Page of the Application for Burial Benefits form experience
+- How Veterans interact with the Review Page components in order to determine which of the design variations best suit their needs and has the best usability
+- "How do Veterans typically interact with the Review Page?"
+- "Which of the two Review Page design options (Edit by Section or Edit by Field) work best for Veterans?"
+- "27, 2022"
+- Participants were led through completion of the first 2 pages of the Burial Benefits form with guidance on what data to enter in each field
+- Participants were then directed to view one of two design variations of the Review Page
+- "To counteract potential bias towards the first option they viewed, we randomized which design variation we directed them to look at first"
+- "Each participant was then asked to correct three hypothetical errors in each design of the Review Page:"
+- "The deceased Veteran's social security number,"
+- "The deceased Veteran's previous name,"
+- And the selection of a plot or interment allowance
+- "Finally, each participant was asked not only which design they preferred, but which tasks were easier or harder to complete on each"
+- "LIKELY TRUE - Most Veterans prefer to Edit by Section because it gives them the opportunity to double-check all their entries in that section. However, some Veterans prefer the experience of clicking\
+  \ to edit a field and being anchored to the field they selected on the section's edit page"
+- "PROBABLY TRUE - Time on task is difficult to measure for reasons explained further on in this research. However, anchoring Veterans to the section they've just corrected - especially when paired with\
+  \ the blue notification box that the line or section they changed has been updated - is correlated with faster form completion and higher satisfaction with the experience of using the form"
+- Most Veterans found success faster with the Edit by Section design
+- Veterans found that the Edit by Section design had better ease of navigation and ease of reviewing and updating entire sections
+- "Qualitatively, Veterans were also able to navigate and intuitively understand how to update the Edit by Section design better than the Edit by Field design"
+- "Though nearly all Veterans understood how to save a change and return to the Review Page without explanation, nearly half of them expressed confusion or uncertainty regarding the meaning of the Save\
+  \ & Continue, Back, and Continue buttons"
+- "When returning to the Review Page after saving a change, all Veterans preferred being anchored to the section they just updated with a persistent confirmation notification"
+- "it would not have saved my information and I would have to start all over. I think just the one save and continue button is fine. I may even take the back button out.\" - P10*"
+- Some Veterans have different reading speeds that cause them to scan information and make edits more slowly than other participants
+- "Some Veterans - especially in rural areas - have slower internet and cellular connections, slowing down overall completion time"
+- "Some Veterans are more and less familiar with the Burial form in particular. This means that some people need more time to find the field we prompted them to edit, whereas others were able to find fields\
+  \ quickly"
+- "We also encountered technical difficulties with the prototype that occasionally artificially inflated time on task, or made the measurements unusable"
+- Difficulty finding the directed line in the form;
+- Trying to select the wrong section for the given edit;
+- "Selecting edit successfully, but needing additional instructions beyond those provided in the discussion guide"
+- We did not uncover significant findings around how screen readers interact with the review page because our participants who used screen magnifiers were presented the mobile experience
+- Additional studies would be recommended if we want to know more about how they interact with the review page
+- "Some Veterans expressed confusion about whether the form could auto-populate their service information based on whether the person completing their form was logged into the Veteran's VA account"
+- "Veterans also expressed the need to make the burial benefits form specifically easy to complete, since applicants will likely be in grief when they complete this form"
+- Several Veterans tried to use the hyperlinks at the top of the Review Page to jump to specific sections
+- "This action wasn't enabled in the prototype, but demonstrates that they understand the purpose of those links and that they want to use them"
+- "Once the Veteran had completed one update, the remaining updates flowed smoothly"
+- No Veteran had trouble understanding the instructions box of the complex change (selecting a plot or interment allowance)
+- This carried over from the first design presented to the following design
+- Enable edits on the Review Page by section rather than by field
+- Anchor Veterans to the section they've just updated with a persistent notification that the update was processed
+- "Simplify and resolve confusion around the function of the three buttons (save and continue, back, and continue) when Veterans are editing a section"
+- "In the long term, explore options to integrate Veteran data across the VA's systems to minimize the burden on Veterans and families to provide data that already exists in other systems"
+- "(Q3 2022) The team will document the simple, medium, and complex form edit scenarios to inform future implementation guides for forms components"
+- (Time frame TBD) The team will reconsider the design purpose of the back and continue buttons with the help of the Design System Team
+- (Time frame TBD) The team will implement a new review page using the "Edit by Section" pattern for the VA Forms System Core working demo
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 2
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 3
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- Most Veterans found success faster with the Edit by Section design.
+- "Though nearly all Veterans understood how to save a change and return to the Review Page without explanation, nearly half of them expressed confusion or uncertainty regarding the meaning of the Save\
+  \ & Continue, Back, and Continue buttons."
+- "When returning to the Review Page after saving a change, all Veterans preferred being anchored to the section they just updated with a persistent confirmation notification."
+- Some Veterans have different reading speeds that cause them to scan information and make edits more slowly than other participants.
+- "Some Veterans - especially in rural areas - have slower internet and cellular connections, slowing down overall completion time."
+- "Some Veterans are more and less familiar with the Burial form in particular. This means that some people need more time to find the field we prompted them to edit, whereas others were able to find fields\
+  \ quickly."
+- "We also encountered technical difficulties with the prototype that occasionally artificially inflated time on task, or made the measurements unusable."
+- Difficulty finding the directed line in the form;
+- Trying to select the wrong section for the given edit;
+- "Selecting edit successfully, but needing additional instructions beyond those provided in the discussion guide."
+- We did not uncover significant findings around how screen readers interact with the review page because our participants who used screen magnifiers were presented the mobile experience.
+- "Some Veterans expressed confusion about whether the form could auto-populate their service information based on whether the person completing their form was logged into the Veteran's VA account."
+- Several Veterans tried to use the hyperlinks at the top of the Review Page to jump to specific sections.
+- "Once the Veteran had completed one update, the remaining updates flowed smoothly."
+- Enable edits on the Review Page by section rather than by field.
+- Anchor Veterans to the section they've just updated with a persistent notification that the update was processed.
+- "Simplify and resolve confusion around the function of the three buttons (save and continue, back, and continue) when Veterans are editing a section."
+- "In the long term, explore options to integrate Veteran data across the VA's systems to minimize the burden on Veterans and families to provide data that already exists in other systems."
+- "(Q3 2022) The team will document the simple, medium, and complex form edit scenarios to inform future implementation guides for forms components."
+- (Time frame TBD) The team will reconsider the design purpose of the back and continue buttons with the help of the Design System Team.
+- (Time frame TBD) The team will implement a new review page using the "Edit by Section" pattern for the VA Forms System Core working demo.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Enable edits on the Review Page by section rather than by field.
+- Anchor Veterans to the section they've just updated with a persistent notification that the update was processed.
+- "Simplify and resolve confusion around the function of the three buttons (save and continue, back, and continue) when Veterans are editing a section."
+- "In the long term, explore options to integrate Veteran data across the VA's systems to minimize the burden on Veterans and families to provide data that already exists in other systems."
+- "(Q3 2022) The team will document the simple, medium, and complex form edit scenarios to inform future implementation guides for forms components."
+- (Time frame TBD) The team will reconsider the design purpose of the back and continue buttons with the help of the Design System Team.
+- (Time frame TBD) The team will implement a new review page using the "Edit by Section" pattern for the VA Forms System Core working demo.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'PRDT: Caregivers'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Memorialization"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Find-a-va-form"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 Research Goals
 ==============
 

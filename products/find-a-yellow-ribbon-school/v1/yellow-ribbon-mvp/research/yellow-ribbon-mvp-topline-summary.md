@@ -1,3 +1,110 @@
+---
+title: Yellow Ribbon Topline Summary Research Findings
+product: Find a Yellow Ribbon School
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-02-05"
+researchers:
+- Liz Lantz
+- VSA Design
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 3
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Most participants understood the 3 fields were optional on the initial search page
+- "The label “Location, state, or campus” was unclear for many participants. They expected more specific options than what would be there in reality - states, territories, and countries"
+- The majority of participants clearly understood the comparison functionality
+- One participant commented that she’d never pay attention to the bar on the bottom (compare page link) because that’s where “cookie notices and other junk show up)
+- One participant commented they’d have no idea that bar on the bottom was related to the page because it was the only thing on the page that is green
+- "Most participants expected additional information to be on the comparison view than the initial results page, although said the info on the comparison page was still helpful"
+- "Multiple participants said 3-5 schools on the compare list would be sufficient for them"
+- "A participant with TBI and PTSD specifically said the white space on the first prototype screen was exactly what she needed because it was clear, simple, and to the point"
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Veterans"
+- "BNFT: Education"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Find-a-yellow-ribbon-school"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Home-page"
+- "PRDT: Search"
+- "prototype-testing"
+- "usability-testing"
+---
+
 # Yellow Ribbon Topline Summary
 
 Prepared by: Liz Lantz, VSA Design

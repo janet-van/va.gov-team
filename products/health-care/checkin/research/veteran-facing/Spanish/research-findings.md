@@ -1,102 +1,143 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Pre-Checkin Usability Testing Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-10-04"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "perceive pre-check-in and check-in experience"
+- validate if the translated Spanish content meets plain language standards
+- review the current toggle design pattern and test the new toggle design
+- "Ensure the translated experience meets plain language standards for Spanish-speaking Veterans"
+- "Understand the current check-in experience of Spanish–English bilingual veterans and their family members"
+- "Identify suitable toggle design for partially translated content (not site-wide)"
+- Gather user feedback about simplified header and footer
+- "What are the needs and pain points of bilingual Veterans and their caregivers?"
+- "What is their demographic information? (age, familiarity with technology, language proficiency, etc.)"
+- "Are there any family members who also use Check-in/Pre-Check-in? (for example, assisting the patient or the family member who is also a VA patient?) If yes, what are their needs?"
+- "What is users' language preference when using Check-in/Pre-Check-in?"
+- "Is there additional  content that’s preferred?"
+- "How easy-to-understand is the Spanish translation for bilingual  Veterans and caregivers?"
+- "How well does the proposed toggle design meet Veteran expectations?"
+- "How clear is the Spanish pre-check-in and check-in experience for bilingual  Veterans and their families with LEP?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience"
+- "Part 1 - Understand  pain points and assess Spanish translated content"
+- "Part 2 - Understand toggle design expectations"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "- Different VA facilities should have different Spanish prioritization based on the demographic."
+- Provide more Spanish content and services in the future and keep improving the Spanish experience.
+- "- Enable Veterans to edit their information when doing mobile check-in or pre-check-in."
+- "Remove the refresh button on the check-in appointment list, and make the page refresh automatically."
+- "- Document user feedback and review them with a translator."
+- Share with the Sitewide Content team what roles are interested in translation and multilingual Veterans.
+- "- Improve the hierarchy and visual of the current language switch design to make it noticeable."
+- "Explore where to place the language switch (on the top, or both on the top and at the bottom of the page) with the user groups that are not representative in this study, such as monolingual Veterans."
+- "Explore a further simplified header to reduce Veterans leaving workflows like check-in."
+- Provide marketing materials about the language switch.
+- Explore the content needs in other languages.
+- Share all findings and information with the Platform Design System team.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
+- Previous research studies
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Healthcare"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Pre-Checkin Usability Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience**

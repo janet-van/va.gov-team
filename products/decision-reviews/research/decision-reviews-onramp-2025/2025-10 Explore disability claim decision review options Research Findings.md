@@ -1,95 +1,170 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2025-10 Explore disability claim decision review options Research Findings"
+product: Decision Reviews
+team: Benefits Team 1
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-10-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Usability of flow: To evaluate the usability of the guide, “Explore disability claim decision review options” screen flow"
+- "Clarity of content: To evaluate participant’s comprehension of the questions and helpfulness of the explanatory content"
+- "Effectiveness of guide: To assess participant’s satisfaction with the guide and their confidence in selecting a decision review pathway"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- evaluative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 3
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "[Hypotheses and conclusions](#Hypotheses-and-conclusions)"
+- "[Key findings](#Key-findings)"
+- "[Recommendations](#Recommendations)"
+- "[Next Steps](#Next-Steps)"
+- "[Further research needed](#Further-research-needed)"
+- "[Appendix](#Appendix)"
+- "[Research participants](#Research-participants)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Task 3: Select an option on the summary screen - 4 out of 7 participants successfully selected an option from the summary screen."
+- "For the 2 participants who didn't select an option from the summary card, both expressed wanting support through calling the 800# or going to a DVA office;"
+- 1 participants would pursue an option they aren’t eligible for because it guaranteed human interaction through a Board Appeal.
+- "Only 1 participant out of 7 went through the CFI+ disagree path, and although she understood there were 2 options, she was unclear whether or not she could pursue both."
+- "#### 7: Participants value timeframes when evaluating their Decision Review options. When they have a choice between options, participants choose the pathway with the shorter timeframe"
+- 3 out of 7 participants commented on liking the inclusion of timeframes on the Decision Review Summary screens.
+- "When participants had multiple DR options on the summary screen, they chose Supplemental Claim and stated their reason was the shorter timeframe."
+- "Before and after using the guide, participants were asked how well they felt they understood the decision review options, the requirements and which one might apply to their situation. Participants scores\
+  \ improved from before, with an average score of 2.57 out of 4, to 3.33 out of 4 after using the guide."
+- "Confusion with content:"
+- "When presented with multiple Board Appeal options on the summary screen, P1 could not identify a difference between Board Appeal Evidence vs. Board Appeal Hearing because all the bullet points were the\
+  \ same."
+- "When asked about the perceived order of the options presented on the summary screen, P2 perceived them as equal while P1 understood them listed in time order. P4 and P7 perceived a hierarchy between\
+  \ the options but unclear what that hierarchy was."
+- P1 specifically did not understand why the Board Appeal options all had different time frame goals.
+- P1 was confused by the differing use of “average time frame” versus “timeframe goal.”
+- "Confusion with pathway requirements:"
+- 4 participants were asked how they would describe which options may or may not be a fit for them to a friend; 2 participants were able to clearly state reasons and 2 participants were not.
+- "When reviewing options on the summary screen, P1 and P2 expressed wanting more information. P1 specified wanting to know why someone may choose one option over another, or what the potential cons of\
+  \ a pathway may be."
+- "P7 misunderstood the bullets in cards they were not eligible for, thinking that the mention of a year was how long that option would take when it was stating they were ineligible for that option because\
+  \ their claim was decided over a year ago."
+- P4 confused the options as restatements of the intro page and did not understand them to be personal to their individual situation.
+- "2 participants expressed belief that you could not pursue certain decision review pathways on your own, and they required a VSO or attorney to complete."
+- 5 participants had incorrect assumptions about perceived order of operations/hierarchy among DR pathways.
+- "P1, P7 and P8 assumed there was a progression/order of operations or flow from one DR option to another."
+- "P3 assumed you couldn’t appeal a Higher-Level Review decision."
+- P4 assumed you couldn’t appeal a Board Appeal decision.
+- P1 expressed wanting to know the progression or hierarchy when reviewing options on the summary screen.
+- "4 of 7 participants expressed wanting to know more information to compare decision review options on the landing page, before launching the guide."
+- "3 of 7 participants (P1, P3 and P4) responded to some questions in the guide based on what claim type they would like to file, not the decision they would like to appeal."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Assistive Technology users
+- Veterans who are currently eligible for and are considering a decision review option
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- evaluative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 # 2025-10 Explore disability claim decision review options Research Findings

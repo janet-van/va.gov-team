@@ -1,95 +1,141 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for User Testing of Find Claimant, Claimant page and Navigation June 2025 Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-06-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Evaluate the navigation. Are the sections and their purpose clear?"
+- "Evaluate the usability of the search. Is it clear and intuitive? What could be improved?"
+- "Evaluate the value of the Claimant Page overview. Is the information useful? What could improve its value?"
+- "Evaluate the clarity and value of the claim submission flow, starting from Claimant Page. What could be improved?"
+- "| --- | --- | --- |"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- "desk-research"
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Landing page after log-in: Find Claimant"
+- Find Claimant search fields
+- Claimant page alerts
+- Claimant page sections on representation
+- Intent to File (ITF) section
+- Improving the claimant page further
+- Submit Forms
+- Previous study
+- "Changes to the submission flow steps 1-2"
+- Signature workflow
+- Uploading an additional piece of evidence for an existing claim
+- Recommendations listed prior to first release
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "“It's gonna take some time to learn, but I would think it would be pretty easy... It's very simple...not very many options to choose from to get lost.” (P5)"
+- "Prior to first release: Add a note in Submission History to state that \"We are working to add more submissions in this view. \""
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Desk research
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Pension"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "desk-research"
+- discovery
+- "in-person-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 # Research Findings for User Testing of Find Claimant, Claimant page and Navigation June 2025

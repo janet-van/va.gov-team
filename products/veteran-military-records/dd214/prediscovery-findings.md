@@ -1,3 +1,103 @@
+---
+title: DD214 PreDiscovery Findings
+product: Veteran Military Records
+team: Not specified
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2018-01-11"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- discovery
+- "in-person-research"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "[DD214 Info](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-military-records/dd214/dd214-info.md)"
+- "[Public Access to the DD214](#public)"
+- "[Veteran ID Card](#vic)"
+- "[DD214 Notes from Slack, includes Action Items](https://dsva.slack.com/files/U6ZQCPD2B/F8BCLBDK4/DD214_Notes)"
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas:
+- "Question: how often does backfill happen from BIRLS to VADIR"
+- "Big Question: Who is the authoritative source for Military Service History?"
+- "Suggests Data Governance Council Chairs - Susan Sullivan and OI&T"
+- "Is it technically feasible to have downstream businesses write to VADIR?"
+- This would be needed because businesses update their databases but this information doesn't get back to VADIR
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+- Web analytics
+synthesis_tools_used: []
+tags:
+- "AUD: Veterans"
+- "BNFT: Education"
+- "BNFT: Records"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Tabs"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- discovery
+- "in-person-research"
+---
+
 # DD214 PreDiscovery Findings
 
 - [DD214 Info](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-military-records/dd214/dd214-info.md)

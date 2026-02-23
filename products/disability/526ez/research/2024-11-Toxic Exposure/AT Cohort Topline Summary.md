@@ -1,3 +1,103 @@
+---
+title: AT Toxic Exposure Topline Summary Research Findings
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-12-17"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "semi-structured-interviews"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 2
+participants_total: 7
+demographics:
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- To gain insight from team/stakeholder/designers and determine specific directions to pursue as we analyze the data
+- To jump start synthesis by quickly organizing high level themes
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Records"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Accredited-Reps"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Login"
+- "PRDT: Search"
+- "prototype-testing"
+- "semi-structured-interviews"
+---
+
 # AT Toxic Exposure Topline Summary
 
 [research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2024-11-Toxic%20Exposure/AT-%20Research%20Plan.md) [conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2024-11-Toxic%20Exposure#:~:text=..-,AT%2D%20Conversation%20Guide.md,-Update%20AT%2D%20Conversation) [interview transcripts](https://dvagov.sharepoint.com/sites/vaabdvro/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200073ECFC0A16DB51439C06C6FDC0E92947&id=%2Fsites%2Fvaabdvro%2FShared%20Documents%2F0%20%2D%20Benefits%20Portfolio%20%2D%20General%2FResearch%20Recordings%20%2D%20Veteran%2DStaff%2DVSO%2F2024%2D11%20526%20Toxic%20Exposure%20Research%20Study&viewid=3fa7a9bb%2D3d4e%2D44c2%2Db93f%2D629268a08e72)

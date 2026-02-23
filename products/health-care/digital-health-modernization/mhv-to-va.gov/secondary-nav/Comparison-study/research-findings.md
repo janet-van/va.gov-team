@@ -1,105 +1,135 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: My Healthevet Secondary Navigation Comparison Study Research Findings
+product: MHV on VA.gov
+team: MHV on VA.gov Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-03-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Evaluate a new navigation strategy that prioritizes easy access to the four primary health tools only. Determine whether this strategy is successful in helping users find and complete most health-related\
+  \ tasks"
+- "Design the navigation to deliver a dual purpose of offering users a strong “sense of place” for My HealtheVet, to clarify that it is a comprehensive health portal within VA.gov"
+- "Determine whether we have solved known issues with VA.gov's collapsed navigation on mobile (the \"in this section\" component), or if Veterans require persistent, visible options to understand navigation"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- discovery
+- "prototype-testing"
+- "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 8
+  assistive_technology: 0
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- The persistent link navigation was found to be successful in creating an improved UX
+- The navigation bar helps participants quickly understand where they are and what they can do there
+- "Even with improvements, collapsed secondary nav elements continue to fail our mobile users"
+- 8/8 mobile participants found the persistent link nav to be “easier” and/or more “direct” than the collapsed menu
+- Tools at the bottom of the landing page are not easy enough to find
+- Entering My HealtheVet through a side door was surprising to some participants
+- "Deep-linking participants into a tool's detail page revealed issues with current labeling."
+- "My HealtheVet link text in the nav bar in prototype B (both desktop and mobile) is viewed as a label for the whole navigation bar, not a clickable link."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- My HealtheVet link text did not appear clickable to participants
+- Screen reader pronounced abbreviations phonetically (already addressed through improved A11y coding)
+- "During the study, participants could not use the nav bar to know where they currently are within My HealtheVet (this affordance or feature was not added to the prototypes)"
+- "The landing page needs to surface hard-to-find content much higher on the page and de-prioritize tools that are repetitive to the links within the new secondary nav."
+- "Other tool landing pages may need to offer cross-link references to those tools as well to make them easier to find when a Veteran is most likely to be looking for them."
+- How best to surface tools / affordances that do not fit into the 4 primary tools
+- "Identifying opportunities to cross-link tools/tasks that are not named in the navigation bar"
+- "Uncovering tasks that are more difficult to find using this secondary nav strategy, and conducting research to understand where users would expect to find them"
+- "Explore routing users through the My HealtheVet landing page or individual tool landing pages instead of deep-linking them into details pages as we did in this study"
+- Reimagine tool landing pages as important entry points into each experience
+- Conduct additional research to understand the pros and cons of sending users to the MHV landing page instead of specific tool pages
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # My Healthevet Secondary Navigation Comparison Study
 
 **Office of the CTO - Digital Experience (OCTO-DE), My HealtheVet on VA.gov, Cartography Team**

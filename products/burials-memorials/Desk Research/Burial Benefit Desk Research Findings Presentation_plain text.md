@@ -1,95 +1,214 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Burial Benefit Desk Research Findings Presentation Plain Text Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: Not specified
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- searched EnjoyHQ
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- Findings to incorporate
+- Findings which provide context
+- Findings to share
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "desk-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 21
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- Findings to incorporate
+- Findings which provide context
+- Findings to share
+- better understand the current Survivor experience
+- avoid duplicating previous efforts
+- discover resources that inform and support our work
+- form the basis for future research efforts
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Conducting a review of existing burial-related research will allow us to:"
+- better understand the current Survivor experience
+- avoid duplicating previous efforts
+- discover resources that inform and support our work
+- form the basis for future research efforts
+- "Step 1: Find relevant research"
+- "Reviewed research conducted by Fiorella Geedi on the Non-Disability Benefit team, searched EnjoyHQ and Slack"
+- "Documented previous burial research including when it was conducted, who it was conducted by, where to access it, and any relevant information"
+- Copied the relevant information into Mural and affinity mapped it
+- Summarized each cluster of information
+- Documented findings and next steps
+- "Research Title and Date, Research Participants"
+- 21 Survivors and 21 Veterans
+- "1:1 interviews with 19 end-of-life professionals, email input from two funeral directors, and notes from a funeral directors conference"
+- Round 1 Usability Research Findings (2022)
+- "11 Veterans, 10 Survivors, and 3 VA outreach professionals"
+- "11 Veterans, 10 Survivors, and 3 VA outreach professionals"
+- "32 Survivors, 35 VA Staff, and 11 VSO Staff"
+- "Findings fell into three groups based on how they relate to our work updating the VA Form 21P-530EZ, Application for Burial Benefits:"
+- These findings will be included our work to drive improved outcomes
+- "Based on their research the Non-disability Benefits team recommended the following changes:"
+- "Define each type of allowance, especially the transportation allowance"
+- "Define terms that Survivors find confusing: service-connected, file number, and place of interment"
+- Clarify the amount of reimbursement that a Survivor can receive
+- Set expectations about the timeline for obtaining supporting documents
+- "Based on their research the Non-disability Benefits team recommended the following changes:"
+- Clarify that the payment is a reimbursement to the person who paid for the burial expenses. Consider changing the language of “allowance” to “reimbursement”
+- "Found in only one study, but study was thorough, recent, and relevant"
+- "Suggestions of specific ways to utilize the digital format included:"
+- Using short videos to convey instructions
+- Linking directly to important information
+- "Auto-populating as much of the application form as possible"
+- Optimizing the experience for mobile users
+- "Much of the information came from research conducted with Veterans and Survivors, but focused on pre-planning communication"
+- "Reflecting Survivors’ experiences could look like:"
+- Making sure that a wide variety of Survivors are considered and represented. Male Survivors and Siblings have historically not had as many resources available to them
+- Acknowledging the support that Survivors provided for their Veteran and the sacrifices that they made
+- Data was consistent across multiple studies
+- "Their suggestions to improve the benefits application experience for Survivors were to:"
+- Verify all necessary information is included before form submission
+- Streamline the application process if a Survivor is applying for Dependency and Indemnity Compensation (DIC) and burial benefits
+- Encourage Survivors to work with an advocate and make it easy to contact them
+- Add bank information to the form so that funds can be reimbursed directly
+- Found primarily in one study
+- If VA has already verified a Veteran’s military history the Survivor may not need to provide this information again.
+- "Found in only one study, but study was thorough, recent, and relevant"
+- "These findings will influence our work, but we will not directly effect change in these areas"
+- Stress can affect cognitive functioning
+- "Several factors were identified in research which might make Survivors less comfortable engaging with VA, or might make it harder for them to engage with VA, including:"
+- Survivors with language or cultural barriers
+- Survivors who don't have access to technology or aren't comfortable using it
+- Survivors who live farther from VA facilities
+- "Survivors who aren’t connected to the military, VA, VSOs, or other Survivors"
+- "Research identified several specific Survivor pain points in the application process:"
+- Survivors often have limited awareness of benefits
+- "Survivors who are aware of benefits may not understand the details, for example that the burial benefit does not cover all funeral expenses"
+- "The process is long and delays are common, mostly due to needing supporting docs"
+- "Survivors may not have all of the information required to complete the application, such as required military history info"
+- Survivors have limited insight into the status of an application while it is being processed
+- Having a positive experience with the benefits process is key to maintaining Survivors’ trust in VA
+- "Receiving support in the burial benefits process is key to Survivors’ success. In addition to assisting Survivors with the burial benefits forms, VSOs:"
+- "Advise Survivors on what to include on the death certificate, if the cause of death was service-connected this affects benefits"
+- Help Survivors obtain supporting evidence
+- Support Survivors with language barriers
+- These findings are most relevant to parts of the burial benefits process outside of the 530EZ form. They may be helpful to other burial benefits teams
+- "Outreach is crucial to helping survivors learn about benefits. If Survivors do not know that benefits exist, or aren’t reminded about them, they are at risk of missing out."
+- "seek to include family members, not just the Veteran, in preplanning"
+- inform family members about the type of information that is needed when applying for benefits
+- be inclusive of different types of Survivors
+- "Sources of support mentioned in research include:"
+- VHA's Compassionate Contact Corps
+- VHA chaplains
+- grief counseling at Vet Centers
+- benefit counselors
+- comprehensive case management
+- a dedicated point of contact at VA
+- community resources
+- other Survivors
+- "In order to increase the effectiveness of VA partners, research suggested that VA should:"
+- provide channels for partners to ask questions
+- "assess, standardize, and update training materials"
+- partner with funeral homes and create tools that meet their needs
+- "Suggestions for improvements to VA processes included:"
+- Mailing packets of relevant information after a Veteran's passing
+- Contacting Survivors to confirm VA support during difficult times
+- "Automating acknowledgment of passing, such as automatically sending families their presidential letter"
+- Coordinating death notices across VA
+- "60 days, making changes to the benefit letter and paper form, and granting VSOs access to VA.gov."
+- "Age-appropriate grief counseling should be provided."
+- These findings will be included our work to drive improved outcomes
+- "These findings will influence our work, but we will not directly effect change in these areas"
+- These findings are most relevant to parts of the burial benefits process outside of the 530EZ form. They may be helpful to other burial benefits teams
+- Incorporate these findings into the form design
+- Survivors’ portrayal in the burial benefit information and form should reflect their experiences
+- Simple language changes could reduce Survivor confusion
+- Taking advantage of the digital format could improve the burial benefit application process
+- VSOs recommended changes to the benefit form and application process to reduce the burden on Survivors
+- Whether or not a Veteran used VA benefits before they passed can impact the application process
+- "Creating confidence ratings for qualitative research findings requires making some subjective judgments. When rating I focused on two main factors:"
+- "Participants included Veterans, Survivors, VSO staff members, VA staff members, and end-of-life professionals"
+- It was not always possible to determine who shared what information
+- "I did my best to prioritize information from, or studies with, Survivors, then those who work with Survivors, then Veterans"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Desk research
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- EnjoyHQ
+tags:
+- "AUD: Family Member"
+- "AUD: VA Staff"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Memorialization"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit-letters"
+- "PRDT: Burials-memorials"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Search"
+- "desk-research"
+- "semi-structured-interviews"
 ---
 
 **Burial Benefit Desk Research Findings**  

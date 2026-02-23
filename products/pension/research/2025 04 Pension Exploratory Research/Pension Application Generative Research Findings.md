@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Pension Application Generative Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-20"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- conduct recruiting directly
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- generative
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 2
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Pension & Burials Program (PBP), Benefits Portfolio"
+- "[Link to Research Readout](https://dvagov.sharepoint.com/:b:/r/sites/vaabdvro/Shared%20Documents/Pension/2025-04%20Pension%20527EZ%20Exploratory%20Research/Pension%20Application%20Generative%20Study%20-%20Research%20Findings.pdf?csf=1&web=1&e=nE8RU4)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "While we have attempted to recruit using standard approaches, they have not proved successful. Therefore, alternative strategies that could be considered include:"
+- "Partnering with VSOs to observe as they conduct their work and conduct interviews with Veterans and their loved one's post activity to gain insights on early stages of the journey such as trigger moments,\
+  \ learning about the program, and role of support networks."
+- "Partnering with Veteran organizations or community hubs to conduct relational recruiting through case managers or other representatives, who have existing relationships with the Veteran population we\
+  \ seek to engage."
+- May also require in person interviews/ activities rather than virtual.
+- "Alternately could be administered asynchronously through these trusted sources to Veterans, if in person research were not possible, and compensation was available for all parties."
+- Exploring quantitative approaches to assessing the effectiveness of the pension form and related experiences
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Previous research studies
+synthesis_tools_used: []
+tags:
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Memorialization"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Pension"
+- "PRDT: Search"
+- generative
+- "in-person-research"
+- "semi-structured-interviews"
 ---
 
 # Pension Application Generative Research Findings 

@@ -1,104 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "04-2024 VA Health Chat and Health Connect research findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-04-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- The main goal of this study is to identify where Veterans expect contact methods for their healthcare team to be located on VAMC pages
+- A secondary goal of the study is to identitfy where Veterans expect to find help accessing and using VA health chat and VA health connect
 methodology:
-- Method 1
-- Method 2
+- "unmoderated-testing"
+- "tree-test"
+- "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Sitewide Facilities, VAMC product"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Add VA Health Chat and VA Health Connect links as modalities to the Make an appointment and Contact us pages.
+- Potentially review content organization on these pages for ease of findability.
+- Keep links to both VA Health Connect and VA Health Chat in the Manage your healthcare online section.
+- "Where available, add VA Health Connect phone number where main contact info is present."
+- "Provides Veterans, family members, and caregivers a quick access point when they have an immediate concern"
+- Additional consideration given to phone label for Veteran understanding of after hours care (24/7 availability)
+- "When a Pharmacy accordion is present, include VA health chat and health connect as contextually relevant link placements."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Optimal Workshop
+- Spreadsheet analysis
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Accordions"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit Hubs"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Search"
+- "remote-research"
+- "tree-test"
+- "unmoderated-testing"
 ---
+
 # 04-2024 VA Health Chat and Health Connect research findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sitewide Facilities, VAMC product**

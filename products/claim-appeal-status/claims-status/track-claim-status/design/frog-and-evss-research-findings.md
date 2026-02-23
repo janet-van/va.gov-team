@@ -1,99 +1,164 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Summary from Frog, EVSS & User Interviews Research Findings"
+product: Claim Status Tool
+team: Benefits Team 1
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Hasn't changed in 4 months, 15 months, 2 years..."
+- "Pending for 5 months, removed est. completion date - why??"
+- Just says "pending" or "in progress" forever
+- "Keep logging out and back in to see if the status refreshes - feel like the information might be stuck somehow"
+- "A lot of information but not a lot of value, can't find the real status of my claim"
+- No idea how long the claim process is expected to take
+- "Says the requested information is missing or late, but does not say what information or whether it is requested from me or another agency"
+- New information takes 2 weeks to show up in eBenefits
+- "After successfully uploading evidence, I still get a message that it wasn't received (but a VA rep was able to see it was received)"
+- "Site says development letter has been sent, I never received it"
+- Conflicting information from screen to screen
+- Says complete since September but no payment
+- They are directly responsible for literally hundreds of deaths due to suicide because of their outstanding claims adjudication decisions
+- R4 (April 2014) Disability Benefits Questionaire (DBQ) recommendations
+- R5 (July 2014) Change document upload view
+- R6 (Sept 2014) EP 400 Consolidation Messaging (content explaining how supplemental claims are conslidated into the main claim)
+- R6M+ (Nov 2014) Removed Appeals from Claim Status (EP170s)
+- "R7 (Jan 2015) Improved Upload Document Status [Redesign Part B]"
+- "R8 (March 2015)  [Redesign Part C]"
+- R9 (June 2015) Display open apps in Work in Process / Queue Doc Uploads
+- R10 (Sept 2015) Increase File upload size to 25MB
+- "Older: [http://iyc2bw.axshare.com/#p=b_4_other_items_sent_by_you](http://iyc2bw.axshare.com/#p=b_4_other_items_sent_by_you)"
+- "More recent: [http://ib9r66.axshare.com/#p=claims_details](http://ib9r66.axshare.com/#p=claims_details)"
+- VBMS controls the document services and how we connect data to tracked items and those services
+- "Corporate DB controls the tables where the BNFT_CLAIM_TYPEs live, there is no CCB process in place and anyone can make requests for new rows, this could mess us up later on"
+- Claimant may think it is their sole responsibility / burden to associated their evidence with the correct Tracked Item
+- "If user mistakenly associated evidence to wrong Tracked Item, they may fear a delay in processing"
+- "If agent later determines the uploaded evidence is related to another tracked item, there is no feedback loop to the claimant online"
+- "Users can upload a file to a tracked item request and mark it as received, but there is no way to recover if they marked an item as received by mistake"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- R5 (July 2014) Change document upload view
+- R6 (Sept 2014) EP 400 Consolidation Messaging (content explaining how supplemental claims are conslidated into the main claim)
+- R6M+ (Nov 2014) Removed Appeals from Claim Status (EP170s)
+- "R7 (Jan 2015) Improved Upload Document Status [Redesign Part B]"
+- Coincided with site redesign
+- Also included addition of 5103 Notice Response (Make a Decision)
+- Add "We apologize your claim is past due" message
+- "Improved messaging language when:"
+- When  no open claims are retrieved
+- When  no historical claims are retrieved
+- When  there is not enough info to provide a good estimated date of completion
+- When  no open and no historical claims are retrieved
+- When  no tracked items are retrieved for a specific claim
+- Added explanation of how estimated dates are derived (pop up)
+- Included descriptions of each phase (pop up)
+- "R8 (March 2015)  [Redesign Part C]"
+- Summary Page to Work in Process
+- Split tabs for "Needed from you/Needed from others/All Documents"
+- Supply document metadata from Document upload (what app and user)
+- Cache claims details to enhance performance
+- "Split out the tracked items as \"Request 1,\" \"Request 2,\" etc"
+- R9 (June 2015) Display open apps in Work in Process / Queue Doc Uploads
+- R10 (Sept 2015) Increase File upload size to 25MB
+- "Older: [http://iyc2bw.axshare.com/#p=b_4_other_items_sent_by_you](http://iyc2bw.axshare.com/#p=b_4_other_items_sent_by_you)"
+- "More recent: [http://ib9r66.axshare.com/#p=claims_details](http://ib9r66.axshare.com/#p=claims_details)"
+- VBMS controls the document services and how we connect data to tracked items and those services
+- "Corporate DB controls the tables where the BNFT_CLAIM_TYPEs live, there is no CCB process in place and anyone can make requests for new rows, this could mess us up later on"
+- problems to solve
+- Claimant may think it is their sole responsibility / burden to associated their evidence with the correct Tracked Item
+- "If user mistakenly associated evidence to wrong Tracked Item, they may fear a delay in processing"
+- "If agent later determines the uploaded evidence is related to another tracked item, there is no feedback loop to the claimant online"
+- "Users can upload a file to a tracked item request and mark it as received, but there is no way to recover if they marked an item as received by mistake"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
 - SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Contact center data
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: Claim-status-tool'
+- "AUD: VA Staff"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Form"
+- "DSC: Form - File Input"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Claim-status-tool"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "in-person-research"
+- "semi-structured-interviews"
 ---
+
 # Summary from Frog, EVSS & User Interviews
 
 ## Frog Research & Analysis

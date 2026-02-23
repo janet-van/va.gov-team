@@ -1,105 +1,138 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Harassment Reporting Landing Page & Poster Research Findings"
+product: Harassment Reporting
+team: Governance Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-04-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "with **14 Veterans**. Each session started with questions about how participants would report a hypothetical harassment incident and where they would look for information about reporting harassment at\
+  \ VA"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 6
+    "55-64": 4
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE) and VSA, Public Websites"
+- "March 14-18, 2022"
+- 14 Veterans
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "so we can provide simple, clear instructions for all right up front."
+- on how to help people get to the right place to file a report so we can provide just a general note about how to report in person rather than details on different people and phone numbers for different
+  VA locations.
+- so that we don’t have to try to stress that this page is only for Veterans/visitors up front.
+- that speaks to both harassment and sexual assault.
+- "Place the “what harassment is” details behind an accordion or link. By putting this information behind an accordion or link, we allow people to still get the information if they want it, simplify the\
+  \ page, and bring the more critical “What to expect” section up higher on the page so people don’t miss it."
+- Minimize the number of words so it's easy to scan and understand in a short amount of time. Consider deleting the "What harassment is and when to report it" section at the bottom to simplify the design.
+  Consider adding a QR code to the landing page for more information.
+- would help and was expected by many participants.
+- "folks--With the current gender-neutral language, some women may feel unseen as targets of harassment. Consider acknowledging women specifically by using the word \"women\" in some places in the materials."
+- between the subway steps and questions on the landing page so that it doesn't look like the bottom of the page.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- We recommend additional user research on the landing page and poster once they have been revised.
+- "Participants in user research on the revised landing page should include more screen reader users, as this study had only one but planned for three. One participant used a screen magnifier on his computer\
+  \ but not on his phone, which he used for the research session."
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
+- Call center data
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Accordions"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Harassment-reporting"
+- "PRDT: Header-footer"
+- "PRDT: Search"
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Harassment Reporting Landing Page & Poster Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Public Websites**

@@ -1,3 +1,126 @@
+---
+title: My VA 2023 Notification Documentation Discovery Research Findings
+product: Onsite Notifications
+team: Authenticated Experience Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-11"
+researchers:
+- Not specified
+research_goals:
+- Documenting the different types of notifications/alerts that commonly power web products
+- Documenting whether we are already utilizing those on VA.gov or not
+- Doing discovery work to look into other popular design systems and how they utilize notifications and alerts
+- Identifying opportunities worth exploring for VA.gov found in this discovery research
+- "To announce that a feature is down. The user didn't cause this type of alert <br> - To draw attention something on a page that may require user action <br> - A more urgent (often red) version is used\
+  \ when something destructive is about to occur.|[Alerts in VA Design System](https://design.va.gov/components/alert) <br> Note: Yellow warning alert is to announce a feature is down or to draw attention\
+  \ to important action items; red error alert is to announce that something destructive may occur.|<img width=\"507\" alt=\"Screenshot 2023-08-11 at 12 37 49 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/5e6533a6-a7ff-4cf5-88d4-2b618e468a5f\"\
+  > <br> <img width=\"603\" alt=\"Screenshot 2023-08-15 at 12 30 06 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/2fdff79e-f041-4d06-829a-f3dd801cf3e6\"> <br>\
+  \ <img width=\"472\" alt=\"Screenshot 2023-08-11 at 12 48 07 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/aa9ec5b5-5782-4f7e-acaa-eb6a2422686a\"> <br> <img\
+  \ width=\"603\" alt=\"Screenshot 2023-08-16 at 9 57 45 AM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/dcf42761-849a-4806-bac5-c97cfdddea25\">|- The CST team is\
+  \ pioneering a card style that includes a slim alert to draw attention to a specific card if something is needed from the user. This is an opportunity to determine more robust guidelines for the alerts\
+  \ around whether they should be used for system alerts or expand to alert users of action items and standardize how we highlught action items across the authenticated experience on VA.gov.|"
+- "Respond to an action a user has taken to draw their attention to something.|[Alerts in VA design system](https://design.va.gov/components/alert)|<img width=\"396\" alt=\"Screenshot 2023-08-11 at 12 37\
+  \ 56 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/3681caa7-c5f0-40e7-b2e4-d8d64c8b85d0\"> <br> <img width=\"593\" alt=\"Screenshot 2023-08-11 at 12 39 07 PM\"\
+  \ src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/9cf1df53-39df-4dba-b62d-ad86d380528d\">|These alerts can contain a link and we may be able to make better use of that\
+  \ feature of the component. For example, giving an option to \"Undo\" an action when technically feasible is a common pattern in these type of alerts that we're not currently using. <br> <img width=\"\
+  314\" alt=\"Screenshot 2023-08-11 at 12 41 14 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/4da9f2c8-1bc6-46ee-9426-db15b6cbf31e\">|"
+- "The dot indicator is being used in the new secure messaging tool but isn't in the design system yet. Since we're exploring this option for My Health and My VA, we should work to get the dot indicator\
+  \ added to the design system. <br> - A tag with a number could be useful to give more context about unread/unseen things. <br> - Material Design is a useful example of both types of \"badges\" being used\
+  \ in the same design system for different use cases. <br> <img width=\"528\" alt=\"Screenshot 2023-08-11 at 12 30 53 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/bf938422-2892-4428-bfa7-1bd1b995757c\"\
+  >|"
+- "Explore technical solutions to mark these as seen/read and automatically dismiss once they are resolved <br> - Perhaps these could include a dynamic status tag instead of/in addition to automatically\
+  \ dismissing when resolved|"
+- "[Tag in VA design system](https://design.va.gov/components/tag)|<img width=\"472\" alt=\"Screenshot 2023-08-11 at 12 48 07 PM\" src=\"https://github.com/department-of-veterans-affairs/va.gov-team/assets/97965610/aa9ec5b5-5782-4f7e-acaa-eb6a2422686a\"\
+  >|- The tag for status indicator could be used more universally across VA.gov. We could follow similar guidance to the CST team and include a status tag in our cards on My VA when we update them to [default\
+  \ white cards](https://design.va.gov/components/card#default---white-with-border)"
+- "This is very invasive for a notification but if there ever was an extremely urgent update, this is something to consider <br> - Would be good to use something this invasive if a user is about to take\
+  \ an action that has major implicatons and cannot be undone and this is a use case outlined in the VA design system<br> - Would need to explore the a11y implications of a takeover modal for a notification\
+  \ use case|"
+methodology:
+- discovery
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "Not specified - key findings not explicitly listed in report"
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Mural
+tags:
+- "AUD: Veterans"
+- Accessibility
+- "DSC: Alert Boxes"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Modal"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Secure Messaging"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- discovery
+---
+
 # My VA 2023 Notification Documentation Discovery 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Authenticated Experience, My VA**

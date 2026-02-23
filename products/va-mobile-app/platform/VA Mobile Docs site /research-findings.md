@@ -1,98 +1,125 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: VA Mobile Doc Site Research Findings
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-06"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Identify how the VA Mobile Docs site can be improved to better serve all teams
+- Determine when we can link experience teams to VADS and when we should give guidance
+- EXP teams are able to access the docs site and find answers to their questions
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- survey
+- "co-design"
+- "prototype-testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "[Hypotheses and conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#hypotheses-and-conclusions)"
+- "[Key findings](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#key-findings)"
+- "[Recommendations](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#recommendations)"
+- "[Product User and Business Outcomes](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#product-user-and-business-outcomes)"
+- "[Next Steps](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#next-steps)"
+- "[Further research needed](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#further-research-needed)"
+- "[Who we talked to](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/va-mobile-app/platform/VA%20Mobile%20Docs%20site%20/research-findings.md#who-we-talked-to)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Conduct a site content audit. Review site content with area SMEs.
+- "Remove site content that is duplicative, outdated, or too ambiguous. Adding missing content as noted within the user research."
+- "Update content to elaborate on needed context, adding the why, with dates, and statuses."
+- "Recommendation: Provide clear distinctions in mobile vs. web experiences using VA product examples and reasoning. Include visuals, prototypes, correct vs. incorrect applications."
+- "Integrate the mobile/flagship design system with VADS, moving relevant content over to design.va.gov vs. hosting directly on the site. Similarly, integrate mobile more fully in the platform collaboration\
+  \ cycle adding mobile governance throughout the process."
+- Add a FAQ section to the site and a troubleshooting guide to assist users with common challenges they often bring to the team.
+- Add a feedback submission option directly to the site so users can directly report issues or questions as they arise.
+- "Base the site structure on various phases of the mobile build process, the prime audience as the general experience team user vs. the area specific user (Product, UX, Engineering or QA). Develop the\
+  \ content around this user group, using a journey map to help them orient themselves in the process."
+- "Model the content fidelity of the site’s front-end documentation and set-up process, applying it to the other areas of the site. After SMEs have written updated guidance, have a single voice pass over\
+  \ all content for consistency, structure, and fidelity."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- "To gather quantitative data, getting a numerical rating of user satisfaction (survey base)."
+- Deeper study in the experience team member journey
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
+- "AUD: Veterans"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "co-design"
+- "prototype-testing"
+- "semi-structured-interviews"
+- survey
 ---
+
 # VA Mobile Doc Site Research Findings
 Office of the CTO - Digital Experience (OCTO-DE), VA Mobile Doc Site, Mobile
 Date: 06/06/2025

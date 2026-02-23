@@ -1,105 +1,137 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research Findings: Facility Locator - Assistive Technology Discovery and Usability Study Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-06-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- survey
+- discovery
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "1.1 - I need to have multiple ways to accomplish online tasks but have my preferences"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "For example, a user who ‘skips to content’ and then navigates by headings should be able to form the same general understanding for what the page is about and what they can do there."
+- "When P2 clicked on a facility detail page link from facility locator search results, the screen reader didn’t drop him onto the H1 because focus is not being managed."
+- Links relating to COVID that are organized under a heading that is about finding a facility confuses and slows down assistive technology users who must already spend extra time understanding and orienting
+  themselves on a page. Group this content under sub headings that can be scanned more easily.
+- "For example, footer links should be grouped into a footer region. Currently, users can’t distinguish between footer links and those that are part of the page content so they are forced to listen to 46\
+  \ extra links each time they read a new page from top to bottom to orient themselves."
+- Skip to content on GOV.Uk takes a user to the H1 to announce the page and then following tab takes a user into the search edit box
+- "<img src=\"https://user-images.githubusercontent.com/4960080/125671954-62d5e689-c0cf-42d5-a1fa-8b2b9c093582.png\"  alt=\"[gov.uk 'skip to content' homepage example]\" width=\"60%\" height=\"60%\">"
+- Choosing from a predefined list of options alleviates the need to know how to spell difficult words and is easier than guessing what may or may not be an available option.
+- "Would numbered listings be more natural to hear when announced by a screen reader?"
+- Mileage could be better labeled and described by screen readers
+- "Is the placement of these elements optimal?"
+- Medium term
+- E.g. Multiple users mentioned searching for burial and cemetery information and urgent care. Top terms could be surfaced in the page description.
+- Long term (Hypotheses to test)
+- Consider a different way to provide access to general benefit information
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Memorialization"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- discovery
+- "moderated-research"
+- "remote-research"
+- survey
+- "usability-testing"
 ---
+
 # Research Findings: Facility Locator - Assistive Technology Discovery and Usability Study
 
 Digital Services Veterans Affairs (DSVA), VSA, Facility Locator, June 24, 2021

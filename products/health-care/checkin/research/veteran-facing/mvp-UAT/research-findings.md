@@ -1,100 +1,128 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Martinsburg Research Visit Discovery Readout Research Findings
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-09-20"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Kristen McConnell
 research_goals:
-- Goal 1
-- Goal 2
+- "After a Veteran utilizes the new mobile check-in solution, are they called back for their appointment without having to talk to a clerk/Medical Support Assistant (MSA)?"
+- "What is the impact to the staff workflow when Veterans check in on their mobile phones?"
+- "How do Veterans and staff feel about the mobile check-in solution?"
+- "Where within the facility should Veterans utilize VA.gov to check in for their appointment?"
+- "What do MSAs need/want to be notified about related to check in (including pre-registration and insurance capture)?"
+- "What is important to administration about pre-registration and insurance capture?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- discovery
+- "intercept-interviews"
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Pilot Feedback and Observations - Staff"
+- "Pilot Feedback and Observations - Veterans"
+- "Pre-registration"
+- "Things MSAs want/need to be notified about check-in (Staff indicators)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Explore ways to notify Veterans that they aren’t done checking in after texting “check in.” Let them know that a link will appear.
+- Think about ways to better guide Veterans through texting and scanning QR codes.
+- "Implement pre-registration solution to support staff workflows."
+- "Prioritization of pre-registration and insurance components"
+- Look into the need to incorporate temporary address and advance directive reviews in the future.
+- "Look into how beneficiary travel regulations on address discrepancies might apply to the check-in product."
+- "Talk about administrators more to understand the best solutions for pre-registration reporting."
+- "Work with the VSE-GUI team to transfer the knowledge gained about staff indicators."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
+- "AUD: Caregivers"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Facilities"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- discovery
+- "in-person-research"
+- "intercept-interviews"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Martinsburg Research Visit Discovery Readout
 - Updated: September 20, 2021
 - Lead Researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us

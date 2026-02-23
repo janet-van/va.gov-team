@@ -1,3 +1,104 @@
+---
+title: "Topline Summary: Facility Locator - Assistive Technology Discovery and Usability Study Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-06-24"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- discovery
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 4
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- User context and behavior while using assistive tech
+- Searching for location information online and on VA.gov
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Healthcare"
+- "DSC: Button"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Home-page"
+- "PRDT: Search"
+- discovery
+- "usability-testing"
+---
+
 # Topline Summary: Facility Locator - Assistive Technology Discovery and Usability Study
 
 Leyda Hughes (Facilities team), Josh Kim and Angela Fowler (Accessibility Specialists), June 24, 2021

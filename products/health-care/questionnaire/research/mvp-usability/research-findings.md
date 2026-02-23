@@ -1,106 +1,119 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Upcoming appointment questionnaire MVP usability study Research Findings
+product: Health Questionnaire
+team: Health Questionnaire Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- "Kristen McConnell <br>"
 research_goals:
-- Goal 1
-- Goal 2
+- "and post-appointment experiences for Veterans, contribute to physical distancing efforts in VA facilities, and better integrate Veteran-provided data in VA workflows by providing Veterans with a digital\
+  \ option to complete pre- or post-appointment questionnaires and screeners. Our MVP will focus on improving the pre-appointment experience when visiting primary care providers."
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
-recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Nurses, who normally ask intake questions, are less (or not at all) involved in virtual appointments."
+- The usability and value of our questionnaire was reconfirmed.
+- All of the Veterans almost immediately clicked to the next page without reviewing any content on the introduction page.
+- "Experiences when updating demographic information differed amongst the Veterans, but Veterans see the profile as the place of authority on VA.gov to edit their demographic information."
+- "Veteran expectations on when providers would review this information differed, so their expectations on when they would complete this questionnaire also varied."
+- Veterans expect access to their completed questionnaires and other medical information shared with the VA.
+- Veterans expect to find and be notified of questionnaires to complete in a variety of ways.
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Text Area"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Profile"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Upcoming appointment questionnaire MVP usability study
 
 **Prepared by:** Kristen McConnell (kristen.mcconnell@adhocteam.us)<br>

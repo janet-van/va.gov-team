@@ -1,99 +1,119 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Mocked Authentication, research findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-09-15"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Test the usability of the current Mocked Authentication product
+- Find solutions for the current known issues around error messages
+- Develop product backlog
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- evaluative
+- "prototype-testing"
+- "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "[Key findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-06%20Mocked%20Authentication/Mocked%20Authentication%20research%20findings.md#key-findings)"
+- "[Recommendations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-06%20Mocked%20Authentication/Mocked%20Authentication%20research%20findings.md#recommendations)"
+- "[Who we talked to](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-06%20Mocked%20Authentication/Mocked%20Authentication%20research%20findings.md#who-we-talked-to)"
+- "[Further research needed](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-06%20Mocked%20Authentication/Mocked%20Authentication%20research%20findings.md#further-research-needed)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Provide detailed attributes, including UUID, ICN, additional mocked data, and information about the development environment in the user profile dropdown."
+- Implement a back button or a way to return to the previous screen when errors occur after selecting a Mocked Auth user.
+- "Enhance the documentation to cover mocked data comprehensively, including clear instructions on how to create new users within the Mocked Authentication Dashboard."
+- Clearly indicate whether a user is being authenticated using OAuth or SAML.
+- Ensure consistency in URLs to prevent user confusion during navigation.
+- Consider providing brief tutorials or tooltips within the dashboard to help users understand how to use various features.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- "Regular User Testing:"
+- Continue to conduct regular user testing to gather feedback and iterate on the dashboard's design and functionality.
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Education'
-- 'MHV: Secure Messaging'
-- usability-testing
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Contact us"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- evaluative
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Mocked Authentication, research findings
 
 Office of the CTO - Digital Experience (OCTO-DE), Sign in, Core/Surge Identity Team

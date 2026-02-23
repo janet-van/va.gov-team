@@ -1,105 +1,148 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Dependents Research, September 2023, Research Findings"
+product: "Dependents (21-686c)"
+team: Benefits Dependents Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Getting out: Engaging VA to access benefits and services"
+- "Putting down roots: Taking care of my family"
+- "Retiring: Finding additional sources of income"
+- "Learn how Veterans understand dependent benefits and risks as they relate to compensation, and how they navigate the process today"
+- Evaluate the perceived trustworthiness and effectiveness of our proposed notification
+- Learn Veterans’ device and notification preferences
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- evaluative
+- generative
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 4
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Dependent Verification, Benefits and Claims - Dependent Experience"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "- Consider more positive language about not missing out on benefits"
+- "Add context on the risk of benefit overpayments for those who are unfamiliar, and emphasize the connection between updating info and preventing overpayments"
+- Explore adding language that makes it clear this is a new ask to review annually
+- "Expand the list of examples in the email to raise awareness on eligibility (eg, for parents and stepchildren)"
+- Send the notification early in the year when folks are on the lookout for documents
+- "- Align with other benefits teams (Pension, 10-10, Profile) on how we add/remove dependents"
+- Combine the ability to review current and add/remove dependents onto a single page
+- "- Consider a fast-follow notification ahead of minor children turning 18"
+- Explore a picklist feature that includes upcoming dates and other programs dependents might be eligible for
+- Break down information on static pages around specific dependents and life stages
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- Experienced overpayments due to dependents
+- Had to remove a spouse as a dependent due to death or divorce
+- Claimed a parent or permanently disabled child as a dependent
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- EnjoyHQ
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: VA Staff"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- evaluative
+- generative
+- "in-person-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Dependents Research, September 2023, Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Dependent Verification, Benefits and Claims - Dependent Experience**

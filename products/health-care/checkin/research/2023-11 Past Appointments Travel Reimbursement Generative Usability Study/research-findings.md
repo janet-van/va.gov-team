@@ -1,101 +1,178 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research Findings - Past Appointment Travel Reimbursement Research Findings"
+product: VAOS (VA Online Scheduling)
+team: Appointments Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-01-19"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- generative
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 3
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 1
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- Filing methods
+- Pain Points
+- Magic Wand Scenarios
+- Filing a claim for multiple appointments on the same day
+- Travel reimbursement claims vs. other VA claims
+- Key Takeaways
+- Starting the claim
+- Filing the claim
+- Learning more or filing another claim
+- "Part 1: Veterans’ experience filing for travel"
+- "Part 2: Understanding of claim statuses"
+- "Part 3: Enabling Veterans to file BT claims from Appointments"
+- Increasing ways to file BT claims further benefits Veterans
+- Veterans want better feedback from VA/BTSSS when changes to their claim status occurs
+- Veterans want the BTSSS portal to better meet their expectations
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Make it easier for Veterans to find the BTSSS entry portal on VA.gov.
+- "Integrate notifications (text and email) into BTSSS to let Veterans know when a claim has been filed, an action is required, and when the status of a claim has been updated."
+- Lessen the burden for Veterans of having to enter appointment information for community care claims.
+- "Investigate easier sign in methods for BTSSS, while also considering how an authenticated user from VA.gov could avoid signing in again when entering the travel pay entry portal."
+- "Identify a solution to allow Veterans to fix or refile a claim once they’ve received notification that their claim has been denied and it’s past the 30-day filing window."
+- "Consider investigating a more reliable map service to replace Bing Maps. E.g., Mapbox, Google Maps, etc."
+- "_Investigate opportunities for a more automated, “touchless” experience for Veterans to file a claim after an appointment. For example, Vista Scheduling Enhancements for Clinical Staff (VSE-CS) using\
+  \ BTSSS API, which could automatically submit claims at the completion of a care encounter, i.e., if mileage-only claim criteria was met._"
+- "Continue research to understand where Veterans would navigate on VA.gov after filing a claim, as a means to better understand the mental model between BT claims and other VA claims."
+- "Utilize more plain language alternatives for claim statuses, especially “Fiscal Rescinded.”"
+- "Consider creating descriptions to provide meaning to existing claim statuses, especially for “Payment Canceled,” “On Hold,” “In Manual Review,” “Incomplete,” and “Denied.” For example, include information\
+  \ that explain what’s happening during this step, why it might be in this status, and what’s expected next."
+- "Consider using fewer claim statuses, e.g., ones that are most important to Veterans, or better differentiate between similar statues. For example, help Veterans better understand which statuses are more\
+  \ staff-facing or remove them altogether."
+- "When applicable, include the reason a claim was denied in the BTSSS portal, instead of the Veteran waiting for a letter with the explanation."
+- "Confirm correct email notification template is being utilized with/from VA Notify. E.g., 1 Veteran mentioned that it would feel more authentic with the VA seal."
+- "Consider how to further clarify that this potentially new BT filing process (for mileage-only claims) occurs on VA.gov, versus BTSSS, so Veterans feel confident in their selection of filing options."
+- Consider adding a text notification for Veterans that prefer text over email communication.
+- Remove option to dismiss the task card because Veterans had varying opinions on its function but did not want to lose the information.
+- "Consider including “past appointment” in the task card’s content to help create a mental model that BT claims are associated with past appointments, even though the task card for filing BT appears on\
+  \ the upcoming appointments list page. (I.e., as a way to create a mental model that important actions for Veterans appear in a centralized location.)"
+- "Continue to move towards (i.e., the VTP and BTSSS offices) creating a BT eligibility check system that would remove the need for Veterans to check their own eligibility."
+- Move the travel reimbursement eligibility information below the “If you're eligible…” information to address Veteran confusion.
+- "Consider better highlighting (e.g., bolding) “if you’re claiming only mileage” so Veterans can quickly scan the page and understand that it’s the option for filing without receipts, knowing that it makes\
+  \ up ~75% of all claims across VA sites."
+- "Evaluate the benefit of adding a link to the past appointments page to check a claim status in step 3 of the process list, knowing that a disadvantage would be that Veterans would need to manually find\
+  \ the appointments from their list for the associated claim. (E.g., it could be more than 1 appointment.)"
+- "Consider adding another step to the process list with information on how to set up a direct deposit before filing your first claim. (https://www.va.gov/resources/how-to-set-up-direct-deposit-for-va-travel-pay-reimbursement/)"
+- "Share feedback with VA design community that some Veterans prefer task-based questions in the large h1 heading style, i.e., because it’s easier to see (for sighted users). (https://design.va.gov/patterns/help-users-to/complete-a-sub-task)"
+- "Consider how we might bring more attention to important information that’s in the additional information components, such as bolding specific content in the expanded view or moving the information to\
+  \ the body of the page."
+- "Work towards including the estimated reimbursement amount (if or once its added into the BTSSS API return response), which Veterans expected to review, since it appears in BTSSS."
+- "In future research, evaluate if Veterans’ understanding of the “Edit” link in the form review page is in line with its actual function."
+- "Consider simplifying (i.e., reducing the amount of information on) the page and avoiding repeating links, which only serve to potentially confuse Veterans."
+- "Follow VA content style guidelines for links more closely for the “Review your claim” link to better communicate the link destination for Veterans. And, change the link destination to, ideally, deep\
+  \ link to the claim in BTSSS or directly to the BTSSS entry portal."
+- Discuss the possibility of not having to sign in again on AccessVA when entering BTSSS from an authenticated session on VA.gov.
+- "Add information on how to get help with travel reimbursement in the “Need help” or the “What else can I do?” section."
+- Send a notification (text or email) after a claim is filed to keep Veterans up to date on their claim status.
+- "In the success alert, consider providing more appointment information instead of “This claim includes 2 appointments on {Date} at {FacilityName}.”"
+- "Also mentioned on the appointment list page, consider including the use of “past” for links associated with filing a BT claim to strengthen the mental model with Veterans that BT claims are associated\
+  \ with past appointments."
+- "Further evaluate effectiveness of the dot indicator pattern, and whether it can be modified to include context about the action that needs to be completed. In addition, explore a task card component\
+  \ that supports a group of tasks to complete, which is something the Check In Team is beginning to explore for the VA design community."
+- "If possible, move travel reimbursement information to the top of the page until it has reached its end of cycle. E.g., paid, denied, etc. And once it does, then move it to the bottom of the page since\
+  \ it will cease to provide new information to Veterans."
+- "Pass along findings that “type of care noted” for the Type of Care field was not understood by Veterans to the CAIA Team. Recommend being more direct, such as “Not available” or “Not provided,” and clarify\
+  \ the source of this information (e.g., provider or patient). Or, have a neutral value when the source of the information is unknown. For example, “VA appointment.”"
+- "Also mentioned on the success page, follow VA content style guidelines for links more closely for the “Review your claim” link to better communicate the link destination for Veterans. And, change the\
+  \ link destination to, ideally, deep link to the claim in BTSSS or directly to the BTSSS entry portal."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: Claim-status-tool'
-- 'MHV: Appointments'
-- usability-testing
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Check-in"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: Facilities"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- generative
+- "in-person-research"
+- "prototype-testing"
+- "usability-testing"
 ---
+
 # Research Findings - Past Appointment Travel Reimbursement
 
 ## Synthesis links

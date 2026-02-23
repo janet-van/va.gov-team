@@ -1,104 +1,139 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Research Goals Research Findings
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-09-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Getting out (Engaging VA to access benefits and services)
+- "Starting up (Finding something to do, Finding a place to live)"
+- "Taking care of myself (Managing primary care and chronic health issues > Disability Compensation)"
+- "Putting down roots (Revisiting housing, Taking care of my family, Saving for my retirement, Engaging VA to access benefits and services)"
+- Retiring (Finding additional sources of income)
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- Veterans understood what services were available and navigated to the relevant sections easily.
+- Ways to get help were  easy to locate.
+- "The farther down information was in an accordion, the less likely Veterans were to find it."
+- "Veterans were able to determine the appointment options, with some variation depending on the task."
+- Veterans had mixed results with identifying whether an appointment was required for a given task.
+- Veterans with cognitive disabilities and Veterans over 55 were less likely to identify how services were delivered.
+- Veterans had a strong preference for using one of the three Action links to complete tasks.
+- Some content was hard to locate.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Explore ways to make essential appointment and contact information easier to locate.
+- Explore options for increasing findability of What to bring content.
+- "Consider coordinating with Action link product teams to sync on services-related content delivery."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Life Insurance"
+- "BNFT: Memorialization"
+- "DSC: Accordions"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Direct-deposit"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Search"
+- "in-person-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 **Office of the CTO - Digital Experience (OCTO-DE), VBA facilities, Sitewide Facilities**
 
 Date: 010/13/2023

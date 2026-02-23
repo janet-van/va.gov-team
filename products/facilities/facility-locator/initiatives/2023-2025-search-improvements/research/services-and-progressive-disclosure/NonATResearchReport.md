@@ -1,104 +1,158 @@
 ---
-title: "Facility Locator Autosuggest and Progressive Disclosure Research Findings"
-product: "Facility Locator"
-team: "Facilities"
+title: Facility Locator Autosuggest and Progressive Disclosure Research Findings
+product: Facility Locator
+team: Facilities Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "10/30/2025"
+date: "2024-01-01"
 researchers:
-  - "Tina Kambil, Agile6"
-
+- Not specified
 research_goals:
-  - "Evaluate autosuggest combobox component for Facility Locator"
-  - "Confirm progressive disclosure is not hindering users"
+- "Where the Service type field only displays when a linked Facility type is selected, e.g. Urgent care;"
+- "Where users who select a VA Health Facility can use the Service type field to begin to type a service and receive a list of suggested queries, e.g. Allergy & Immunology"
+- Confirm that Veterans and their families (incl. assistive tech users) are able to find VA Health services using the AutoSuggest feature and measure ease of use (SEQ) for desktop and mobile
+- Confirm that the progressive disclosure pattern does not interfere with finding the right facility
+- "Identify barriers Veterans might face when using the facility locator services search to find a particular service at VA Health facilities nearest to them including confusing language, interaction patterns,\
+  \ or instructional content"
+- "Starting up (Finding something to do, Attending to health needs)"
+- "Taking care of myself (Recognizing and addressing mental health needs, Managing primary care and chronic health issues, Seeking support for an acute health event, Maintaining my health)"
+- "Putting down roots (Maintaining my financial, social, and emotional health, Engaging VA to access benefits and services)"
 methodology:
-  - Task-based usability interview
-  
+- "usability-testing"
+- "semi-structured-interviews"
+- "cognitive-walkthrough"
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-    desktop: 5
-    tablet: 1
-    smartphone: 2
-    assistive_technology: 0
-participants_total: 8
+  desktop: 0
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: 7
-  service_members: X
-  caregivers: 1
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
     "25-34": 2
     "35-44": 1
     "45-54": 1
     "55-64": 2
-    "65+": 2
-    unknown: X
+    65+: 0
+    unknown: 0
   education:
-    high_school: 3
-    some_college: 1
-    associates: 1
-    bachelors: 1
-    masters: 2
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: 4
-    rural: 4
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: 3
-    black: 3
+    white: 0
+    black: 0
     hispanic: 0
-    biracial: 1
-    asian: X
-    native: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: 1
-    AT_beginner: 1
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: 1
-    speech_input: X
-    hearing_aids: 1
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "1. Most participants successfully located desired services using the service-type field."
-  - "2. Task failure was often due to lack of visible system feedback that created false confidence and unnoticed selection errors."
-  - "3. Participants did not always notice that they could type and scroll in the service-type dropdown."
-  - "4. Some common search terms returned incomplete or unexpected results.  "
-  - "5. Most participants understood why the service type field was conditionally revealed and changed depending on facility type. "
-  - "6. Veterans expressed strong trust in the facility locator and valued the ability to see & choose specific service types."
+- "[Research Readout (PDF)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/354dcada2b76d677abf82ea89348972e7d3b18cf/products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/NonATResearchReadout.pdf)"
 recommendations:
-  - "Increase visibility into what the system is searching and what has been selected to prevent errors"
-  - "Improve content matching"
-  - "Provide helpful next steps when no results are found in the service-type dropdown"
-  - Clarify how to use the service-type field.
-  - Address mobile-specific usability barriers 
-kpi_alignment:
-  - "Task success"
-  - "Efficiency"
-  - "Quality"
-  - "Conversion"
-    
+- "1. Recommendation: Increase visibility into what the system is searching and what has been selected to prevent errors"
+- "- 1.1 Add soft error messaging when no item is selected in the service type list but a user has interacted with it e.g. “No service selected — results show all services.”"
+- "1.2 Explore how to provide visual confirmation of active selections (e.g., highlight/bold selected option within the input, briefly display “Searching all services” message, or other affordances)."
+- "1.3 Clearly display radius and location parameters in results description(e.g., “Showing results within 50 miles of X” not “near \\[state\\])"
+- 2.3.1 Match this visually on the map by showing a radius.
+- "1.4 BUG- Ensure the Results Description updates only upon search, not upon selection. Ensure keyboard navigation is behaving appropriately."
+- "- Related Findings: 1,4 Several terms users expected to work returned no or incomplete results (“glasses,” “therapy,” “back pain”). Long or duplicate entries increased scrolling effort and caused confusion."
+- "2.1 Implement fuzzy or whole-word matching, accounting for pluralization, spacing, and common misspellings."
+- "2.2 Review taxonomy coverage & results populated for common user needs (e.g., “therapy,” “toothache”) and add relevant synonyms. See appendix for common searches). Document synonym and taxonomy updates\
+  \ to support ongoing maintenance."
+- "2.3 Ensure most common current searches have complete coverage & synonyms (e.g. mental health, dental)"
+- "2.4 For duplicate entries, display only one item in the dropdown but map both terms to the same search result; label Tricare-specific options clearly within resulting locations."
+- "2.5 Shorten overly long entries to two lines max (e.g., “LGBQ+ Care” and “Outpatient Surgery” instead of the full descriptor) while retaining all search keywords for matching."
+- "Provide helpful next steps when no results are found in the service-type dropdown"
+- "Related findings: 2,4 Users who saw “no results” in the dropdown often didn’t know what to do next and assumed the system had failed."
+- 3.1 Offer a quick action in the dropdown to search All when no results are found
+- "3.2 Log no-result queries to identify frequent missing synonyms or taxonomy gaps."
+- "Clarify how to use the service-type field."
+- 4.1 Update  hint text to indicate that services will populate when the user begins typing
+- "(e.g., X used in the VADS component)."
+- "5. Recommendation: Address mobile-specific usability barriers"
+- "Related findings: 1,2 On mobile, the on-screen keyboard often covered the dropdown, making selection impossible for some users. On mobile some fields use system default dropdown styling and others don’t."
+- 5.1 Adjust layout so dropdown results remain visible above the keyboard.
+- 5.2 Ensure that scroll and autosuggest behaviors are consistent across screen sizes.
+- "5.3 Re-test on multiple mobile devices to confirm visibility and touch accuracy \\+ compare default dropdown layouts (may be part of AT testing)."
+- Test with VA Staff who currently help Veterans find specific locations over the phone to verify result coverage/accuracy and AT users after some changes are made. Possibly run as a comparison study.
+- "Related Finding: 6, known issues"
+- 6.1 Ensure common scenarios are covered appropriately
+- "6.2 Quickly pilot test any updates made, establish value metrics (verify potential phone call reduction)"
+- 6.3 Fix announcements for autosuggest (AT use).
+- 6.4 Validate keyboard navigation and focus order (AT use).
+kpi_alignment: []
 outcomes:
-  user: "Help Veterans identify the services they need and find a facility that provides specified services within a given location"
-  business: "Reduce phone calls, increase knowedge of services, increase visits to correct facility type"
-opportunity_areas:
-  - "Understanding what services VA offers"
-  - "VA Staff usage of this tool"
-further_research_needed:
-  - "User mental model"
-  - "Taxonomy coverage"
-  - "Evaluate map interactions"
-underserved_groups_missing:
-  - "AT users"
-
-secondary_research:
-  - "Web analytics"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Excel"
+- Spreadsheet analysis
+tags:
+- "AUD: Caregivers"
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Pagination"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Search"
+- "cognitive-walkthrough"
+- discovery
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 ---

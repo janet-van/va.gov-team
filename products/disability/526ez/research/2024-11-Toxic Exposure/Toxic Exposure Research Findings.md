@@ -1,198 +1,163 @@
 ---
-title: "Toxic Exposure Release 1.0-1.1 Evaluative Research Findings"
-product: "VA Form 21-526EZ Disability Compensation Claim"
-team: "Disability Team 1 (DBEX-TREX)"
+title: "Toxic Exposure Release 1.0 \\- 1.1 Evaluative Research Findings"
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-12-26"
-date_updated: "2025-01-17"
+date: "2000-01-19"
 researchers:
-  - "Maya Carroll"
-  - "Lauren Dawson"
+- included Maya
+- Lauren
+- Evelyn
 research_goals:
-  - "Evaluate usability of toxic exposure flow within Step 2 of digital 526EZ form"
-  - "Determine if Veterans understood form had changed and could navigate to and add data for Toxic Exposure"
-  - "Assess Veterans' confidence levels when answering added toxic exposure questions"
-  - "Identify barriers for assistive technology users in completing toxic exposure flow"
+- "and **those who do (AT)**. However, we quickly determined that the most effective approach would be to create two separate test plans, allowing us to tailor the goals specifically for our AT cohort.\
+  \ The plans are still fairly similar, but there are some nuances"
 methodology:
-  - "1-1.5 hour remote moderated evaluative mixed-methods testing"
-  - "Two cohorts: Non-AT and AT users"
-  - "Staging environment with prefilled mock data"
-  - "IPF alert displayed on Review and Submit page"
-  - "4 tasks: Review IPF alert, navigate to TE questions, complete TE form, edit responses"
+- "usability-testing"
+- survey
+- evaluative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: 6
-    tablet: 1
-    smartphone: 4
-    assistive_technology: 6
-participants_total: 11
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 2
+participants_total: 2
 demographics:
-  veterans: 11
+  veterans: 4
   service_members: 0
   caregivers: 0
   dependents: 0
   VA_staff: 0
-  cohorts:
-    non_AT: 5
-    AT: 6
-    AT_unable_to_complete: 2
-  gender:
-    male: 9
-    female: 2
-  lgbtq: 0
   age:
     "25-34": 0
     "35-44": 0
     "45-54": 3
     "55-64": 1
-    "65+": 7
+    65+: 0
     unknown: 0
   education:
     high_school: 0
-    some_college: 1
-    associates: 3
-    bachelors: 4
-    masters: 2
-    doctorate: 1
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
     unknown: 0
   location:
-    urban: 4
-    rural: 6
-    unknown: 1
+    urban: 2
+    rural: 3
+    unknown: 0
   race:
-    white: 7
-    black: 3
+    white: 3
+    black: 2
     hispanic: 0
     biracial: 0
     asian: 1
     native: 0
-    unknown: 0
   disability:
-    cognitive: 2
-    AT_beginner: 2
-    AT_advanced: 4
-    screen_reader_desktop: 3
-    screen_reader_mobile: 3
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
     magnification_zoom: 0
-    speech_input: 1
+    speech_input: 0
     hearing_aids: 0
     sighted_keyboard: 0
     captions: 0
-  assistive_technology_details:
-    JAWS_desktop: 2
-    VoiceOver_mobile: 3
-    TalkBack_mobile: 1
-    Fusion_desktop: 1
-    Siri_tablet: 1
-  service_history:
-    served_1961_1980: 4
-    served_1975_1990: 5
-    served_1990_2001: 4
-    served_after_2001: 0
-  filing_experience:
-    filed_disability_before: 10
-    never_filed: 1
-    vision_impairment_non_service: 1
 key_findings:
-  - "6 of 9 Veterans did not notice In Progress Form (IPF) alert at top of Review and Submit page; screen readers don't announce it as important message on page load"
-  - "Premature error validation and unclear date format expectation made date ranges difficult for screen readers to complete; 2 of 4 AT users stated errors on date range pages were disruptive"
-  - "Veterans frequently got lost or confused while navigating back through list and loops to edit responses; 4 of 9 users got lost trying to go back to date screens"
-  - "Requirement to authenticate to preview form and enter dates into required fields creates less inclusive user experience; 3 of 4 AT users had issues logging in"
-  - "8 of 9 users expected to easily return to Review and Submit page after navigating to TE questions from IPF alert; no easy off-ramp provided"
-  - "Veterans struggled to orient themselves within form and didn't understand how long TE flow would be; 2 of 9 users understood where they landed in form"
-  - "Location pages, especially Gulf War page with 19 checkboxes, burdensome for AT users to review and complete; 3 of 4 AT users mentioned length of flow as pain point"
-  - "7 of 9 users selected 'I'm not sure' checkbox but felt concerned about providing inexact dates; didn't see it as viable alternative to entering concrete date ranges"
-  - "2 of 9 users confused between 'service start and end dates' and service dates for their tour of duty/toxic exposure date ranges"
-  - "Veterans unfamiliar with terminology: 2 of 9 users unclear about terms MOS and SHAD and wanted additional definitions"
-  - "11 of 11 participants thought optional date fields were required; participants didn't know fields were optional but likely would have felt pressure to fill them out anyway"
-  - "Additional information sprinkled through TE flow rarely read; 6 of 9 didn't click TE info; only 1 of 5 Non-AT users clicked Additional Information link"
-  - "Some participants who served in Vietnam expected to see Agent Orange appear earlier in flow (chronologically); screen not in expected order"
-  - "Majority of Veterans already familiar with PACT Act, but some unsure if they met eligibility requirements or how to connect toxic exposure conditions with service history"
-  - "All 4 AT users surprised when progress indicator '2 of 5' did not change as they navigated through TE flow"
-  - "AT users wanted ability to preview whole form prior to entering personal data to build mental model"
+- "Office of the CTO \\- Digital Experience (OCTO-DE), VA Form 21-526ez Disability Compensation Claim, Disability Team 1 aka “DBEX-TREX”"
+- "Final share-out presentation and recording"
+- Presentation recording
+- Our research had 3 primary goals
+- "veterans who do not use Assistive Technology (Non-AT)"
+- those who do (AT)
 recommendations:
-  - "Possibly switch IPF alert component from blue informational alert to yellow warning alert for better visibility"
-  - "For screen readers, announce that form update is an alert/important information"
-  - "Consider making it required for Veterans to acknowledge the alert"
-  - "Consider allowing users to enter date information before displaying error (move field validation to end of page)"
-  - "Set clear format expectations for date, including number of digits for year"
-  - "Update custom 'checkbox and loop' components to v3 components"
-  - "Make headings more prominent for Veterans"
-  - "Move focus for AT to the H3 heading"
-  - "Explore opportunities to allow Veterans to preview form without authenticating (delay authentication until submission)"
-  - "Implement less restrictive error handling so Veterans can navigate through form without entering data into required fields"
-  - "For Veterans with IPF, add off-ramp from toxic exposure flow back to Review and Submit page"
-  - "Clarify where link is taking Veterans in descriptive link text 'Answer our new questions'"
-  - "Update and test copy in H3 and H4 page headings"
-  - "Change focus for screen readers from progress stepper to H3 heading"
-  - "Add intro page that sets Veteran expectations for TE flow"
-  - "Limit number of controls to max 7 per page"
-  - "Break long lists (like Gulf War locations) across multiple pages"
-  - "Collaborate with VBA to discuss how many locations required to adjudicate claims"
-  - "Switch MM/DD/YYYY date component to MM/YYYY component"
-  - "As immediate improvement, change example date to remove specific day (from 'January 19, 2000' to 'January 2000')"
-  - "Consider moving 'I'm not sure' checkbox above date entry fields to assist AT users and provide comfort that approximate dates acceptable"
-  - "Clarify 'service start date' so Veterans understand what date range is expected"
-  - "Add hint text to clarify what dates are needed"
-  - "Add hint text or links to definitions to clarify lesser known terms (SHAD, MOS-related toxin, C-123)"
-  - "Propose visual optimizations and A11y improvements to clarify which fields are required vs optional"
-  - "Audit existing optional fields and determine if necessary for adjudication"
-  - "Expose additional info on page to make it more visible"
-  - "Consider A11y improvements to increase engagement with AT-users on additional information"
-  - "In future, consider personalizing flow to match Veteran's service history (e.g., Agent Orange earlier for Vietnam era)"
-  - "Provide in-app support to help Veterans determine eligibility"
-  - "Add links to toxic exposure eligibility to Disability dropdown menu, Disability Hub, eligibility page, and embedded in TE flow in 526ez"
-  - "Update VA PACT Act marketing and web pages to drive Veterans to file on 526ez"
-kpi_alignment:
-  - "Form parity with paper version of 526EZ to include toxic exposure questions"
-  - "Alert in-progress users about new toxic exposure questions"
-  - "Reduce risk of losing form data for users returning to complete applications"
-  - "Validate inclusive experience for assistive technology users"
-  - "Increase toxic exposure disability claims filed digitally"
+- Possibly switch the alert component from the blue informational alert to the yellow warning alert.
+- "For screen readers, announce that the form update is an alert/ important information."
+- Consider making it required for Veterans to acknowledge the alert.
+- Consider allowing users to enter date information before displaying the error (move field validation to the end of page).
+- "Set clear format expectations for the date, including \\# of digits for year."
+- Update custom ‘checkbox and loop’ components to v3 components.
+- Make headings more prominent for Veterans.
+- Move focus for AT to the H3.
+- "Explore opportunities to allow veterans to preview the form without authenticating (ex: delaying the need to authenticate until a veteran tries to submit a claim at the end of the flow.)"
+- "Implement less restrictive error handling, so that veterans can navigate through the form without entering data into required fields."
+- "For Veterans with an IPF, add an off ramp from the toxic exposure flow back to the Review and Submit page."
+- Clarify where the link is taking Veterans in the descriptive link text “Answer our new questions.”
+- Update and test the copy in the H3 and H4 page headings.
+- "Change the focus for screen readers from the progress stepper “ex: 2 of 5 Conditions” to the H3 heading “ex: location/condition.”"
+- Add an intro page that sets Veteran expectations for the TE flow.
+- "especially the Gulf War page \\- was burdensome for AT users to review and complete."
+- Limit the number of controls to max 7 per page.
+- Break long lists across multiple pages.
+- Collaborate with VBA to discuss how many locations are required to adjudicate claims.
+- but did not see “I’m not sure” as a viable alternative to concrete date ranges.
+- "As an immediate improvement, consider changing the example date to remove the specific day. From \"For example: January 19, 2000\" to \"For example: January 2000\"."
+- "Consider moving the “I’m not sure checkbox” above the date entry fields to assist AT users, and to provide a level of comfort to all users that approximate dates are acceptable."
+- Clarify “service start date” so Veterans understand what date range is expected.
+- Add hint text to clarify what dates are needed.
+- Add hint text or links to definitions to clarify lesser known terms.
+kpi_alignment: []
 outcomes:
-  user: "Veterans can easily complete toxic exposure questions in 526EZ form, understand where they are in flow, provide accurate information about toxic exposure history, and submit complete disability claims"
-  business: "Achieve form parity with paper version, ensure all Veterans can report toxic exposures digitally, reduce incomplete claims, improve accessibility compliance, support PACT Act implementation"
-opportunity_areas:
-  - "Personalized flow based on Veteran's service history to reduce burden"
-  - "Better integration of eligibility determination within form flow"
-  - "Improved authentication experience for AT users"
-  - "Simplified date entry accepting approximate dates (month/year only)"
-  - "Reduced page count and form complexity for AT users"
-  - "Better wayfinding and orientation within multi-step flows"
-  - "Proactive education about PACT Act eligibility before Veterans start form"
-further_research_needed:
-  - "User testing with current solution after implementing recommendations"
-  - "More AT user testing with diverse assistive technologies (screen magnification, alternative navigation)"
-  - "Testing with more diverse participant demographics (racial and gender diversity)"
-  - "Quantitative monitoring of form abandonment rates in toxic exposure section"
-  - "Testing of personalized flow based on service history"
-  - "Validation of simplified date entry (MM/YYYY)"
-  - "Testing of revised Gulf War location pages with reduced options per page"
-underserved_groups_missing:
-  - "Screen magnification users (recruited but did not use during session)"
-  - "More racial diversity (limited Hispanic, biracial, Native participants)"
-  - "More gender diversity (only 2 female participants)"
-  - "LGBTQ+ Veterans"
-  - "Transgender and nonbinary Veterans"
-  - "Caregivers and family members filing on behalf of Veterans"
-  - "Veterans who served after 2001"
-  - "Veterans with hearing impairments using captions"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Toxic Exposure Usability Research Summary 2023"
-  - "Toxic Exposure Pre-launch Review of Medallia Data"
-  - "Monitoring Toxic Exposure Release analytics and metrics"
-  - "CAIA pilots and accessibility review feedback"
-  - "VBA stakeholder consultations on adjudication requirements"
+- Medallia feedback
 synthesis_tools_used:
-  - "Mural for note capture and synthesis"
-  - "Affinity mapping to identify key themes"
-  - "Three cross-functional interactive workshops with scrum team"
-  - "Figma for clickable prototype and stakeholder communication"
-  - "GitHub for research artifacts documentation"
-  - "Google Suite for document drafting and collaboration"
-  - "MS Teams for stakeholder presentations"
-  - "SharePoint for secure session recording storage"
-  - "Slack for session planning and team communication"
-  - "Zoom for conducting and recording sessions"
+- Mural
+- Affinity Mapping
+- Spreadsheet analysis
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Date Input"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- evaluative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- survey
+- "usability-testing"
 ---
 
 # Toxic Exposure Release 1.0 \- 1.1 Evaluative Research Findings

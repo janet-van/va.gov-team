@@ -1,98 +1,207 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Foreign Medical Program (FMP) Stakeholder Research Findings
+product: Foreign Medical Program
+team: IVC Forms Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- Not specified
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Claims to be adjudicated: Target - 45 days"
+- "Claims to be processed: Target - 90% within 45 days"
+- "Applications to be processed: Target - 90% within 30 days"
+- "Registrations complete: Target: 3 to 3.5 per hour"
+- "Backlog burndown: Target - 403 daily"
+- Goal to eliminate the backlog by the end of the fiscal year
+- All metrics above are tracked by supervisors and deputies daily and reported to chiefs on a monthly basis.
+- "P1: \"We track [KPIs] on a regular basis and normally brief them monthly to our leadership team. Again, enrollments are new to that process.\""
+- "Continue to align our objectives with reducing the processing time and lowering error rates for applications and claims through digitizing forms, processes, and the service design work that informs those\
+  \ changes."
+- "P4: “It actually takes us longer to process a claim that came through email than if it comes in paper.”"
+- "P1: [The applicant] assumed that he was already enrolled in the FMP program. When we checked this information, we said, hey, you are not currently enrolled in the program. But, we as a department would\
+  \ just go ahead and enroll him, based on the email…[but] we would still require that form for backfill.”"
+- "P3: \"There could be anywhere from 1 to 20 registrations per email, and we probably receive upwards of 10 emails per week, and that's specifically the Philippines.\""
+- Publicize and redirect to the digitized registration form. This may reduce the volume of emails and decrease processing time and burden.
+- Consider exploring existing automation for translation through VA.gov services and how that can be used through both the registration and claims form to avoid this situation entirely.
+- Continue to research existing products or services through our collaborations at OCTO to help facilitate better communication and outreach. VA Notify is still an excellent example of how we may be able
+  to partner with other teams or utilize other products at VA/OCTO to increase outreach for the programs where we are involved in the digitization effort.
+- "Keep moving forward with exploring options and building solutions that allow the programs to communicate with applicants at different points in the process in an automated or self-service manner."
+- "P1: “There is a lot of frustration for [the lack of] direct deposit of a payment into an account. We pay by paper check. That’s the primary reason we need the payment address and, of course, the banking\
+  \ information.”"
+- "P2: “Everyone really wants [EFT, but we] haven't got that process done yet, still working on it.”"
+- "P1: “Paying by check has been an issue. They can't do electronic funds transfers just yet.”"
+- Continue collaborating with the stakeholders on their vision and execution to enable EFT capabilities. Look for opportunities where the form digitization effort or service insights can help as we learn
+  more about how users interact with the program and forms.
+- "P1: “We are primarily losing those documents between us and the post office or between us and the scan process.”"
+- "P2: “We can't read what they send us.”"
+- "P2: “The hardest thing is to get a clean scan.”"
+- "P1: \"They send us claims basically through email these days…sometimes 100 emails per night.”"
+- "P2: “[I] have to look at each one of the lines, dig up claim info if we have it… it may be an error from the other claims processor that they have to fix.”"
+- "To reduce error rates and processing time, look for more opportunities to eliminate or work around swivel chair interactions (processes that require manual input from one system to another) or paper\
+  \ processes. Based on the research, these are the areas in which the forms digitization effort could potentially have the most impact."
+- "One example of the type of potential opportunities we are looking for results from the character limits for VISTA. In the future, we recommend that the information we push from the form to PEGA be the\
+  \ new source of truth for addresses, service-connected disabilities, etc., to circumvent the confusion that VISTA causes with abbreviations. To do this, we will need to ensure that the information we\
+  \ collect meets the business’ standards and communicate successfully to PEGA where it needs to go or what additional functionality will be needed to facilitate their process (In this example, we are going\
+  \ to need to make sure that PEGA can produce the letter with the pre-populated information or pass that info over to the printer application)."
+- "P2: \"Old processes and technology. Technology is built layer upon layer, like paint. You just paint over stuff, but the thing you're painting is what needs to be replaced, the system itself.\" (In response\
+  \ to the question: What do you believe the biggest problem we are trying to solve for applicants through this program is?)"
+- "P2: “System interfaces, having a modern process replace something that is existing. How do we take all the information that we have that is in this static legacy system, VISTA-based, and migrate it to\
+  \ somewhere modern and ensure that what you’re doing is synced with whatever’s being done here to modernize eligibility?” (When asked: Are there any constraints that you can think of that might be issues\
+  \ for us when we’re digitizing 10-7959f-1?)"
+- "In the future, consider how we can assist in the effort to auto-enroll Veterans in the FMP and eliminate the need for the registration form."
+- "An example of how this could work moving forward is by identifying the plans for systems in development now, and in the future. In addition, identifying the gaps in functionality or integration of said\
+  \ systems through continued investigation and passing on recommendations to teams working on projects that can facilitate this change, sharing collected insights, and assisting where we may be able to\
+  \ affect change."
+- "P4: “I feel this program needs a lot more outreach. It has gone away for maybe the last 8 years.”"
+- "P4: “Allowing the Veterans or providers the opportunity to check the status of claims would be a huge [improvement].”"
+- Consider adding the Veteran’s email to the form and emailing Veterans when their registration has been added or claim has been processed.
+- "P4: “With FMP, people know we will pay whatever they bill us.”"
+- "P1: “There has been quite a bit of frustration over the years that Veterans or providers send in claims where medication is outrageously charged or priced overseas.\""
+- "P2: “Duplicate information across multiple different dates is a common indicator of fraud.”"
+- "Both the business and design teams should look for opportunities to limit the risk of fraud, especially when expanding into the digital space where exposure is likely to grow."
+- "Carefully consider the sign-in and authentication process on VA.gov and what information we need to gather to determine who is submitting the claims, the frequency, and other commonalities."
+- Continue exploring what types of guards and alerts can be integrated into the digital claims form to mitigate the potential for fraud. The capability to do this through analytics will be greatly enhanced
+  once that information is gathered.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Continue to align our objectives with reducing the processing time and lowering error rates for applications and claims through digitizing forms, processes, and the service design work that informs those\
+  \ changes."
+- "P4: “It actually takes us longer to process a claim that came through email than if it comes in paper.”"
+- "P1: [The applicant] assumed that he was already enrolled in the FMP program. When we checked this information, we said, hey, you are not currently enrolled in the program. But, we as a department would\
+  \ just go ahead and enroll him, based on the email…[but] we would still require that form for backfill.”"
+- "P3: \"There could be anywhere from 1 to 20 registrations per email, and we probably receive upwards of 10 emails per week, and that's specifically the Philippines.\""
+- Publicize and redirect to the digitized registration form. This may reduce the volume of emails and decrease processing time and burden.
+- Consider exploring existing automation for translation through VA.gov services and how that can be used through both the registration and claims form to avoid this situation entirely.
+- Continue to research existing products or services through our collaborations at OCTO to help facilitate better communication and outreach. VA Notify is still an excellent example of how we may be able
+  to partner with other teams or utilize other products at VA/OCTO to increase outreach for the programs where we are involved in the digitization effort.
+- "Keep moving forward with exploring options and building solutions that allow the programs to communicate with applicants at different points in the process in an automated or self-service manner."
+- "they only pay by paper check, specifically US Treasury Checks. This is a significant bottleneck because the Treasury takes 7-15 days to cut a check. Then, the check has to be mailed, which takes additional\
+  \ time and might be misdelivered if foreign addresses aren’t appropriately put in the system."
+- "P1: “There is a lot of frustration for [the lack of] direct deposit of a payment into an account. We pay by paper check. That’s the primary reason we need the payment address and, of course, the banking\
+  \ information.”"
+- "P2: “Everyone really wants [EFT, but we] haven't got that process done yet, still working on it.”"
+- "P1: “Paying by check has been an issue. They can't do electronic funds transfers just yet.”"
+- Continue collaborating with the stakeholders on their vision and execution to enable EFT capabilities. Look for opportunities where the form digitization effort or service insights can help as we learn
+  more about how users interact with the program and forms.
+- "they might be mismarked or misread by the machine and routed inappropriately, and sometimes, it takes days to discover these errors. Because the data has to be manually entered from the scan of the paper\
+  \ form into VISTA, typos are also a risk, and the information that can be entered is limited. Forms processors have to abbreviate the service-connected conditions because of character count limitations;\
+  \ not everyone abbreviates them the same way. Data has to be manually transferred and checked between VIS, VBMS, and VISTA. Service-connected conditions must also be manually grouped by date and type,\
+  \ which adds extra burden. The form processors can’t see a preview in any VA system, so printing out the letter is the only way to know what the Veteran will see. There are also concerns over lost documents,\
+  \ leading to failed claims or applications."
+- "P1: “We are primarily losing those documents between us and the post office or between us and the scan process.”"
+- "P2: “We can't read what they send us.”"
+- "P2: “The hardest thing is to get a clean scan.”"
+- "P1: \"They send us claims basically through email these days…sometimes 100 emails per night.”"
+- "P2: “[I] have to look at each one of the lines, dig up claim info if we have it… it may be an error from the other claims processor that they have to fix.”"
+- "To reduce error rates and processing time, look for more opportunities to eliminate or work around swivel chair interactions (processes that require manual input from one system to another) or paper\
+  \ processes. Based on the research, these are the areas in which the forms digitization effort could potentially have the most impact."
+- "One example of the type of potential opportunities we are looking for results from the character limits for VISTA. In the future, we recommend that the information we push from the form to PEGA be the\
+  \ new source of truth for addresses, service-connected disabilities, etc., to circumvent the confusion that VISTA causes with abbreviations. To do this, we will need to ensure that the information we\
+  \ collect meets the business’ standards and communicate successfully to PEGA where it needs to go or what additional functionality will be needed to facilitate their process (In this example, we are going\
+  \ to need to make sure that PEGA can produce the letter with the pre-populated information or pass that info over to the printer application)."
+- it’s just located in disparate systems that don't talk to each other.
+- "P2: \"Old processes and technology. Technology is built layer upon layer, like paint. You just paint over stuff, but the thing you're painting is what needs to be replaced, the system itself.\" (In response\
+  \ to the question: What do you believe the biggest problem we are trying to solve for applicants through this program is?)"
+- "P2: “System interfaces, having a modern process replace something that is existing. How do we take all the information that we have that is in this static legacy system, VISTA-based, and migrate it to\
+  \ somewhere modern and ensure that what you’re doing is synced with whatever’s being done here to modernize eligibility?” (When asked: Are there any constraints that you can think of that might be issues\
+  \ for us when we’re digitizing 10-7959f-1?)"
+- "In the future, consider how we can assist in the effort to auto-enroll Veterans in the FMP and eliminate the need for the registration form."
+- "An example of how this could work moving forward is by identifying the plans for systems in development now, and in the future. In addition, identifying the gaps in functionality or integration of said\
+  \ systems through continued investigation and passing on recommendations to teams working on projects that can facilitate this change, sharing collected insights, and assisting where we may be able to\
+  \ affect change."
+- "P4: “I feel this program needs a lot more outreach. It has gone away for maybe the last 8 years.”"
+- "P4: “Allowing the Veterans or providers the opportunity to check the status of claims would be a huge [improvement].”"
+- Consider adding the Veteran’s email to the form and emailing Veterans when their registration has been added or claim has been processed.
+- "P4: “With FMP, people know we will pay whatever they bill us.”"
+- "P1: “There has been quite a bit of frustration over the years that Veterans or providers send in claims where medication is outrageously charged or priced overseas.\""
+- "P2: “Duplicate information across multiple different dates is a common indicator of fraud.”"
+- "Both the business and design teams should look for opportunities to limit the risk of fraud, especially when expanding into the digital space where exposure is likely to grow."
+- "Carefully consider the sign-in and authentication process on VA.gov and what information we need to gather to determine who is submitting the claims, the frequency, and other commonalities."
+- Continue exploring what types of guards and alerts can be integrated into the digital claims form to mitigate the potential for fraud. The capability to do this through analytics will be greatly enhanced
+  once that information is gathered.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
+- Previous research studies
+- Call center data
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Spreadsheet analysis
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Pharmacy'
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Form"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: FMP"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
 ---
+
 # **Foreign Medical Program (FMP) Stakeholder Research Findings**
 
 

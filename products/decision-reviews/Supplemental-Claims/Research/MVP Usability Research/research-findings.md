@@ -1,105 +1,148 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Supplemental Claims MVP Prototype Research Findings
+product: Decision Reviews
+team: Benefits Team 1
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-10-17"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Do users understand if this is the right form for them?"
+- "Do users understand how to file claims other than disability?"
+- "Do they understand that they need to sign in to complete the form online?"
+- "Do any users understand that the VA has data on file for them and what it is?"
+- "Do users understand what new and relevant evidence means?"
+- "Do they understand the relationship between issue, evidence and time in service?"
+- "Do users know when they have everything they need to successfully complete the form?"
+- We believe that all users will be able to successfully complete a Supplemental Claim
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 4
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Team 1"
+- Likely True.
+- Likely true.
+- Maybe True.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- _Representing form progress as “steps” confused some users. Users expect the progress bar to be true to the number of steps they have taken._
+- _Several users initially struggled to find their place on a mobile screen. The repeating form title forced them to scroll to find context._
+- "_Veterans expect their entries to match to a VA database, and lose confidence with open text entries._"
+- _Most participants did not know or were unsure of the exact dates of their treatment and were nervous about entering a specific day._
+- "_Some participants got lost in the evidence flow and weren't confident that they identified the correct evidence for their issues, which might lead them to abandon, seek help, or receive a denial._"
+- _Several users had no idea that their progress was saved and no clear way to return to it._
+- _Multiple primary actions confused some users and one participant missed the need to check the box to select the issue they wanted to appeal._
+- "_No participants knew how to resize the page dimensions of a PDF, but almost all were familiar with how to create a PDF. This is significant as it is the cause of some evidence failures in Notice of\
+  \ Disagreement appeals._"
+- "Future usability with assistive technology, especially magnification/zoom, desktop and mobile screen readers, as well as Veterans who experience arthritis or other dexterity issues. We'd like to understand\
+  \ if scrolling on desktop and mobile devices presents any difficulty."
+- Future research should included desktop participants.
+- Further usability testing in staging.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- "Future usability with assistive technology, especially magnification/zoom, desktop and mobile screen readers, as well as Veterans who experience arthritis or other dexterity issues. We'd like to understand\
+  \ if scrolling on desktop and mobile devices presents any difficulty."
+- Future research should included desktop participants.
+- Further usability testing in staging.
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Form"
+- "DSC: Form - File Input"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Supplemental Claims MVP Prototype Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Team 1**

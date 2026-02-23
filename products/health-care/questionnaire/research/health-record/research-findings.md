@@ -1,106 +1,139 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Health Records: Medications, Allergies, and Immunizations Research Findings"
+product: Health Questionnaire
+team: Health Questionnaire Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Kristen McConnell
 research_goals:
-- Goal 1
-- Goal 2
+- "problems Veterans face when communicating health record (medications, allergies, and immunizations) changes to their VA providers"
+- "how Veterans understand, group, and find value in reviewing and updating their medications, allergies, and immunizations within a health questionnaire prior to an appointment"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- Research Goals
+- Hypotheses to be tested
+- "Who we spoke with: 7 Veterans"
+- "Research questions: Wrap-up"
+- "Research questions: Mural activity"
+- "Research questions: Wrap-up"
+- "Veterans often need to communicate changes to their medication, allergy, and immunization record."
+- "Veterans utilize a variety of methods to review and update their health records, including My HealtheVet, paper, phone calls, and in-person communication."
+- "Veterans sometimes don’t share or aren’t aware that certain updates to their medication, allergy, and immunization history would be helpful to VA providers."
+- Reviewing and updating medication information is of great interest to Veterans.
+- "Needing to interact with or update allergies seems to occur less frequently than medications; however, the need can feel more urgent when it does arise."
+- "Reviewing and printing immunization records are useful, but updates aren’t urgent and tend to occur during appointments."
+- Immunizations Prioritization
+- Immunization Groupings
+- Medications Prioritization
+- Medications Groupings
+- Allergies Prioritization
+- Allergies Groupings
+- How often Veterans want to review and update this information varied from every appointment to annually.
+- Some Veterans were pleasantly surprised that they would be empowered to propose health record changes to their VA providers via a questionnaire or patient portal page.
+- "Health questionnaires can expand the current ecosystem of Veteran-provider communications."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Move toward with the idea of allowing Veterans to review and update their medication, allergy, and immunization information in digital health questionnaires."
+- "Take Veteran’s priority order of medications, allergies, then immunizations into account with continued work."
+- Look further into communicating COVID immunization updates (particularly if a Veteran received the COVID vaccine outside the VA) and its priority compared to medications.
+- Very few of our participants already received their COVID vaccine.
+- "Utilize the prioritization and grouping information to explore health questionnaire designs that include medications, allergies, and immunizations. Then, retest to make sure the actual solution meet\
+  \ Veterans needs."
+- "Make sure that our solution reduces the burden of reviewing these sections too often, since Veterans needs and preferences greatly vary."
+- "Validate and compare VA provider pain points around medications, allergies, and immunizations to Veteran feedback."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
-- Affinity Mapping
+- Spreadsheet analysis
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: My-VA"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "in-person-research"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Health Records: Medications, Allergies, and Immunizations Research Findings
 Lead Researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us<br/>
 [Downloadable PDF](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/health-record/HealthRecords-Research%20Findings.pdf)<br/>

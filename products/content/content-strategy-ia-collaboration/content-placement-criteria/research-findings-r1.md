@@ -1,98 +1,108 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research findings for Sitewide Content and IA - Benefit content placement criteria Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "1. Content authors found the criteria to be helpful and easy to use, and helped decision making confidence."
+- "2. Placement decisions, although consistent within the group, did not generally match our SME placement decisions"
+- 3. The language used in criteria 3 around "unique application or application process" and "core or supplemental benefit" was not clear to the group
+- "4. Even though they made a single placement decision for each page, they often indentified sections of content in a page they considered for separate placement"
+- 5. Individual biases and experience of the person doing the evaluation played a part in making the decision
+- 6. The layout and format of the worksheet could use some minor improvements
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "- Clarify what is included in \"application process\""
+- "The terms \"core\" versus \"supplemental\" need to be defined, as well as indicate how they impact the placement decision"
+- Consider splitting this criteria to clarify the dependency between the two scenarios
+- "- The group liked how criteria #5 used bullets to list out the individual scenarios and suggested the same formatting be followed for criteria 2 and 3."
+- "Make it very clear that criteri 5 is only used for content planned for placement within R&S"
+- "- Providing guidance on how to evaluate content against the criteria could help authors in making better placement decisions."
+- This guidance could include information such as
+- Examples of content and how it meets or does not meet criteria
+- Assitance on how evaluate sections of content versus the whole page/document
+- "- Having an overall governance process would not only help catch incorrect placement decisions, but also create an opportunity to continue to educate authors on the placement criteria."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- moderated-research
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Tabs"
+- "Initiative: Toxic Exposure"
+- "PRDT: Benefit Hubs"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Search"
+- "moderated-research"
+- "semi-structured-interviews"
 ---
+
 # Research findings for Sitewide Content and IA - Benefit content placement criteria
 
 **Danielle Thierry, Mikki Northuis**

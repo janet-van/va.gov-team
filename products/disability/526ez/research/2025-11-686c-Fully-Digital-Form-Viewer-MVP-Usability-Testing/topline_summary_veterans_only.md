@@ -1,3 +1,106 @@
+---
+title: "Topline summary - 2025-11 686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing (Veterans only) Research Findings"
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-11-01"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "prototype-testing"
+devices_used:
+  desktop: 4
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "✅ Hypothesis validated: Some will download and/or print the copy of submission for record-keeping and contingency purposes. Others will not do so, expecting the ability to access the copy at another\
+  \ time."
+- "✅ Hypothesis validated: Some participants did not find the form output useful because they believed they could access it from their authenticated account (MyVA) if accessed at a time beside immediately\
+  \ post-submission."
+- "✅ Hypothesis validated: Most participants will comment on the \"clean\" look (e.g., visual hierarchy, reduction of visual elements like a grid) that makes it easy to read."
+- "✅ Hypothesis validated: All participants intuitively understood how to engage with the [“on this page” navigation component](https://design.va.gov/components/on-this-page), but it wasn’t something they\
+  \ found necessary when interacting with the form output right after submitting their applications."
+- "❌ Hypothesis invalidated: A few Veterans will probably desire the ability to edit their responses from the form viewer, which is an interaction that is not feasible since the submission is already complete."
+- "✅ Hypothesis validated: Most participants will appreciate the simplified, yet comprehensive nature of the form output."
+- "✅ Hypothesis validated: Some Veterans may be confused when presented with sections and questions that are not related to what they filled out themselves online."
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "prototype-testing"
+---
+
 # Topline summary - 2025-11 686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing (Veterans only)
 
 This document’s purpose is to collect the team’s initial top takeaways throughout the week as research sessions are conducted. These are not set in stone findings and will be validated through synthesis post-research. Subsequent, more detailed analysis will analyze if there are specific patterns that correlate to the device type (mobile vs. desktop).

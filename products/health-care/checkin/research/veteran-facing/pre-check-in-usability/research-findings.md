@@ -1,104 +1,175 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Pre-Checkin Usability Testing Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-11-29"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Veteran-facing / Caregiver-facing"
+- "Increase usage of mobile check-in on day of appointment"
+- "Ensuring day of check-in is seamless"
+- "Increase in accuracy and/or quantity of pre check-in data, specifically pre registration information"
+- Administrative and clinical staff are more prepared for appointments
+- "Minimize the number of no shows, or confusion on the day of the appointment"
+- MSAs can spend more time on other critical tasks
+- Increased accuracy in veteran profile information
+- "Identify the type of information and how to deliver that information in the pre-check-in user flow to better meet Veterans and Caregivers expectations"
+- "Identify how to improve the content and user flow to make it easier for Veterans and Caregivers to complete pre-check-in"
+- "When and how does pre-check-in start?"
+- "Does an SMS message align with how Veterans expect pre-check-in to be initiated? If not, what other touchpoints are preferred?"
+- "How many days prior to the day of appointment should pre-check-in be initiated?"
+- "What are Veterans expectations on the frequency of receiving reminders? E.g. 2 weeks, 1 week, 3 days"
+- "Should pre-check-in be contingent on a Veteran confirming their appointment?"
+- "Do Veterans have a preferred device (mobile or desktop) to complete these pre-check-in tasks?"
+- "How do Veterans respond to the need to complete a health questionnaire during pre-check-in?"
+- "Does the need to authenticate in the middle of the pre check-in user flow interfere with a Veteran’s ability to complete the task?"
+- "What are Veterans expectations on when and how to cancel an appointment?"
+- "How do the needs of the Caregiver overlap or diverge from that of a Veteran completing pre check-in?"
+- "Identify how to improve the content and interaction experience to make it easier for Veterans and Caregivers to complete pre-check-in"
+- "How do Veterans distinguish between the following terms: Mailing Address, Home Address, Permanent Address, Temporary Address, Next of Kin, and Emergency Contact"
+- "Are Veterans expecting to be able to update their next of kin information or prefer emergency contact information instead?"
+- "Do Veterans understand that updating their contact and next of kin information here will update it across VA?"
+- "Are Veterans able to utilize the modal to update their address information?"
+- "Does providing a read only version of the contact information page meet Veterans expectations?"
+- "Do Veterans have a preference (if at all) for a form list or task list of the pre-check-in activities?"
+- "What do Veterans expect to see on the confirmation page?"
+- "Do Veterans know what to do after completing pre-check-in?"
+- "Does a Caregiver have unique needs that are not being met by the content and design?"
+- "Observational and task-based usability studies using prototypes in UXPin"
+- Conducted in 1 hour sessions over Zoom
+- "“Likely True” IF  they will not like to complete for every appointment, ensure information is updated across VA, and the staff/providers will refer to this information"
+- "“Likely True”, as some Veterans expressed desire for email notification in addition to SMS; physical cards are also preferred by a minority"
+- "“Likely True”, completing pre checkin seemed to be the preference for those Veterans who may have a disability or prefer larger screens"
+- "“Likely True”, if veterans feel confident that the staff and providers will use the information on the day of appointment"
+- "“Likely True,” Home address was preferred over Permanent address; Varied responses on the definition of temporary address, some speculated to be valuable to snowbirds or those in precarious living situations"
+- "“Likely True,” veterans expressed that a lot of it was “as expected” due to previous experience at the VA; a couple experienced negative reaction to reviewing Next of Kin"
+- "“Likey True,” While all understood that meant to update across VA, many expressed mistrust as to whether that will actually happen, due to previous poor experience"
+- "“Definitely True”, as validated with task based observation, all Veterans selected Edit and was able to return to the previous page"
+- "“Likely True”, all Veterans were surprised to see the authentication prompt after selected edit; few speculated this would be a blocker to complete the task; others speculated it wouldn’t be a blocker"
+- "“Likely True”, many Veterans seemed to find the confirmation page generally clear, with desire to be able to add the appointment to their digital calendars"
+- "checkin tasks on desktops, particularly for those who who prefer larger screens"
+- add image to github folder and link here with .png)_
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 2
+    "55-64": 1
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience"
 recommendations:
 - Recommendation 1
+- "Clarify content to better set up expectations related to next of kin, authentication, and that they are completing ‘pre checkin’."
 - Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Add emergency contact (review and eventually edit) into the pre-checkin experience"
+- Recommendation 3
+- "Develop guidelines for how often we would like veterans to complete pre-checkin updates"
+- Recommendation 4
+- "Evaluate staff-facing pre-checkin workflow, which may affect pre-checkin engagement in the long term"
+- Recommendation 5
+- "Clearly explain where information gets updated across VA to better set up expectations for veteran, which may also help build trust"
+- Recommendation 6
+- "Re-evaluate pre checkin being dependent upon confirmation and where it fits within the holistic appointment flow"
+- Recommendation 7
+- Better understand the authenticated experience and use cases to identify how best to set up expectations to fully authenticate when editing info.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
+- Previous research studies
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Pre-Checkin Usability Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience**

@@ -1,102 +1,166 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Modernized Check-In Experience: St. Louis Pilot UAT with Staff Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-05-17"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Evaluate effectiveness of check-in and pre-check-in experiences with Veterans and staff at St. Louis pilot clinics"
+- "Identify strengths, pain points and opportunities to inform product team and roadmap (as VISN rollouts begin)"
+- "Evaluate effectiveness of new poster that addresses low-vision concerns"
+- Gain insights and opinions on product naming
+- "Gain insights from VA staff on opportunities to integrate telephone appointments with pre-check-in and displaying patient record flags in VSE-CS"
+- "Are Veterans able to complete pre-check-in successfully from home? Do they understand the difference between pre-check-in and check-in?"
+- "What friction points arise for Veterans during check-in? How easy or difficult is check-in to complete on VA.gov?"
+- "What is the impact on the new poster addressing low vision concerns?"
+- "How do Veterans refer to the check-in process?"
+- "How do MSAs interact with Veterans during the check-in process? What impact does pre-check-in and check-in have on MSAs workflow?"
+- "What are the overall impressions of check-in among Veterans and staff?"
+- "How are patient record flags currently used by staff?"
+- "How would adding telephone appointments to the pre-check-in experience impact staff workflow?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "intercept-interviews"
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience"
+- "MSAs see value in allowing editing of demographic information in pre-check-in."
+- "Some staff felt that the roll out lacked proper communication and training. Based on our observations, staff would benefit from training on a variety of fronts. Some MSAs are using VSE-CS, which was\
+  \ not the original intent. Often to avoid the “lag” between systems, the want to use fewer systems or for reasons we do not yet understand."
+- "Technical, network and cellular service have been the root of some staff unhappiness, however, most see the potential with check-in when those issues are resolved."
+- "Some staff see value in adding patient flags to VSE-CS, while others are content with using CPRS."
+- "Each clinic handles pre-registration for patients with telephone appointments differently."
+- "Pre-check-in"
+- "Check-in poster"
+- Back of the house
+- Feature enhancements
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Pre-check-in"
+- "Explore opportunities to increase utilization of pre-check-in with Veterans (and ensure it doesn’t “get lost”)."
+- "Communicate the value to Veterans (in marketing communications, text message, etc.)"
+- "Test new text messages (e.g., test moving the pre-check-in link into initial confirmation text message)"
+- Send text message at a different time or day after confirming their appointment
+- "Send pre-check-in message multiple times, if not completed"
+- "Introduce email for pre-check-in"
+- "Consider implementing editing of demographic information in pre-check-in."
+- "Consider implementing a push text message on day of appointment, e.g., pushing the check-in link out to Veterans (knowing that Veterans are arriving earlier than 30 minutes). And, consider increasing\
+  \ the check-in window beyond 30 minutes."
+- "Look for opportunities (via an audit) to provide more context in error messages on VA.gov pages to expedite check-in process for Veterans and staff."
+- "Explore opportunities to improve the CHIP text response when 0 appointments are found. E.g., avoid Veteran confusion if/when directed to va.gov/find-locations."
+- "Work with engineers to replicate (and correct, if possible) the scenario where users are starting lower on the page after identity verification."
+- "Check-in poster"
+- "Consider finding a way to include the “30 minute window” message into the poster to increase Veteran satisfaction. In addition, consider adding a VA logo to the poster to add credibility and authenticity."
+- Consider testing a poster option where text option is primary and QR code is secondary (knowing that it’s troublesome for some Veterans and devices).
+- "Look into creating recommendations and guidelines for poster placement in clinics. Or, look for opportunities for Human Centered Designers to offer assistance at clinics when setting up posters."
+- Back of the house
+- "Continue to look for opportunities to improve lag time between VSE-GUI and VSE-CS."
+- "Share knowledge with stakeholders and training team about the impact that training has on MSA’s workload and usage of VSE-GUI and VSE-CS. I.e., with a goal to create better consistencies on how staff\
+  \ use these systems, how they work with Veterans to get checked in and how to mitigate when Veterans reach hard stops."
+- "Talk to more MSAs to understand why they’re using VSE-CS."
+- "Share knowledge with stakeholders and training team on successes of a dedicated staff member helping Veterans with check-in. As a result, recommend testing at high-volume clinics."
+- "Work with VSE-CS team to understand and prioritize suggested improvements to VSE-CS. E.g., more visual alerts for status changes, open text box option for Workflow status, adding last 4 digits of SSN\
+  \ to patient name, filtering options in Workflow, etc."
+- Feature enhancements
+- "Talk with additional staff to understand if patient record flags are desirable in VSE-CS."
+- "Cross-reference telephone appointment findings with usability testing findings to determine if additional gaps exist prior to piloting."
+- "Prioritize feature enhancements with product owners, including:"
+- "Integration of travel reimbursement into check-in"
+- Ability for caregivers to check in for Veterans
+- "Expansion into walk-in appointments"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
+- "AUD: Caregivers"
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "in-person-research"
+- "intercept-interviews"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Modernized Check-In Experience: St. Louis Pilot UAT with Staff Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**

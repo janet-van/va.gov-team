@@ -1,102 +1,128 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Communication Audit - Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "heuristic-evaluation"
+- discovery
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 8
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- Methodology
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "What part(s) of a [Veteran's journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf) should be prioritize?\
+  \ A Veteran who is engaging in healthcare for the first time may need to be prioritized for work on VA.gov vs a Veteran who is already using MyHealtheVet. Are their needs and behaviors different?"
+- "What Veteran top tasks should be prioritized? e.g. enroll, help with a claim, talk to a nurse, etc"
+- "Which contact methods does VA want to prioritize for top tasks? At what point of care? Have priorities changed over time and need updating?"
+- "If new methods are introduced, which will they replace?"
+- "How does label naming support the task a Veteran is trying to accomplish? \"Make an appointment\" more likely matches a Veteran's mental model when trying to complete a task than does \"Telephone care\"\
+  ."
+- "Which contact methods do Veterans use most today? Why?"
+- "In previous studies, multiple Veterans mention a preference for the \"nurse line\". For what purpose(s) do they call this number over other numbers? This number isn't widely surfaced on upgraded VA.gov\
+  \ pages. How do Veterans learn about this number? How does the information provided on VA.gov match a Veteran's experience outside of the website. Do other mediums offer a different set of contact methods?\
+  \ Is there a consistent message when a Veteran walks into their clinic, opens their physical mailbox, or visits their clinic's Facebook page?"
+- "Are Veteran and VA priorities aligned?"
+- "How does VA.gov information architecture support top tasks and priorities?"
+- "How might we cull communication options and simplify their display?"
+- "How might we design for the Veteran with the most severe cognitive, or other disability, to benefit all users?"
+- "How might we cater to first time users while offering shortcuts to existing users?"
+- "See [#7: Flexibility and efficiency of use](https://www.nngroup.com/articles/ten-usability-heuristics/)"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
+- Previous research studies
+- Call center data
+- Contact center data
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- discovery
+- "heuristic-evaluation"
+- "in-person-research"
 ---
+
 # Communication Audit - Research Findings
 
 Follow-up discovery for issue [#26770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/26770). There are a growing number of ways for Veterans to connect with clinicians for health related needs. It may be confusing for Veterans to find the right one for their needs and/or differentiate between the tools.

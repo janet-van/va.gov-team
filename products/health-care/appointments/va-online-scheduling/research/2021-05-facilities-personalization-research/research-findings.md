@@ -1,103 +1,140 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Veteran preferred facilities research report Research Findings
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-04-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "June 22, 2021)*"
 methodology:
-- Method 1
-- Method 2
+- "unmoderated-testing"
+- "prototype-testing"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Participant expectations and preferences when choosing care at a VA facility:"
+- "Usability of the prototype:"
+- "Findings on value:"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- When they start scheduling an appointment
+- When a Veteran is looking for general information about their health care facilities
+- When a Veteran is looking for information about health care in My VA
+- "At their provider’s office (scheduling annual visits or follow-up appointments)"
+- "VAOS offers ability to see facilities near the VA.gov profile home address, or current browser location."
+- VA.gov profile offers the ability to define one home address and one mailing address.
+- The facility locator offers the ability to search by a manually entered (not saved) location.
+- "Participants were generally confused as to why they couldn’t schedule online with some facilities in the scheduling flow. Consider language that clarifies that they can still schedule other appointments\
+  \ at this facility, just not for the selected type of care. Alternatively, show which care types are available to schedule online at the facility earlier in the flow."
+- "Don’t ask Veterans to select “I need a different facility” multiple times to find out that they have to call to schedule. Instead, consider showing Veterans the facilities at which they’ll have to call\
+  \ to get an appointment as early as possible in the scheduling process."
+- "While improving language and interactions will help, this problem will only be solved when most facilities offer online scheduling through VAOS or other channels. Consider gathering data on the facilities\
+  \ that:"
+- Consistently show up on the facility page before Veterans drop from the scheduling flow at this step.
+- "Don’t offer online scheduling for the given type of care, so the Veteran has to call to schedule."
+- Use this information to identify any patterns that may exist between facilities that are not commonly available.
+- "Analytics data can be pulled to compare mobile vs desktop usage of profile navigation and identify any discrepancies that may suggest Veterans are having a hard time using it. We can also look at analytics\
+  \ for pages on VA.gov using the side nav component, which has similar but different functionary than our profile mobile menu."
+- Our moderated methodology may have impacted participant usage; consider an unmoderated study to evaluate how the 2 side navigation mobile menus works as Veterans go through a natural task.
+- "We should look into any research available on the side nav component to see what other teams have learned. This study is the first time this mobile menu pattern has been evaluated, so there isn't anything\
+  \ specific to this component we can refer to."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
+- Previous research studies
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
+- "AUD: Veterans"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit Hubs"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "in-person-research"
+- "prototype-testing"
+- "unmoderated-testing"
 ---
+
 # Veteran preferred facilities research report
 
 A collaborative study by VAOS (Peter Russo, peter.russo@adhocteam.us) and VSA, Authenticated Experience (Liz Lantz, liz.lantz@adhocteam.us), 07/01/2021

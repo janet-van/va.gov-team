@@ -1,103 +1,150 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Welcome to My VA and Profile Completion, Usability Study, Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-09"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Identifying areas for improvement for Veterans creating accounts for the first time. We want to provide a more welcoming experience that establishes VA as a source of support for Veterans as they navigate
+  the site and My VA for the first time
+- Testing a new task list component to see how Veterans respond to requests for action or information
+- Understanding what Veterans think about providing contact information to VA
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- discovery
+- generative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 2
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Welcome to My VA, IIRe"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Rather than providing links along with a welcome message, we recommend static messaging that provides orientation to My VA or a brief, one-time modal that welcomes a user and appears only the first time\
+  \ a person creates an account. We might also consider additional personalized resources within My VA or Profile that allow Veterans to easily find a rep and an assigned location once they are verified.\
+  \ In an ideal future state, we'll be able to onboard with more personalization and benefit recommendations once proposed tools are built and launched. We plan on connecting with more teams to understand\
+  \ how the onboarding/welcome process can support personalized benefit recommendations through collecting initial information as quickly and efficiently as possible."
+- "In this instance, we plan on updating the content to be more in-line with user expectations. We will also provide a minor amount of additional and specific content to help users understand the context\
+  \ of the tasks we're asking them to complete. The task list needs a new visual treatment to be more noticeable and requires further work to respond appropriately to user expectations (i.e. 7 out of 10\
+  \ users expected the task list to disappear once all tasks were completed, so we need to ensure we have a success message or paramters on when it vanishes, such as the next time they log in.)"
+- "Participants responded well to UI indicators such as the number of steps and the navigation within the flow, but they were uncertain if information is required and if or when it would be saved. Because\
+  \ we've also discovered issues with how information is saved to Profile, we've updated the flow to a pattern that the Appeals Team is using on VA Form 10182 [documentation of pattern](https://design.va.gov/patterns/help-users-to/know-how-their-information-is-updated#communicate-information-that-can-be-edited).\
+  \ Utilizing this pattern should shorten the process for users, as well as allow them to see and review the contact information that we do have on file for them. With the existing pattern, we can pre-populate\
+  \ the information we do have on file for them and display it on a page together, then provide the user with the ability to review and edit exisiting information, or add missing information. In order to\
+  \ emphasize the importance of the contact information, we can add brief content to each page that explains what the information is used for (i.e. \"Add your mailing address. We'll use this address to\
+  \ send letters, prescriptions, etc\"). In the updated pattern, we are clearly requiring the information and in order to remove any prompts or alerts, all three fields must be filled in. If all fields\
+  \ are already pre-populated with accurate information, a user may 'confirm' instead of editing in order to clear the prompt."
+- "The updated flow and pattern should allow us to negate the need for a final page, which participants did not find particularly useful as it didn't allow them to see what they had entered. While they\
+  \ appreciated the content on the page, most participants indicated they'd have preferred it up front to really help emphasize why VA is requesting the contact information. Rather than a confirmation page,\
+  \ the new pattern we're exploring has \"hub\" page ([see Array Data for details](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-create-the-contact-info-ar))\
+  \ that users can return to in order to see what they have entered."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
+- Previous research studies
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Find-a-va-form"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- discovery
+- generative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
+
 # Welcome to My VA and Profile Completion, Usability Study, Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Welcome to My VA, IIRe**

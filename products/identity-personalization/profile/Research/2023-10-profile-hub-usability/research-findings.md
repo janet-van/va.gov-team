@@ -1,104 +1,133 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Profile Hub Research Findings
+product: VA.gov Profile
+team: Authenticated Experience Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-06"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Evaluating the effectiveness of the Profile Hub page in helping people complete common tasks
+- Evaluating how well the proposed navigation changes perform across participant types (sighted and AT) and screen sizes (desktop and mobile)
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 1
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 2
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 3
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 2
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Profile Hub, Authenticated Experience Profile"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Recommendation 1: Iterate on the Profile hub’s card content to make it easier for screen reader users to identify what is actionable/clickable."
+- "Given that 1/2 screen reader participants encountered difficulty with the same words being used for both the card description and the link, they should be iterated upon so it’s more clear to screen reader\
+  \ users what is clickable."
+- _See finding 7 for all supporting evidence_
+- "Recommendation 2: Given that all participants who were asked about where they’d expect to find their next of kin and emergency contact information specified their profile, it is logical to move forward\
+  \ with plans to bring that information into veteran profiles."
+- 8/9 participants (the session ran out of time for the lone participant) expected their information to be in their profile.
+- _See finding 8 for all supporting evidence_
+- "Recommendation 3: Do further research into incorporating dependents and letters in some fashion into veteran profiles beyond the existing links to those pages."
+- "5/9 participants thought letters belonged in their profile, and of the participants we were able to ask about dependents, one participant thought that information should be in their profile."
+- _See finding 6 for all supporting evidence_
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- EnjoyHQ
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Life Insurance"
+- "BNFT: Memorialization"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: Form 21-686c"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "in-person-research"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Profile Hub Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Profile Hub, Authenticated Experience Profile**

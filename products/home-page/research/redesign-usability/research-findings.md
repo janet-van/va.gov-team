@@ -1,110 +1,158 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: VA.gov Home Page Redesign Usability Test Findings
+product: VA.gov Home Page
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-31"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "and assess whether the design changes have improved the usability of the home page. We observed which areas of the home page were used and how well it supported Veterans, VA beneficiaries, those acting\
+  \ on behalf of Veterans, and service members while completing important benefit-related tasks"
+- Starting up (Serving in and separating from the military)
+- Living civilian life
+- Retiring and aging
+- "1. Are ALL participants able to easily complete tasks from the home page? *(\"easily\" = being able to figure out where to go and not get stuck)*"
+- "browse (clicking on links, such as the benefit hubs)?"
+- "managing tasks?"
+- "less familiar with VA benefits?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "unmoderated-testing"
+- "semi-structured-interviews"
+- survey
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 2
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Sitewide Home Page team"
+- get user feedback on the redesigned VA.gov home page
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- because many more participants found it and used it as compared to search in the header.
+- since this name wasn't clear to some people.
+- "so that it specifically addresses people who don't yet have an account. Most participants in this research were accustomed to using the \"Sign in\" button in the header to access the account they already\
+  \ have, and some were confused by seeing a second button."
+- "in order to support people who only search or only browse. Consider adding the following to the home page, which may help:"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Find-a-va-form'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Memorialization"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit Hubs"
+- "PRDT: Benefit-letters"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Find-a-yellow-ribbon-school"
+- "PRDT: Form 21-686c"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: eBenefits"
+- "in-person-research"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "unmoderated-testing"
+- "usability-testing"
 ---
+
 # VA.gov Home Page Redesign Usability Test Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sitewide Home Page team**

@@ -1,95 +1,156 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA: Health and Benefits Information Architecture Research: Open Card Sort Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-02-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- To understand Veterans mental models for VA health and benefits services and how they would logically group them so we can tailor an information architecture that supports those mental models
+- To understand how Veterans would group items that are on our road map but not yet in the App to future proof the Information Architecture
+- To understand where Veterans would expect to find vaccine records in an app within the current information architecture
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "card-sort"
+- "tree-test"
+- "prototype-testing"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 8
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 9
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- Research questions
+- "False/ Not enough information:"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "<span style=\"text-decoration:underline;\">Here is the recommended IA based</span> on the findings and insights from this study. It is worth noting that there is not one solution for the IA and while\
+  \ this is a recommendation, it is a starting point and will need refining."
+- Some items in the card sort are items on the road map but not yet in the app and require us to consider where they might live as we add them.
+- "Veterans find value in grouping features and information to support accomplishing tasks. However, these groups may not be mutually exclusive."
+- "We think that any IA will be more successful when backed by thoughtful cross-linking and bubbling of information, and possibly a search feature."
+- The IA needs to address the high priority use cases we know about by thoughtfully grouping information to increase accessibility depending on each Veteran’s needs. This probably means that data will show
+  up in more than one place in the app. Timely surfacing of data may facilitate users in completing tasks within the app.
+- Checking existing disability rating and seeing progress of ongoing claim
+- Quickly see money received to date and ne0t expected payments
+- Making it easy to message your healthcare team about a specific R0 or Appointment
+- "1. Remove the “COVID-19 Vaccine” card from the top of the home screen."
+- "The following items were unclear to participants: Biometrics, Contact the VA, patient check-in, Military Information, Join an video appointment, and Disability versus pension payments."
+- Consider bringing the Veteran’s name and disability rating to the homescreen to make completing the task of checking disability rating easier and make the app feel more personable by bringing pertinent
+  information to the surface.
+- Disability rating and claim status was of high importance for participants.
+- Checking the status of a claim was a major pain point across the research.
+- 3. Create a way for “Benefits” to be easily accessible and consider an IA where they are grouped together.
+- "None of the participants created a category titled “Profile.” However, participants grouped most of the items that are currently in the profile together. Veterans expressed a need to have all of their\
+  \ personal information in one place."
+- "While we have quality findings and have derived insights to inform decisions around the IA, we need to test this with a substantial number of participants in order to get truly quantitative results.\
+  \ To do this, we recommend using an optimal workshop tree test."
+- add image to github folder and link here with .png)
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Optimal Workshop
+- Spreadsheet analysis
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Check-in"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Pension"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "card-sort"
+- "moderated-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "tree-test"
 ---
 
 <!-- Output copied to clipboard! -->

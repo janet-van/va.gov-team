@@ -1,98 +1,146 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Informal research on health homepage concepts: Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-12-13"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "they've likely set up health care through VA.gov, and actively manage it there too (or have assistance in doing so). The veteran might have experience with using some MyHealtheVet tools, but since the\
+  \ apartment is an entirely new site and experience, we designed the research assuming no prior familiarity with the tool"
+- "Does the user access and manage their healthcare through VA.gov or MyHealtheVet?"
+- "What are their first impressions of the homepage concept?"
+- "Is there anything missing that they would require to manage their health?"
+- "What information and actions would they need in each of the \"Big Four\" boxes and cards?"
+- "What functionality would they expect out of the cards?"
+- "What information and actions would they need and like to see in \"Health Care\" and \"Disability\"?"
+- "How would they get help if lost on this page?"
+- "Veterans want to see specific tasks on the homepage. They want to see tasks and information relevant to them. This fits with a recurring theme in previous research, that Veterans are task-oriented"
+- "MOSTLY TRUE: Participants responded positively to the task-oriented nature of the homepage, though they either wanted more information to help them complete those tasks, or clarity on how to complete\
+  \ the task"
+- "When Veterans sign in, they expect the website to show them: 1) current health information and tasks (exs: appointments, secure messages, and refills due), and 2) whether they must take action to move\
+  \ a process forward (ex: prescription refill due)"
+- "TRUE: Participants liked the simplicity of the design, as it highlighted the tasks they could accomplish right away"
+- "Veterans are overwhelmed by too much text. They want well-organized content that guides them to a task or resource quickly, simply, and clearly using plain language"
+- "MOSTLY TRUE: While the participants didn't ask for more text, they did express confusion and a lack of clarity towards some links, especially in the \"Health Care\" section"
+- "Veterans with health care want to see \"about\" information because either: 1) they need to understand general info on VA health care (i.e., what they get), or 2) they want to share \"about\" info with\
+  \ other Veterans"
+- "NOT ENOUGH INFORMATION: There was no mention of sharing information with other Veterans, though one Veteran said if he was having trouble finding information on the site, he would ask another Veteran.\
+  \ Participants did express both interest and confusion towards the \"Health Care\" section, in terms of the included content and why some items were present and others weren't"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 1
+    "45-54": 1
+    "55-64": 1
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- All participants wanted more specific actions in the "Big Four" cards
+- Most (4) participants expected some sort form of personalization
+- All participants gave a different answer for what they expected in "Messages"
+- "Most (4) particpants wanted more resources and definition in the \"Seeing non-VA providers\" section"
+- All participants were confused by the "Disability" section
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- Recommendations to come as the research is reviewed further.
+- Translate feedback into action items and prioritize them for further design iterations and testing.
+- We need to test for accessibility and with those who use DAT.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- We need to test for accessibility and with those who use DAT.
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Previous research studies
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Facilities"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
-
-
 
 # Informal research on health homepage concepts: Research Findings 
 

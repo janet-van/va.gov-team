@@ -1,102 +1,135 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research Findings: Urgent Care Mashup Study Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-07-20"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Understand how an 'All urgent care' option might influence the way a user searches for urgent care
+- Determine whether or not the new design support users in understanding all of the urgent care options available to them
+- Veterans will understand how to find an urgent care location
+- "Veterans will want to filter urgent care locations by facility type, VA or Community providers to inform their decision"
+- Veterans will understand how to prepare for a visit to an urgent care facility
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "a-b-testing"
+- generative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- two full minutes not wanting to read the information
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Don't preselect \"VA health\" under \"Choose a VA facility type\" which appears to influence the more common path of \"VA health\" / \"Urgent care\" which in turn limits the total choices available to\
+  \ them. By forcing Veteran's to open the menu, it may allow them to see \"Urgent care\" first. Proceed with \"All urgent care\" as the defaulted service type option when \"Urgent care\" is selected, to\
+  \ increase the likelihood of exposure to all available options."
+- "Do not style \"Call for services and hours\" as a status - use a more subtle treatment."
+- Proceed with the linkable info status styling to communicate Community urgent care benefits information.
+- Use language that mirrors how Veterans understand and communicate benefit and facility terminology and highlight "what's in it for them".
+- "On Community care listings, use words that Veterans use like 'in-network' to communicate that a location will be covered by VA health benefits."
+- "On the Community Care urgent care information page, lead with the benefit that is new or differentiate how it differs from other programs with a similar name. Eg, \"Urgent Care Closer to Home\" or \"\
+  More Urgent Care Options\". Add a timestamp or explanation, \"As of...you can now...\" to make clear that this is different from previous programs. Be concise when writing and chunk information to be\
+  \ more scannable to reduce cognitive load."
+- Add more visual affordances to page functionality.
+- "Be more efficient with the use of space and words wherever possible. For example, reduce the amount of copy that precedes search functionality on the \"Find VA Locations\" to allow the gray box to appear\
+  \ \"above the fold\" at high zoom levels."
+- "Add the number of listings to the search results line of text that appears above the listings and map. Move \"Can't find what you're looking for?..\" to a less prominent location and to give the results\
+  \ copy line the proper hierarchy."
+- Use consistent typographic styling for results between VA and Community location listings so that important differences appear more salient.
+- "Look for ways to improve scrolling functionality. Since the results list relies on system scrollbars, consider forcing wider or persistent scrollbars or a secondary way of moving results listing up and\
+  \ down, e.g. arrows."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Debt-portal"
+- "PRDT: Facilities"
+- "PRDT: Home-page"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "a-b-testing"
+- generative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Research Findings: Urgent Care Mashup Study
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 

@@ -1,95 +1,132 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for Usability Test of Claims Submission (Search, 686c Submission, Submission page) April 2025 Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-04-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Evaluate usability and value of ARP’s 686c claim submission. Is it intuitive, clear, and easy to use? What could be improved?"
+- "Evaluate the usability and value of a submissions history view. What is valuable for a representative to reference at a glance? What could be improved?"
+- "Understand how representatives, including cross-accredited ones, typically submit 686c and other forms. How could this impact future designs?"
+- "In general, participants felt that this process of submitting a 21-686c was worse or the same as their current solution, with 3/5 participants stating that it was worse, and 2/5 noting it felt about\
+  \ the same"
+- Most participants noted that the process of submitting or referencing a past submission felt slower in this design than their current solutions
+- "| --- | --- | --- | --- |"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Landing page after log-in"
+- "Submit 21-686c Intro Page"
+- Step 1 of 3 Claimant and representative information
+- Step 2 of 3 Upload files
+- Step 2 of 3 Upload files form mismatch message
+- Step 3 of 3 Review and Submit
+- Individual versus organization level views
+- 60 day limit
+- Sort options
+- "For users of QuickSubmit and SEP, improving the search on this page and content of each card can increase how fast representatives accomplish tasks on this page."
+- Recommendations listed prior to first release and post first release
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Prior to first release:"
+- "Prior to first release: Adding examples of what additional evidence constitutes does not add value for representatives. Representatives receive training and coaching before submitting forms on their\
+  \ own; they have this knowledge. If we considered including examples, recognize that it is low-value information."
+- See recommendations in the section “Overall value” that address how this flow could be improved.
+- "Prior to first release:"
+- "Prior to first release: Update the success message to include the confirmation code and information about how this is processed to set expectations on time it takes for the claim to reach VBMS. Suggested\
+  \ content is below."
+- "Confirmation code: 36 character long GUID"
+- The submission is in progress.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Accredited-Reps"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Form 21-686c"
+- "PRDT: Home-page"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 # Research Findings for Usability Test of Claims Submission (Search, 686c Submission, Submission page) April 2025

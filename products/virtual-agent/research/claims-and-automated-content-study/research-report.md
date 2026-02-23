@@ -1,98 +1,127 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Virtual Agent Claims and Automated Contnet Study Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-11-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- If the structure of automated content (Drupal) from VA.gov helps or complicates a Veterans ability to answer a question or solve a problem
+- If there is critical information missing from the claims/appeals chatbot experience
+- "If the visual display of buttons, conversation rules (e.g., non-deviation from topic), and other interaction points cause friction for the Veteran"
+- How the Veteran feels about chatbot disclaimers such as records retention and crisis management
+- How important is it for the Veteran to be able to surface a human agent
+- "selected from the [research repository label list](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels?page=1&sort=name-asc). Adding keywords/labels to your findings will\
+  \ help others find research relevant to their work._"
+- add image to github folder and link here with .png)_
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Virtual Agent Team"
+- add relevant keywords/labels to your findings
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- Deploy preview drupal responses to minimize cognitive load and potential 508 issues with links in chatbox
+- Deploy LUIS to replace QNAmaker as the foundation for natural language processing
+- Include type of claim in response for easier recognition of each claim
+- "Display multiple claims as buttons to allow Vets to choose the claim they are looking for, rather than hitting \"See Next Claim\" button"
+- Change button descriptor for "Speak with Agent" to "Chat with Live Agent" or "Connect to Live Agent" to minimize any confusion of what this button will do
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Contact center data
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Spreadsheet analysis
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Memorialization"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- "moderated-research"
+- "prototype-testing"
+- "semi-structured-interviews"
 ---
-
-
 
 ---
 

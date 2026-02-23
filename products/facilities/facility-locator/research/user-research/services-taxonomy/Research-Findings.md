@@ -1,95 +1,278 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Non-Clinical Services Taxonomy - Research Findings"
+product: Facilities
+team: Facilities Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-12-14"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Nick Osmanski
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Participants will perform a hybrid card sort for a list of new and currently existing services. The categories will include existing health services headings (\"Primary care\", \"Mental health care\"\
+  , etc.), new suggestions, as well as the option to add additional categories"
+- Medical records
+- Wheelchair and mobility
+- Whole health
+- Women Veteran care
+- Workshops and classes
+- Billing and insurance
+- Chaplain service
+- Library services
+- Radiology
+- Advice nurse
+- LGBTQ+ Veteran care
+- Military sexual trauma care
+- Minority Veteran care
+- Social work
+- Caregiver support
+- Registry exams
+- Returning service member care
+- Smoking and tobacco cessation
+- Substance abuse care
+- Grief and bereavement counseling
+- "MOVE! weight management"
+- My HealtheVet coordinator
+- "Nutrition, food, and dietary care"
+- Patient advocates
+- Recreation and creative arts therapy
+- Applying for health care
+- Travel reimbursement
+- Veteran connections
+- Vocational rehabilitation and employment programs
+- Employment verification
+- Freedom of Information Act requests
+- Privacy office
+- Make an appointment
+- Primary care
+- Mental health care
+- Specialty care
+- Social programs and services
+- Prepare for your visit
+- Administrative
+- "* Add a new category *"
+- 1. Veterans will associate most services with existing category headings
+- "**Definitely true:** Some participants created new categories, but even they sorted the large majority of services into the predetermined categories. Most participants did not create new categories,\
+  \ and they sorted new and existing services into the predetermined categories"
+- "**Likely true:** Some participants did create new categories for existing services, and gave their reasoning for why those categories were a better fit. There was alignment across participants related\
+  \ to why new categories were created - that said it is likely that more information is needed before making a determination about adding specific new categories"
+- "**Likely false:** Only one participant created new categories for new services, and gave their reasoning for why they were a better fit. It is likely that more information is needed before making a determination\
+  \ about new categories for new services"
+- "**Maybe true:** Almost all participants asked for at least one service to be explained to them, and most participants asked about the same few services"
+- "- **8 of 14 participants** sorted all of their services into the pre-determined categories. Of this group, the general sentiment was that the predetermined categories were sufficient for organizing the\
+  \ available services, and that they did not need to be changed (described differently, or re-worded) in any way"
+- "- **14 of 14 participants** added services to the \"Administrative\" category. For the most part, participants were in the greatest alignment for the servies they added to this category. Participants\
+  \ seemed to have the easiest time identifying which services belonged in this category; this is the only category were there was total alignment for one service in particular, and it seemd like the overall\
+  \ sentiment was that administrative services were obviously and intuitively \"administrative\""
+- "- **6 of 14 participants** chose to add existing services to new categories. There was definite similarity to the newly created categories: most involved the process of leaving active service, and entering\
+  \ civilian life and/or the VA health care system. Other new categories were more varied"
+- "**New categories for existing services, related to leaving active service:**"
+- "\"Onboarding\", \"Incoming Veterans\", \"Transition\", and \"Post-service (aka I'm out - what now?)\""
+- "**Other new categories for existing services:**"
+- "\"Financial\", \"Dietary Improvement\", \"Substance abuse\", and \"Vocation Rehabilitation & Employment\""
+- "- **1 of 14 participants** chose to add new services to two new categories"
+- "**New categories for new services:**"
+- "\"Substance abuse,\" and \"Post-service (aka I'm out - what now?)\""
+- "- **13 of 14 participants** had questions about services, and most of the questions asked were about the same few services. By far, the most confusing/asked about service was \"Registry exams\", with\
+  \ **13 of 14** requiring a definition"
+- "**Services requiring more than one explanation, across participants:**"
+- "\"Registry exams\", \"Veteran connections\", \"Returning service member care\", \"Whole health\", \"Library services\", \"Advice nurse\", \"My HealtheVet Coordinator\", and \"Privacy office\""
+- "- **Per-service breakdown of categories based on confidence level** [(see detailed findings for list)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/services-taxonomy/Research-Findings.md#details-of-findings)"
+- "**High confidence:** the large majority of participants put this service in the same category"
+- "**Medium confidence:** most participants put this service in the same category"
+- "**Unsure / need more information:** participants were split and/or we simply need a larger sample size to make a determination"
+- "**The \"Administrative\" category had the most consistent alignment** across participants: participants agreed the most about which services belonged in this cateory"
+- "**Some services were much more likely to grouped together** in the same category. For example:"
+- "\"Billing insurance\" and \"Medical records\""
+- "\"Freedom of Inforation Act requests\" and \"Privacy office\""
+- "\"Minority Veteran care\" and \"LGBTQ+ Veteran care\""
+- "\"MOVE! weight management\" and \"Nutrition, food, and dietary care\""
+- "**The most popular categories were:**"
+- "\"Administrative\", \"Social program and services\", and \"Specialty care\""
+- "**The least popular categories were:**"
+- "\"Prepare for your visit\" and \"Mental health care\""
+- "[DSP: Pages](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels/DSP%3A%20Pages)"
+- how to contact people sort of thing
+- "[DSP: Pages](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels/DSP%3A%20Pages)"
+- "[DSP: Pages](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels/DSP%3A%20Pages)"
+- "[DSP: Pages](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels/DSP%3A%20Pages)"
+- "[DSP: Pages](https://github.com/department-of-veterans-affairs/va.gov-research-repository/labels/DSP%3A%20Pages)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "card-sort"
+- "tree-test"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Facility Locator, Facilities Team"
+- "Designer / Researcher:"
+- "Definitely true:"
+- "Likely true:"
+- "Likely false:"
+- "Maybe true:"
+- "Most participants found the pre-determined categories adequate."
+- 8 of 14 participants
+- All participants utilized the new "Administrative" category.
+- 14 of 14 participants
+- Some particpants suggested new categories for existing services.
+- 6 of 14 participants
+- "New categories for existing services, related to leaving active service:"
+- "Other new categories for existing services:"
+- Almost no participants suggested new categories for new services.
+- 1 of 14 participants
+- "New categories for new services:"
+- "There were services that needed plainer description, and/or additional explanation."
+- 13 of 14 participants
+- "Services requiring more than one explanation, across participants:"
+- "How service categorization was distrbuted across participants:"
+- "Per-service breakdown of categories based on confidence level"
+- "High confidence:"
+- "Medium confidence:"
+- "Unsure / need more information:"
+- The "Administrative" category had the most consistent alignment
+- Some services were much more likely to grouped together
+- "The most popular categories were:"
+- "The least popular categories were:"
+- "1. Most participants found the pre-determined categories adequate."
+- 2. All participants utilized the new "Administrative" category.
+- 3. Some particpants suggested new categories for existing services.
+- 4. Almost no participants suggested new categories for new services.
+- "5. There were services that needed plainer description, and/or additional explanation."
+- High confidence
+- Medium confidence
+- Low confidence / unsure and need more information
+- Card sort 1
+- Card sort 2
+- Card sort 1
+- Card sort 2
+- More participants needed in general
+- LGBTQ+ participants needed
+- More participants who identify as minority Veterans and/or people of color
+- Additionl tree testing
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Recommendation 1: Add the \"Administrative\" category to system-level and facility-level pages"
+- "Every participant utilized the \"Administrative\" category, making it one of the most popular categories for new and existing services. The general sentiment was that some services seemed obviously administrative\
+  \ because they involed registration, paperwork, and requiring employee help for same."
+- "Recommendation 2: Adding relevant patient-friendly name to services requiring explanation"
+- "Similar services required explanation across participants, so utilizing the service patient-friendly name design pattern for new and existing services where appropriate, should help Veterans more quickly\
+  \ understand why a service belongs in a particular category."
+- "Recommendation 3: Consider creating a category heading that calls out returning Veterans"
+- "Of the new categories that were created, the majority were related to leaving active duty service, and returning to civilian life and/or entering the VA health care system. Even though the sample size\
+  \ for this study was relatively small, since multiple participants pointed out the utility this category would have for them, it makes me believe that it is worth considering exploring this additional\
+  \ to facility pages."
+- Presentation decks for design team and VA stakeholders.
+- "Likely a need for Content team input for any changes to \"patient-friendly\" language that may describe services differently."
+- More participants needed in general
+- "Certain statistical analysis methods (such as the \"Actual agreement dendrogram\") provided by Optimal Workshop and used to analyze the card sort data, work best with at least 30 participants. With card\
+  \ sorts, the more participants, the more accurate the data, and I believe this study would benefit from a larger number of participants."
+- LGBTQ+ participants needed
+- "We did not have any identified LGBTQ+ participants, and multiple participants stated that they did not feel qualified to categorize the \"LGBTQ+ Veteran care\" service. In order to better understand\
+  \ where LGBTQ+ Veterans would categorize services designed for their health care needs, it would be beneficial to to speak with LGBTQ+ Veterans to hear their suggestions."
+- More participants who identify as minority Veterans and/or people of color
+- "While this study had a few participants that identifed as people of color, it was mostly made up of white/caucasian participants. It would be beneficial to speak to more minority Veterans in order to\
+  \ hear more suggestions on how to categorize the \"Minority Veteran care\" service."
+- Additionl tree testing
+- "Based on the results of this study, a tree test may help validate any categories that are added/created to facility pages."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- More participants needed in general
+- "Certain statistical analysis methods (such as the \"Actual agreement dendrogram\") provided by Optimal Workshop and used to analyze the card sort data, work best with at least 30 participants. With card\
+  \ sorts, the more participants, the more accurate the data, and I believe this study would benefit from a larger number of participants."
+- LGBTQ+ participants needed
+- "We did not have any identified LGBTQ+ participants, and multiple participants stated that they did not feel qualified to categorize the \"LGBTQ+ Veteran care\" service. In order to better understand\
+  \ where LGBTQ+ Veterans would categorize services designed for their health care needs, it would be beneficial to to speak with LGBTQ+ Veterans to hear their suggestions."
+- More participants who identify as minority Veterans and/or people of color
+- "While this study had a few participants that identifed as people of color, it was mostly made up of white/caucasian participants. It would be beneficial to speak to more minority Veterans in order to\
+  \ hear more suggestions on how to categorize the \"Minority Veteran care\" service."
+- Additionl tree testing
+- "Based on the results of this study, a tree test may help validate any categories that are added/created to facility pages."
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Optimal Workshop
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "card-sort"
+- "moderated-research"
+- "semi-structured-interviews"
+- "tree-test"
 ---
 
 # Non-Clinical Services Taxonomy - Research Findings 

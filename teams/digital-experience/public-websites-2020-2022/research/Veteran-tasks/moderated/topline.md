@@ -1,3 +1,105 @@
+---
+title: "Veteran Top Tasks MODERATED -- Topline Summary Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-05-27"
+researchers:
+- present)
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "unmoderated-testing"
+- survey
+- "in-person-research"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 4
+  service_members: 1
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Survey Successes
+- Issues with the Survey
+- Number of tasks marked as "important"
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Modal"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: Caregivers"
+- "PRDT: Form 21-686c"
+- "PRDT: Home-page"
+- "PRDT: Search"
+- "in-person-research"
+- survey
+- "unmoderated-testing"
+---
+
 # Veteran Top Tasks MODERATED -- Topline Summary
 
 Cindy Merrill, Sitewide Home Page team, May 27, 2022

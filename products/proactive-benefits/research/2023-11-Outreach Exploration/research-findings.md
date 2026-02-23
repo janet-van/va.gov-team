@@ -1,104 +1,154 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research Findings for Proactive Benefits, November 2023 Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-18"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- Validate assumptions regarding areas of improvement for the outreach letter and test Veteran comprehension and reaction
+- Build on our current understanding of Veteran’s communication preferences
+- Deepen our understanding of the experience of this cohort of Veterans and find out how they might respond to this outreach
+- "Inform our outreach channel, content, and outreach strategy"
+- Deepen our understanding of Veteran communication preferences and perceptions; this will not only inform our outreach strategy but also identify barriers and opportunities that we can address to help
+  streamline the experience of being informed of benefits proactively to filing a claim
+- Provide recommendations and insights that will inform our project’s roadmap
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "a-b-testing"
+- discovery
+- generative
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- A strong case wasn’t made to either avoid or pursue a specific channel for outreach.
+- Participants who saw both letters expressed positive feelings about the shorter version.
+- Our conversations revealed confusion about the filing process and the options for action laid out in the letter.
+- Many of the questions and misunderstandings about the process centered around Intent to File (ITF).
+- "The level of personalization intended to convey benefit of action in relation to PACT-Act eligibility wasn't apparent to Veterans."
+- Our outreach didn't stand out as unique to Veterans compared to other PACT Act communications they've been exposed to.
+- "Even if a Veteran's eligibility is clear, a lack of trust in the VA may be a barrier to engagement for some."
+- "VSOs were commonly mentioned, largely in a positive way, when recounting past filing experiences."
+- None of our participants expressed concerns about targeted outreach based on personal medical records.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Use, but continue to modify, shorter version of outreach"
+- Modify outreach content to address likely barriers to engagement
+- "Recommendations _that have been incorporated_ into an updated version of the outreach letter:"
+- amplify the benefit of potential compensation
+- focus on benefit of getting started immediately (rather than try to explain ITF)
+- recommend a single path to action
+- highlight the option of working with VSO and provide guidance on finding one
+- remove or deemphasize mail as filing option
+- further personalize outreach language
+- "Recommendations _to be incorporated_ into an updated version of the outreach letter:"
+- provide reassurance about existing benefits
+- clarify how medical providers are and aren't involved in this process
+- provide insight into our work to build trust
+- acknowledge different experiences
+- "how might we communicate that this experience will be better, easier, or more successful than past filing experiences?"
+- Consider two channels of outreach
+- A/B test the outreach as part of launching strategy
+- (Sharepoint).
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- Haven’t previously filed a disability claim
+- Are under age 55
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Modal"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: PACT Act"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "a-b-testing"
+- discovery
+- generative
+- "in-person-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Research Findings for Proactive Benefits, November 2023
 
 Office of the CTO - Digital Experience (OCTO-DE), Proactive Benefits Team, Benefits Portfolio

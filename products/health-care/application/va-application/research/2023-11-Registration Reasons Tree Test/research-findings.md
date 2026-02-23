@@ -1,103 +1,139 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "10-10EZ Registration Reasons Tree Test - Research Findings"
+product: "Health Care Application (10-10EZ)"
+team: "10-10 Health Apps Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "[Link to generative mental model study folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-06-Registration%20flow%20exploration)"
 methodology:
-- Method 1
-- Method 2
+- "unmoderated-testing"
+- "semi-structured-interviews"
+- "tree-test"
+- generative
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 2
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 6
+    "35-44": 12
+    "45-54": 5
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ, Health Enrollment"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Align with Veteran's mental model
+- "Align with the Veteran's mental model around the registration and enrollment terms, process and eligibility prioritization. This could create a more streamlined process for the Veterans when signing\
+  \ up and applying for health care benefits."
+- "This process could look like a simple registration step, checking eligibility then determining enrollment."
+- "Test the concept of a health care application hub via low-fi wireframes and storyboards."
+- Veteran health services/registration reasons need a variety of paths on VA.gov to complete the form/application.
+- "Allow for more links to sign up for health care from the perspective of the Veteran - what care or health service are they seeking to sign up for."
+- The locations hub under health care services locations could be an area to recommend link to health care "registration"
+- The locations pages/hub and the disability hub are the more prominent areas of the site to focus on possible registartion entrances.
+- Ensure there is a simplified path online where the Veteran can learn about more health care benefits if they want to move from registration only to enrollment in medical benefits package.
+- Consider the journeys of each individual registration reason.
+- Create journey maps out of research findings and include working sessions with stakeholders as part of the process.
+- More visibility into health services and care available that are personalized based on eligibility
+- "Personalized recommendations to Veterans via email or in-person at appointments to better understand additional health care services they are eligible for."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- "we did not recruit for these segments:"
+- Other than honorable discharge
+- Immigrant Origin
+- Living Abroad
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
 - SME interviews
+- Competitive analysis
 synthesis_tools_used:
 - Mural
+- Optimal Workshop
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit Hubs"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Search"
+- generative
+- "in-person-research"
+- "semi-structured-interviews"
+- "tree-test"
+- "unmoderated-testing"
 ---
+
 # 10-10EZ Registration Reasons Tree Test - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ, Health Enrollment**

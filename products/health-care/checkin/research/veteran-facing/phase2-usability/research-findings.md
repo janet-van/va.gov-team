@@ -1,101 +1,134 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Check-in: identity verification and multiple appointments usability findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-10-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Kristen McConnell
 research_goals:
-- Goal 1
-- Goal 2
+- "Does the addition of last name and last 4 of SSN help the Veterans feel more secure about utilizing this check-in solution?"
+- "Do Veterans understand how to check-in for 1 appointment via their mobile device when they have multiple appointments in one day?"
+- "Do Veterans find value in seeing an itinerary of all their appointments for the day?"
+- "Is the information provided in said itinerary sufficient, too much, or too little?"
+- "Particularly, are Veterans interested in seeing appointments that are past the time where they can check-in?"
+- "Do the actions on the itinerary page align with Veteran expectations? Are there things that Veterans expect to be able to do from an itinerary page that they aren't able to do?"
+- "Are the check-in appointment statuses helpful to Veterans?"
+- "Would Veterans find repeating this process multiple times per day (for each appointment if they had multiple appts) burdensome or easy?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Updated: October 5, 2021"
+- "Lead Researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us"
+- "[Downloadable PDF](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/veteran-facing/phase2-usability/research-findings.pdf)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Explore ways to make it easier for Veterans to start the online check-in process, in order to address the current usability issues with the QR code."
+- "Look into ways to help Veterans understand how to scan QR codes, such as a list of recommended scanners with instructions."
+- "Possibly change the first step completely, such as not starting with a poster or QR code."
+- "If we do, look into more accessible options than a poster."
+- "Keep the SMS wording and link address as go.usa.gov, since Veterans found it trustworthy."
+- Keep the addition of last name and last four of Social Security as the way to verify identity.
+- "If the removal of Social Security numbers is mandated, replace it with date of birth."
+- "Keep the current “Do you need to update any information?” page, because the functionality to review and update their contact information is coming soon."
+- "This also helps staff capture information updates, which is an important metric for staff performance."
+- "Keep the daily itinerary of all appointments, but complete future research into"
+- "how to provide a reference appointment list to Veterans (connection to VAOS),"
+- and wayfinding (room and floor numbers).
+- "Implement all check-in statuses on the appointment list, but remove the term “ineligible” from the wording within the one status."
+- "Conduct more research to understand all the telemedicine use cases and how they connect to online check-in."
+- "Remove the phone numbers from the “Need help” section, since most Veterans would go to a staff member with questions anyway and clinic phones are transitioning to the call center."
+- Add the facility name to the appointment list to address the scenario of appointments at different facilities within one day.
+- "Work with engineering on behaviors when a Veteran attempts to check-in for their second appointment of the day."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Call center data
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- "BNFT: Healthcare"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Check-in"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Check-in: identity verification and multiple appointments usability findings
 - Updated: October 5, 2021
 - Lead Researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us

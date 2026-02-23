@@ -1,60 +1,63 @@
 ---
-title: "Chatbot User Testing Round 2"
-product: "VA Chatbot"
-team: "Chatbot Team"
+title: "Chatbot User Testing - Round 2 Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-10"
+date: "2025-11-21"
 researchers:
-  - "Lucas Wright"
+- Not specified
 research_goals:
-  - goal_1: "Increase the accuracy of the answers provided by the VA chatbot."
-  - goal_2: "Present these answers in an easy to read, easy to follow format so Veterans can get the answers they need to complete the tasks on VA.gov."
-  - goal_3: "mprove the design by finding pain points in the current proof of concept designs to accommodate any and all user levels."
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  "Moderated usability testing"
+- "usability-testing"
+- "unmoderated-testing"
+- survey
+- "focus-group"
+- "prototype-testing"
+- "remote-research"
 devices_used:
-    desktop: X
-    tablet:
-    smartphone:
-    assistive_technology: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 17
 demographics:
-  veterans: X
-  service_members: 
-  caregivers: X
-  dependents: X
-  VA_staff: 
+  veterans: 20
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
     "25-34": 1
-    "35-44": 4
-    "45-54": 3
-    "55-64": 3
-    "65+": 6
+    "35-44": 6
+    "45-54": 4
+    "55-64": 4
+    65+: 0
     unknown: 0
   education:
-    high_school: 1
-    some_college: X
-    associates: 1
-    bachelors: 6
-    masters: 6
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
     doctorate: 0
     unknown: 0
   location:
-    urban: 11
-    rural: 6
+    urban: 0
+    rural: 0
     unknown: 0
   race:
-    white: 3
-    black: 5
-    hispanic: 2
-    biracial: 5
-    asian: 1
-    native: 1
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
     cognitive: 0
     AT_beginner: 0
     AT_advanced: 0
-    screen_reader_desktop: 1
+    screen_reader_desktop: 0
     screen_reader_mobile: 0
     magnification_zoom: 0
     speech_input: 0
@@ -62,43 +65,65 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Users had no problem finding the answers to their questions very quickly."
-  - "There needs to be further refinement on clarifying questions."
-  - "There are serious issues with accessibility for users that require screen readers."
-  - "The chatbot is seen by users as accurate, clear, complete and easy to understand."
-  - "Only direct links should be used in answers to avoid confusion by users."
-  - "Users showed trustworthiness of the chatbot, despite multiple and varied warnings and disclaimers."
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), Chatbot Team"
 recommendations:
-  - "Clarifying Questions: Participants want fewer generic “please clarify” prompts; chatbot should proactively guide users to rephrase or select from options."
-  - "Accessibility: Session 8 and feedback from visually impaired participants highlight need for streamlined navigation (screen reader click cues, skip navigation), clearer input guidance, and more auditory feedback."
-  - "Choice Overload: Some feedback that too much detail or too many steps can overwhelm or slow the process."
-kpi_alignment:
-  - "Resolution Rate: High—Most participants reported being able to resolve issues (average 4.7/5 confidence in task execution)."
-  - "First Contact Resolution: Average participant required 1-2 rephrasings per scenario to get a tailored answer, indicating room for improvement."
-  - "User Satisfaction: 4.8/5 (average), consistent with Domo-reported satisfaction goals."
-  - "Time to Resolution: Chatbot outperformed phone support in speed; delays only occurred when clarification was needed."
+- "Accessibility: Session 8 and feedback from visually impaired participants highlight need for streamlined navigation (screen reader \"click\" cues, skip navigation), clearer input guidance, and more auditory\
+  \ feedback."
+- "Reduce Overload, Strengthen Formatting: Continue using bullet points, separate/link out long content; offer options for more/less detail."
+- "Fallback to Human Help: Make “talk to agent” or “call support” obvious after failed chatbot scenarios (especially for lockout or authentication)."
+- "Expected Placement: The majority expect the chatbot widget in the bottom right corner (industry standard), or “prominent” top placement. Some suggested persistent/floating widget for access from any\
+  \ page."
+- "Clarifying Questions: Participants want fewer generic “please clarify” prompts; chatbot should proactively guide users to rephrase or select from options."
+- "Trust and Security: All users appreciated privacy disclaimers, most refused to enter personal info on principle, and several wanted reassurance that responses were up-to-date and accurate for important\
+  \ matters (benefits, health, locked accounts)."
+kpi_alignment: []
 outcomes:
-  user: "High satisfaction with general chatbot usability, especially for primary account issues."
-  business: "Strong alignment with KPIs, especially resolution rate and user satisfaction."
-opportunity_areas:
-  - "Longitudinal Use: Follow-up with participants over weeks/months as suggested by Session 8 for more robust insight (“I haven’t interacted with it enough to give a definitive answer”)"
-  - "Edge Case Simulations: More accessibility testing and rare-case recovery (e.g., multiple lockout scenarios, name-change/identity mismatch)."
-  - "Mobile Device/Browser Compatibility: Session 7 notes Safari issues not present in Chrome; cross-platform reliability needs improvement."
-further_research_needed:
-  - "Expand Testing for Non-English Speakers and Rural Users: No explicit feedback collected from these groups; future sessions should target these demographics."
-  - "Caregiver & Proxy Use Cases: Additional focus needed, given mixed feedback on authentication and permission issues."
-  - "Mobile and tablet platforms"
-underserved_groups_missing:
-  - "Non-English Speakers: No test participants explicitly mention language barrier."
-  - "Rural/Low Bandwidth Users: No tests for low-connectivity or device constraints."
-  - "Severe Cognitive Impairment: No assessment of users with cognitive disabilities beyond “cognitive load manageable.”"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Domo analytics
+- Previous research studies
+- Call center data
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- "focus-group"
+- "prototype-testing"
+- "remote-research"
+- survey
+- "unmoderated-testing"
+- "usability-testing"
 ---
 
 ---

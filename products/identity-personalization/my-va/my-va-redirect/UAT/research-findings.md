@@ -1,102 +1,127 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: My VA Redirect UAT Research Findings
+product: My VA
+team: Authenticated Experience Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-15"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "- For the most part, yes"
+- "We observed successful redirects to My VA with ID.me, MHV, and DS Logon"
+- "Since we have to stop recording when people log in, we can’t confirm whether or not we had a successful redirect with Login.gov"
+- "Of the 10 participants in our study, 4 experienced unexpected and inconsistent issues logging in"
+- "2 of those 4 participants logged in with a MHV credential, which now routes people to ID.me for the 2FA portion of the login experience. After completing that, 1 user was routed to My VA, and one was\
+  \ not"
+- The other 2 participants got errors on eauth.va.gov that the identity team is not sure what to make of
+- "- 8 participants wanted to complete a health care task"
+- 7 participants wanted to click a link under health care (secure messaging was most common)
+- "1 participant wanted to view lab results, and would’ve clicked “My Health” in the main navigation to do so"
+- "One participant felt like the page was “blank” and stated they’d go back to MHV to do what they needed to do, despite the fact that My VA had links to those same tasks on the page"
+- "One participant only logs into VA.gov to look for general news, VA updates, and went to the footer to try to find that information from My VA"
+- One participant wanted to return to MHV since that’s the website they know
+- "- There weren’t any points of confusion caused by starting on the homepage and landing on My VA once login was completed"
+- The most significant points of confusion we observed were related to the login process.  The redirects and 2FA process of logging in are disruptive enough that participants are grateful to just be done
+  with that by the time they get to My VA
+- "One participant, who had health care but no upcoming appointments, felt unsure after landing on My VA"
 methodology:
-- Method 1
-- Method 2
+- Not specified
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 2
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "[Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/my-va-redirect/UAT/research-plan.md)"
+- "[Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/my-va-redirect/UAT/conversation-guide.md)"
+- "[Mural board](https://app.mural.co/t/vsa8243/m/vsa8243/1659364841359/d8cd5e9bff56277bacd9acec59670c1f6f121612?sender=lizlantz1528)"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- the bottom of the logo was cut off for our Air Force Veteran participant.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
 synthesis_tools_used:
 - Mural
-- Affinity Mapping
 tags:
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit-letters"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: eBenefits"
 ---
+
 # My VA Redirect UAT Research Findings
 *Office of the CTO - Digital Experience (OCTO-DE), My VA, Authenticated Experience*
 

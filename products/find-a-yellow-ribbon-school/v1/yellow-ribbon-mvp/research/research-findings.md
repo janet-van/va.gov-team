@@ -1,102 +1,142 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Yellow Ribbon MVP Research Findings
+product: Find a Yellow Ribbon School
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-02-06"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- The primary goal of this research is to understand how Veterans research Yellow Ribbon Education benefits
+- The secondary goal of this research is to understand what next steps a Veteran would want to take once they have completed research
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 1
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Digital Services Veterans Affairs (DSVA), VSA, Public Websites"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "The overall user flow, and interface of the prototype worked well for the users interviewed; no changes recommended to those aspects."
+- Provide a way for users to get more information about a specific school
+- Explore options for users to enter more specific criteria to find relevant schools
+- "when conducting the initial search, or"
+- "on the results page, filtering by the data points available for each school (program, degree, benefit amount, number of students)"
+- "Note: because we do not have accurate data around specific programs, on-line or in-person classes, we can’t include these as criteria"
+- Improve clarity of content across the product
+- "Revisit `Location, state, or campus` field so finding a school by location is more intuitive to users"
+- "The label Maximum Yellow Ribbon Benefit Amount should include (per student, per year)"
+- "Remove `School or program` from the MVP; the data is ambiguous and will not provide a positive user experience"
+- Learn more about the data we have available.
+- Degree Type/Level may be removed based on what we learn; the term “All” is ambiguous.
+- "If we decide to keep it, update label to Degree Level (or something similar that will not lead users to expect specific programs)"
+- Add clarity around the term "unlimited" for benefit amount and number of students term "unlimited" for benefit amount and number of students
+- "Shelf comparison functionality for launch and keep as a stretch goal.  The study suggests that with more specific search criteria, or filters, users could refine results to the point where comparison\
+  \ would not be burdensome in the search result itself."
+- "- Improve outreach efforts to increase awareness around the benefits available to Veterans, and how they can maximize them"
+- Consider surfacing Yellow Ribbon information at a higher level in the information architecture.
+- "Consider adding more information to the Yellow Ribbon (and other benefit pages, where applicable) to add clarity around how the benefit works in conjunction with other funding opportunities"
+- "One participant had TBI and PTSD, and the other was a caregiver for a Veteran who was medically discharged for the same diagnosis.  During those sessions, challenges with the complexity of information\
+  \ available about benefits for those with TBI/PTSD came up. It would be worthwhile to conduct a study focusing on this user group to better understand how we can simplify our content to meet their needs."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: Not specified
+  business: Not specified
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- "One participant had TBI and PTSD, and the other was a caregiver for a Veteran who was medically discharged for the same diagnosis.  During those sessions, challenges with the complexity of information\
+  \ available about benefits for those with TBI/PTSD came up. It would be worthwhile to conduct a study focusing on this user group to better understand how we can simplify our content to meet their needs."
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
 - Affinity Mapping
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Caregivers'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Find-a-yellow-ribbon-school"
+- "PRDT: GI-Bill-Comparison-Tool"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "in-person-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Yellow Ribbon MVP Research Findings 
 
 **Digital Services Veterans Affairs (DSVA), VSA, Public Websites**<br>

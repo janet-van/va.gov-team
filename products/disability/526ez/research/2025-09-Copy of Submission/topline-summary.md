@@ -1,3 +1,104 @@
+---
+title: "[2025-09-Copy of Submission] Topline Summary Research Findings"
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-09-01"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "semi-structured-interviews"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- To gain insight from team/stakeholder/designers and determine specific directions to pursue as we analyze the data
+- To jump start synthesis by quickly organizing high level themes
+- "Our last participant (P2) was not able to share their screen during our session, and we weren’t able to go through the entire convo guide with them due to time constraints."
+- "Need to double-check this (with the recordings), but it seems like around half of our participants joined via a mobile device, and we need to dig a little deeper to see how the findings are influenced\
+  \ by device type."
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- "prototype-testing"
+- "semi-structured-interviews"
+---
+
 # [2025-09-Copy of Submission] Topline Summary
 [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-09-Copy%20of%20Submission/research-plan.md)
 

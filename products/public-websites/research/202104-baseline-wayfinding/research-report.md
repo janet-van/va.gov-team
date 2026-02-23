@@ -1,95 +1,151 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Report from Baseline Wayfinding on VA.gov (April-May, 2021) Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-05-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "semi-structured-interviews"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 3
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "All participants were able to successfully complete 3 of the 9 tasks (#2, 1, 4), and most completed 3 more of the tasks (#6, 7, 9), but the other 3 tasks had lower success rates because the navigation\
+  \ paths weren't straightforward (#3, 5, 8--form to appoint representative, set up direct deposit for VA travel pay reimbursement, and share VA medical history with a doctor outside the VA)."
+- "A majority of participants (both mobile and desktop) stayed focused on only one part of the VA.gov home page--usually the \"top 4\" boxes--and for the most part didn't look at anything else on the page.\
+  \ These findings were consistent with analytics data."
+- "No participants started with site search, but about half went there when they were unable to find any relevant links elsewhere on the home page."
+- "A few accessibility issues were encountered, including font readability, site search findability with screen readers, and banner alert notification to screen readers."
+- "There were no significant differences in wayfinding results for mobile vs. desktop users, participants with vs. without a cognitive disability, or people familiar vs. not with VA.gov. For screen readers,\
+  \ VA.gov worked well, although wayfinding takes longer because hearing text read aloud is slower than visually scanning."
+- Four participants had a lot of difficulty searching on the Find a VA form page because they included too many words in the search query and/or misspelled a key word in the query.
+- "Three participants complained about the COVID banner alert they kept seeing, including one using a screen reader."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "recommendations based on research findings to be discussed and revised with the team:"
+- "and Resources & support links in the footer, consider providing additional links in the header where more people will see it (i.e., \"VA Forms\", \"Resources\" or \"Help\")."
+- megamenu under health care and/or disability)
+- "Rejected by team because forms apply across VA, not just Disability"
+- in the header and/or just above or below the "top 4" boxes.
+- "search. Marci is working with Lighthouse to improve the search logic. Kelson has had success improving the search logic of Resources and support. Consider some of the following:"
+- "attribute from assertive (interrupts user actions) to polite, which tells the screen reader to wait until the user is done to announce updates."
+- "about two-factor authentication. See if it's possible to use to select a photo to authenticate like eBenefits does."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Web analytics
+- Google Analytics
+- Contact center data
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Spreadsheet analysis
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Secure Messaging"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Benefit-letters"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Claim-status-tool"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Direct-deposit"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- "PRDT: eBenefits"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
 
 # Research Report from Baseline Wayfinding on VA.gov (April-May, 2021)

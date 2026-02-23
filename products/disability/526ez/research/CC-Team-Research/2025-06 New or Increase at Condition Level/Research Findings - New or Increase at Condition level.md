@@ -1,95 +1,168 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2025-06 New/Increase at Condition Level: Research Findings"
+product: Disability Benefits (526EZ)
+team: Disability Benefits Team
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-08-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "- Determine whether the new approach helps Veterans accurately select the claim type for their conditions"
+- Assess ease of use
+- Determine whether the new pattern supports editing conditions after they’ve been entered
+- Identify potential usability issues
+- "In particular, does removing already-selected items from the rated disabilities list cause problems?"
+- "- Assess scanability and comprehension of content changes"
+- Assess whether date field modifications have reduced friction points for Veterans
+- "Assess whether the new laterality question makes the main conditions menu easier to use, and whether it introduces any new usability problems"
+- "- Understand if the end-to-end flow of the Conditions step provides a cohesive and intuitive experience"
+- Assess Veterans’ stamina and patience with the new flow from start to finish
+- Identify any remaining pain points in the conditions step
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- Flowchart of the new design with key screens
+- Evaluate the usability of assigning new/increase type at the condition level instead of the claim level.
+- Evaluate usability improvements from previous design iterations
+- Assess the holistic user journey through the Conditions step
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "- The success of the prototype in testing gives confidence that the new design will provide a better user experience than what exists now."
+- "Before launch, address recommendations 3 and 4 below. The other recommendations can be addressed later."
+- "- Because we’re not making the secondary conditions situation worse with the new design, we’re comfortable moving forward on the new design without immediately addressing the issues we found."
+- "But we should work on addressing these issues as soon as it makes sense. If supplemental claims need to be integrated into the 526 soon, we might work on secondary conditions at the same time since they\
+  \ could affect the same screens."
+- The most pressing issue to address is the possibility of Veterans choosing a claim for increase instead of a new condition. Mitigating this problem should be a priority.
+- "- Re-work the fourth option about VA care to reduce confusion."
+- Look for other ways to make the first three options more clear.
+- "- Address the confusion around “list” wording in the instructions for the autosuggestion menu."
+- "- Remove the day field entirely to reduce perceived precision requirements and user stress."
+- "If possible, make sure no part of the date is required, even if user starts entering a partial date."
+- "- Investigate how common this problem is."
+- Work on a solution.
+- "- The cases we observed where users didn’t find their entries in the autosuggestion menu can be used as part of the larger effort to improve the taxonomy."
+- "- There may be opportunities to combine screens; for example, the date question might be added to the cause details screen."
+- Reducing the number of screens would reduce the amount of clicking through required to edit a condition.
+- "- This would allow Veterans to add helpful information about their requests for increase."
+- "It could also serve as a backstop for Veterans who choose an increase condition when they really have a new, secondary condition."
+- "- All participants are rated for at least one service-connected disability by the VA."
+- All participants have recently filed a disability claim OR are planning to file a claim soon.
+- At least 2 Veterans who identify as having a cognitive disability.
+- "2-3 Veterans with “no degree after high school.”"
+- "- Veterans: 7"
+- "Caregivers: 0"
+- "Family members of a Veteran: 0"
+- "- Transgender: 0"
+- "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: Unknown"
+- "Gay, lesbian, or bisexual: Unknown"
+- "- Desktop: 5"
+- "Smartphone: 1"
+- "Assistive Technology: 0"
+- "- High school degree or equivalent: 0"
+- "Some college (no degree): 6"
+- "Associate's degree, trade certificate, or vocational training: 0"
+- "Bachelor's degree: 0"
+- "Master's degree: 1"
+- "Doctorate degree: 0"
+- "Hispanic: 1"
+- "Biracial: 0"
+- "- Did not recruit for this"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Previous research studies
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Spreadsheet analysis
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Laptop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Header-footer"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
 
 # 2025-06 New/Increase at Condition Level: Research Findings

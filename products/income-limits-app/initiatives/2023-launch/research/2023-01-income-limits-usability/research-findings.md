@@ -1,106 +1,159 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Income Limits App Usability Testing -- Research Findings"
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-05-25"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- by answering several questions
+- Getting out (Engaging VA to access benefits and services)
+- Starting up (Attending to health needs)
+- "Taking care of myself (Recognizing and addressing mental health needs, Managing primary care and chronic health issues, Seeking support for an acute health event, Maintaining my health)"
+- Retiring (Taking care of my health)
+- Aging (Managing my declining health)
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Income Limits, Sitewide Public Websites"
+- Cindy Merrill
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "focusing first on selecting an income range, and second on applying for VA health care. To do this, consider moving the \"Note\" text (\"You'll still need to meet basic eligibility requirements to enroll.\
+  \ To find out if you're eligible, apply now\") and the _Apply for VA health care_ link to inside _every_ income accordion, right after the benefits description. ADD APPLY CTA INSIDE EVERY INCOME ACCORDION"
+- "on the results page, remove the additional info component and change this into a heading or plain text to make the content below visible without requiring any user interaction. _See Content recommendation\
+  \ #9 below._ DONE"
+- link into a breadcrumb at the top of the page where it won't separate the instructions and the CTA to select your income range. Maybe check how other VA.gov pages enable you to navigate to the review
+  page. _Need to discuss with the Sitewide Content/IA team._ REPLACE LINK WITH BACK BUTTON AT BOTTOM OF PAGE
+- "instead of to the next question (which was intended as the design but wasn't implemented in the click-through prototype). DONE"
+- "### For content in the app"
+- "in the question per income taxes or VA rules, and add details to the question so people will know how to answer. According to a VA subject-matter expert (in an email dated 4/17/2023), dependents include\
+  \ your spouse, unmarried children under 18 (or 18-23 if attending school full-time or disabled prior to reaching age 18), and parents if in the Veteran's direct care and whose net worth and income are\
+  \ below a fixed limit. DONE"
+- "in the pension question because it's confusing. Also, this wording didn't get approved by Content and will be removed because it goes against current Content standards. Potential revision from Danielle:\
+  \ \"Did you get a VA Veterans pension last year?” DELETE QUESTION"
+- and/or provide links to details because some Veterans don't know what they mean and want to understand before answering the question. DELETE QUESTIONS
+- "1. In the first sentence, for example, we could add some new words (in _italics_) to the first sentence: \"We use your last year's _household_ income _minus deductions (such as out-of-pocket medical\
+  \ expenses, education costs, and funeral/burial expenses for a spouse or child)_ to determine...\""
+- "for \"VA health care\", \"most types of care\", \"copays\", and \"full copays\". DONE"
+- "so it's easier to compare them across income thresholds (which all participants tried to do): DONE"
+- "because it's confusing as is. Instead or in addition, consider adding qualifying questions to the app to screen out people who have a service-connected disability rating of at least 50% or other factors\
+  \ that result in automatic eligibility for VA health care. Potential ideas for doing so are listed below:"
+- "1. Pension is already a question in the app, which participants found easy to answer (1 of 3 yes/no questions in the app tested). Perhaps we should add other simple yes/no questions in the app, which\
+  \ would likely be more intuitive for Veterans, as compared to understanding a block of text summarizing all the cases in which income limits don't apply. How do we decide which automatic eligibility criteria\
+  \ get their own question _vs._ just get listed somewhere? NOT DOING BECAUSE OUTSIDE SCOPE OF APP"
+- "14. To support Veterans' exploration of VA health care, consider adding to the intro page some friendly encouragement to invite them to use this tool to find out if they're eligible for VA health care.\
+  \ DONE"
+- to put all income limits info closer together and move one of the income limits app links closer to the top of page. DONE
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Memorialization"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Income Limits App Usability Testing -- Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Income Limits, Sitewide Public Websites**

@@ -1,106 +1,140 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Streamlined Waiver (Transparency) Research Findings
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-16"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Moderator
+- "Joseph Lee - UX Designer"
 research_goals:
-- Goal 1
-- Goal 2
+- "Continuing the [usability study we did in May 2023](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_fsr/research/enhanced_fsr), the Streamlined Waiver usability\
+  \ study is an extension of this work. The Streamlined Waiver offers a revised intro page, offering limited copy in terms of transparency and offering clarity on the required sections the Veteran will\
+  \ be expected to fill out. Furthermore, the Streamlined Waiver will take the Veteran through a dynamic flow unique to their financial and life situation (income limits thresholds, number of dependents,\
+  \ spouse's information, cash on hand). Taking into account the length of the form and the fact that users skim content, we seek to make the form's content scannable and easily digestible"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "concept-testing"
+- evaluative
+- generative
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 0
+    "45-54": 1
+    "55-64": 5
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Streamlined Waiver, Debt Resolution Team"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Intro page: Remove or move [alert box] so that it does not hide important introduction page content that the user needs to see to prepare to fill out the form. We hypothesize that if users are able to\
+  \ see more of the steps \"above the fold\", they will be more likely to read the intro page."
+- "Transition page: Remove \"Next steps\" content"
+- Wording and visual language on the confirmation page should be more clear and succinct.
+- "Send any important information to Veterans via email. As noted by P6, this is important as not all Veterans have stable housing and may miss information sent in the mail."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- We met our objective of interviewing participants 55+ for this study.
+- We recommend an accessibility study in the Fall 2023 to test with Veterans that use screen readers.
+- "In light of the (2) participants with cognitive considerations (stroke that affects memory, and other unknown cognitive consideration) who had a hard time with the form, we also recommend that stakeholders\
+  \ consider how participants can get assistance filling out the form if it proves to be difficult."
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
+- Call center data
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "DSC: Alert Boxes"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Form 21-686c"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- "concept-testing"
+- evaluative
+- generative
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Streamlined Waiver (Transparency) Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Streamlined Waiver, Debt Resolution Team**

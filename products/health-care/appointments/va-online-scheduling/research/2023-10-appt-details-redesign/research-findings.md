@@ -1,103 +1,128 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Appointment Details Page Redesign Research Findings
+product: VAOS (VA Online Scheduling)
+team: Appointments Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-03-08"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Do Veterans know how to cancel their appointment?"
+- "How would Veterans expect to cancel an appointment?"
+- "Do Veterans know where to go for their appointment?"
+- "Do Veterans know how to prepare for their appointment?"
+- "What do Veterans expect to do on the details page?"
+- "Do Veterans know how to join their telehealth appointments?"
+- "What is the first action veterans take on an appointment details page?"
+- "What is the first action veterans take on an appointment details page?"
+- "Can Veterans distinguish between the different tasks on the details page?"
+- "How easily can the veteran find their after visit summary?"
+- "Do Veterans understand what pre check-in is?"
+- "Can Veterans easily navigate to the profile page for pre check-in?"
+- "Can Veterans easily get back to their appointments?"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 1
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Appointments"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- The appointment details pages were easy to scan and provided the information veterans were looking for.
+- were able to scan through the appointment details with ease. They were able to identify the information they needed for their appointment.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # Appointment Details Page Redesign Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Appointments**

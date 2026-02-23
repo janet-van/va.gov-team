@@ -1,25 +1,28 @@
 ---
-title: "Chatbot Research Findings"
-product: "VA Chatbot"
-team: "Chatbot Team"
+title: Chatbot Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-09-03"
+date: "2025-08-01"
 researchers:
-  - "Lucas Wright"
+- Not specified
 research_goals:
-  - "Increase the accuracy of the answers provided by the VA chatbot."
-  - "Present these answers in an easy to read, easy to follow format so Veterans can get the answers they need to complete the tasks they need to on VA.gov."
-  - "Improve the design by finding painpoints in the current proof of concept designs to accomidate any/all level of users." 
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "We conducted moderated usability testing to determine which proof of concept will be most accurate and which design will return the most appropriate answers."
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: 14
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 1
-participants_total: 14
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: 14
+  veterans: 0
   service_members: 0
   caregivers: 0
   dependents: 0
@@ -29,89 +32,102 @@ demographics:
     "35-44": 2
     "45-54": 1
     "55-64": 4
-    "65+": 4
+    65+: 0
     unknown: 0
   education:
-    high_school: 1
-    some_college: 2
-    associates: 3
-    bachelors: 3
-    masters: 4
-    doctorate: 1
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
     unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: 14
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: 9
-    black: 2
-    hispanic: 1
+    white: 0
+    black: 0
+    hispanic: 0
     biracial: 0
-    asian: 1
+    asian: 0
     native: 0
-    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: 1
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: 1
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Most users valued clear, concise answers tailored to their exact questions"
-  - "Users wanted chatbots to remember and reference earlier parts of a conversation for seamless multi-turn interactions."
-  - "Users preferred responses that included clear next steps, recommendations, or direct answers rather than generic summaries."
-  - "Well-organized, visually clear responses enhanced user satisfaction."
-  - "Users frequently noted that some chatbots provided information that was not directly related to their question, or gave lengthy answers when concise ones were preferred."
-  - "Several users pointed out that chatbots sometimes failed to reference previous parts of the conversation, leading to repetitive or disconnected replies."
-  - "Of the 3 different components tested, 88% of users preferred Chatbot 3, which integrated AI."
+- "Office of the CTO - Digital Experience (OCTO-DE), VA Chatbot (fka VA Virtual Agent), Chatbot Team"
 recommendations:
-  - "Users recommended better tracking of conversation history and more responsive follow-ups"
-  - "Many suggested that chatbots should prioritize brevity without sacrificing completeness."
-  - "Requests included more use of bullet points, headings, tables, and consistent markdown for easy scanning."
-  - "Recommendations were made for chatbots to more effectively address complex, sequential, or multi-part queries while being able to answer simpler queries faster."
-kpi_alignment:
-  - KPI 1. User Satisfaction:
-    Research Alignment: "The study’s focus on clarity, brevity, helpfulness, and formatting matches the KPI goal of maximizing user satisfaction. User feedback and recommendations target pain points (irrelevance, verbosity, poor formatting) that can lower satisfaction scores."
-    Improvement Actions: "Adopting the report’s recommendations—such as improved context awareness and actionable answers—will raise satisfaction metrics."
-  - KPI 2. Average Response Time:
-    Research Alignment: "Slow response times were a major user complaint. The recommendation to optimize performance and reduce latency aligns with the KPI of minimizing average response time."
-    Improvement Actions: "Technical enhancements suggested in the report will help meet response time targets."
-  - KPI 3. Resolution Rate (First-Contact Resolution):
-    Research Alignment: "Users want direct, complete, and actionable answers. Improving query interpretation and multi-turn handling will increase the percentage of user queries resolved without escalation or further follow-up."
-    Improvement Actions: "Better context retention and multi-part question handling are likely to boost first-contact resolution rates."
-  - KPI 4. Escalation Rate to Human Agents:
-    Research Alignment: "The research calls for better handling of complex or multi-step queries and a smoother transition to human support when needed. Reducing unnecessary escalations aligns with this KPI."
-    Improvement Actions: "Strengthening the chatbot’s capabilities will decrease the escalation rate, while ensuring seamless hand-off for cases that require human assistance."
-  - KPI 5. User Engagement and Retention:
-    Research Alignment: "Recommendations for improved tone, personality, and adaptability support increased user engagement. Consistency and clarity encourage users to return and use the chatbot for more tasks."
-    Improvement Actions: "Personalization and clearer responses will drive higher engagement and repeat usage."
-  - KPI 6. Accessibility & Inclusivity (Emerging KPI):
-    Research Gap: "The research identifies a gap in accessibility and inclusivity testing. Addressing this will support KPIs related to equitable access and user experience for all segments."
+- "- Implement advanced conversation tracking to reference earlier user queries and provide more connected, relevant responses."
+- "Test with multi-part and follow-up scenarios to ensure robust context handling."
+- "- Train chatbots to deliver succinct answers, focusing on clear next steps or direct solutions when possible."
+- Provide options for users to request more detail if needed.
+- "- Audit and reduce response latency, especially for simple or frequently asked questions."
+- "Standardize response structure with bullet points, clear headings, and consistent markdown for all outputs."
+- "- Use refined NLP models and user intent detection to minimize misunderstandings and irrelevant answers."
+- "Ensure reliable quality regardless of the complexity or subject matter by extensive scenario-based testing."
+- "- Develop mechanisms for the chatbot to proactively offer clarifications, follow-up questions, or acknowledge multi-part inquiries."
+kpi_alignment: []
 outcomes:
-  user: "Use a chatbot with the best UI, best message, best features, easiest to understand and easiest to navigate"
-  business: "Users will determine the best version of the chatbot and convey that choice to UX researcher with reasons why they made those choices"
-opportunity_areas:
-  - "Diversity of Participants"
-  - "The current sample size (14 users) may not represent the full spectrum of users. There is a gap in understanding how different demographics (age, tech-savviness, health status) interact with chatbots."
-  - "Limited Accessibility Testing"
-  - "Only one of the 14 users tested used assistive tech"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- "Accessibility and Inclusivity: This round of user testing was limited to users with disabilities, language barriers, or other accessibility needs. Research is needed to evaluate chatbot usability for\
+  \ diverse populations, including those using assistive technologies."
+- "Long-Term Use Patterns: The study is based on single-session transcripts. Further research should explore user satisfaction and effectiveness over repeated, longer-term interactions."
+- "Other Use Cases and Complex Queries: The transcripts primarily focus on only one use case of logging in. Future studies should examine chatbot performance on ambiguous, rare, or highly complex queries."
+- "Integration with Human Agents: The study does not evaluate the transition between chatbot and human support. Further research could examine seamlessness and user satisfaction in hand-off scenarios."
+underserved_groups_missing: []
 secondary_research:
-  - "Previous research on Chabot/Virgual Agent"
+- Web analytics
+- Google Analytics
+- Domo analytics
+- DataDog monitoring
+- Call center data
 synthesis_tools_used:
-  - "Mural"
-  - "Copilot"
+- Mural
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: Virtual-agent"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
 
 ---

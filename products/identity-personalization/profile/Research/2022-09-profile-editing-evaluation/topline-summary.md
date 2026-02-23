@@ -1,3 +1,105 @@
+---
+title: "Profile Editing Research - Topline Summary Research Findings"
+product: VA.gov Profile
+team: Authenticated Experience Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-09-01"
+researchers:
+- Not specified
+research_goals:
+- Some participant felt the font was small
+methodology:
+- "semi-structured-interviews"
+- "prototype-testing"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Participants found little difference between editing contact information on one page compared to separate pages; both approaches were easily understood and usable.
+- Most participants found all the alerts and modals they encountered to be useful.
+- "The notification settings interface was intuitive for most participants, but the user flow and notification labels were confusing."
+- "The address validation flow was easily understood by most participants, even when immediately followed by the “match mailing to home address” modal."
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Checkbox"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Modal"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "prototype-testing"
+- "semi-structured-interviews"
+---
+
 # Profile Editing Research - Topline Summary
 9/29/22
 Liz Lantz, VA.gov Authenticated Experience, Profile

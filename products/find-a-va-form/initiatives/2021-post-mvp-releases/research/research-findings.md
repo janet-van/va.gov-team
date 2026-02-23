@@ -1,102 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: Find a Form PDF Downloading Usability Research Findings
+product: Find a VA Form
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-08-10"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "How intuitive is the download process with the new instructions? What issues arise (with the interace and/or specific forms)?"
+- "Do users click on the new instructions link?"
+- "Do users have difficulty navigating back to the Find a Form page from the instructions?"
+- "Do users download the form?"
+- "Do some users not notice the download notification/file at the bottom of the browser window?"
+- "Are there any difficulties in finding the file to open it?"
+- "Does the file always open in Acrobat?"
+- "What are users' reactions to auto-download?"
+- "Do participants figure out how to save and/or digitally sign the forms?"
+- "Do different download behaviors from different forms (e.g., auto-downloading ones vs. not) cause issues for users?"
+- "What is the success rate of participants downloading forms from each of the three design options? Is one more effective than the others?"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 4
+participants_total: 3
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 6
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE) and VSA, Find a Form, Decision Tools"
+- "July 27-30, 2021"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Best would be HTML/web forms because they can be accessible across devices, browsers, platforms, and screen readers. Second best would be a web-based form tool that supports text entry and electronic\
+  \ signing of static forms (e.g., DocuSign) that is accessible across devices, platforms, and screen readers."
+- "(as currently planned), in addition to the form search results page where we tested. Consider also adding that you must be on a computer to fill out the form."
+- "that cover ALL of the specific steps that may be required (as detailed in the diagram above). Here is an [example of platform-specific instructions](https://portal.ct.gov/DEEP/About/Tips-for-Viewing-and-Using-Fillable-PDFs)."
+- "and 13% of form downloads (according to analytics data from 1/1/2021 - 8/11/2021). This proportion may grow with better access to the Find a Form page, as 46% of VA.gov visits are from mobile devices."
+- "(according to analytics data from 1/1/2021 - 8/11/2021)."
+- "to enable easy scanning down the list of search results while using a screen reader. UPDATE: This was fixed as of 8/12/2021."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Find-a-va-form'
-- moderated-research
-- remote-research
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Find-a-va-form"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Find a Form PDF Downloading Usability Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Find a Form, Decision Tools**

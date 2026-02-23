@@ -1,95 +1,130 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Discovery Research Report Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: Not specified
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- discovery
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- About the pattern
+- Overview of previous research
+- Summary of the audit of current VA forms
+- Final pattern recommendations
+- Research recommendations
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "The pattern requires asking the primary question:"
+- "What is your current marital status?"
+- Divorced or annulled
+- Never married
+- "The page with this question will also include:"
+- Hint text that helps define how to best answer this question.
+- "Trauma-informed additional info component that will let users know why we ask this information in the first place."
+- "All other potential questions fall into a few possible categories listed below. Teams can use them as needed:"
+- (Former) spouse personal and contact information
+- Living situation
+- Marriage/Termination details
+- Document upload
+- (Former) spouse’s former marriage information
+- Teams should only include questions required by their form. This helps ensure that we reduce the trauma that can come with discussing past marriages and even deceased spouses. We’ll note this in our pattern
+  documentation for teams.
+- "Some of the above pages display differently depending on a user’s former answers. For example, if the user indicates that their former spouse is deceased, we will use past tense when discussing them\
+  \ on subsequent pages.We will also hide some of the questions such as requests for contact information."
+- Do users understand  why VA asks for marital status information after reviewing the additional info component
+- "Do users with less common or more complex marital status (e.g. domestic partnerships) understand how to answer the question?"
+- "Do they open the Additional info component to find guidance?"
+- "Do they understand the content on the page we link to in the guidance?"
+- "Do users who have experienced relationship trauma understand why we need to ask this question?"
+- "Do they read the text about why we need to ask this question?"
+- "When asking about a current spouse’s former marriages, is it clear who we are asking about?"
+- "What parts are clear?"
+- "What parts are harder to understand?"
+- "Footnotes themselves at the bottom. -->"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Previous research studies
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Figma
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Pension"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "Initiative: Toxic Exposure"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Pension"
+- "PRDT: Search"
+- discovery
 ---
 
 # Discovery Research Report 

@@ -1,103 +1,143 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Modernized Check-In Experience: Bay Pines In-Person Visit Veteran Intercept Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-07-12"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Evaluate effectiveness of check-in and pre-check-in experiences with Veterans and staff"
+- "Identify strengths, pain points and opportunities for improvements within the PCI ecosystem"
+- "Understand how, if at all, MSAs are using VSE CS"
+- "Gain insights into understanding the optimal experience for incorporating travel reimbursement into PCI for Veterans.*"
+- "The Beneficiary Travel Reimbursement Path Analysis Team identified the check-in product as a recommended access point for Veterans to file for travel reimbursement, among other recommendations"
+- "How often are Veterans using pre-check-in?"
+- "Do Veterans assume they still have to do day-of check-in when pre-check-in is complete?"
+- "What’s working and not working with pre-check-in and check-in?"
+- "What changes could help improve the check-in process?"
+- "How often are MSAs interacting with Veterans during the check-in process?"
+- "Are MSAs checking in Veterans with VSE that need help versus requiring them to use mobile check in?"
+- "How often are MSAs troubleshooting errors or clearing review flags?"
+- "What are the issues that MSAs are helping Veterans troubleshoot?"
+- "How do Veterans feel about pre-check-in and check-in?"
+- "Are Veterans able to use the check-in poster?"
+- "What would Veterans call this process?"
+- "When do Veterans expect to complete a travel reimbursement claim in relation to their appointment?"
+- "What steps should a Veteran have to complete for filing a travel reimbursement claim?"
+- "What steps could be removed from the existing BTSSS process to make it easier for Veterans to file a claim?"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- discovery
+- "intercept-interviews"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 17
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- 1. Add a "check in now" message from VeText/CHIP delivered 30 minutes before the appointment.
+- "3. Add a link on the pre-check-in confirmation page for Veterans to [learn about how to check in on the day of their appointment](https://www.va.gov/resources/how-to-check-in-with-your-smartphone-for-some-va-appointments/)."
+- "7. Introduce travel reimbursement into PCI for Veterans to quickly file a claim during check-in."
+- "9. Explore reintroducing a VA-owned check-in device in clinics – once kiosks are removed and remaining functionality has been migrated into PCI or elsewhere – to better serve the needs of Veterans that\
+  \ aren't interested in a mobile check-in solution. And, as more functionality becomes available in both a VA-owned check-in device and a mobile solution, remove superfluous posters and brochures from\
+  \ clinics to streamline the check-in experience for Veterans."
+- 10. Research if there’s any known QR code bugs associated with text messages not populating.
+- "12. Revisit adding the ability to print routing slips, which is [something we’ve heard from clinics in previous discovery sessions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/staff-facing/site-visits/visit-notes/Pittsburgh-KM.md)."
+- "15. Explore adding appointment time to CHIP response when Veteran is too early for check-in."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: Travel-reimbursement"
+- "PRDT: VA-notify"
+- discovery
+- "in-person-research"
+- "intercept-interviews"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Modernized Check-In Experience: Bay Pines In-Person Visit Veteran Intercept Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**

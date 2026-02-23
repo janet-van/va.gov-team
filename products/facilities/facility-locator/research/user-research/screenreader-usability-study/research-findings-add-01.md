@@ -1,107 +1,153 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Homepage research findings from [Facility Locator - Assistive Technology Discovery and Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings.md)\
+  \ Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Not specified - goals not explicitly stated in report"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- discovery
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Different navigation methods produce inconsistent user experiences, page hierarchy and content perceptions of the VA.gov homepage. [see Case Study P1](#case-study-p1)"
+- "Browsing by heading - A lack of heading level hierarchy creates an inaccurate and confusing representation of the content available on the homepage. The user hears that there is one H1 (Access and manage\
+  \ your VA benefits and health care).  H2s are sometimes links and sometimes groups of links but there is no content categorization. A user hears that there are 80+ links but no way to know that over half\
+  \ of them are footer links that they might be able to ignore on a second listen."
+- "Skip to content - using this method drops a user at the \"Service member benefits\" link, bypassing the \"Top 4\" boxes. This confused one user who later returned to the homepage, who proceeded to navigate\
+  \ by heading level and then experienced a completely different set of information. Leaving him convinced that he'd never been to the homepage before."
+- "Regions - the lack of delineated regions means users perceive all footer links as part of the page content links forcing them to hear all 46 of them each time they navigate by 'reading the page', element\
+  \ by element which is already slow and cumbersome, but likely behavior when all else fails. Having to process all of these pieces of information without categorization adds uneccessary cognitive load\
+  \ when taking in the content of new and subsequent pages."
+- "Using global navigation menu - (Preface: Two desktop JAWS users in the study size down their browser viewports when navigating websites. This created a hybrid desktop/mobile experience for one user where\
+  \ they got the mobile version of the global menu button while on desktop. [See Figure 2](#figure-2)) This component was difficult to manipulate for both desktop and mobile users. It is unclear to them\
+  \ that this is a main global menu because it is not labeled as expected nor does it announce its current state consistently. States were also not clearly described."
+- "Find - this method was more successful for users in this study. Some users easily found Find a VA Location when using a keyword like 'location', some locating it in the footer only."
+- "Edit box - when arriving at the homepage, JAWS announces that there is \"no edit box on this page\". The expectation is that a search box would appear as an edit box. Most participants used the search\
+  \ box once they knew it was available including for location searches, even after having used Facility Locator in a previous task."
+- "P1 started by exploring the page with 'skip to content' which created confusion for the rest of the tasks. Ultimately, the participant explains that he wouldn't be looking for a Dermatologist from a\
+  \ location finder and instead thinks this would be found under healthcare."
+- "P2 fails at his first attempt when typing \"L\" for location within headings list. On his second attempt using 'Links list', he successfully finds \"Find a VA Location\" ."
+- "P6 is an inexperienced Safari/iPhone user who had never been on VA.gov. P6 normally relies on Siri but was unable to during the session so instead used a mix of gestures and magic keyboard. Navigates\
+  \ by \"Reading page\" from top to bottom, finds the global search easily so uses that for his search."
+- "P10 was the only participant that knew of facility locator but decided to use Google to complete the task instead of going to VA.gov to look for it. Later in the interview she complains about how the\
+  \ volume of information on VA overwhelms her. It is possible, that this could be a reason she decided to try Google first."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Group links and content with logically ordered  heading levels to create an understandable hierarchy of the page that can be scanned more quickly instead of making all links on the page H2s which cause
+  users to listen to everything and make sense of it.
+- "For example, a user who ‘skips to content’ and then navigates by headings should be able to form the same general understanding for what the page is about and what they can do there."
+- "For example, footer links should be grouped into a footer region. Currently, users can’t distinguish between footer links and those that are part of the page content so they are forced to listen to 46\
+  \ extra links each time they read a new page from top to bottom to orient themselves."
+- Skip to content on GOV.Uk takes a user to the H1 to announce the page and then following tab takes a user into the search edit box
+- "<img src=\"https://user-images.githubusercontent.com/4960080/125671954-62d5e689-c0cf-42d5-a1fa-8b2b9c093582.png\"  alt=\"[gov.uk 'skip to content' homepage example]\" width=\"60%\" height=\"60%\">"
+- Assess keyword searches for top facility types on VA.gov and incorporate those terms into global search best bets
+- "Experiment with patterns that exist within popular search tools like ‘hospitals near me’, ‘urgent care near me’ that could appear in type ahead global searches to connect users from the homepage to Facility\
+  \ Locator."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- remote-research
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Life Insurance"
+- "BNFT: Memorialization"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "MHV: Secure Messaging"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Pension"
+- "PRDT: Search"
+- discovery
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Homepage research findings from [Facility Locator - Assistive Technology Discovery and Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings.md)
 
 ## Table of Contents

@@ -1,105 +1,166 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: COE Usability Study Round 2 Research Findings
+product: Certificate of Eligibility (COE)
+team: eBenefits Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-03-22"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- and to sunset the eBenefits site
+- "Can users successfully complete the form to request a COE?"
+- "Can users successfully update their information in the request form?"
+- "Do users understand how and when to follow up on their COE request?"
+- "Can users successfully download their COE PDF?"
+- "Can users successfully upload required documentation?"
+- "Where do users expect to find the View Your COE tool?"
+- "Where do users expect to find their COE if they already have one?"
+- "Do users understand the status they might encounter?"
+- "What other features or content would help users when they apply for a COE?"
+- "18, 2022. Participants were asked to complete a short way finding task on va.gov, and then were asked to complete three tasks in a [UXPin prototype](https://preview.uxpin.com/65c0623a799c268173fe1a3cb4375f9ce00ad820#/pages/137557312/simulate/no-panels?mode=cvhdmf):"
+- Users will initially look for a direct link in the white quadrant on the home page; many will locate COE landing page after several steps
+- "Likely True: 5 of 6 participants looked at white quadrants for direct link"
+- The form itself will be relatively easy for users to navigate
+- "Maybe True: Most screens were easy to use and navigate, but some participants encountered specific problems on Service Selection, Loan Intent, and Document Upload pages (details below)"
+- "Biographical, contact and service language will be clear to most users; the language around loan options and COE intent will be somewhat confusing"
+- "Likely True: All participants moved through biographical and contact information without issue; 2 participants struggled with Service Selection; 2 of 3 participants who saw the loan intent options screen\
+  \ struggled with selection (details below)"
+- Users will be able to download their COE if their status is Available or Auto but may not recognize that there is additional action needed if their status is Pending with letters or uploads requested
+- "Likely False: All participants understood when their COE was available and when they needed to take action to resolve Pending status"
+- "Users will expect their COE to be available in various ways: physical letter, email, printed, and/or within an authenticated profile/dashboard"
+- "Maybe True: Participants primarily expected to receive an email and to be able to return to va.gov to retreive and all said they would download and save their COE once available. One participant mentioned\
+  \ a physical letter"
+- "Users will ask for directly available information (chat, direct phone, lookups) about the COE, lenders and /or realtors"
+- "Maybe True: Participants expected to be able to call the 800 number to ask questions about specific screens. Users looked for additional information on difficult pages with one participant looking for\
+  \ hover text or additional information accordians for help"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 3
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Certificate of Eligibility, eBenefits Migration"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Remove `(Required)` label from document uploader when required documents have been uploaded - in both the request form and the `Pending` uploaders"
+- 4 of 6 participants did not understand that they could continue after uploading the first document during the initial form.
+- 2 of 6 participants said they would stop and call for help.
+- 2 of 6 participants did not understand that they were finished after uploading a document in the "Pending with uploads required" task
+- Include a list of required documents on required screen
+- 3 of 6 participants wanted the needed documents listed directly on the page.
+- "Increase visibility of confirmation and/or direct to a separate confirmation screen for `Pending` uploads"
+- 3 of 6 participants explicitly said they were looking for a confirmation page.
+- 2 of 6 participants said they would call for help because they were not sure if they had submitted everything.
+- Provide additional information about loan intent options.
+- 2 of the 3 participants who saw the loan intent option selection stopped to talk through selections and were not sure if they had selected the correct choice for their situation
+- 1 of the participants is a realtor who works with many veteran families. They said they frequently get questions from their clients about these selection choices.
+- Make service selection choice options shorter and more distinct.
+- 2 of 6 participants stopped to talk through issues with service history questions
+- "Work with dev team to understand technical feasibility of dynamically removing `(Required)` label on document uploaders when required documents have been uploaded."
+- Discuss impacts of decision to remove letters from Pending status screen with Business Line
+- Test with mobile users (in a mobile prototype layout or in staging)
+- "Test with assisitive technology users (in staging or code-based prototype)"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+- Test with mobile users (in a mobile prototype layout or in staging)
+- "Test with assisitive technology users (in staging or code-based prototype)"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Surviving Family"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Secure Messaging"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Home-page"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # COE Usability Study Round 2 Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Certificate of Eligibility, eBenefits Migration**

@@ -1,98 +1,142 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: EZR Confirmation Flow Research Findings
+product: "Health Care Application (10-10EZ)"
+team: "10-10 Health Apps Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-24"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- "a-b-testing"
+- "prototype-testing"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience, Health Enrollment Team, 10-10EZR"
+- Hieu Vo and Renata Keck
+- "Executive Summary:"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "- Consider providing additional information such as the date of marriage for the spouse's List & Loop's Review screen."
+- "Improve the guidance with informational content at the List & Loop Introduction screens, especially for the financial section."
+- "- Change the Marital Status option from the dropdown to radio buttons."
+- Update the Veteran's personal information box from using the address block to the white box with a black border.
+- "- Adopt or hybridize the Confirmation Flow. Participants like the efficiency features of Option Red, such as the gray box reference, minimal toggle, and more condensed presentation of information."
+- "Consider a customized Contact Information (Address, phone, and email) List & Loop."
+- Explore ways to make the Gray Reference box for income clearer.
+- "- Offer an unhoused option for the address in the 10-10EZ Health Enrollment."
+- "- Explore integration with VA Profile to prefilled personal information through the health care process."
+- "Explore ways to redesign the stepper component that could be incorporated by the larger OCTO team, such as the task list or percentage stepper component."
+- "- Improve scenario clarity in Figma-based testing (such as limiting it only to Veterans with Disability Rating under 50%)."
+- Supplement Figma prototype testing with additional UAT for Assistive Tech users.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- "- We used a Figma prototype for this study, which made it hard for accessibility-focused testing. In the near future, especially after updating the flow based on the feedback for this study, we plan\
+  \ to test the flow with participants who use assistive technology, either using a coded prototype or the staging site."
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Domo analytics
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Alert Boxes"
+- "DSC: Button"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "a-b-testing"
+- "moderated-research"
+- "prototype-testing"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
-
-
 
 # EZR Confirmation Flow Research Findings 
 

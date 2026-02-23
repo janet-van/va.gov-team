@@ -1,101 +1,136 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Health care application registration generative study - Research Findings"
+product: "Health Care Application (10-10EZ)"
+team: "10-10 Health Apps Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-09-28"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "[See the Veteran journey map](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- discovery
+- generative
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 2
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ Health Care Application, Health Enrollment Team"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Veterans are confused about the registration and enrollment options
+- "- 6 out of 10 find the options confusing or to be the same"
+- 3 out of 10 see registration as a step in a process
+- 4 out of 10 reported they would select both options just to be sure
+- Veterans want more education and explanation around health care benefits
+- "- 7 out of 10 reported that there was no explanation given to them and they had to learn on their own as they were using their health care benefits"
+- "3 out of 10 mentioned a video pre-recorded or a virtual video call to talk through health benefits"
+- Veterans see disability and health care benefits as the same process
+- "- 8 out of 10 participants talked about filing disability claims when asked about their health care benefits application process"
+- 7 out of 10 participants talked about their disability rating impacting their health care benefits; they saw the two benefits as being connected in their minds.
+- Veterans are mostly unaware of their Priority Group
+- "- 6 out of 10 were not aware of this term and never heard it before"
+- "4 out of 10 have, but did not understand why or they associated it with disability rating"
+- 2 out of 10 seemed confident they were in Priority Group 1 / the highest priority
+- Veterans want personalized and automatic benefit recommendations
+- both VA wide and specifically within health care benefits.
+- "- 5 out of 10 participants wanted benefit eligibility to be presented to them to choose from"
+- 5 out of 10 participants felt they should be registered for VA health care automatically
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+- Cognitive Disability (Unknown from screener questions used)
+- LGBTQ+ (Unknown from screener questions used)
+- "Other than honorable discharge, expat or living abroad (Unknown from screener questions used)"
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
 - SME interviews
+- Competitive analysis
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Search"
+- discovery
+- generative
+- "semi-structured-interviews"
 ---
+
 # Health care application registration generative study - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ Health Care Application, Health Enrollment Team**

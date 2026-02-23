@@ -1,107 +1,161 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "After-visit Summary MVP Usability Findings"
+product: MHV on VA.gov
+team: MHV on VA.gov Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-04-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- if Veteran/caregivers understand the information displayed within the AVS
+- what notifications Veterans expect to get about AVS
+- "What are Veterans’/caregivers’ past experience with an AVS in either paper form or online?"
+- Can Veterans/caregivers easily find the AVS within the Appointments section and/or the Care Summaries
+- "How do they navigate to an AVS; is it via Appointments or Care summaries and notes?"
+- "Are any sections or terms displayed within the AVS confusing to Veterans/caregivers?"
+- "Is there any information missing that Veterans/caregivers expect to see in an AVS? Or information"
+- "Is the information and layout displayed consistent with Veterans’/caregivers’ mental models?"
+- Do Veterans/caregivers prefer one notification for each AVS or one notification for all appointments in
+- "What information do Veterans/caregivers expect in an AVS notification?"
+- This research was conducted as a remote moderated study on the Zoom platform. Each session was 1
+- "When time allowed, most participants were asked to complete 7 tasks interacting with the prototype, while the"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 3
+    "55-64": 3
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "If Veteran/caregivers understand the information displayed within the AVS?"
+- "What notifications Veterans expect to get about AVS?"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Spread awareness via the change management process that a digital AVS is available on VA.gov.
+- "Keep referring to this experience as the \"After-visit summary.\""
+- Don't change the current information architecture plan to include AVS within appointments and care summaries and notes.
+- Remove the "Details" link from the design.
+- The navigational structure (back buttons) can remain the same.
+- "Ensure that the default configuration is set to Imperial/U.S. standard, which the VA AVS system already provides."
+- "Ensure that if clinicians entered patient-friendly descriptions, then display them within the AVS."
+- Display the existing medication indication field.
+- Make phone numbers clickable.
+- Share lab results feedback with the medical records team that is working on VA.gov lab results.
+- "Review past appointment research into this label and add this as a research question to future studies. If evidence continues to suggest Veteran/caregiver confusion, then make changes to the label."
+- "Ensure that the AVS product has a good print stylesheet and an accessible, downable PDF."
+- Conduct further research when adding referrals and recalls to the appointment list.
+- Eliminate the term "recall" for these appointment types. Provide a more accurate and descriptive name for these type of appointments.
+- Explore an alternate title to the "You were diagnosed with" section.
+- Explore how to remove confusion between the "You were diagnosed with" and "Problems list" sections.
+- Change the "Medications administered at the clinic" section title and label to something more plain language and understandable.
+- "Complete a content review of medical terminology within the AVS to identify areas for more plain language. Ensure that if clinicians entered patient-friendly descriptions, then display them within the\
+  \ AVS. In addition, expand patient education articles linking within the AVS."
+- "Explore ways to connect/crosslink AVS and other care summaries and notes, such as progress notes, so a complete story of what the provider understood can be shared with the Veteran/caregiver."
+- Complete additional research to understand the technical and Veteran value of the additional information requests to the "Your treatment plan from this appointment" section.
+- "Expand patient education articles linking within the AVS. For example, make hypertension a link to an article describing the condition."
+- Explore clearer labels to eliminate confusion across the different medication sections. Explore a combined medication sections.
+- Research additional medication instruction needs further.
+- Add phone number within the appointments section.
+- "Within the AVS, add content to inform Veteran/caregiver that lab results are still in-progress and send the AVS notification as soon as it is available. Review past appointment research into this \"\
+  Schedule and manage appointments\" label and add this as a research question to future studies. If evidence continues to suggest Veteran/caregiver confusion, then make changes to the label. (Appointments\
+  \ and AVS teams)."
+- "Explore ways to connect/crosslink AVS and other care summaries and notes, such as progress notes, so a complete story of what the provider understood can be shared with the Veteran/caregiver. (Medical\
+  \ records and AVS teams)."
+- "Make clinic names more user-friendly or display a combination of other appointment information, such as floor and room number. (Appointments backend team)"
+- "Create AVS notification for each modality, such as email, text, push, or in-app notification. Also, create an associated notification preference. (VeText, VA Notify, Authenticated Experience, and AVS\
+  \ teams)"
+- "Start with separate notification for each AVS. Then, explore expanding to one notification for each day in the future as another option. (VeText, VA Notify, Authenticated Experience, and AVS teams)"
+- "Within the AVS, add content to inform Veteran/caregiver that lab results are still in-progress and send the AVS notification as soon as it is available."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+- Figma
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Radio Button"
+- "DSC: Links"
+- "DSC: Modal"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Personal Health Records/Medical Records"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "usability-testing"
 ---
+
 # After-visit Summary MVP Usability Findings
 The purpose of this research is to get feedback from Veterans and caregivers on the After Visit Summary MVP VA.gov Prototype about ease of use of the content and how well it met expectations.
 - If Veteran/caregivers understand the information displayed within the AVS?

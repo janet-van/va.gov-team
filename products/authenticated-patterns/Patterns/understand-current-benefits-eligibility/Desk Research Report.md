@@ -1,95 +1,117 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: Desk Research Report Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: Not specified
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- caring
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Not specified - goals not explicitly stated in report"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "desk-research"
+- discovery
+- evaluative
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Wayfinding tools used in lists  (such as filter, sorting, toggle, and the dot/unread notification components) need further exploration with how they interact with the service list pattern"
+- "The order of the items in the service list pattern should be studied to ensure they match Veteran expectations and mental models[^8]"
+- The recommended status content should be investigated to ensure it matches Veteran mental models.
+- "Additional insight is needed around the use of colors in status tags and their effectiveness in communicating the status meaning. There is currently an [experimental design for colored tags](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2993)\
+  \ that can be used to explore this."
+- "The team who creates the new Critical information component should ensure that the content of the component addresses the following elements to ensure the Veteran is clear on the steps they need to take:"
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- "[‘DSC: Icon’](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aopen+label%3A%22DSC%3A+Icon%22+)"
+- "[‘DSC: Links’](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aopen%20label%3A%22DSC%3A%20Links%22%20)"
+- "[‘DSC: Tag’](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aopen%20label%3A%22DSC%3A%20Tag%22%20)"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Desk research
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- EnjoyHQ
+tags:
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "MHV: Pharmacy"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Debt-portal"
+- "PRDT: Decision-reviews"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "desk-research"
+- discovery
+- evaluative
+- "usability-testing"
 ---
 
 # Desk Research Report 

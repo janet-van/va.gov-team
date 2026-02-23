@@ -1,4 +1,111 @@
- # VA.gov Discovery Interviews, Income Limits App -- Topline Summary
+---
+title: Introduction Research Findings
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-11-28"
+researchers:
+- Not specified
+research_goals:
+- "What events drive a Veteran to consider their eligibility for health care benefits and prescriptions?"
+- "How do Veterans first determine eligibility for health care benefits and prescriptions?"
+- "Do Veterans think about/consider their eligibility for health care benefits and prescriptions?"
+- "If they do, when and how do they consider their eligibility?"
+- "What problems do Veterans encounter when trying to determine eligibility?"
+- "What do Veterans need to do after they understand their eligibility?"
+- "to guide Veterans through a chronological re-telling of their experiences determining benefit eligibility. Sessions were conducted over Zoom on **October 19-20, 2022**"
+methodology:
+- "semi-structured-interviews"
+- discovery
+- "in-person-research"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 4
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- assumed they were eligible for VA health care because of their disability or the length of service
+- got information about VA health care and eligibility from other Veterans
+- barriers around eligibility
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Spreadsheet analysis
+- Affinity Mapping
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Form 10-10 EZ"
+- "PRDT: Form 21-686c"
+- "PRDT: Home-page"
+- "PRDT: Search"
+- discovery
+- "in-person-research"
+- "semi-structured-interviews"
+---
+
+# VA.gov Discovery Interviews, Income Limits App -- Topline Summary
 
 Cindy Merrill [cindy.merrill@adhocteam.us], Sitewide Home Page team
 

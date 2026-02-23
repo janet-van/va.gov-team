@@ -1,3 +1,129 @@
+---
+title: "VBA Public Contact Staff Research - Topline Summary Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-01-01"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "semi-structured-interviews"
+- "in-person-research"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 2
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- "1 - Services at Regional Benefit Offices can be meaningfully categorized in at least four distinct ways"
+- "2 - Public Contact staff primarily assist with the benefit of disability compensation"
+- "3 - Public Contact staff primarily assist with the task of applying for benefits"
+- "4 - Providing beneficiaries official documents is a significant function of Regional Benefit Offices"
+- "5 - There are few (if any) tasks that require a Veteran to be physically present at Regional Benefit Office"
+- "6 - A common source of Veteran frustration is a mismatch between their expectations of what they can accomplish at a Regional Benefit Office and the reality"
+- "7 - There is little standardization in how Regional Benefit Offices handle appointments"
+- "8 - Wait times at Regional Benefit Offices are primarily affected by facility location and staffing, but there are also predictable busier times"
+- "9 - Most services are consistently available during normal operating hours"
+- "10 - Having a valid photo ID and a DD-214 is helpful regardless of service"
+- "11 - Some Regional Benefit Offices are located in Federal buildings with security checkpoints, which can affect timing"
+- Top 3 services from 12 participants
+- Service matrix sneak peek
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+- Call center data
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Surviving Family"
+- "AUD: Veteran Service Office (VSO)"
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Finances"
+- "BNFT: Healthcare"
+- "BNFT: Housing"
+- "BNFT: Pension"
+- "BNFT: Records"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Table"
+- "DSC: Tabs"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: 26-1880 COE Certificate of Eligibility"
+- "PRDT: Accredited-Reps"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Caregivers"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Disability-526EZ"
+- "PRDT: Facilities"
+- "PRDT: Find-a-va-form"
+- "PRDT: Pension"
+- "PRDT: Search"
+- "PRDT: eBenefits"
+- "in-person-research"
+- "semi-structured-interviews"
+---
+
 <!-- This was copied over from the VSA document at https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/design/topline-summary-template.md -->
 
 # VBA Public Contact Staff Research - Topline Summary

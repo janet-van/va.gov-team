@@ -1,3 +1,125 @@
+---
+title: "Federal Standardized Header/Footer (Phase 1) Usability Testing -- Topline Summary Research Findings"
+product: Header/Footer
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-01-03"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- "prototype-testing"
+devices_used:
+  desktop: 1
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 9
+  service_members: 1
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- None of the 10 participants mentioned missing the "VA" logo
+- Successful wayfinding to tasks seemed not adversely affected by the new header and footer
+- liked the font size
+- preferred the font in the header bar
+- "3 of 10 participants (2 on phone, 1 on desktop) didn't recognize that they were actually signed in"
+- "*2 of 5 phone users* had difficulty finding the Auth menu"
+- "*2 of 5 desktop users* had difficulty finding the Auth menu"
+- all participants readily clicked on the Profile menu
+- Four of 5 participants on phones had difficulty understanding the differences between the accordions in the mobile footer
+- "Four of 10 participants described the difference between the footer links with a blue *vs.* black background"
+- "look at the URL to see if it's *.gov* or *VA.gov"
+- Six of 10 participants thought the colored USA logo in the header was unnecessary and maybe harmful
+- might be phishing
+- one person loved the colored USA logo
+- Two participants liked the black/white USA logo in the footer better than the colored one
+recommendations:
+- Plan and conduct Phase 2 of research
+- Do more data synthesis
+- Write full research report for Phase 1 and 2
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Healthcare"
+- "BNFT: Life Insurance"
+- "BNFT: Records"
+- "DSC: Accordions"
+- "DSC: Form"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "PRDT: Caregivers"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: My-VA"
+- "PRDT: Profile"
+- "PRDT: Search"
+- "prototype-testing"
+- "usability-testing"
+---
+
 # Federal Standardized Header/Footer (Phase 1) Usability Testing -- Topline Summary
 
 *Cindy Merrill, Sitewide Public Websites team, January 3, 2024*

@@ -1,105 +1,136 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: All “Primary care questionnaire” MVP Workflows Discovery Readout Research Findings
+product: Health Questionnaire
+team: Health Questionnaire Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- "Kristen McConnell <br>"
 research_goals:
-- Goal 1
-- Goal 2
+- "and post-appointment experiences for Veterans, contribute to physical distancing efforts in VA facilities, and better integrate Veteran-provided data in VA workflows by providing Veterans with a digital\
+  \ option to complete pre- or post-appointment questionnaires and screeners."
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- survey
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 1
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
-recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- Veterans welcomed and even expected email and text notifications for health questionnaires.
+- "Questionnaire links within text messages are more easily overlooked by participants who already receive appointment reminder text messages, because participants automatically reply confirm/cancel and\
+  \ don’t read the rest of the text."
+- Veterans are interested in receiving multiple notifications (an initial notification and a reminder notification).
+- "Veterans expect to sign in to complete health questionnaires, in order to protect their health records."
+- The usability of the questionnaire was reconfirmed by Veterans with PTSD and TBI.
+- The value of the questionnaire was reconfirmed by Veterans.
+- Veterans want to view more appointment details when completing health questionnaires.
+- Veterans still plan to print their questionnaire to take with them to their appointment.
+- "Veterans want to view their completed questionnaires for two main reasons:"
+- "Veterans are not interested in seeing not submitted questionnaires, except when they started the questionnaire, then the appointment was canceled."
+- "Veterans are interested in sorting and filtering the list of their completed questionnaires by specialty, type of questionnaire, and date."
+- Veterans are interested in viewing scores from questionnaires (also known as screeners) over time.
+- "When entering through the main VA.gov homepage, Veterans were split on whether they wanted to navigate to these health questionnaires via a badge/notification on a dashboard or the appointments section."
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
 - Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+synthesis_tools_used: []
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Service Members"
+- "AUD: Veterans"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Records"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Personal Health Records/Medical Records"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Form 21-686c"
+- "PRDT: Home-page"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- discovery
+- "in-person-research"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- survey
+- "usability-testing"
 ---
+
 # All “Primary care questionnaire” MVP Workflows Discovery Readout
 
 **Prepared by:** Kristen McConnell (kristen.mcconnell@adhocteam.us)<br>

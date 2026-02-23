@@ -1,95 +1,138 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Pre-Need Burial Research Findings"
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Not specified
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- Understand what prompts Veterans to think about their burial details so that we consider what information to provide to them
+- Understand how Veterans are learning about their burial benefits so we can consider where to provide information to them
+- "Test the clarity of pre-need burial information on VA.gov"
+- "Understand the goals of Veterans for pre-need burial so we can determine what will be useful"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- discovery
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 1
+    "55-64": 8
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Office of the CTO - Digital Experience (OCTO-DE), VA Health and Benefits App, Mobile Feature Support"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Provide timeline for the process of pre-need eligibility determination"
+- Over half wanted to know how long they should expect to wait so that they’re confident the process was working.
+- Add status updates to My VA and the app
+- "Almost all would want to use their account to check the status of their application, referencing past frustrations with not knowing whether forms had been received or processed."
+- Add decision letter to MyVA and the app
+- Everyone wants a digital decision letter to make it easier and faster for their loved ones to access crucial information.
+- "Provide a method for family members and other designated people of Veterans to access their pre-need eligibility decision. Possibly allow Next of Kin to be added?"
+- "Everyone wanted to ensure their loved ones could access their decision letter after death, especially if they were not familiar with VA systems and procedures."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- "Due to stage of our research, we did not include assistive technology (AT) users in our plans. Though we ended up with at least 2 AT users, we want to be sure solutions address the needs for all AT users."
+- "In this study, all but one participant was 55 years or older, which helped ensure our research reflected the demographics of Veterans and included older individuals who may face more challenges with\
+  \ technology. However, expanding future research to include younger Veterans and family members could be valuable, as it would:"
+- "Help us design with the expectations of more tech-savvy users in mind"
+- Allow us to explore and validate ideas related to next of kin by including family members in our research
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Spreadsheet analysis
+- Affinity Mapping
+- Figma
+tags:
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Memorialization"
+- "BNFT: Records"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Burials-memorials"
+- "PRDT: Caregivers"
+- "PRDT: Claim-status-tool"
+- "PRDT: Content"
+- "PRDT: Decision-reviews"
+- "PRDT: Find-a-va-form"
+- "PRDT: My-VA"
+- "PRDT: Search"
+- discovery
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
 
 # Pre-Need Burial Research Findings

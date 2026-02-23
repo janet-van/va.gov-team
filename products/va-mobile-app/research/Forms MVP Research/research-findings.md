@@ -1,133 +1,128 @@
 ---
 title: Forms MVP Usability Study Research Findings
-product: VA Health & Benefits Mobile App
-team: Mobile App & Platform Team
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: '2025-08-28'
+product: Search
+team: "Search & Discovery Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-08-29"
 researchers:
-- Christine Julian (Researcher)
-- Jonathan Post (UX Designer)
+- Not specified
 research_goals:
-- Understand if Veterans can find and interact with forms from the app.
-- Identify if Veterans can fill out a form from the app on their own.
-- Identify any usability issues Veterans may experience when interacting with forms
-  on the mobile app.
-- Identify if Veterans can start a form and come back to it at a later time to complete.
+- Understand if Veterans can find and interact with forms from the app
+- Identify if Veterans can fill out a form from the app on their own
+- Identify any usability issues Veterans may experience when interacting with forms on the mobile app
+- Identify if Veterans can start a form and come back to it at a later time to complete
 methodology:
-- Moderated Usability Testing
-- System Usability Scale Survey
+- "usability-testing"
+- "semi-structured-interviews"
+- survey
+- "prototype-testing"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: 11
-  assistive_technology: X
-participants_total: 11
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: 11
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: 1
-    45-54: 3
-    55-64: 4
-    65+: 3
+    "25-34": 0
+    "35-44": 1
+    "45-54": 3
+    "55-64": 4
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: 1
-    bachelors: 3
-    masters: 7
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: 4
-    rural: 7
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: 4
-    black: 2
-    hispanic: 2
-    biracial: 2
-    asian: 1
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- 1. Forms from the app were generally well received.
-- 2. Veterans may navigate to this activity from various paths.
-- 3. Veterans were confused about the wording of the options on the 'What would you
-  like to do?' screen that directs them to various forms.
-- 4. Veterans struggle to return to the app from webview.
-- 5. Mobile users are prone to typing errors in their form entry. Typing on a smaller
-  device is frustrating for many Veterans as they experience smaller touch targets
-  & compact keyboards.
-- 6. Users may miss screen content or attempt to scroll around instead of dismiss
-  toast messages in the app.
-- 7. Users desire more information about the status of a form after submission as
-  proposed statuses may be interpreted in different ways.
+- "Office of the CTO - Digital Experience (OCTO-DE), VA Health and Benefits App, Mobile App and Platform Team"
+- "[Link to Research Readout](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Forms%20MVP%20Research/VAHB%20App%20Forms%20MVP%20Research%20Shareout.pdf))"
 recommendations:
-- 1. Move forward with an MVP of forms in the mobile app.
-- 2. Consider multiple pathways to forms. Direct users to the 21-4138 form also under
-  the context of claims.
-- 3. Update the wording of the options on the screen 'What would you like to do?’.
+- "2. Consider multiple pathways to forms. Direct users to the 21-4138 form also under the context of claims."
 - 4. Update the text of the ‘Done’ button.
-- 5. Consider smaller ‘light-weight’ forms that require shorter responses with less
-  manual entry for the mobile app.
-- 6. Consider alternative methods of delivering messages to an app user rather than
-  a toast, or encourage users to dismiss the message more clearly.
-- 7. Provide the steps of processing the form to decision reflecting the current progress
-  in relation to the whole with meaningful details and dates.
-kpi_alignment:
-- Trust, satisfaction, and equity
+- "6. Consider alternative methods of delivering messages to an app user rather than a toast, or encourage users to dismiss the message more clearly."
+- "### Recommendations based on additional findings"
+kpi_alignment: []
 outcomes:
-  user: Make it simpler and faster for users to interact with VA and complete day-to-day
-    transactions.
-  business: Empower business lines to provide targeted communication to Veterans.
-opportunity_areas:
-- Introductory screens to form 21-4138
-- Action relationally associated with claims
-further_research_needed:
-- Test with assistive tech users
-- Test the form introductory screens related to 21-4138 after updates to content
-underserved_groups_missing:
-- Live abroad
-- Cognitive disability
-- Don’t have a degree
-- Other than honorable
-- Immigrant origin
-- Expat
-- Identify as LGBTQ+
-- Assistive tech users
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- SuS results
+- Call center data
 synthesis_tools_used:
-- 'Github CoPilot Ai: Gemini 2.0'
-- Affinity Mapping in Figjam
+- Affinity Mapping
 tags:
-- 'AUD: Veterans'
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Caregivers"
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Caregivers"
+- "PRDT: Content"
+- "PRDT: Find-a-va-form"
+- "PRDT: Form 21-686c"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "moderated-research"
+- "prototype-testing"
+- "remote-research"
+- "semi-structured-interviews"
+- survey
+- "usability-testing"
 ---
+
 ---
 
 # Forms MVP Usability Study Research Findings 

@@ -1,103 +1,115 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Research Findings: Health Services - Vaccination Services Taxonomy Research Findings"
+product: Facilities
+team: Facilities Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: Not specified
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Learn the Veteran mental models for vaccination within the health service taxonomy, primarily for VAMCs"
 methodology:
-- Method 1
-- Method 2
+- "semi-structured-interviews"
+- "card-sort"
+- "remote-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 0
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "The majority of Veterans associated COVID-19 as a unique event, and most expected to see COVID-19 information in Other Services, or in its own category."
+- "Most Veterans expected routine vaccinations, such as Influenza, Tetanus (Tdap), and Shingles to be part of an existing care visit (Primary Care)."
+- "Veterans all connected and expected to use terms such as vaccine, vaccination and shot, and expected those terms to be seen on VA.gov."
+- "Most Veterans found terms such as Flu and Influenza to be interchangeable, but expected to use Flu."
+- "Most Veterans expected to use search terms COVID or COVID-19, but not Coronavirus when searching COVID-19 vaccine-related information."
+- Veterans' expectations on where to find information depend on the type of vaccine.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Add a dedicated, easy-to-spot content section for COVID-19 vaccine information on Health Services pages. This will help Veterans locate the information, regardless of which category they anticipate would\
+  \ contain COVID-19 vaccine information. Cross-link to this content from other content"
+- "In the COVID-19 section, provide two types of information:"
+- "Information about how and when to sign up for a vaccine (or sign up to be notified when that information is available), what to expect, and contacts for further information."
+- "Information on the vaccines themselves, including facts about COVID-19, vaccine benefits, effectiveness and possible side effects."
+- "Include vaccine-related information in the Primary Care category, but include Tetanus shot information in Urgent Care and Emergency Care for Veterans who have an injury."
+- "There is the possibility that events for certain vaccines, such as Influenza or Shingles, will be held outside of a primary care visit. Display information at a top level on the facility page about the\
+  \ event, and cross-link to the information from other categories such as Primary Care."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- "BNFT: Disability"
+- "BNFT: Education"
+- "BNFT: Healthcare"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "Initiative: Toxic Exposure"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Login"
+- "PRDT: Search"
+- "card-sort"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
 ---
+
 # Research Findings: Health Services - Vaccination Services Taxonomy
 
 ## Research Goals 

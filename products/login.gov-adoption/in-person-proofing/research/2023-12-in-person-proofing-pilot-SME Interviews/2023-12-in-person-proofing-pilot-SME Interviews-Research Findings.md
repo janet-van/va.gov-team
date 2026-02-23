@@ -1,95 +1,119 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: 2023 12 In Person Proofing Pilot Sme Interviews Research Findings
+product: Search
+team: "Search & Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-12-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Carnetta Scruggs
+- Susan Haidary
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "How might we ensure a positive proofing experience for Veterans with VA staff support?"
+- "How might we improve the ease of adoption and use of the service for VA staff?"
+- "How might we help VA staff ease the anxiety/burden for Veterans when they aren't successful in verifying their identity?"
+- "How might we make failure to verify one's identity remotely more palatable for Veterans and VA staff?"
+- "Partly false. Currently, some MHV coordinators struggle helping Veterans understand the importance of verification. Without a good reason, it can be hard to guide a Veteran through this process and encourage\
+  \ them to share information"
+- "Mostly true. VA staff were excited about the service flow,  its potential use in assisting them with the verification process, and welcomed the ease that the service flow would allow them to verify a\
+  \ Veterans identity"
+- "Mostly false. VA Staff were not familiar with how to use the IAM toolkit to search for Veterans. In fact, most were not even familiar with what the IAM toolkit is. They would need training on this application\
+  \ before fully engaging with the service"
+- "Partly true. All MHV Coordinators reported that they would do anything they can to help Veterans, even if doing so means performing tasks outside of the typical verification flow. This means they are\
+  \ educators in addition to verifiers. However, sometimes they may hit a wall where they cannot resolve an issue for a Veteran and they must rely on a third party service (like from Login.gov)"
+- "Partly false.  Every Coordinator has a different physical space that they work in and varying access to resources. Ten day walk in windows may work at some sites and not others due to the available staff,\
+  \ hours, available technology, available transportation, and so on"
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "usability-testing"
+- "semi-structured-interviews"
+- "contextual-inquiry"
+- discovery
+- "remote-research"
+- "in-person-research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Not specified - key findings not explicitly listed in report"
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- SME interviews
+synthesis_tools_used: []
+tags:
+- "AUD: VA Staff"
+- "AUD: Veterans"
+- "BNFT: Healthcare"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Table"
+- "DSC: Tabs"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Facilities"
+- "PRDT: Login"
+- "PRDT: Search"
+- "PRDT: VA-notify"
+- "contextual-inquiry"
+- discovery
+- "in-person-research"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
 
 2023-12-in-person-proofing-pilot-SME Interviews

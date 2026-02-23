@@ -1,103 +1,132 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Enabling Pre-check-in for Telephone Appointments Research Findings"
+product: "Check-in"
+team: "Check-in Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-05-27"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+- Not specified
 research_goals:
-- Goal 1
-- Goal 2
+- "Validate our MVP:"
+- Clearly state it’s a telephone appointment
+- Set expectations with a Veteran that a provider may join the appointment late
+- Understand Veteran’s current experience with telephone appointments
+- "Clarity of the “too late” message – this is when a Veteran tries to complete pre-check-in after midnight on the day of their appointment"
+- This is a key part of the PCI design that we haven’t tested before
+- Used Perigean recruitment
+- "Remote, moderated 1 hour sessions"
+- "Semi-structured interviews"
+- "Observational and task-based [usability testing via UX Pin](https://preview.uxpin.com/c9613f8da892cb84bd512b73b4d4cd3b075e7d27#/pages/150044638/simulate/no-panels?mode=if)"
 methodology:
-- Method 1
-- Method 2
+- "usability-testing"
+- "semi-structured-interviews"
+- discovery
+- "remote-research"
+- "in-person-research"
+- "moderated-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+- "Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+- "Enabling pre-check-in for telephone appointments is valuable to Veterans, so we should continue with implementation."
+- "Keep the name “Pre-check-in.”"
+- "Explore/revisit adding health questionnaires (AKA digital health forms), a medication review, and editing contact information to pre-check-in."
+- "This may help address the negative reaction to pre-check-in, because the current-state may be too minimal to add value for some Veterans."
+- "Evaluate and prioritize all the additional features mentioned by Veterans for pre-check-in, such as ‘Preferred phone number’ and ‘Provider’s name.’"
+- Update the VAOS link to the new wording ‘Sign in to manage all appointments’.
+- "Re-imagine the ‘too late’ messaging to reduce confusion."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
 - Mural
+- Spreadsheet analysis
 - Affinity Mapping
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Disability"
+- "BNFT: Healthcare"
+- "DSC: Accordions"
+- "DSC: Card"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Modal"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "Initiative: Toxic Exposure"
+- "MHV: Appointments"
+- "MHV: Pharmacy"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: COVID-vaccine-distribution"
+- "PRDT: Check-in"
+- "PRDT: Content"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Questionnaire"
+- "PRDT: Search"
+- discovery
+- "in-person-research"
+- "moderated-research"
+- "remote-research"
+- "semi-structured-interviews"
+- "usability-testing"
 ---
+
 # Enabling Pre-check-in for Telephone Appointments Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience**

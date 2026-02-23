@@ -1,3 +1,164 @@
+---
+title: "Federal Standardized Header/Footer (Phase 2) Usability Testing -- Topline Summary Research Findings"
+product: Header/Footer
+team: Public Websites Team
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-02-15"
+researchers:
+- Not specified
+research_goals:
+- "Not specified - goals not explicitly stated in report"
+methodology:
+- "usability-testing"
+- "semi-structured-interviews"
+- discovery
+- "prototype-testing"
+devices_used:
+  desktop: 1
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 14
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- page design was well received overall
+- "Wayfinding seemed *not* adversely affected by the proposed header and footer"
+- None of the 9 participants mentioned missing the "VA" logo
+- "all participants recognized and clicked on *Profile"
+- "one third of the participants (3 of 9, which was 2 on mobile and 1 on desktop) didn't recognize that they were actually signed in"
+- "*ALL 3 of the mobile users* had difficulty finding the Auth menu"
+- "*2 of 6 desktop users* had difficulty finding the Auth menu"
+- "More than half of the participants (5 of 9 participants: 4 on desktop, 1 mobile) misperceived the bottom of the page and didn't notice any of the links in the black federal footer"
+- "Three of 9 participants  (2 desktop, 1 mobile) interpreted the footer as only the black federal part"
+- looked only there and not in the blue VA part
+- "Three participants (2 desktop, 1 mobile) looked for *Find a VA Location* in the blue VA footer"
+- Two participants (both desktop) said that the blue VA footer is too large
+- "Because there was such variability in technology and visual ability, accessibility issues that affected even one participant are included here"
+- difficulty using search in the desktop header
+- "after signing in, only the page title was read on the landing page"
+- couldn't understand some pages and links because MAGic didn't read them
+- didn't notice the 4th column of footer links
+- confused by navigation in the blue footer because he didn't perceive any columns but saw (with limited vision) the screen jump
+- confused by the header buttons changing name
+- screen reader said "button menu" for her name
+- couldn't tell that it wasn't interactive
+- inverse/high contrast
+- "\"A\" in the header *USA Government* disappeared, as did the entire USA white logo and seal"
+- difficult to differentiate a menu from the content underneath
+- VA Benefits and Health Care menu options aren't visible with her screen magnification
+- preferred a larger font
+- "Footer issue #10"
+- looked for Find a VA Location in the blue VA footer
+- "Footer issue #11"
+- blue VA footer is too large
+- didn't know what the "Business" link was
+- "\"Privacy, policies, and legal information\" and \"Privacy Service\" links seem redundant"
+- "\"About VA\" doesn't make sense in the black part"
+- wanted to see information specifically for seniors
+- wanted the "Information for" footer accordion to be more descriptive
+- mobile header close buttons are inconsistent
+- "look at the URL to see if it's *https* and *.gov"
+- "*U.S. Department of Veterans Affairs* in the header"
+- "*USA Government"
+- 5 of 6 participants were concerned about the colored USA logo in the header
+- Doesn't look like an official government website
+- The font of the "S" seems out of place
+- unfamiliar so seems fraudulent
+- Not sure why it says "USA Government"
+- Not sure why it says "USA"
+- 3 of the 5 said they liked the black/white USA logo in the footer better
+- feedback on the white VA seal to the right of the white USA logo
+- black and white coloring was wrong for the eagle
+recommendations:
+- because underneath the Menu button wasn't intuitive for any of the mobile participants.
+- "(e.g., incorporating the user's name on mobile, or changing the screen more significantly) because it was hard for some participants to recognize that they were signed in."
+- area because participants were confused about where the bottom of the page was and where to find typical footer links.
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+- Affinity Mapping
+tags:
+- "AUD: Family Member"
+- "AUD: Veterans"
+- Accessibility
+- "BNFT: Education"
+- "BNFT: Employment"
+- "BNFT: Healthcare"
+- "BNFT: Life Insurance"
+- "DSC: Accordions"
+- "DSC: Button"
+- "DSC: Form"
+- "DSC: Form - Select"
+- "DSC: Links"
+- "DSC: Tabs"
+- "HDW: Desktop"
+- "HDW: Smartphone"
+- "HDW: Tablet"
+- "Initiative: Toxic Exposure"
+- "MHV: MyHealth (Health Hub)"
+- "PRDT: 1990 Application for VA Ed. Benefits"
+- "PRDT: Ask VA (AVA)"
+- "PRDT: Contact us"
+- "PRDT: Content"
+- "PRDT: Facilities"
+- "PRDT: Header-footer"
+- "PRDT: Login"
+- "PRDT: Profile"
+- "PRDT: Search"
+- discovery
+- "prototype-testing"
+- "semi-structured-interviews"
+- "usability-testing"
+---
+
 # Federal Standardized Header/Footer (Phase 2) Usability Testing -- Topline Summary
 
 *Cindy Merrill, Sitewide Public Websites team, February 15, 2024*
