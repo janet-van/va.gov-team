@@ -2,6 +2,33 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Table of Contents
+
+- [Repository Overview](#repository-overview)
+- [Repository Structure](#repository-structure)
+  - [Key Directories](#key-directories)
+  - [Decision Reviews Focus Area](#decision-reviews-focus-area)
+- [Prerequisites and Setup](#prerequisites-and-setup)
+  - [Git LFS Requirement](#git-lfs-requirement)
+- [Common Development Tasks](#common-development-tasks)
+  - [Documentation Navigation](#documentation-navigation)
+  - [Project Management](#project-management)
+  - [Research and Design Workflow](#research-and-design-workflow)
+- [Architecture Patterns](#architecture-patterns)
+  - [Decision Reviews Applications](#decision-reviews-applications)
+  - [Documentation Standards](#documentation-standards)
+- [Key Files and Templates](#key-files-and-templates)
+  - [Templates Available](#templates-available)
+  - [Critical Documentation](#critical-documentation)
+- [Development Principles](#development-principles)
+  - [VA-Specific Requirements](#va-specific-requirements)
+  - [Quality Standards](#quality-standards)
+- [Working with Teams](#working-with-teams)
+  - [Team Structure](#team-structure)
+  - [Communication](#communication)
+- [Repository Access](#repository-access)
+  - [New Contributors](#new-contributors)
+
 ## Repository Overview
 
 The VA.gov Team Repository is a documentation and project management repository for the Veterans Affairs digital platform. It contains non-code documents, files, and issue tracking across platform and teams building VA.gov products. This repository serves Veterans, their families, and caregivers by supporting the development of VA.gov services.
