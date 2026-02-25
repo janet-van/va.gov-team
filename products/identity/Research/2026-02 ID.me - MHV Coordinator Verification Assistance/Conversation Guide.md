@@ -27,22 +27,44 @@ tags:
   - "staff-research"
   - "semi-structured-interviews"
   - "mhv"
-description: "Semi-structured interview guide to understand MHV coordinator workflows, pain points, workarounds, escalation pathways, and desired ID.me improvements when helping Veterans verify identity."
+description: "Semi-structured interview guide to understand MHV coordinator workflows, pain points, workarounds, and escalation pathways when helping Veterans verify identity with ID.me, and to gather prioritized improvement recommendations for ID.me and VA."
 # NEW: Compliance flags
 recording_required: true
-observer_support: true
-consent_for_clips: true
+observer_support: false
+consent_for_clips: false
 ---
+
+> [!TIP]
+> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
+> Use the VA Platform frontmatter completion prompt if desired.
 
 # Conversation Guide for MHV Coordinator Interviews on ID.me Verification Support Challenges
 
 ## Moderator logistics 📋✅
 
+### 2-3 days before the session
+
+> [!NOTE]
+> Review VA Platform's Research Checklist: https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist
+
+Project-specific setup tasks:
+- [ ] Confirm participant is an **MHV Coordinator** (or equivalent role) and understands this is a staff interview about their support work.
+- [ ] Confirm session will be conducted **without sharing Veteran PII**. If participant offers to screenshare internal systems, request a verbal walkthrough instead.
+- [ ] Prepare a short moderator reference for potentially inconsistent terminology:
+  - “ID.me account” vs “ID.me verified”
+  - “sign in” vs “identity verification” vs “account recovery”
+  - “escalation” vs “handoff”
+- [ ] Align with note-taker on what to capture:
+  - Workflow steps (intake → troubleshoot → prep → escalate → resolve)
+  - Frequency estimates and “top issues”
+  - Quotes and “wish list” items (ID.me improvements + VA-side improvements)
+
 ### Day of the session
 
-> - Use #feedback-backchannel in Slack for real-time feedback from observers.
+> [!TIP]
 > - Mute Slack notifications.
-> - Send out the observer instructions to observers (per VA Platform guidance).
+> - Keep a visible timer (45 minutes total).
+> - Have a plan to stop screensharing if sensitive info appears (see Emergency Exit).
 
 ### Starting the session
 
@@ -51,137 +73,99 @@ consent_for_clips: true
 > - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
 > - When the participant is ready, begin the session with the intro below.
 
-# Intro - 5 minutes
+# Intro - 3 minutes
 
 Thanks for joining us today! My name is **[MODERATOR NAME]** and **[NOTETAKER NAME]** is taking notes.
-**[If there are observers]** I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
-Today we're going to talk about your experience supporting Veterans with **ID.me sign-in and identity verification**, especially where Veterans get stuck and what could reduce friction for both Veterans and coordinators.
+Today we're going to talk about your experience supporting Veterans with **ID.me sign-in and identity verification**, especially where Veterans get stuck, how you help, and what could improve the process.
 
-Before we start, I have a few things that I want to go over with you:
+Before we start, I have a few quick things to go over:
 
-- **This entire session should take about 45 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This session should take about 45 minutes.** I may move us along to make sure we cover everything.
+- **We want your honest opinions.** There are no right or wrong answers, and we’re not evaluating you or your performance.
+- **Participation is voluntary.** You can skip any question or stop at any time.
 
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your job in any way. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-
-- I know the folks who invited you to participate asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with a couple of additional observers during this session?**
-  - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-  - **If yes:** Admit observers.
-
-> [!TIP]
-> - Then, ask the notetaker and observers to give a brief, camera-on introduction (first name + role).
-> - Once complete, ask observers to turn off their cameras for the remainder of the session to save bandwidth.
-
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly.
-
-  - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
+- **Are you comfortable if I record audio (and my screen if needed) as we talk today?** We use recordings to confirm we captured your feedback accurately. We’ll summarize learnings without attributing them to you personally.
 
   <mark>**[Record answer here]**</mark>
-
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand staff experiences?** One of the ways that we share findings with our partners across VA is by showing short video clips of sessions. In these clips, we remove or blur any identifying information. These clips will not be shared outside of VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-
-  - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand staff experiences?**
-
-  <mark>**[Record answer here]**</mark>
-
-  - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
 
 ➡️ **Start recording.**
 
 > [!TIP]
 > After you start the recording, enable transcription/captions if available.
 
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+- **I have started recording.** To confirm, are you comfortable with me recording this conversation?
 
-<mark>**[Record answer here]**</mark>
+  <mark>**[Record answer here]**</mark>
 
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+# Warm-up - 3 minutes
 
-<mark>**[Record answer here]**</mark>
+1. Could you describe your role and responsibilities in your own words?
+   - How long have you been in this role?
 
-# Warm-up Questions - 5 minutes
-
-Before we get into ID.me support scenarios, I’d like to start with a few background questions.
-
-1. Could you describe your role in your own words?
-   - What does a typical day/week look like?
-
-2. About how long have you been in this role?
-
-3. What channels do Veterans typically use to reach you (phone, in-person, secure message, etc.)?
+2. How do Veterans typically reach you for help (phone, in-person, secure message, etc.)?
    - Does ID.me support differ depending on the channel?
-
-4. Roughly, what proportion of your support work involves ID.me verification or sign-in issues?
 
 ---
 
-## First Task: Quantify + segment ID.me verification support demand - 10 minutes
+## Task 1: Volume + segmentation of ID.me support requests - 7 minutes
 
-1. **How often are you supporting Veterans who are verifying with ID.me?**
-   - Daily / weekly / monthly?
-   - Are there patterns (seasonal, tied to appointments, medication refills, enrollment, etc.)?
+1. In a typical week, about how many **ID.me-related** support cases do you handle?
+   - About how many involve **verification not completing successfully** on the first try?
 
-2. **How often are you encountering situations where Veterans are unable to verify with ID.me (daily/weekly/other frequency)?**
-   - Roughly what percent of those cases are resolved the same day vs require follow-up?
+2. For the ID.me-related cases you see, how often are Veterans:
+   - Verifying for the first time?
+   - “Already have an ID.me account” but are blocked?
 
-3. **How many Veterans already have an existing ID.me account vs verifying for the first time?**
-   - *(Follow-up for clarity)* When a Veteran “already has an account,” is the blocker usually:
-     - (a) account exists but not identity-verified
-     - (b) identity-verified but cannot access/sign in
-     - (c) account recovery (email/phone/device) problems
-     - (d) something else?
+   *(Follow-up for clarity)* When someone “already has an account,” what’s most commonly going on?
+   - Account exists but not identity-verified
+   - Identity-verified but cannot sign in / link / access
+   - Account recovery (lost email/phone/new device)
+   - Something else?
 
-4. What are the top 3 most common ID.me-related issues you see?
-   - Which ones take the most time?
+3. What are the top 2–3 ID.me issues you see most often?
+   - Which ones take the most time to resolve?
 
 > [!NOTE]
 > ### Things to watch for:
 > - Any informal tracking / ticketing categories they use
-> - Frequency estimates and confidence levels (“roughly”, “I’d guess”)
-> - Repeat contacts and “stuck loops”
+> - Confidence level of estimates (“roughly”, “I’d guess”)
+> - Repeat contacts / “stuck loops”
 
 ---
 
-## Second Task: Walk through a recent support scenario end-to-end (workflow mapping) - 20 minutes
+## Task 2: Walk through a recent support scenario end-to-end (workflow mapping) - 15 minutes
 
-“Think of a recent situation you remember well (no personal details needed). A Veteran contacted you because they couldn’t get through ID.me verification or couldn’t sign in.”
+Think of a recent situation you remember well (no personal details needed). A Veteran contacted you because they couldn’t get through ID.me verification or couldn’t sign in.
 
-1. **Intake**
+1. **Intake / diagnosis**
    - What’s the first thing you try to understand?
    - What questions do you ask to determine where they’re stuck?
 
 2. **Troubleshooting**
    - What steps do you typically try first?
-   - What information do you need from the Veteran (without collecting anything sensitive today)?
+   - What information do you need from the Veteran (without sharing any sensitive details today)?
    - What do you do if the Veteran has limited technology skills or limited device access?
 
 3. **Workarounds + constraints**
-   - What workarounds do you or your team use today?
-   - What do you *wish* you could do to help but can’t (permissions, systems, policy, time)?
+   - What workarounds do you or your team use today when the “typical” steps don’t work?
+   - Any major constraints that limit what you can do (policy/tools/time)?
 
-4. **Resolution**
-   - What does success look like from your perspective?
-   - How do you confirm the Veteran is fully unblocked (verified + can sign in + can access the intended VA service)?
-
-5. **Follow-up + documentation**
-   - Do you document these cases? Where?
-   - Do you have any tags/categories for ID.me-related contacts?
-   - How often does a “resolved” case come back as a repeat contact?
+4. **Closeout**
+   - How do you know it’s resolved?
+   - What do you document (if anything), and do you do any follow-up?
 
 > [!NOTE]
 > ### Things to watch for:
 > - Where coordinators lose visibility after a handoff
-> - Steps that are hard to do in real time (e.g., during a short appointment window)
-> - Mentions of device/connectivity/accessibility barriers
+> - Steps that are difficult in time-limited contexts (appointments, high call volume)
+> - Device/connectivity/accessibility barriers that change what’s feasible
 
 ---
 
-## Third Task: Identify common failure modes + confusion points - 15 minutes
+## Task 3: Common failure modes + highest-impact issues - 10 minutes
 
-1. **What are the most common points of failure/confusion in the ID.me verification journey, as you observe it?**
-   (Feel free to answer by listing categories and then examples.)
+1. What are the most common points of failure or confusion in the ID.me verification journey, as you observe it?
    - Document capture quality (lighting, glare, blur)
    - Document requirements / acceptable document types
    - Data mismatches (name, address, phone, date of birth)
@@ -193,21 +177,20 @@ Before we get into ID.me support scenarios, I’d like to start with a few backg
    - Accessibility barriers (vision, hearing, cognitive load)
    - Terminology confusion (“verify” vs “sign in” vs “create account”)
 
-2. Which failure modes lead to the most frustration for Veterans?
-   - Which ones lead to the most time/effort for you?
-   
-3. Are there any specific steps or messages that trigger “repeat contacts”?
-   - What’s the pattern?
+2. Of the issues you listed, which 1–2 are highest impact (Veteran frustration, time-to-resolve, or repeat contacts)? Why?
+
+3. *(If relevant)* Do any issues tend to create repeat contacts or “stuck loops”?
+   - What usually breaks the loop (if anything)?
 
 > [!NOTE]
 > ### Things to watch for:
-> - Misalignment between error messaging and actual next step
+> - Misalignment between error messaging and the real next step
 > - Confusion about whether the problem is VA vs ID.me
-> - Accessibility/device constraints that make “standard” instructions unrealistic
+> - Any “critical moments” where Veterans drop off
 
 ---
 
-## Fourth Task: Escalations + improvements (combined) - 10 minutes
+## Task 4: Escalations / handoffs - 5 minutes
 
 1. When you can’t resolve an ID.me issue directly, what escalation or handoff paths do you use?
    - To ID.me support
@@ -215,57 +198,33 @@ Before we get into ID.me support scenarios, I’d like to start with a few backg
    - To local facility processes
    - Other
 
-2. Where do escalations/handoffs most often break down or slow down?
+2. What triggers an escalation for you? (Decision points)
+   - Are there categories of issues you escalate right away?
+
+3. Where do escalations/handoffs most often break down or slow down?
+   - What information is typically needed to escalate successfully?
    - What’s the impact on the Veteran and on you?
-
-3. **What improvements would you like to see from ID.me to better support Veterans during verification?**
-   - What would help the most in the moment when you’re on the phone / in an appointment?
-   - Are there any changes that would reduce repeat contacts?
-
-4. If you could pick one thing ID.me could provide that would make your job easier, what would it be?
-   - (Examples: clearer errors + next steps, better recovery support, more accessible options, clearer document requirements, faster/more predictable live support)
-
 
 > [!NOTE]
 > ### Things to watch for:
-> - Distinguish “ID.me-owned” improvements vs “VA-owned” improvements
-> - Requests that might conflict with policy/privacy (note them anyway as needs)
-> - Improvement ideas tied directly to the failure modes discussed earlier
+> - Lack of status visibility after handoff
+> - Inconsistent paths or “it depends” rules
+> - Missing info that causes rework
 
 ---
 
-# Post-Task Interview / Wrap-up - 5 minutes
+# Wrap-up: Prioritized improvements - 2 minutes
 
-1. If you could change **one thing** about the overall verification/sign-in experience to reduce Veteran frustration, what would it be?
+1. If you could ask **ID.me** for **three** improvements that would help you better support Veterans during verification, what would they be?
+   - Please rank them (1 = most important).
 
-2. If you could change **one thing** to reduce your support burden or time-to-resolution, what would it be?
-
-3. What content/tools/process changes would most reduce time-to-resolution and improve the Veteran experience?
-   - Veteran-facing instructions and error guidance
-   - Coordinator-facing troubleshooting playbook
-   - Pre-appointment preparation materials (checklists)
-   - Clearer escalation pathways / handoffs
-
-4. If you could send ID.me a short prioritized list of changes, what would be your **top 3**?
-   - Which would have the biggest impact on Veteran success rate?
-   - Which would save you the most time?
-
-5. Is there anything we didn’t ask that you think is important?
+2. If VA could change **one** thing on our side (guidance, tools, process, prep materials), what would help you most?
 
 - Any questions for me?
 
-## Consent to use video clips
+## Thank-You and Closing - 1 minute
 
-- I want to circle back and re-confirm that **you are comfortable if we were to share a video clip of this session with our VA partners?** Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
-  - **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
-
-  <mark>**[Record answer here]**</mark>
-
-## Thank-You and Closing - 2 minutes
-
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we work to reduce friction for Veterans trying to access VA online services.
-
-Thank you so much again, and enjoy the rest of your day!
+Thank you again for your time—this was very helpful. Your input will help us map the coordinator support workflow and escalation paths, and prioritize improvements that reduce friction for Veterans and staff.
 
 # Emergency Exit 🚨
 
