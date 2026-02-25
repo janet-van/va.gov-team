@@ -207,48 +207,24 @@ Before we get into ID.me support scenarios, I’d like to start with a few backg
 
 ---
 
-## Fourth Task: Escalations + handoffs (and desired ID.me improvements) - 10 minutes
+## Fourth Task: Escalations + improvements (combined) - 10 minutes
 
-1. When you can’t resolve an ID.me issue directly, what escalation paths do you use?
+1. When you can’t resolve an ID.me issue directly, what escalation or handoff paths do you use?
    - To ID.me support
    - To VA help desks / internal channels
    - To local facility processes
    - Other
 
-2. How do you decide when to escalate vs continue troubleshooting?
-   - Are there “decision points” you rely on?
+2. Where do escalations/handoffs most often break down or slow down?
+   - What’s the impact on the Veteran and on you?
 
-3. Where do escalations break down or slow down?
-   - Long wait times
-   - Unclear ownership
-   - Not enough information to submit
-   - Veteran drops off / can’t complete steps
-   - No status visibility after handoff
+3. **What improvements would you like to see from ID.me to better support Veterans during verification?**
+   - What would help the most in the moment when you’re on the phone / in an appointment?
+   - Are there any changes that would reduce repeat contacts?
 
-4. What would make escalations smoother for you and Veterans?
-   - Clearer decision tree
-   - Better internal documentation
-   - Standard “information packet” to send
-   - Clearer escalation guidance and expectations
+4. If you could pick one thing ID.me could provide that would make your job easier, what would it be?
+   - (Examples: clearer errors + next steps, better recovery support, more accessible options, clearer document requirements, faster/more predictable live support)
 
-### ID.me improvement-focused questions
-
-5. **What improvements would you like to see from ID.me so you can better support Veterans during the verification process?**
-   (If helpful, think in terms of error clarity, accessibility, recovery, and support.)
-   - Better error messages (plain language + what to do next)
-   - Clearer “where the Veteran is” in the process (progress/status indicators)
-   - More accessible verification options (low-vision, language, cognitive load)
-   - Alternative pathways for people without smartphones/cameras
-   - Better account recovery flows (email/phone/device changes)
-   - Clearer document requirements and examples of acceptable docs
-   - Easier handoff to live support (callback, appointment-based video, shorter wait)
-   - Other
-
-6. **When you’re helping a Veteran, what information do you wish you had from ID.me that you don’t have today?**
-   - For example: why it failed, what step they’re on, what’s pending, or what the Veteran needs to do next.
-
-7. **Are there any improvements ID.me could make that would reduce repeat contacts or “stuck loops”?**
-   - What would success look like?
 
 > [!NOTE]
 > ### Things to watch for:
