@@ -290,7 +290,8 @@ Output format _must_ match the following example structure:
           detail: "Processing",
           message: "Form received",
           status: "pending",
-          pdf_support: true # determined by PdfUrls class
+          pdf_support: true, # determined by PdfUrls class
+          presigned_url: "https://example.com/path/to/form.pdf?signature=..." # presigned URL for PDF download, nil if unavailable
         )
     ]
 ```

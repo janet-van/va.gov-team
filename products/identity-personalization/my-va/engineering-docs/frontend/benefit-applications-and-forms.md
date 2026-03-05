@@ -20,7 +20,7 @@ The FE entry point lives at
 | Form type | Endpoint | Data fetched | Swagger link |
 | -- | -- | -- | -- |
 | Draft | `/v0/user` | `data.attributes.in_progress_forms` | [Link](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/#/user/getUser) |
-| Submitted | `/v0/my_va/submission_statuses` | `data.type`, `data.attributes.id`, `data.attributes.status`, `data.attributes.form_type`, `data.attributes.created_at`, `data.attributes.updated_at` | [Link](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/#/my_va/getSubmissionStatuses) | 
+| Submitted | `/v0/my_va/submission_statuses` | `data.type`, `data.attributes.id`, `data.attributes.status`, `data.attributes.form_type`, `data.attributes.created_at`, `data.attributes.updated_at`, `data.attributes.presigned_url` | [Link](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/#/my_va/getSubmissionStatuses) | 
 
 
 ## Redux store
@@ -63,6 +63,7 @@ The FE entry point lives at
     status
     createdAt
     updatedAt
+    presignedUrl
   }
 }
 ```
