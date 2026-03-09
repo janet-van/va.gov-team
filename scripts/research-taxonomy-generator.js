@@ -23,6 +23,13 @@ const path = require('path');
 const yaml = require('js-yaml');
 const { glob } = require('glob');
 
+// A finding is considered a strong match when it hits 30% of a label's keywords.
+// This factor controls the denominator in confidence scoring: a lower value makes
+// it easier to reach high confidence (fewer keyword matches needed), while a higher
+// value requires more matches. The floor of 1 prevents division issues when a label
+// has very few keywords (e.g., 2 keywords × 0.3 = 0.6, floored to 1).
+const CONFIDENCE_DENOMINATOR_FACTOR = 0.3;
+
 // ─── Taxonomy Definitions ───────────────────────────────────────────────────
 // These are the taxonomy dimensions used to classify each key finding.
 // Each dimension has a set of labels with associated keyword patterns.
@@ -335,7 +342,7 @@ function classifyFinding(findingText) {
       if (matchCount > 0) {
         labels[dimension][label] = {
           matched: true,
-          confidence: Math.min(matchCount / Math.max(keywords.length * 0.3, 1), 1.0),
+          confidence: Math.min(matchCount / Math.max(keywords.length * CONFIDENCE_DENOMINATOR_FACTOR, 1), 1.0),
           match_count: matchCount
         };
       }
@@ -956,7 +963,8 @@ function generateMarkdownReport(data) {
   lines.push('### Confidence Scoring');
   lines.push('');
   lines.push('- Each taxonomy label has a set of keyword patterns');
-  lines.push('- Confidence = (matched keywords) / (30% of total keywords for that label)');
+  lines.push('- Confidence = (matched keywords) / max(30% of total keywords for that label, 1)');
+  lines.push('- The denominator is floored to 1 so that labels with very few keywords (e.g., 2) still require at least 1 match for full confidence');
   lines.push('- Capped at 1.0; higher values indicate stronger matches');
   lines.push('- Only labels with at least 1 keyword match are included');
   lines.push('');

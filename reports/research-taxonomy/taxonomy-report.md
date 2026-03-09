@@ -1,7 +1,7 @@
 # Research Findings Taxonomy Report
 
 > Auto-generated taxonomy analysis of research findings across VA.gov products and teams.
-> Generated: 2026-03-09T15:15:53.308Z
+> Generated: 2026-03-09T15:18:14.558Z
 
 ## Purpose
 
@@ -604,7 +604,8 @@ Each finding in the JSON has this structure:
 ### Confidence Scoring
 
 - Each taxonomy label has a set of keyword patterns
-- Confidence = (matched keywords) / (30% of total keywords for that label)
+- Confidence = (matched keywords) / max(30% of total keywords for that label, 1)
+- The denominator is floored to 1 so that labels with very few keywords (e.g., 2) still require at least 1 match for full confidence
 - Capped at 1.0; higher values indicate stronger matches
 - Only labels with at least 1 keyword match are included
 
