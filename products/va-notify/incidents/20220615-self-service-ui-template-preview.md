@@ -26,8 +26,8 @@ On 2022-06-15, several issues were discovered in the VA Notify Self Service UI o
 
 - **Duration:** ~1 day
 - **Affected channels:** Self Service UI (Staging)
-- **Estimated notifications affected:** _[TBD]_
-- **Business lines affected:** _[TBD]_
+- **Estimated notifications affected:** N/A - Staging only
+- **Business lines affected:** N/A - Staging only
 - **Users impacted:** Staging users were unable to preview newly created templates; errors flashed when loading new templates; Sample Template had a typo; Sample Template link appeared incorrectly on SMS Template creation page.
 
 ## Root Cause
