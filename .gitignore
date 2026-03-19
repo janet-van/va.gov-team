@@ -11,3 +11,6 @@ package-lock.json
 package.json
 __pycache__/
 *.pyc
+
+# Ignore temporary files for logging and debugging locally
+tmp/

@@ -1,0 +1,64 @@
+name: Key Finding Labels Extraction
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract-key-finding-labels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Sparse checkout for extraction
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            .github/scripts/
+            .github/workflows/
+            products/
+            teams/
+            package.json
+            package-lock.json
+          sparse-checkout-cone-mode: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run key finding labels extraction
+        id: extract
+        run: >
+          node .github/scripts/key-finding-labels-extraction/run.js
+          --mode=workflow
+          --scan=full
+          --taxonomy-mode=off
+
+      - name: Upload extraction artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: key-finding-labels-extraction-${{ github.run_id }}
+          path: |
+            key-finding-labels-extraction-summary.json
+            key-finding-labels-extraction-findings.json
+            key-finding-labels-extraction-validation.json
+            key-finding-labels-extraction-patterns.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Append concise run summary
+        if: always()
+        run: |
+          if [ -f key-finding-labels-extraction-step-summary.md ]; then
+            cat key-finding-labels-extraction-step-summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No step summary file generated" >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "research:extract:test": "node --test .github/scripts/key-finding-labels-extraction/__tests__/*.test.js",
+    "research:extract:key-finding-labels": "node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --out-dir=./.github/tmp/findings"
+  },
   "dependencies": {
     "glob": "^13.0.3",
     "js-yaml": "^4.1.1"

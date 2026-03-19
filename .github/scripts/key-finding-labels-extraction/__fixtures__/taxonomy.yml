@@ -1,0 +1,32 @@
+finding_types:
+  - usability_issue
+  - accessibility_barrier
+  - unmet_need
+severity_levels:
+  - critical
+  - high
+  - medium
+  - low
+  - enhancement
+research_themes:
+  - navigation_wayfinding
+  - form_completion
+product_areas:
+  - health_care
+journey_stages:
+  - discovery
+  - application
+user_characteristics:
+  - first_time_user
+emotional_states:
+  - confused
+life_events:
+  - health_crisis
+trust_factors:
+  - confirmation_needed
+channel_switching:
+  - digital_to_phone
+temporal_patterns:
+  - recurring_issue
+design_system_patterns:
+  - error_messaging
