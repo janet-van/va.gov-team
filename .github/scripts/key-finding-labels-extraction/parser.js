@@ -57,7 +57,8 @@ function preprocessLegacyRaw(raw) {
   const firstLine = lines[firstNonEmptyIndex].trim();
   if (!/^Finding\s+\d+\s*:/i.test(firstLine)) return raw;
 
-  let rewritten = `"${firstLine.replace(/"/g, '\\"')}":\n`;
+  const escapedFirstLine = firstLine.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  let rewritten = `"${escapedFirstLine}":\n`;
   for (let i = firstNonEmptyIndex + 1; i < lines.length; i += 1) {
     const line = lines[i];
     if (!line.trim()) continue;
