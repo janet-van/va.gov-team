@@ -7,8 +7,12 @@ function normalizeForId(value) {
     .replace(/\s+/g, ' ');
 }
 
+function buildFindingMergeKey({ sourceFile, findingTitle }) {
+  return `${normalizeForId(sourceFile)}|${normalizeForId(findingTitle)}`;
+}
+
 function generateDeterministicFindingId({ sourceFile, findingTitle }) {
-  const seed = `${normalizeForId(sourceFile)}|${normalizeForId(findingTitle)}`;
+  const seed = buildFindingMergeKey({ sourceFile, findingTitle });
   const digest = crypto.createHash('sha1').update(seed).digest('hex');
 
   // Keep legacy-looking numeric IDs while remaining deterministic.
@@ -27,6 +31,7 @@ function generateDeterministicFindingUid({ sourceFile, findingIdLocal, findingTi
 }
 
 module.exports = {
+  buildFindingMergeKey,
   generateDeterministicFindingId,
   generateDeterministicFindingUid,
 };

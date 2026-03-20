@@ -24,6 +24,10 @@
  * @property {Record<string, string[]>} labels
  * @property {string[]} service_journey_mapping
  * @property {string[]} pattern_triggers
+ * @property {'explicit'|'frontmatter'|'merged'} [source_kind]
+ * @property {string[]} [supporting_context_texts]
+ * @property {Object|null} [metadata]
+ * @property {Object|null} [demographics_summary]
  */
 
 module.exports = {};

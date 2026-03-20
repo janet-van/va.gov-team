@@ -3,6 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 const { findResearchReportFiles } = require('./finder');
+const { findFrontmatterResearchFiles } = require('./frontmatter-finder');
+const { parseFrontmatterFindingsFromContent } = require('./frontmatter-parser');
 const { parseLabelBlocksFromContent } = require('./parser');
 const {
   generateDeterministicFindingId,
@@ -18,6 +20,10 @@ const {
   validateDuplicateFindingUids,
 } = require('./validator');
 const { aggregateFindings } = require('./aggregator');
+const { mergeCanonicalFindings } = require('./merge');
+const { enrichFindings } = require('./classifier');
+const { generatePortfolioAnalysis } = require('./portfolio-analysis');
+const { generateNarrativeReport } = require('./narrative-report');
 const { writeArtifacts } = require('./reporter');
 
 function parseArgs(argv) {
@@ -70,17 +76,32 @@ async function runExtraction(options) {
   }
 
   const files = await findResearchReportFiles(options.roots);
+  const frontmatterFiles = await findFrontmatterResearchFiles(options.roots);
+  const allFiles = Array.from(new Set([...files, ...frontmatterFiles])).sort();
   const parsedBlocks = [];
+  const frontmatterFindings = [];
+  const frontmatterWarnings = [];
   let filesWithBlocks = 0;
+  let filesWithFrontmatterFindings = 0;
 
-  for (const file of files) {
+  for (const file of allFiles) {
     const content = fs.readFileSync(file, 'utf8');
+
     const blocks = parseLabelBlocksFromContent(content, file);
     if (blocks.length > 0) filesWithBlocks += 1;
     parsedBlocks.push(...blocks);
+
+    const frontmatterResult = parseFrontmatterFindingsFromContent(content, file);
+    frontmatterFindings.push(...frontmatterResult.findings);
+    frontmatterWarnings.push(...frontmatterResult.warnings);
+    if (frontmatterResult.findings.length > 0) {
+      filesWithFrontmatterFindings += 1;
+    }
   }
 
   const validation = validateParsedBlocks(parsedBlocks);
+  validation.warnings.push(...frontmatterWarnings);
+
   const normalizedFindings = [];
 
   for (const block of parsedBlocks) {
@@ -156,6 +177,24 @@ async function runExtraction(options) {
   });
 
   const patterns = aggregateFindings(validFindings);
+  const canonicalFindings = mergeCanonicalFindings({
+    explicitFindings: validFindings,
+    frontmatterFindings,
+  });
+  const enrichmentFindings = enrichFindings(canonicalFindings);
+  const portfolio = generatePortfolioAnalysis({
+    enrichmentFindings,
+    canonicalFindings,
+  });
+  const narrativeReport = generateNarrativeReport({
+    summary: {
+      generated_at: new Date().toISOString(),
+      files_scanned: allFiles.length,
+      blocks_found: parsedBlocks.length,
+    },
+    portfolio,
+    enrichmentFindings,
+  });
 
   const uniqueLabelsUsed = new Set();
   const uniqueCategoriesUsed = new Set();
@@ -170,16 +209,21 @@ async function runExtraction(options) {
   }
 
   const summary = {
+    artifact_schema_version: '2.0.0',
     generated_at: new Date().toISOString(),
     mode: options.mode,
     scan: options.scan,
     taxonomy_mode: options.taxonomyMode,
     taxonomy_source: taxonomy ? taxonomy.taxonomyUrl : null,
     taxonomy_loaded: Boolean(taxonomy),
-    files_scanned: files.length,
+    files_scanned: allFiles.length,
     files_with_label_blocks: filesWithBlocks,
+    files_with_frontmatter_findings: filesWithFrontmatterFindings,
     blocks_found: parsedBlocks.length,
+    frontmatter_findings: frontmatterFindings.length,
     valid_findings: validFindings.length,
+    canonical_findings: canonicalFindings.length,
+    enrichment_findings: enrichmentFindings.length,
     error_count: errorKeySet.size,
     warning_count: validation.warnings.length,
     unique_label_categories: uniqueCategoriesUsed.size,
@@ -200,6 +244,12 @@ async function runExtraction(options) {
     findings: validFindings,
     validation,
     patterns,
+    enrichment: {
+      artifact_schema_version: '1.0.0',
+      findings: enrichmentFindings,
+    },
+    portfolio,
+    narrativeReport,
     outDir: options.outDir || '.',
   });
 
@@ -226,8 +276,12 @@ async function main() {
 
     console.log('Key finding labels extraction complete');
     console.log(`Files scanned: ${result.summary.files_scanned}`);
+    console.log(`Files with frontmatter findings: ${result.summary.files_with_frontmatter_findings}`);
     console.log(`Blocks found: ${result.summary.blocks_found}`);
+    console.log(`Frontmatter findings: ${result.summary.frontmatter_findings}`);
     console.log(`Valid findings: ${result.summary.valid_findings}`);
+    console.log(`Canonical findings: ${result.summary.canonical_findings}`);
+    console.log(`Enrichment findings: ${result.summary.enrichment_findings}`);
     console.log(`Errors: ${result.summary.error_count}`);
     console.log(`Warnings: ${result.summary.warning_count}`);
 

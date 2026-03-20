@@ -36,7 +36,11 @@ test('integration: mixed fixture corpus produces expected outputs', async () => 
     );
     fs.copyFileSync(
       path.join(fixtureRoot, 'reports', 'missing-id.md'),
-      path.join(tmpDir, 'teams', 'beta', 'research', 'insights.md'),
+      path.join(tmpDir, 'teams', 'beta', 'research', 'missing-id-report.md'),
+    );
+    fs.copyFileSync(
+      path.join(fixtureRoot, 'reports', 'frontmatter-only.md'),
+      path.join(tmpDir, 'products', 'alpha', 'research', 'frontmatter-report.md'),
     );
 
     process.chdir(tmpDir);
@@ -44,20 +48,26 @@ test('integration: mixed fixture corpus produces expected outputs', async () => 
     const result = await runExtraction({
       mode: 'local',
       scan: 'full',
+      taxonomyMode: 'warn',
       taxonomyFile: path.join(fixtureRoot, 'taxonomy.yml'),
       taxonomyUrl: '',
       outDir: '.',
     });
 
-    assert.equal(result.summary.files_scanned, 6);
+    assert.equal(result.summary.files_scanned, 7);
     assert.equal(result.summary.blocks_found, 7);
     assert.ok(result.summary.error_count > 0);
+    assert.ok(result.summary.canonical_findings > result.summary.valid_findings);
     assert.ok(result.validation.warnings.some(w => w.code === 'GENERATED_FINDING_ID'));
+    assert.ok(result.validation.warnings.some(w => w.code === 'FRONTMATTER_PLACEHOLDER_KEY_FINDING'));
 
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-summary.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-findings.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-validation.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-patterns.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-enrichment.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-portfolio.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-report.md')));
   } finally {
     process.chdir(cwd);
     fs.rmSync(tmpDir, { recursive: true, force: true });

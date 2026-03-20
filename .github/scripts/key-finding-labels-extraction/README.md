@@ -14,14 +14,14 @@ Optional taxonomy file for warning-only value checks:
 node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --taxonomy-mode=warn --taxonomy-file=.github/scripts/key-finding-labels-extraction/__fixtures__/taxonomy.yml --out-dir=./.github/tmp/findings
 ```
 
-^ still a wip as to how we can validate and log warnings for incorrect taxonomy labels or unknown taxonomy values. We may want to have a way to maintain taxonomy source of truth
-
 Default behavior:
 
 - `--taxonomy-mode=off` (default): schema-only hard validation, no taxonomy dependency.
 - `--taxonomy-mode=warn`: load taxonomy from a local file and emit unknown-label warnings (never hard fail on unknown values).
 - Missing `finding_id` values are auto-generated deterministically as `F######` using `source_file + finding_title` and logged as warnings.
 - Every finding also gets a deterministic global UID `finding_uid` in the form `KF-xxxxxxxxxxxx`, generated from `source_file + finding_id_local + finding_title`. This was important so that each finding could have a deterministic id that is based on a known set of file data.
+- Frontmatter `key_findings[]` are parsed and merged into canonical enrichment records.
+- Enrichment is always-on and generates advisory `suggested_labels` with confidence scores.
 
 Optional custom scan roots:
 
@@ -43,6 +43,9 @@ act workflow_dispatch -W .github/workflows/key-finding-labels-extraction.yml
 - `key-finding-labels-extraction-findings.json`
 - `key-finding-labels-extraction-validation.json`
 - `key-finding-labels-extraction-patterns.json`
+- `key-finding-labels-extraction-enrichment.json`
+- `key-finding-labels-extraction-portfolio.json`
+- `key-finding-labels-extraction-report.md`
 - `key-finding-labels-extraction-step-summary.md`
 
 ## TODO

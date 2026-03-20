@@ -51,6 +51,9 @@ jobs:
             key-finding-labels-extraction-findings.json
             key-finding-labels-extraction-validation.json
             key-finding-labels-extraction-patterns.json
+            key-finding-labels-extraction-enrichment.json
+            key-finding-labels-extraction-portfolio.json
+            key-finding-labels-extraction-report.md
           if-no-files-found: error
           retention-days: 30
 

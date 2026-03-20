@@ -1,36 +1,27 @@
 const { glob } = require("glob");
 
-const RESEARCH_FILE_PATTERNS = [
-  /.*[Ff]indings\.md$/,
-  /.*[Rr]eport\.md$/,
-  /.*[Ii]nsights\.md$/,
-  /.*[Rr]esearch-[Ff]indings\.md$/,
-  /.*[Rr]esearch-[Rr]eport\.md$/,
-  /.*[Rr]esearch-[Ii]nsights\.md$/,
-  /.*[Uu]ser-[Rr]esearch-[Ff]indings\.md$/,
-  /.*[Uu]ser-[Rr]esearch-[Rr]eport\.md$/,
-  /.*[Ss]tudy-[Ff]indings\.md$/,
-  /.*[Ss]tudy-[Rr]eport\.md$/,
+const RESEARCH_GLOB_SUFFIXES = [
+  '**/*findings*.md',
+  '**/*research-report*.md',
+  '**/*report*.md',
 ];
 
-function isResearchReportPath(filePath) {
-  return RESEARCH_FILE_PATTERNS.some((pattern) => pattern.test(filePath));
-}
-
 async function findResearchReportFiles(roots = ["products", "teams"]) {
-  const allFiles = [];
+  const allFiles = new Set();
   for (const root of roots) {
-    const files = await glob(`${root}/**/*.md`, {
-      nodir: true,
-      nocase: true,
-    });
-    allFiles.push(...files);
+    for (const suffix of RESEARCH_GLOB_SUFFIXES) {
+      const files = await glob(`${root}/${suffix}`, {
+        nodir: true,
+        nocase: true,
+        ignore: ['**/node_modules/**', '**/template*', '**/*template*'],
+      });
+      files.forEach(file => allFiles.add(file));
+    }
   }
 
-  return Array.from(new Set(allFiles)).filter(isResearchReportPath).sort();
+  return Array.from(allFiles).sort();
 }
 
 module.exports = {
   findResearchReportFiles,
-  isResearchReportPath,
 };
