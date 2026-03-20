@@ -1,6 +1,6 @@
 # Key Finding Labels Extraction
 
-Node-based extractor for `yaml key-finding-labels` blocks in research reports.
+Node-based extractor for `yaml key-finding-labels` blocks and frontmatter content in research reports.
 
 ## Local run
 
