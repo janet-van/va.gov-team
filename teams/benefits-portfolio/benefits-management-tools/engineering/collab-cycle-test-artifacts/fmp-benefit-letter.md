@@ -214,6 +214,8 @@ These scenarios confirm that `fmp_benefits_authorization_letter_mobile` is the s
 
 For updated app users, **both** `fmp_benefits_authorization_letter_mobile` and `FMPAvailable` must be enabled. `fmp_benefits_authorization_letter_mobile` is not optional for updated app users — it is still required.
 
+Further QA testing was done by the mobile team prior to merging. Their test results can be found [here](https://github.com/department-of-veterans-affairs/va-mobile-app/pull/12838#pullrequestreview-3978607055).
+
 **Test user:** mocked user 54
 
 #### Scenario M-4: Master ON, mobile flag ON, `FMPAvailable` OFF
