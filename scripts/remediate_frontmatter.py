@@ -266,8 +266,8 @@ def process_batch_from_csv(csv_path, status_filter, file_type_filter=None, limit
                 break
             
             file_path = row['path']
-            # Prepend products/ or teams/ based on path
-            if not file_path.startswith('products/') and not file_path.startswith('teams/'):
+            # Prepend products/ or teams/ or platform/ based on path
+            if not file_path.startswith('products/') and not file_path.startswith('teams/') and not file_path.startswith('platform/'):
                 # Determine which directory
                 if any(file_path.startswith(p) for p in ['digital-experience/', '_archive/', 'vsa/', 'health-products/', 'benefits-portfolio/']):
                     file_path = f"teams/{file_path}"
