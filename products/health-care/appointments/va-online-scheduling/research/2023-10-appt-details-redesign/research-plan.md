@@ -26,30 +26,28 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate the pertinence of details page information"
-  - goal_2: "Test hierarchy of details page information"
-  - goal_3: "Evaluate how understandable the empty states are"
-  - goal_4: "Evaluate the use of buttons and links"
-  - goal_5: "Test the findability of the After Visit Summary"
-  - goal_6: "Test navigation to and from the Next of Kin/Emergency Contact"
-  - goal_7: "Test changes to the cancelation flow"
-  - goal_8: "Evaluate the print page"
+  - goal_1: "Evaluate the pertinence of details page information."
+  - goal_2: "Test hierarchy of details page information."
+  - goal_3: "Evaluate how understandable the empty states are."
+  - goal_4: "Evaluate the use of buttons and links."
+  - goal_5: "Test the findability of the After Visit Summary."
 
 research_questions:
-  - "Do Veterans know how to cancel their appointment and how would they expect to cancel?"
-  - "Do Veterans know where to go for their appointment and how to prepare?"
+  - "**Cancelation:**"
+  - "Do Veterans know how to cancel their appointment?"
+  - "How would Veterans expect to cancel an appointment?"
+  - "**Details page:**"
+  - "Do Veterans know where to go for their appointment?"
+  - "Do Veterans know how to prepare for their appointment?"
   - "What do Veterans expect to do on the details page?"
   - "Do Veterans know how to join their telehealth appointments?"
-  - "What is the first action veterans take on an appointment details page?"
-  - "Can Veterans distinguish between different tasks and find their after visit summary?"
-  - "Do Veterans understand what pre check-in is and can they navigate to profile page?"
 
 hypotheses:
-  - "Participants will be able to cancel their appointments easily"
-  - "Participants will be able to find and understand their appointment information easily"
-  - "On an upcoming appointment details page, participants will find secondary buttons before finding the join appointment CTA"
-  - "Participants will be able to easily find their after visit summary"
-  - "Participants will understand the pre check-in task and navigate to health care contacts page easily"
+  - "**Cancelation**:"
+  - "Participants will be able to cancel their appointments easily."
+  - "**Details Pages:**"
+  - "Participants will be able to find and understand their appointment information easily."
+  - "**CTAs**:"
 
 expected_outcomes: "Make necessary changes to finalize appointment details designs, cancellation flow, after visit summary entry point, and pre check-in entry point"
 

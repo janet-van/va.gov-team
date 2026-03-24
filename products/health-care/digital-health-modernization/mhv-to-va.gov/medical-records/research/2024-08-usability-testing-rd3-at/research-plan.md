@@ -26,22 +26,17 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Lab and Test Results, and Health Conditions"
-  - goal_2: "Understand Veterans' sensemaking of medical terminology in Medical Records"
-  - goal_3: "Understand Veterans' needs and expectations within Medical Records"
+  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Lab and Test Results, and Health Conditions."
+  - goal_2: "Understand Veterans’ sensemaking of medical terminology in Medical Records."
+  - goal_3: "Understand Veterans’ needs and expectations within Medical Records."
 
 research_questions:
-  - "Can Veterans find the information they need to manage their healthcare related to Care Summaries and Notes, Lab and Test Results, and Health Conditions?"
-  - "How do Veterans make sense of the terminology in their medical records?"
-  - "What goals are Veterans hoping to accomplish within Medical Records?"
-  - "What are Veterans' expectations and use cases for printing/downloading Medical Records?"
-  - "What are Veterans' perceptions of the new experience in which they view their records on screen?"
-  - "How do the goals, expectations, and experiences with Medical Records for Veterans who use assistive technologies vary from those who do not?"
+  - "Care Summaries and Notes"
+  - "Lab and Test Results"
+  - "Health Conditions 2. How do Veterans make sense of the terminology in their medical records? 3. What goals are Veterans hoping to accomplish within Medical Records? 4. What are Veterans’ expectations and use cases for printing/downloading Medical Records? 5. What are Veterans’ perceptions of the new experience in which they view their records on screen? 6. How do the goals, expectations, and experiences with Medical Records for Veterans who use assistive technologies vary from those who do not?"
 
 hypotheses:
-  - "Most Veterans will be able to access and understand the information about their medical records to manage their health"
-  - "Most Veterans will struggle to understand some of the terminology information within their medical records"
-  - "Most Veterans will rate the new experience as easy or very easy"
+  - "_Hypothesis 1:_ Most Veterans will be able to access and understand the information about their medical records to manage their health."
 
 expected_outcomes: "The usability findings will identify pain points and areas for improvement in design, while generative findings will uncover Veterans' behaviors and expectations when accessing Medical Records. Both will inform future design iterations."
 

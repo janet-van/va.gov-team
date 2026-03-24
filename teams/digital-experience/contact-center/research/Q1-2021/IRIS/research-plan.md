@@ -22,15 +22,13 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Conduct usability study of IRIS replacement"
-  - goal_2: "Test functionality on VA.gov staging environment"
-  - goal_3: "Validate design decisions before launch"
+  - goal_1: "### Usability Study Goals:"
 
 research_questions:
   - "TBD - To be completed based on specific research objectives"
 
 hypotheses:
-  - "TBD - To be completed based on specific research objectives"
+  - "-"
 
 expected_outcomes: "Validate usability and identify issues with IRIS replacement before production launch"
 

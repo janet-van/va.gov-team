@@ -26,26 +26,25 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Gain a better understanding of veteran mental models regarding their service occupations to inform how we present military information data"
-  - goal_2: "Review data pulled from VADIR with veterans to assess accuracy, completeness, and utility"
-  - goal_3: "Gather feedback on proposed design mock-up for enhancing military information section with duty status, dates, and military occupation specialties"
+  - goal_1: "*Goal 1**: Gain a better understanding of veteran mental models regarding their service occupations in order to inform how we present military information data, depending on data completeness and quality."
+  - goal_2: "*Goal 2**: Review data pulled from VADIR with veterans to get a sense of accuracy, completeness, and utility."
+  - goal_3: "*Goal 3**: Gather feedback on our team’s proposed design mock-up for enhancing a veteran’s military information section with the data available to us currently (duty status, dates, and military occupation specialties)."
 
 research_questions:
   - "How have veterans used their MOS data, especially as it relates to the PACT Act?"
+  - "Where/how did they get their data? How did they relay it back to the VA, if at all?"
   - "How do veterans conceptualize their service history?"
   - "What language can we use to organize and label military occupational specialties that make sense to veterans across branches, experience levels, and rank?"
   - "How effective is this current design mock-up in displaying MOS data?"
-  - "What's the most useful MOS data for veterans to access from their profile?"
+  - "What’s the most useful MOS data for veterans to access from their profile?"
   - "How useful is including the start date of each occupation specialty? What about end dates?"
   - "What are veteran expectations around deployment locations?"
-  - "What do veterans do (or want to do) if their MOS data seems incomplete or inaccurate?"
-  - "Is the amount of information displayed on the section overly long or even overwhelming?"
 
 hypotheses:
-  - "We will observe similarities and differences between branches, lengths of service, and rank"
-  - "We will gain insight into veteran mental models around organizing information"
-  - "We will gather actionable feedback for making iterations on the design mock-up"
-  - "We may hear feedback that the military information section is too long or has too much content"
+  - "We will observe similarities and differences between branches, lengths of service, and rank."
+  - "We will gain insight into veteran mental models around organizing information."
+  - "We will gather actionable feedback for making iterations on the design mock-up."
+  - "We may hear feedback that the military information section is too long or has too much content."
 
 expected_outcomes: "Use learnings to inform data element additions to military information section, iterate on design mock-up organization and hierarchy to align with veteran mental models, and help determine whether incorporating additional structure like subpages is needed sooner than later"
 
@@ -55,10 +54,8 @@ recruitment:
   approach: "Maximum variation sampling across all military branches"
   
   primary_criteria:
-    - "Must have served in at least one of six branches: Air Force, Army, Coast Guard, Marine Corps, Navy, or Space Force"
-    - "All participants must be willing to give access to their military service history"
-    - "All participants must have submitted a disability claim of some kind"
-    - "All participants must be on desktop or laptop"
+    - "Monday, February 12th: 9am-12pm"
+    - "Tuesday, February 13th: 9am-12pm"
     
   secondary_criteria:
     - "50% must have submitted a disability claim specifically under the PACT Act"

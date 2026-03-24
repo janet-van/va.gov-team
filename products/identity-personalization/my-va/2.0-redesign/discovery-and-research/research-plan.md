@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand why people come to VA.gov and what they do"
-  - goal_2: "Learn how people use My VA vs homepage and how they move through the site"
-  - goal_3: "Understand what is being migrated to VA.gov that Veterans expect to find on dashboard"
+  - goal_1: "Logged in homepage, Authenticated Experience team"
+  - goal_2: "Why do people come to va.gov?"
+  - goal_3: "What are their expectations?"
+  - goal_4: "How might their experience be improved with an improved logged in experience and status updates/notifications?"
+  - goal_5: "What do people do on va.gov?"
 
 research_questions:
   - "Why do people come to va.gov and what are their expectations?"

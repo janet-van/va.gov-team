@@ -22,18 +22,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Determine if the current concept of refilling a prescription matches Veteran's expectations and understanding"
+  - goal_1: "Determine if the current concept of refilling a prescription matches Veteran’s expectations and understanding"
   - goal_2: "Identify major usability or content issues with the current concept of viewing prescription history and tracking prescriptions"
 
 research_questions:
   - "Do Veterans understand the difference between refillable and non-refillable prescriptions in the refill modal?"
-  - "Will Veterans be able to accomplish the main pharmacy tasks: Refilling a prescription?"
-  - "Will Veterans be able to view their prescription history and prescription details?"
-  - "Will Veterans be able to view tracking details of a prescription?"
+  - "Will Veterans be able to accomplish the main pharmacy tasks:"
+  - "Refilling a prescription?"
+  - "Viewing their prescription history and prescription details?"
+  - "Viewing tracking details of a prescription?"
   - "What high-level prescription information do Veterans need to know?"
 
 hypotheses:
-  - "Veterans will be able to accomplish the pharmacy tasks designed in the prototype, and will articulate what the refillable and non-refillable categories mean"
+  - "Veterans will be able to accomplish the pharmacy tasks designed in the prototype, and will articulate what the refillable and non-refillable categories mean."
   - "Veterans will have different high-level prescription information that they need to know depending on the context of the prescription"
 
 expected_outcomes: "Determine if there are any big usability concerns that Veterans experience with the designs and inform later iterations of the designs as we consider MVP and post-MVP features"

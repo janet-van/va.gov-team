@@ -26,9 +26,8 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "This is for the Virtual Agent Chatbot, team Orchid."
+  - goal_2: "Background: Briefly, what is the background on this product? What would a new person on the team need to know about this product?"
 
 research_questions:
   - "[Research question 1]"

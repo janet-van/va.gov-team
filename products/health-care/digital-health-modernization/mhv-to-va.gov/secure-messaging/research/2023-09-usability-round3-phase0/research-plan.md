@@ -31,13 +31,14 @@ research_goals:
   - goal_3: "Identify any barriers that may prevent Veterans who use screen-readers and text-magnifiers from completing secure messaging goals"
 
 research_questions:
-  - "Do Veterans notice FAQs and menu bar on landing page?"
-  - "Can Veterans originate secure messages to communicate with providers?"
-  - "Do Veterans understand what it means to 'edit list' of contacts?"
-  - "What are Veterans' expectations about message threads?"
-  - "Can Veterans reply to secure messages and understand draft functionality?"
-  - "Do Veterans understand the filter box function?"
-  - "Can Veterans locate draft folder and continue a previously started message?"
+  - "Do Veterans notice FAQs and menu bar? What are their attitudes towards these?"
+  - "Patient Safety"
+  - "Do Veterans notice and understand the information about who to call in case of an emergency and how quickly to expect a response from their providers?"
+  - "Can Veterans originate secure messages to communicate with their providers?"
+  - "Do Veterans understand what it means to 'edit list' of their contacts."
+  - "What are Veterans' expectations about the message threads."
+  - "Can Veterans access unread messages sent individually or within conversations?"
+  - "Can Veterans reply to secure messages to communicate with their providers?"
 
 hypotheses:
   - "Veterans will understand how to send messages to their healthcare providers"
@@ -54,11 +55,7 @@ recruitment:
   approach: "Purposive sampling for accessibility and diverse device usage"
   
   primary_criteria:
-    - "Screen reader users (10 recruited for 6 completions)"
-    - "Sighted users including 7 screen magnification users (14 recruited for 10 completions)"
-    - "All must regularly use Secure Messaging (14 total)"
-    - "All must have cognitive disabilities (14 total)"
-    - "Mix of mobile (7) and desktop (7) users for sighted cohort"
+    - "*Recruitment approach**"
     
   secondary_criteria:
     - "Age distribution emphasizing older Veterans (65+)"

@@ -22,28 +22,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Get baseline understanding of how current VA.gov website is being used by Veterans and others"
-  - goal_2: "Understand Veterans' pain points and successes while using VA.gov"
-  - goal_3: "Make more informed decisions about priorities for future research and design work in website navigation and tools"
+  - goal_1: "The purpose of this research is to get a baseline understanding of how the current VA.gov website is being used by Veterans and others. With a better understanding of Veterans' pain points and successes while using VA.gov, we can make more informed decisions about priorities for future research and design work in website navigation and tools."
 
 research_questions:
   - "How do Veterans accomplish a list of common tasks?"
-  - "Where do they typically start? (Google/Facebook/MHV/eBenefits/contact center/VA.gov)"
-  - "If not using VA.gov, why? (don't know about it, too hard to use)"
+  - "Where do they typically start? (Google/Facebook/MHV/eBenefits/contact center call or email/VA.gov)"
+  - "If not using VA.gov, why? (e.g., don't know about it, too hard to use)"
   - "What do they typically do on VA.gov? What tools have they tried using?"
-  - "Do they find what they're looking for? If not, what were they looking for?"
-  - "What pain points are there in terms of findability and usage?"
-  - "What works well?"
-  - "What differences are there for desktop vs. smartphone users?"
-  - "What differences are there for people who have cognitive disabilities?"
-  - "What differences are there for people who use screen readers?"
-  - "What differences are there for people who have used VA.gov before vs. haven't used it?"
-  - "Do Veterans read/notice/click/comment on the banner content on the home page?"
+  - "Search (in header)"
+  - ""VA Benefits and Health Care" dropdown in header"
+  - "Other header links (About VA, Find a VA Location, Contact us)"
+  - ""Top 4" boxes"
 
 hypotheses:
-  - "Veterans are focused on what they're looking for and don't want to navigate multiple tools unless it helps them get better results"
-  - "Veterans don't care where the information they're looking for is stored, as long as they are able to find it"
-  - "Veterans aren't using all of the current search and browse tools on VA.gov"
+  - "Veterans are focused on what they’re looking for and don’t want to navigate multiple tools unless it helps them get better results."
+  - "Veterans don't care where the information they're looking for is stored, as long as they are able to find it."
+  - "Veterans aren't using all of the current search and browse tools on VA.gov."
 
 expected_outcomes: "Baseline understanding of wayfinding behavior to inform priorities for navigation improvements and future research"
 

@@ -39,9 +39,7 @@ research_questions:
   - "What pain points are Veterans communicating?"
 
 hypotheses:
-  - "Veterans' use of filters will increase"
-  - "Veterans will select individual medications more than using the select all option"
-  - "Veterans will share their frustrations with finding medication information"
+  - "Hypothesis 1: Veterans’ use of filters will increase."
 
 expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to find and fill their medications. This will inform future design iterations and any further research strategy"
 

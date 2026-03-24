@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*1. What product & team are you doing this research for?** Design System & Product Support Team"
+  - goal_2: "*2. Background:** Learn more button exploration ticket"
+  - goal_3: "*3. Research questions:**"
+  - goal_4: "Which pattern is most effective at communicating contextual information to users: Tooltip, accordion, or modal?"
+  - goal_5: "Which pattern is the least disruptive?"
 
 research_questions:
   - "[Research question 1]"

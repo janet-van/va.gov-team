@@ -26,23 +26,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "As Task Manager moves beyond baseline parity CMT functionality. The team seeks to better understand what features and functions will be most useful for current and prospective task manager users."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "**Consider bucketing research questions under research goals and think about:*** `What will I do with what I learn from this question?`"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "*Think through these prompts to develop strong hypotheses:** `What do you intend to learn and measure from this study?`"
+  - "--"
+  - "*Task assignment:**"
+  - "The current object model (relationship between tasks, teams and members) may not meet the needs of all teams using task manager."
+  - "Some PACT teams may want to share tasks across departments."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`"
 
 # Recruitment & Participants
 recruitment:

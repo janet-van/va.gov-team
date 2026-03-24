@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "What product & team are you doing this research for?"
+  - goal_2: "Background: Briefly, what is the background on this product? What would a new person on the team need to know about this product?"
+  - goal_3: "Research questions: What question(s) do you hope to be able to answer after completing this research?"
+  - goal_4: "Hypothesis: What is your hypothesis for this research?"
 
 research_questions:
   - "[Research question 1]"

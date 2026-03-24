@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "While the Veteran Status Card (VSC) experience on VA.gov and mobile app platforms offer distinct advantages tailored to each device, there is an opportunity to enhance the overall consistency and user experience by aligning design elements and interactions. This would create a more cohesive and intuitive experience for users across both platforms. The VSC is found within a Veteran's profile on VA.gov, in the authenticated experience. Veterans may be aware of the VSC but may not be familiar wi..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,23 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the challenges and opportunities associated with verifying Veteran status for both Veterans and businesses."
+  - goal_2: "Evaluate the usability and effectiveness of the current VSC design and functionality (across VA.gov and the mobile app)."
+  - goal_3: "Identify opportunities for improvement in the verification process and VSC design to enhance user experience and streamline the process."
+  - goal_4: "--"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "**RQ1:** What are the most common scenarios where Veterans need to prove their status?"
+  - "**RQ2:** What methods do Veterans currently use to verify their status, and how effective are these methods?"
+  - "**RQ3:** What are the primary challenges Veterans face when attempting to prove their status?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "--"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform the redesign of the VSC and the development of a streamlined verification process. It will create a user-centered approach to improve accessibility, user flow, and efficiency for both Veterans and businesses. Learnings from this research will be used to iterate on designs for implementation."
 
 # Recruitment & Participants
 recruitment:
@@ -50,9 +47,9 @@ recruitment:
   approach: "[e.g., lean maximum variation]"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "**Audience:** Veterans who have used or attempted to use the VSC in the past."
+    - "**Approach:** Perigean will be used to recruit participants with a focus on a lean maximum variation sample to ensure diverse representation among Veterans and businesses."
+    - "--"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

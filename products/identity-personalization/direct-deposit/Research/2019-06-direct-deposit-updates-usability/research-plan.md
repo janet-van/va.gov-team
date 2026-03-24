@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate that the profile is the best place for direct deposit functionality"
-  - goal_2: "Evaluate if users understand how to update their direct deposit information"
-  - goal_3: "Assess user reactions to design decisions including blank edit modal fields and eBenefits redirect for GI Bill"
+  - goal_1: "*1. What product & team are you doing this research for?**"
+  - goal_2: "*2. Background: Briefly, what is the background on this product? What would a new person on the team need to know about this product?**"
+  - goal_3: "*3. Research questions: What question(s) do you hope to be able to answer after completing this research?**"
+  - goal_4: "Is the profile the best place for this functionality?"
+  - goal_5: "Do users know where to go to update this information? If they don't, what steps do they try to take to get there?"
 
 research_questions:
   - "Is the profile the best place for this functionality?"

@@ -27,15 +27,10 @@ research_goals:
   - goal_3: "See if moving the accordion controls to the left side affects usability."
 
 research_questions:
-  - "What reactions/feedback do Veterans have upon encountering the interstitial page after clicking \"Continue\"?"
+  - "What reactions/feedback do Veterans have upon encountering the interstitial page after clicking "Continue"?"
   - "Do Veterans think that their form data is being saved? If so, how confident are they?"
   - "Do Veterans click on either of the links on the interstitial page (that go to My VA or the form intro page)?"
   - "Do Veterans remember later what the interstitial page said?"
-  - "Do Veterans use the \"Finish later\" button to stop filling out a form?"
-  - "What feedback do Veterans have on the revised \"Finish later\" page?"
-  - "Are Veterans able to resume filling out a form that they previously started? If so, how?"
-  - "Do users realize that they have to sign in before resuming the form?"
-  - "Are Veterans able to open and close accordions with controls on the left side? (especially people using a screen magnifier)"
 
 hypotheses:
   - "With the new design, Veterans are confident that their form data will be saved."

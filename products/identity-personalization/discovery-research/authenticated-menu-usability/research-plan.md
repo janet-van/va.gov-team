@@ -26,20 +26,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Learn how the new design helps Veterans find their authenticated menu options, especially on mobile"
-  - goal_2: "Learn about Veteran expectations for an authenticated menu"
+  - goal_1: "We want to learn how the new design helps Veterans find their authenticated menu options, especially on mobile."
+  - goal_2: "We want to learn about Veteran expectations for an authenticated menu."
 
 research_questions:
   - "Does the new menu design introduce any usability hurdles, particularly on mobile?"
   - "What do Veterans expect to see under a logged-in user menu?"
   - "Does the new link we're proposing for the authenticated menu make sense to Veterans?"
-  - "How can we differentiate our logged-in user as a personalized menu on mobile?"
+  - "How we can differentiate our logged-in user as a personalized menu on mobile?"
 
 hypotheses:
-  - "The authenticated menu will be easy for people to find when their name is in the header"
-  - "People will initially struggle to find their authenticated menu when it's collapsed but will easily understand once they see their name"
-  - "In the prototype, people will understand what the links in their authenticated menu point to"
-  - "When describing expectations for their VA.gov user menu, people will consistently mention profile and a variety of other links specific to their experience"
+  - "consistently mention profile."
+  - "mention a variety of other links that are highly specific to the person’s experience with VA."
 
 expected_outcomes: "We'll use this outcomes from this research to inform design and content iterations on the authenticated menu."
 

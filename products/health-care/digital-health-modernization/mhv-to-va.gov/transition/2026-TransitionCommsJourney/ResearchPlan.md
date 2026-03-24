@@ -23,18 +23,13 @@ research_format:
 
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand Veterans' real-world experience of receiving new healthcare alerts and changing functionality over time"
-  - goal_2: "Capture what of the changing functionality and alerts that Veterans notice on their own or unprompted"
-  - goal_3: "Document whether Veterans understand why the functionality has changed, what that means for them, what (if anything) they need to do, and where to go for more information"
+  - goal_1: "Understand Veterans’ real-world experience of receiving new healthcare alerts and changing functionality over time."
+  - goal_2: "Capture what of the changing functionality and alerts that Veterans notice on their own or unprompted."
+  - goal_3: "Document whether Veterans understand why the functionality has changed, what that means for them, what (if anything) they need to do, and where to go for more information."
 
 research_questions:
-  - "Does the Veteran notice the alert and changing functionality? If so, when and what do they notice? Do they understand the temporary nature?"
-  - "What patterns emerge over time as more alerts and changing functionality come in (e.g., growing trust, fatigue, ignoring, increased reliance)?"
-  - "When would the Veteran expect to see the next change? What kind of lead time?"
-  - "Do Veterans understand what the alert means on first read?"
-  - "Do Veterans understand what action (if any) they should take—and by when?"
-  - "Do Veterans notice the changed functionality and redirect on their own? If not, what do they do when they run into it? If they do, what visual cues do they see that tells them?"
-  - "Do Veterans understand what future functionality changes will happen? Do they infer?"
+  - "*Experience over time / context**"
+  - "*Comprehension and decision-making**"
 
 hypotheses:
   - "Alert blindness: Veterans will overlook and not read the alert, increasingly so as more alerts happen"

@@ -26,23 +26,23 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*Clarity & Focus:**"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "*`1.`Is the chatbot design easy to use and understand for users of all technical ability?**"
+  - "*`2.`Are users able to find answers to simple questions without authentication?**"
+  - "*`3.`Are the disclaimers and warnings timely and useful?**"
+  - "*`4.`Are users getting frustrated if questions are not properly answered?**"
+  - "*`5.`Are the lenghts of answers appropriate?**"
+  - "*`6.`How can we improve design?**"
+  - "*`7.`Are interactions quick and get the user to their intended destination in a timely manner?**"
+  - "*`8.`How does the chatbot impact Veterans’ perceptions of VA digital services?**"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "--"
+  - "*By utilizing LLM and/or AI in the 3 proof of concept designs, we will be able to more accurately answer Veterans' questions and help them complete tasks on VA.gov by interacting with users and responding to feedback. Also, the answers will be clear, trustworty and channel agnostic.**"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`"
 
 # Recruitment & Participants
 recruitment:

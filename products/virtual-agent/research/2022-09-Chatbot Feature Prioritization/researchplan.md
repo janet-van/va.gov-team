@@ -22,18 +22,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Take users through flows to gain insight on the expected experience of sign-in content surfacing, problem escalation, account identification assistance, password reset flow, and account creation"
-  - goal_2: "Understand the existing pain points for users around sign-in related issues"
-  - goal_3: "Understand how users currently handle their issues around sign-in related issues"
+  - goal_1: "Sign-in content surfacing"
+  - goal_2: "Problem escalation"
+  - goal_3: "Account identification assistance"
+  - goal_4: "Password reset flow"
+  - goal_5: "Account creation 2. Understand the existing pain points for users around sign-in related issues 3. Understand how users currently handle their issues around sign-in related issues"
 
 research_questions:
-  - "What features would users like to see prioritized based upon: the ability to provide users with sign in related information, problem escalation, password reset, and account creation?"
-  - "What are the primary pain points that exist around sign in related issues with users?"
-  - "How are users currently addressing and navigating these tasks?"
+  - "What features would users like to see prioritized based upon the following issues: the ability to provide users with sign in related information, problem escalation, password reset, and account creation? 2. What are the primary pain points that exist around sign in related issues with users? 3. How are users currently addressing and navigating these tasks?"
 
 hypotheses:
-  - "Users will appreciate that chatbot is attempting to handle issues related to sign in and they will be happy with the flows that we propose to help address their issues"
-  - "Users currently go to a variety of sources to find information on and troubleshoot their issues"
+  - "Users will appreciate that chatbot is attempting to handle issues related to sign in and they will be happy with the flows that we propose to help address their issues."
+  - "Users currently go to a variety of sources to find information on and troubleshoot their issues."
 
 expected_outcomes: "This research will serve as a guide to better inform which features to prioritize for users, helping to bridge the gap for Veterans contending with sign-in related issues"
 

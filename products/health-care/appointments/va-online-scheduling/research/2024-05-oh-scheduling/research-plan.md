@@ -26,16 +26,21 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate a scheduling flow for booking an appointment at an Oracle Health facility, including selecting a provider during scheduling"
-  - goal_2: "Test concepts for improving the scheduling flow (quick schedule from previous appointments, showing recent locations first, better timing for urgent care messages)"
-  - goal_3: "Test a concept for sharing important messages and tasks with Veterans"
+  - goal_1: "Evaluate a scheduling flow for booking an appointment at an Oracle Health facility. This will include selecting a provider during scheduling."
+  - goal_2: "Test concepts for improving the scheduling flow, including:"
+  - goal_3: "Providing an option to quickly schedule from previous appointments"
+  - goal_4: "Showing locations where the Veteran has scheduled recently first in the "choose a location" list"
+  - goal_5: "Better timing for displaying a message that the tool is not intended for urgent care"
 
 research_questions:
-  - "What information do Veterans want when deciding between providers and is it clear these are providers they've seen before?"
-  - "Is it clear to Veterans that the tool is not for urgent medical needs and do they find the warnings necessary, helpful, and timely?"
+  - "What information do Veterans' want when deciding between providers?"
+  - "Is it clear that these are providers they've seen before?"
+  - "What are their expectations around requesting an appointment with a different provider?"
+  - "Is it clear to Veterans that the tool is not for urgent medical needs?"
+  - "Do Veterans find the warnings about urgent medical needs necessary, helpful, and timely, or frustrating and unnecessary?"
+  - "Is having the "I need immediate care" option helpful?"
   - "Does scheduling from previous appointments make the scheduling process faster and easier for Veterans?"
-  - "Does the Sort by recent locations feature make scheduling easier and add value for Veterans?"
-  - "Do Veterans notice the notification bell and understand the content and CTAs for each type of notification?"
+  - "Does scheduling from previous appointments add other value for Veterans?"
 
 hypotheses:
   - "Veterans will want to choose a specific provider for most types of care based on who has the soonest availability"
@@ -52,9 +57,11 @@ recruitment:
   approach: "targeted recruitment with screener"
   
   primary_criteria:
-    - "3 Veterans have used the My VA Health Portal in the past 12 months"
-    - "50% Mobile, 50% Desktop"
-    - "Must have had or will have appointments at Oracle Health facilities (Mann-Grandstaff, Wainwright, VA Central Ohio, Roseburg, VA Southern Oregon)"
+    - "Recruit 16 total participants for this study."
+    - "Schedule a brief kickoff call to run through the recruitment criteria before recruiting. Availability for kickoff call:"
+    - "**Wednesday, July 10:** 2:00 PM - 5:00 PM EST"
+    - "**Thursday, July 11:** 9:00 AM - 5:00 PM EST"
+    - "**Friday, July 12:** 9:00 AM - 5:00 PM EST"
     
   secondary_criteria:
     - "At least 4 participants with a cognitive disability"

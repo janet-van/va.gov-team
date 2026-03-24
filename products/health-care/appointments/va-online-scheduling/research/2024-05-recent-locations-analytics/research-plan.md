@@ -26,17 +26,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Track whether the default Sort by field is changed from Recent locations to a different option by users"
+  - goal_1: "Track whether the default "Sort by" field is changed from "Recent locations" to a different option by users."
 
 research_questions:
-  - "Are users clicking on one of facilities surfaced with the default set at recent locations or selecting a different way to sort the list?"
-  - "How long are users spending on the page compared to time spent before the change?"
-  - "Are users leaving comments about the facility selection page and is feedback generally positive or negative?"
+  - "Are users clicking on one of facilities surfaced with the default set at recent locations? OR are they selecting a differnt way to sort the list?"
+  - "How long are users spending on the page? (compare this with time spent on page prior to the change)"
+  - "Are users leaving comments about the facility selection page?"
+  - "Is the feedback generally positive or negative?"
 
 hypotheses:
-  - "Comments about not being able to find their facility will decrease"
-  - "Comments about showing locations they have not used in ages and are irrelevant to the Veteran will decrease"
-  - "The use of the sort by drop down will decrease because Veterans will select one of the facilities in list with the defaulted recent locations"
+  - "Comments about not being able to find their facility will decrease."
+  - "Comments about showing locations they have not used in ages and are irrelevant to the Veteran will decrease."
+  - "The use of the "sort by" drop down will decrease because Veterans will select one of the facilities in list with the defaulted "recent locations.""
 
 expected_outcomes: "Data will assess if users are clicking on facilities surfaced with default recent locations or selecting a different way to sort the list, informing whether the feature is effective."
 

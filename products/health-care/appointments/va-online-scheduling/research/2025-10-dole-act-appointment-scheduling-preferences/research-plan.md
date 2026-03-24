@@ -22,25 +22,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand the mental model of users to determine where all health preferences should be selected (could be multiple places)."
-  - goal_2: "Identify the preferences that hold significance and relevance to Veterans when they schedule health care appointments."
+  - goal_1: "`1. ` **Understand the mental model of users to determine where all health preferences should be selected (could be multiple places).**"
 
 research_questions:
-  - "What problems are Veterans encountering when a scheduler makes their appointment for them?  What changes would Veterans like to see?"
-  - "What information do Veterans wish schedulers already knew about their preferences, so they didn't have to share that information with them each time?"
-  - "Where do Veterans expect to find all health preferences?  Do some preferences belong in different sections?  What would Veterans expect to find in scheduling preferences?  Should some preferences be found in multiple sections that are crosslinked?"
-  - "What do Veterans think these preferences will impact? Which preferences are confusing for Veterans to understand? Which preferences do Veterans think are valuable?  Do Veterans want these preferences to apply to only certain scenarios?  Or are these universal?"
-  - "Do Veterans mention any changes, problems, or use cases that the current design solves or does not address?"
-  - "Do Veterans want to see any metadata about changes to a preference?"
-  - "Do Veterans propose additional preference types they would like implemented?"
+  - "**Consider bucketing research questions under research goals and think about:***"
+  - "*`1.` What problems are Veterans encountering when a scheduler makes their appointment for them? What changes would Veterans like to see?**"
+  - "*`2.` What information do Veterans wish schedulers already knew about their preferences, so they didn't have to share that information with them each time?**"
+  - "*`3.` Where do Veterans expect to find all health preferences? **"
+  - "Do some preferences belong in different sections?"
+  - "What would Veterans expect to find in scheduling preferences?"
+  - "Should some preferences be found in multiple sections that are crosslinked?"
+  - "*`4.` What do Veterans think these preferences will impact? **"
 
 hypotheses:
-  - "Veterans will not find generic male/female provider preferences of value unless the Veteran can specify the provider's gender by specialty."
-  - "Veterans will not find the best method of contact of value unless they can specify the method of contact by day and time of day."
-  - "Veterans will not find appointment time preferences of value unless they can specify the preferences by the day and time window."
-  - "Veterans will not find general time frames for contact by phone (such as morning or evening) of value unless they can specify the window that they are available to receive the call."
-  - "Veterans would expect some preferences to exist at a global level, such as in profile, while other preferences should exist at the episode of care level, such as when scheduling one appointment."
-  - "Veterans will expect to find certain health preferences in multiple places."
+  - "*Think through these prompts to develop strong hypotheses:**"
+  - "--"
+  - "--"
 
 expected_outcomes: "Determine where these preferences should live.  Understand the Veteran perceived value of each preference and how Veterans expect VA to utilize their preferences, such as what workflow do they expect to be adjusted based upon their answer.  Gather feedback on usability of proposals."
 

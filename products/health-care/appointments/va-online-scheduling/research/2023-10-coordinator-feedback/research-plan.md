@@ -26,16 +26,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Learn what scope of the appointments process MHV and My VA Health Coordinators help Veterans with"
-  - goal_2: "Learn about common issues they face when helping Veterans schedule appointments and find new health care providers"
-  - goal_3: "Build connections with Coordinators to get future feedback"
+  - goal_1: "Learn what scope of the appointments process MHV and MY VA Health Coordinators help Veterans with."
+  - goal_2: "Learn about any common issues they face when helping Veterans schedule appointments, and finding new health care providers. This will help inform our approach to provider-based scheduling."
+  - goal_3: "Build connections with these Coordinators to get future feedback."
 
 research_questions:
-  - "Where do Coordinators help Veterans the most across the journey of an appointment (finding facility, finding provider, scheduling, navigation, check-in, after visit, travel pay)?"
-  - "What areas do they help in the most and what help do they provide?"
-  - "What are the biggest pain points in finding/enrolling in facility, finding provider, and scheduling appointment?"
-  - "If they are a My VA Health Coordinator, what unique problems do they run into?"
-  - "How would they prefer to be involved in conversations in the future?"
+  - "Finding facility"
+  - "Finding a provider"
+  - "Scheduling an appointment, whether new or follow-up care"
+  - "Finding their way to the appointment"
+  - "Navigating a facility"
+  - "Checking in"
+  - "Talking to their doctor"
+  - "Checking out"
 
 hypotheses:
   - "Coordinators provide valuable insights into common Veteran pain points across the appointment journey"

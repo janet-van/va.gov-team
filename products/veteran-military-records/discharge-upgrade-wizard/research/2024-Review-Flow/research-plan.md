@@ -9,7 +9,7 @@ product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The Discharge Upgrade Wizard is part of the unauthenticated experience and uses a wizard pattern to guide Veterans through an optimized series of questions based on their circumstances. The wizard pattern has been deprecated by the Design System team and is being updated to the recommended sub task pattern. This pattern allows Veterans to check and edit their answers at the end of the flow. We’re enhancing the current edit flow to account for the branching logic in this wizard and help Vetera..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,33 +26,36 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Veterans can understand how to edit an answer that introduces branching logic and navigate back to the review page."
+  - goal_2: "Veterans can understand why they may be asked additional questions when editing an answer to a particular question."
+  - goal_3: "After editing a question, updates to the review page are clear and easy for Veterans to understand."
+  - goal_4: "Veterans can navigate through the entire flow using the subtask pattern with ease."
+  - goal_5: "Veterans that use assistive technology, like screen readers or screen magnifier technology, can navigate through user flows with ease."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Alerts on question and results pages"
+  - "Back and Continue button functionality 3. What feedback do Veterans have after the review page has been updated with new questions and answers? 4. Do Veterans understand how their answers relate to their results?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The edit flow is simple enough for Veterans to understand and the actions in this flow are what they expect."
+  - "Veterans will understand that they may be asked to answer additional questions."
+  - "Veterans will understand the updated review page and how it relates to the questions they answered."
+  - "Veterans will understand how their answers relate to their results."
+  - "Veterans will find the content of the questions relevant to their understanding of a Discharge Upgrade and how it applies to them."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learnings will help enhance the edit flow to account for questions with branching logic."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment criteria include 3 assistive tech sessions."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "*13 Veterans** who meet the below criteria in order to get **11 completed sessions**. This will include 3 assistive tech sessions."
+    - "*Primary criteria**"
+    - "At least 5 have previously applied for a discharge upgrade"
+    - "At least 5 have NOT previously applied for a discharge upgrade"
+    - "At least 5 people with a cognitive disability (e.g., TBI)"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

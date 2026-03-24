@@ -26,10 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify how Veterans find a medication in My HealtheVet or VAHB-Mobile"
-  - goal_2: "Identify how Veterans find information on their medication(s)"
-  - goal_3: "Identify how Veterans make sense of their medication list(s)"
-  - goal_4: "Identify how Veterans' experiences with My HealtheVet/VAHB-Mobile and other websites/apps inform their expectations"
+  - goal_1: "Identify how Veterans find a medication in My HealtheVet or VAHB-Mobile."
+  - goal_2: "Identify how Veterans find information on their medication(s)."
+  - goal_3: "Identify how Veterans make sense of their medication list(s)."
+  - goal_4: "Identify how Veterans' experiences with My HealtheVet/VAHB-Mobile and other websites/apps inform their expectations."
 
 research_questions:
   - "What do Veterans expect to see on their Medications page?"
@@ -38,9 +38,7 @@ research_questions:
   - "What do Veterans do if they cannot find a medication?"
 
 hypotheses:
-  - "Most Veterans will find the current UI of prescription findability efficient"
-  - "Most Veterans will find their prescriptions by scrolling through the pages"
-  - "Most Veterans will state they would call their providers when they cannot find a prescription on their list"
+  - "_Hypothesis 1:_ Most Veterans will find the current UI of prescription findability efficient."
 
 expected_outcomes: "The findings will help determine what is and isn't working for Veterans when accessing their prescriptions on MHV and inform how to best design a User Experience that allows Veterans to find their prescriptions and access information easily and efficiently."
 

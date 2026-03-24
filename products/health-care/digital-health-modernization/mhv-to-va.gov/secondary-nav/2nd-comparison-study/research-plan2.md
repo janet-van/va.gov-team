@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Insights from MHV’s Adoption study, the Secondary Nav Comparison study, and the MHV Wayfinding study provide evidence that the MHV on VA.gov secondary navigation (abbreviated as “secondary nav” going forward) improves overall user experience of the portal."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,33 +26,31 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "This research aims to evaluate proposed design concepts that introduce modifications to the current MHV secondary nav with participants using both desktop and mobile designs. Moving forward in this document, we will refer to these proposed design concepts as “expanded secondary nav”."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How does an expanded secondary nav impact users’ go-to strategies for finding tools and tasks not obviously found within the 4 main tool secondary nav?"
+  - "What are Veteran’s mental models for where certain health-related tasks should appear in the portal or on VA.gov?"
+  - "How do changes to the link and label for the MHV landing page impact users’ expectations for where that link will lead them, as well as users’ interest in clicking it?"
+  - "What challenges do users encounter while attempting to use the proposed designs?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The expanded secondary nav will allow Veterans to complete key health tasks more efficiently, with faster access to tools, fewer clicks, and reduced navigation time."
+  - "Even with the expanded secondary nav, Veterans will still expect to complete certain tasks using tools that do not offer those affordances."
+  - "The addition of a “home” label and icon in the secondary nav will make users more interested in clicking the link to arrive at the landing page."
+  - "The addition of a “home” label and icon will also change users’ perception of what they will find on the landing page."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will assess how Veterans engage with an expanded secondary nav, focusing specifically on the continued navigational weaknesses present in the portal. Findings from this research will guide the optimization of the navigation structure, identify usability challenges, and offer insights to improve the experience, ultimately making it easier for Veterans to navigate the tools and services they rely on for their health."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach We will partner with Perigean to recruit Veterans and we request a 30 min. kickoff meeting with Perigean to clarify recruiting needs."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "TBD"
+    - "TBD"
+    - "TBD"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

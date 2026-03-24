@@ -58,28 +58,21 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Assess users' understanding, reactions, and expectations to the proposed Emergency contact and Next of kin feature within the VA.gov profile"
-  - goal_2: "Evaluate how easily users are able to find this information in Profile"
-  - goal_3: "Evaluate if the proposed designs are understandable and useful across participant types (sighted and low/no vision) and screen sizes (mobile and desktop)"
+  - goal_1: "Evaluate how easily users are able to find this information."
+  - goal_2: "Evaluate if the proposed designs are understandable and useful across participant types (sighted and low/no vision) and screen sizes (mobile and desktop)."
 
 research_questions:
-  - "Are users able to navigate to the Emergency contact and Next of kin information from an unauthenticated state?"
   - "Is it intuitive to find this information within VA.gov profile?"
-  - "What are users' reactions to and understanding of the proposed designs?"
-  - "Is it clear that the 'Personal health care contacts' only pertain to health care?"
+  - "Is it clear that the “Personal health care contacts” only pertain to health care?"
   - "Is it clear to users how to update their information?"
-  - "Do participants understand what is meant by 'Next of kin' information?"
-  - "What is the user mental model around Emergency contact and Next of kin information?"
+  - "Do participants understand what is meant by “Next of kin” information?"
   - "How do veterans define emergency contact and next of kin?"
-  - "How is the 'read only' data useful to Veterans?"
-  - "How many Emergency contacts and Next of kin contacts do people want/expect to list/see?"
+  - "How is the “read only” data useful to Veterans?"
+  - "How many Emergency contacts and Next of kin contacts do people want/expect to list/see?'"
   - "When or where do people expect to be asked about this information?"
-  - "What type of information for both Emergency contact and Next of kin do users expect to need to provide?"
 
 hypotheses:
-  - "Participants will sign in, go to the 'Profile', then navigate to 'Personal health care contacts' in order to view EC and NOK information"
-  - "Participants will understand the EC and NOK information and understand how to update information"
-  - "Participants will want to be able to edit or add EC and NOK information in place"
+  - "_Hypothesis 1:_ Participants will sign in, go to the "Profile", then navigate to “Personal health care contacts” in order to view EC and NOK information."
 
 expected_outcomes: "This research will inform the direction of this proposed design concept: we will either move forward with this design, making iterations as needed or choose not to pursue this direction"
 
@@ -89,11 +82,9 @@ recruitment:
   approach: "diverse sample with range of demographics and abilities"
   
   primary_criteria:
-    - "Must be veterans or caregivers"
-    - "Must have signed into VA.gov or My HealtheVet for any reason"
-    - "Must have a computer or mobile phone and be willing to complete sessions on this device"
-    - "Must be willing to share a web browser window on Zoom call"
-    - "Must have Zoom downloaded and know how to share screen"
+    - "*Availability for potential kickoff meeting times with Perigean, depending on their availability. Anticipate KO meeting lasting 30 minutes**"
+    - "Monday, November 6: 10 - 12pm, 3 - 4:30pm EST"
+    - "Tuesday, November 7: 10 - 12pm, 1 - 3pm EST"
     
   secondary_criteria:
     - "4 people who use screen readers on desktop"

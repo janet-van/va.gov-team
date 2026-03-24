@@ -26,23 +26,25 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "`1.` **Validate profile experience and architecture changes with participants.**"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "**Consider bucketing research questions under research goals and think about:*** `What will I do with what I learn from this question?` `Does this question serve the goals of my study?`"
+  - "*`1.`Do participants have any challenges navigating to profile?**"
+  - "*`2.`Do participants have difficulty navigating new profile categories?**"
+  - "*`3.`Is there any information missing that participants want to see?**"
+  - "*`4.`Are there any features missing that participants want to see? Such as wanting to edit or remove content?**"
+  - "*`5.`Does the new experience meet participant expectations? Why or why not?**"
+  - "*`6.`Are there any specific challenges screen reader or magnification participants face while using our new experience?**"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "*Think through these prompts to develop strong hypotheses:** `What do you intend to learn and measure from this study?`"
+  - "--"
+  - "*`1.`Participants will not have difficulty navigating to the profile.**"
+  - "*`2.`Participants will not have difficulty navigating the new categories in profile.**"
+  - "*`3.`The new categories and content will meet participants expectations.**"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`"
 
 # Recruitment & Participants
 recruitment:

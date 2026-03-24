@@ -36,10 +36,10 @@ research_questions:
   - "What expectations do iFAMS administrators have for the new tool?"
 
 hypotheses:
-  - "Administrators will expect Saviynt to simplify and standardize provisioning/deprovisioning, reducing manual effort"
-  - "Concerns will center around potential disruptions to existing processes, and the complexity of transitioning from legacy systems"
-  - "Administrators will require clear visibility into access workflows, reliable automation, and minimal disruption to existing responsibilities to consider the integration successful"
-  - "Administrators will identify communication and documentation as key factors in their integration experience"
+  - "Administrators will expect Saviynt to simplify and standardize provisioning/deprovisioning, reducing manual effort."
+  - "Concerns will center around potential disruptions to existing processes, and the complexity of transitioning from legacy systems."
+  - "Administrators will require clear visibility into access workflows, reliable automation, and minimal disruption to existing responsibilities to consider the integration successful."
+  - "Administrators will identify communication and documentation as key factors in their integration experience."
 
 expected_outcomes: "Findings will help ensure that the Saviynt integration addresses the practical needs of iFAMS administrators. Insights will inform design and development decisions, guide documentation efforts, and reduce risks of adoption barriers"
 

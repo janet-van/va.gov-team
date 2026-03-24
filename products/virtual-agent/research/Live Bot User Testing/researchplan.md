@@ -9,7 +9,7 @@ product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "We released an unauthenticated chatbot in February 2022 with the aim of acting as a way to provide veterans with access to information. We followed this with an authenticated version in April 2022 with the focus being on personalization and features to access private information such as progressing compensation claims. This personalization included the ability of users to sign in with credentials, an updated end to conversation flow, and a feature that enables encryption of sensitive informat..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,29 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gain insight on lack of feedback survey completion"
+  - goal_2: "Take users through a flow to reset their password and gain insight on the expected flow"
+  - goal_3: "Gain insight on future chatbot feature prioritization with users"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What would encourage users to fill out the feedback survey?"
+  - "Why are they not filling out the feedback survey currently? 2. Password Reset"
+  - "What type of flow would users like to see when attempting to reset their password?"
+  - "Would users like for the chatbot to be able to address having to reset their username or password? 3. Future Feature consideration:"
+  - "What features would users like to see prioritized based upon the following issues: clinical [appointment set up and prescription fulfillment], sign in/credential creation, disability rating information, and life insurance."
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will expect a feedback survey at the end of their exchange with the chatbot."
+  - "Users will expect to have to navigate to another window to create or update their login credentials."
+  - "Participants will prefer to have a sign out button at the end of their encounter with the chatbot."
+  - "Participants will not find any difficulty with the current sign in process."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Currently it is hard to gauge the overall experience of users with the chatbot due to users not completing the feedback survey. We hope that this research will help us determine a better way to capture this feedback."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment Approach I would like Perigean recruiting to schedule 10 participants in order to achieve 6 completed sessions. I would like all participants to be veterans."
   
   primary_criteria:
     - "[Must-have criterion 1]"

@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate that direct deposit is displaying correctly for eligible users in production"
-  - goal_2: "Verify that direct deposit information is being correctly pulled from backend systems"
-  - goal_3: "Test that users can successfully update their direct deposit information on production"
+  - goal_1: "Is direct deposit showing in people's profiles when it is supposed to?"
+  - goal_2: "Is direct deposit NOT showing when it's NOT supposed to?"
+  - goal_3: "For people who are supposed to see direct deposit, is their information being correctly pulled in from the backend?"
+  - goal_4: "For people who are supposed to see direct deposit, can they update their information?"
+  - goal_5: "Direct deposit will work as expected."
 
 research_questions:
   - "Is direct deposit showing in people's profiles when it is supposed to?"

@@ -24,18 +24,21 @@ research_format:
 research_goals:
   - goal_1: "Understand perceived content comprehension for the topic of direct deposit specifically for FMP claims."
   - goal_2: "Discover, if any, of the direct deposit content is confusing or misunderstood by the Veteran and could be a potential risk."
-  - goal_3: "Gain insight into any improvements or recommendations to increase clarity of the direct deposit content for FMP claims."
+  - goal_3: "Gain insight into any improvements that could be made to increase clairity of the direct deposit process understanding for FMP claims for reimbursement."
 
 research_questions:
   - "How do Veterans react to the direct deposit informational alert on the introduction page?"
-  - "Do Veterans most often click to the static page to 'learn how to setup' or do they stay in the form flow?"
+  - "Do Veterans most often click to the static page to "learn how to setup" or do they stay in the form flow?"
   - "Do Veterans confuse or quickly assume that their bank account information for FMP is the same as what they use for disability compensation?"
   - "Do Veterans express frustration about the separate direct deposit setup process for FMP claims and if so, what is their biggest pain point?"
   - "Do any Veterans say the direct deposit process mentioned in the content would be a blocker for them in filing online?"
+  - "How confident are Veterans in their understanding to set up direct deposit for FMP claims?"
 
 hypotheses:
-  - "There will be some but minimal confusion about direct deposit being a separate process than what is used for VA Benefits."
-  - "Most Veterans will not have an issue with the one-time setup instructions directed to FSC, but may comment on it being inconvenient."
+  - "--"
+  - "We assume that overall there will be some confusion about direct deposit being a separate process than what is used for VA Benefits when Veterans are filing an FMP claim."
+  - "Some Veterans will not have an issue with the one-time setup instructions directed to FSC, but may comment on it being incovenient."
+  - "--"
 
 expected_outcomes: "Better understand risks with content comprehension around direct deposit content and instructions within FMP claims."
 

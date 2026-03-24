@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "problems Veterans face when communicating health record (medications, allergies, and immunizations) changes to their VA providers."
+  - goal_2: "how Veterans understand, group, and find value in reviewing and updating their medications, allergies, and immunizations within a health questionnaire prior to a primary care appointment."
+  - goal_3: "*Background**<br/> Our goal is to improve the in-person and online pre- and post-appointment experiences for Veterans, contribute to physical distancing efforts in VA facilities, and better integrate Veteran-provided data in VA workflows by providing Veterans with a digital option to complete pre- or post-appointment questionnaires and screeners. Our next phase will focus on improving the pre-appointment experience when visiting primary care providers by allowing Veterans to update their heal..."
+  - goal_4: "*Research questions**"
+  - goal_5: "What current pain points do Veterans experience when communicating medications, allergies, and immunizations changes to their VA providers?"
 
 research_questions:
   - "[Research question 1]"

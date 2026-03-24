@@ -22,20 +22,27 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand how veterans conceptualize 'new' or 'recent' in medical records (time-based window)"
-  - goal_2: "Evaluate whether landing page indicators + list page badges help veterans find recent results"
+  - goal_1: "*1.Understand how veterans conceptualize "new" or "recent" in medical records**"
+  - goal_2: "*2. Evaluate whether landing page indicators + list page badges help veterans find recent results**"
+  - goal_3: "*3. Identify what information veterans need on cards and badges**"
+  - goal_4: "--"
  
 research_questions:
-  - "How do veterans define 'new' or 'recent' when thinking about medical records? (7 days? 14 days? 30 days?)"
-  - "Do landing page cards showing counts of new results provide helpful orientation before entering lists?"
-  - "Are badges on list pages sufficient to identify new items, or is additional information needed?"
-  - "What information do veterans need on landing page cards to decide where to click?"
-  - "Does the 'breadcrumb' approach (landing page card → list page with badges → detail page) work for finding recent results?"
+  - "*1. How do veterans define "new" or "recent" when thinking about medical records?**"
+  - "Is 7 days too short? 14 days? 30 days?"
+  - "When a badge persists after viewing, is that helpful (reminder) or confusing (feels stale)?"
+  - "What happens when the indicator goes away—is that okay or confusing?"
+  - "*2. Do landing page cards showing counts of new results provide helpful orientation?**"
+  - "Do they help veterans know where to look first?"
+  - "Or do they feel like unnecessary extra clicks?"
+  - "When veterans see "You have 2 new lab results," does that help them know where to go?"
 
 hypotheses:
-  - "Veterans will prefer a time-based window of 7-14 days for 'new' indicators"
-  - "Landing page cards showing counts will help veterans orient to where new results are located"
-  - "Minimal information on cards (type + count) will be sufficient for navigation"
+  - "*Hypothesis 1:** Veterans will prefer a time-based window of 7-14 days for "new" indicators, as this aligns with typical follow-up timelines after appointments."
+  - "*Hypothesis 2:** Landing page cards showing counts ("You have 2 new lab results") will provide helpful orientation, reducing aimless clicking through categories."
+  - "*Hypothesis 3:** Minimal information on cards (record type + count + time frame) will be sufficient for navigation. Veterans don't need individual record names on landing page."
+  - "*Hypothesis 4:** Badges on list pages will be more effective than landing page cards alone, as they provide specific identification of new items."
+  - "--"
 
 expected_outcomes: "Findings will inform the design of recency indicators for MVP release. We'll learn the optimal time window, required card content, and whether the breadcrumb navigation approach supports findability."
 

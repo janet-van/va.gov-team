@@ -38,21 +38,18 @@ research_goals:
 research_questions:
   - "Do people expect to land on the search page after logging in?"
   - "What do reps search by to find an individual in existing tools? What method do they prefer?"
-  - "What do people expect to see next after clicking search?"
+  - "What do people expect to see next after clicking “search?”"
   - "Is the information on the claimant overview must have/nice to have/not needed? What other information would be helpful to see?"
   - "Are the alerts relevant and clear? What other alerts/notifications would they want to see for a claimant?"
-  - "What do they expect to see next after selecting Start [Form number] submission?"
+  - "What do they expect to see next after selecting “Start [Form number] submission”?"
   - "Do they understand differences in how submitted files will be processed?"
   - "What would their next step be after submitting files?"
-  - "Is this version of submitting a claim better and faster than their current solution? Why or why not?"
-  - "When given scenarios, will a representative know which navigation section to visit, to take action?"
-  - "Are the section headings clear? How confident do they feel in navigating the app?"
 
 hypotheses:
-  - "Searching by last four digits of SSN, first name and last name will feel like an appropriate amount of information to enter"
-  - "Information on the claimant overview page helps answer questions the representative has about the claimant; it is useful"
-  - "The solution for submitting the form through Claimant Page is perceived as an equal to QuickSubmit"
-  - "Each participant can complete 75% of the navigation tasks successfully"
+  - "Searching by last four digits of SSN, first name and last name will feel like an appropriate amount of information to enter."
+  - "Information on the claimant overview page helps answer questions the representative has about the claimant; it is useful."
+  - "The solution for submitting the form through Claimant Page is perceived as an equal to QuickSubmit."
+  - "Each participant can complete 75% of the navigation tasks successfully."
 
 expected_outcomes: "This research will inform edits to Find Claimant, Claimant page, and the Claim Submission flow. It will also inform future iterations of claims submission."
 

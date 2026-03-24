@@ -34,8 +34,7 @@ research_questions:
   - "Is there a way to make the content or cadence of email appointment reminders more useful?"
 
 hypotheses:
-  - "Veterans want more information in their emails including details about the location and provider for their health appointments"
-  - "Veterans currently do not find the MHV email reminders as useful as the appointment list within the MHV portal, which includes more detailed appointment information"
+  - "Our hypothesis is that Veterans want more information in their emails including details about the location and provider for their health appointments and that Veterans currently do not find the MHV email reminders as useful as the appointment list within the MHV portal, which includes more detailed appointment information."
 
 expected_outcomes: "Gauge Veteran satisfaction with current email appointment reminders and learn what can improve to make content, functionality or cadence changes that will increase recipient satisfaction, decrease oversaturation of reminders, and improve care by getting Veterans to their appointments prepared with necessary information."
 

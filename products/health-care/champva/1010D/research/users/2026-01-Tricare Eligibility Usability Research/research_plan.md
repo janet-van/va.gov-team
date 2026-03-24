@@ -26,23 +26,23 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Learn where there are content comprehension issues within the eligibility questions and error messages options tested"
-  - goal_2: "Discovery around two flows - one using new VADS pattern and another with VADS pattern and API hybrid approach - to determine usability and user preference"
-  - goal_3: "Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option"
+  - goal_1: "`1. Learn where there are content comprehension issues within the eligibility questions and error messages options tested.`"
 
 research_questions:
-  - "Do participants find the introduction page eligibility content clear and easy to understand?"
-  - "Do participants find the eligibility questions in the VADS pattern flow confusing or unclear?"
-  - "Do participants understand the content in the error messages and what action to take?"
-  - "Is the flow of VADS eligibility pattern easy for Veterans and family members?"
-  - "What flow do participants find easier via self-reported ratings?"
-  - "Do participants clearly understand the eligibility gray results box with icons?"
-  - "Do the error alerts in the hybrid option add confusion?"
+  - "*`1.`[Do participants find the introduction page eligibility content clear and easy to understand?]**"
+  - "*`2.`[Do participants find the eligibilty questions asked in the VADS pattern flow confusing, unclear or state they need additional information?]**"
+  - "*`3.`[Do participants understand the content in the error messages clear enough to state what specific action, if any, they would need to take when applying for benefits?]**"
+  - "*`1.`[Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?]**"
+  - "*`2.`[What flow do participants seem to find easier via self-reported ratings and quotes?]**"
+  - "*`1.`[Do participants clearly understand the eligibility gray results box with the icons in the pattern?]**"
+  - "*`2.`[Do the error alerts in the hybrid option add any confusion or do participants state incorrect actions needed?]**"
 
 hypotheses:
-  - "Both Veterans and family members will find the hybrid option easiest to understand without issues with alert messages"
-  - "The VADS pattern will add clarity to CHAMPVA benefits eligibility and be received positively"
-  - "Content comprehension will be higher with the hybrid approach"
+  - "--"
+  - "*We assume that both Veterans and their family members will find the hybrid API-driven approach to provide more immediate, personalized feedback than the VADS pattern approach, but both may have different strengths.**"
+  - "*We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and their family members.**"
+  - "*We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.**"
+  - "--"
 
 expected_outcomes: "Determine which eligibility pattern approach to implement for CHAMPVA 10-10d based on usability testing"
 
@@ -95,7 +95,7 @@ veteran_journey_phases:
   - "Aging"
   - "[The changes in the flow and the signer information section will be easy for Veterans and family mbmers to follow with less confusion than previous studies.]"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`"
 
 # Recruitment & Participants
 recruitment:

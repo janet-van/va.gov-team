@@ -48,9 +48,9 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Gain awareness of the current mobile app experience for Veterans who are monthly active users of the app and evaluate general usability and pain points"
-  - goal_2: "Compare Veterans' feedback using the app now to research findings completed before the app's launch in order to update our current understanding of the app's value"
-  - goal_3: "Identify Veterans unmet needs and uncover areas where the app could provide future access to other VA health and benefits areas"
+  - goal_1: "Gain awareness of the current mobile app experience for Veterans who are monthly active users of the app. Evaluate general usability of the app as well as pain points."
+  - goal_2: "Compare Veterans’ feedback using the app now to research findings completed before the app’s launch in order to update our current understanding of the app’s value."
+  - goal_3: "Identify Veterans unmet needs and uncover areas where the app could provide future access to other VA health and benefits areas."
 
 research_questions:
   - "How do Veterans rate the current experience using the VA Health and Benefits app? What things do they like about it, and what are the pain points?"
@@ -60,7 +60,7 @@ research_questions:
   - "How do Veterans describe their digital trust level with the app?"
 
 hypotheses:
-  - "Veterans who currently use the VA Health and Benefits mobile app use it for quick, transactional tasks, but there are other things Veterans want to be able to use the app to do that they can't do right now, such as finding out about benefits they might be missing out on"
+  - "Veterans who currently use the VA Health and Benefits mobile app use it for quick, transactional tasks, but there are other things Veterans want to be able to use the app to do that they can’t do right now, such as finding out about benefits they might be missing out on."
 
 expected_outcomes: "Specific lists of feature areas working well in the app as well as common pain points, prioritization map of areas to focus on next as new Sprint 0 initiatives, and evolved understanding of the value the app provides based on user feedback"
 

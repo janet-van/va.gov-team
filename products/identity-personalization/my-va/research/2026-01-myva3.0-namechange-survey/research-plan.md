@@ -22,19 +22,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate if renaming My VA to include a descriptor such as dashboard or feed will reflect recommendations from prior research and user feedback."
-  - goal_2: "Validate if updating My VA to include a descriptor such as dashboard or feed will match Veteran mental models."
-  - goal_3: "Determine the preferred terminology that best represents the My VA experience for Veterans."
+  - goal_1: "`1.` **[Validate if renaming My VA to include a descriptor such as dashboard or feed will reflect recommendations from prior research and user feedback. ]**"
 
 research_questions:
-  - "Do Veterans associate the word 'Dashboard' with My VA? Or is there another term they'd prefer?"
-  - "Does the recommendation to rename My VA to 'My VA Dashboard' based on prior research and user feedback match Veterans' mental models?"
-  - "How do Veterans understand and recognize the My VA experience when the page is not readily available and in front of the user?"
+  - "**Consider bucketing research questions under research goals and think about:*** `What will I do with what I learn from this question?` `Does this question serve the goals of my study?`"
+  - "*`1.`[Do Veterans associate the word Dashboard with My VA? Or is there another term they’d prefer?]**"
+  - "*`2.`[Does the recommendation to rename My VA to My VA Dashboard, based on prior research and user feedback, match Veterans mental models?]**"
 
 hypotheses:
-  - "Based on prior research, Veterans will associate the word 'Dashboard' with My VA."
-  - "Based on prior research and user feedback, Veterans will prefer 'My VA Dashboard' over 'My VA'."
-  - "Based on prior research, Veterans will understand what 'My VA Dashboard' is even when the page is not readily available and in front of the user."
+  - "*`1.`[Based on prior research, we believe Veterans will associate the word Dashboard with My VA.]**"
+  - "*`2.`[Based on prior research and user feedback, we believe Veterans will prefer My VA Dashboard over My VA.]**"
+  - "*`3.`[Based on prior research, we believe Veterans will understand what My VA Dashboard is even when the page is not readily available and in front of the user]**"
+  - "--"
 
 expected_outcomes: "Validation of content change for renaming My VA to a name more recognizable to Veterans, resulting in a confirmed naming recommendation for implementation."
 

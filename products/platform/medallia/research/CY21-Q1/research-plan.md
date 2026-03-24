@@ -26,9 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "This study is being conducted by the VSP Contact Center team. The study follows the user feedback tool called Medallia, which is a Veteran Experience Office product within the VSignals suite."
 
 research_questions:
   - "[Research question 1]"
@@ -38,9 +36,8 @@ research_questions:
   - "[Research question 5]"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to find the proposed button design quicker and easier than the standard Medallia button design."
+  - "The mobile feedback button will perform more successfully than the desktop, due to its proximity to the page's main content."
 
 expected_outcomes: "[How will findings advance the product?]"
 

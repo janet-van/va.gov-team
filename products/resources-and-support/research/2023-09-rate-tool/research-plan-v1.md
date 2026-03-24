@@ -44,8 +44,8 @@ research_questions:
   - "What do users think of the title, 'How would you rate your experience'?"
 
 hypotheses:
-  - "Users will not know the purpose of the rate your experience feedback mechanism"
-  - "The good/bad buttons that are currently used to track feedback are not helpful as the data is recorded in Google Analytics"
+  - "Users will not know the purpose of the rate your experience feedback mechanism,"
+  - "The good/bad buttons that are currently used to track feedback, are not helpful as the data is recorded in Google Analytics."
   - "Users will be more likely to use the feedback button near the footer to leave feedback on the Article page"
 
 expected_outcomes: "Confirm whether updates allow users to provide actionable feedback for content editors to improve R&S articles, whether navigation and discoverability are improved, and whether the naming accurately informs users of content"

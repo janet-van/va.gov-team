@@ -9,13 +9,13 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "As My HealtheVet (MHV) transitions to VA.gov, integrating key features from MHV Classic, such as **Share My Health Data** and **Account Activity History**, requires a clear understanding of where authenticated users expect to find them. While these features support Veterans in managing their health data and tracking account activity, their placement within VA.gov has not yet been determined. Identifying where users naturally look for these tools will help ensure they are easily accessible and..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "A tree test study will be conducted using Optimal Workshop (Treejack) to assess where MHV users expe"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -26,33 +26,29 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "The goal of this research is to identify where users naturally expect to find links to ‘Share My Health Data’ and ‘Account Activity History’ on MHV within VA.gov by conducting a task-based unmoderated tree test."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do MHV users expect to find **‘Share My Health Data’** within MHV on VA.gov?"
+  - "Where do MHV users expect to find **‘Account Activity History’** within MHV on VA.gov?"
+  - "How easily can users find the ‘Share My Health Data’ and ‘Account Activity History’ features within MHV on VA.gov, and what can their navigation patterns tell us about improving discoverability?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will primarily expect to find **‘Share My Health Data’** within the **Health Records** section, as it logically aligns with personal health management."
+  - "Users familiar with MHV Classic may experience confusion if they expect to find a **‘Track Your Health’** or **‘Shared Vitals’** section instead."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings from this research will determine where users intuitively expect to find links to ‘Share My Health Data’ and ‘Account Activity History,’ ensuring they can efficiently locate the tools needed to share their healthcare metrics and monitor their account activity within MHV on VA.gov."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "We will recruit **100 MHV users** through our recruitment partners, Perigean, based on the following criteria:"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "*Group 1 (50 Veterans):**"
+    - "Veterans who have an active MHV account and have accessed it at least once in the last year."
+    - "*Group 2 (50 Veterans):**"
+    - "Veterans who do not have an MHV account."
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

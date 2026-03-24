@@ -22,11 +22,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Assess user comprehension of the banner messaging"
-  - goal_2: "Measure the degree of trust and credibility users attribute to the communications"
-  - goal_3: "Test participants' perception of fraudulent messages vs. legitimate ones"
-  - goal_4: "Understand whether the banners prompt intended protective actions or behavioral changes"
-  - goal_5: "Identify opportunities to improve clarity, tone, and placement for maximum impact"
+  - goal_1: "Assess user comprehension of the banner messaging."
+  - goal_2: "Measure the degree of trust and credibility users attribute to the communications."
+  - goal_3: "Test participants’ perception of fraudulent messages vs. legitimate ones."
+  - goal_4: "Understand whether the banners prompt intended protective actions or behavioral changes."
+  - goal_5: "Identify opportunities to improve clarity, tone, and placement for maximum impact."
 
 research_questions:
   - "How clearly do users understand the purpose and meaning of the fraud alert banners and new communication?"
@@ -36,8 +36,7 @@ research_questions:
   - "How can the wording, tone, or placement of the banners be improved to maximize clarity, engagement, and impact?"
 
 hypotheses:
-  - "If fraud alert messaging is clear, credible, and actionable, users will be more likely to notice and understand the alerts, trust the information, and take the recommended steps to protect themselves."
-  - "If the messaging is unclear or lacks credibility, users may ignore it, misinterpret the risk, or experience unnecessary anxiety."
+  - "--"
 
 expected_outcomes: "The outcomes of this study will provide a clear understanding of how well users comprehend the banner messaging and whether they find it trustworthy and credible. We will gain insight into how effectively users distinguish between fraudulent and legitimate messages, as well as whether the banners encourage the intended protective actions or behavioral changes. In addition, the research will highlight opportunities to improve clarity, tone, and placement to maximize both impact and user confidence."
 
@@ -47,12 +46,11 @@ recruitment:
   approach: "Maximum variation with focus on cognitive disabilities"
   
   primary_criteria:
-    - "15-17 end users with either a learning or cognitive disability or experiencing cognitive difficulties"
-    - "30% of users that experience cognitive or physical disabilities"
-    - "66% People of color"
-    - "33% White, Non-Hispanic"
-    - "Even distribution across age ranges: 18-29, 30-44, 45-65, 65+"
-    - "A mix of low to average tech knowledge"
+    - "*Number of testers** 15–17 end users with either a learning or cognitive disability or experiencing cognitive difficulties"
+    - "*Participant demographics**"
+    - "**Age (even distribution)**"
+    - "18–29"
+    - "30–44"
     
   secondary_criteria:
     - "Gender diversity including transgender, non-binary, or intersex participants"

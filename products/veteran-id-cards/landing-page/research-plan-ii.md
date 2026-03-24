@@ -26,9 +26,8 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Are the illustrated versions of the various identification cards accurate representations of their physical counterparts?"
+  - goal_2: "Are Veterans able to recognize the illustrations?"
 
 research_questions:
   - "[Research question 1]"

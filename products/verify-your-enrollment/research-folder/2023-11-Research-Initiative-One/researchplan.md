@@ -46,9 +46,11 @@ research_questions:
   - "Do Veterans need more insight into backoffice processes (e.g., pending documents and processes)?"
 
 hypotheses:
-  - "The new VYE design will provide a much simpler process for Veterans to manage their enrollment verifications as compared to the overly complicated WAVE tool. WAVE is challenging to navigate and use. A more streamlined and succinct design will be sufficient for Veterans to manage their enrollment verifications. In-context design clues will remove the need for complex user guides. Users do not need to see backoffice processes that are currently contained in 'Pending Documents.'"
-  - "Veterans will be able to easily find and access the VYE application. Existing processes are sufficient to bring Veterans needing to verify enrollment to the VYE tool (e.g., email prompts, Google search, onsite search, etc.). Veterans might prefer IVR or text-based verification processes for managing enrollment."
-  - "There are things we don't know about our Veterans. We do not have documented research on our users and are anticipating learnings to come from open-ended conversation."
+  - "*The new VYE design will provide a much simpler process for Veterans to manage their enrollment verifications as compared to the overly complicated WAVE tool.**"
+  - "WAVE is challenging to navigate and use."
+  - "A more streamlined and succint design will be sufficient for Veterans to manage their enrollment verifications."
+  - "In-context design clues will remove the need for complex user guides."
+  - "User do not need to see backoffice processes that are currently contained in "Pending Documents.""
 
 expected_outcomes: "Evaluative findings will immediately affect the design and content of our MVP solution for VYE. Additional generative research will help inform future solutions and enhancements to VYE (e.g., email notifications, IVR, text verification, integration with VA.gov profile, etc.)."
 
@@ -58,8 +60,10 @@ recruitment:
   approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "Participants must have an active award for MGIB-Active Duty (Chapter 30), MGIB Selected Reserve (Chapter 1606), Reserve Educational Assistance Program (REAP, Chapter 1607), or Veterans Retraining Assistance Program (VRAP)"
-    - "Users of Post 9/11 GI Bill benefits are NOT eligible unless also utilizing one of the above programs"
+    - "MGIB-Active Duty (Chapter 30)"
+    - "MGIB Selected Reserve (Chapter 1606)"
+    - "Reserve Educational Assistance Program (REAP, Chapter 1607)"
+    - "Veterans Retraining Assistance Program (VRAP)"
     
   secondary_criteria:
     - "50% aged 55-64+"

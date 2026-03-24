@@ -22,22 +22,17 @@ research_format:
 
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand how Veterans and service members first learn about Vet Centers"
-  - goal_2: "Understand the client experience for different demographics"
-  - goal_3: "Identify what services, resources or activities are most valuable to Veterans, service members and their families"
-  - goal_4: "Learn how long clients typically engage with Vet Centers and if their engagement or opinion changes over time"
-  - goal_5: "Determine what information Veterans and service members want or expect to see on a website"
+  - goal_1: "The goal of this study is to understand a Vet Center client’s experience, impression and relationship with Vet Centers."
 
 research_questions:
   - "How do Veterans and service members first learn about Vet Centers?"
   - "What is the client experience for different demographics?"
   - "What services, resources or activities are most valuable to Veterans, service members and their families?"
-  - "How long do clients typically engage with Vet Centers and does their engagement or opinion change over time?"
+  - "How long do clients typically engage with Vet Centers and does their engagement or opinion of Vet Centers change over time?"
   - "What information do Veterans and service members want or expect to see on a website?"
 
 hypotheses:
-  - "Current clients have a favorable view of Vet Centers and the services that they offer"
-  - "Clients view Vet Centers as distinct entities from other VA facilities"
+  - "Current clients have a favorable view of Vet Centers and the services that they offer and view them as distinct entities from other VA facilities."
 
 expected_outcomes: "Findings will inform Vet Center modernization strategy and website content to better serve Veterans and service members"
 

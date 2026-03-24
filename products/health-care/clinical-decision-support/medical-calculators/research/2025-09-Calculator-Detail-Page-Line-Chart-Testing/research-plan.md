@@ -34,14 +34,16 @@ research_goals:
   - "Get feedback on the experience of opening and viewing the graph within the calculator detail page"
 
 research_questions:
-  - "How intuitive is it to see a call to action (CTA) to access lab history below the calculator input field?"
-  - "What are clinicians reactions to seeing graphs in this context?"
-  - "How intuitive is it to interact with the line chart and get the data they need?"
+  - "*`1.`How intuitive is it to see a call to action (CTA) to access lab history below the calculator input field?** (Do clinicians notice this option? What do clinicians expect to have happen when they click the link? Do they click the link to open graphs?)"
+  - "*`2.`What are clinicians reactions to seeing graphs in this context?** (Do they anticipate it improving their workflow? Will they use this feature over going to CPRS or JLV?)"
+  - "*`3.`How intuitive is it to interact with the line chart and get the data they need?**"
 
 hypotheses:
-  - "Clinicians will find that having the lab history data with a specific field will improve their workflow"
-  - "Clinicians will not immediately recognize the 'View Labile INR lab history' link and will first plan on getting the data from CPRS"
-  - "Clinicians will intuitively find the tool tips on the data points"
+  - "--"
+  - "*`1.`Clinicians will find that having the lab history data with a specific field will improve their workflow**"
+  - "*`2.`Clinicians will not immediately recognize the "View Labile INR lab history" link and will first plan on getting the data from CPRS**"
+  - "*`3.`Clinicians will intuitively find the tool tips on the data points**"
+  - "--"
 
 expected_outcomes: "This research will help us learn the value of bringing in select patient health data to support clinical workflows. It will help guide product priorities and if we should continue moving forward with implementing this feature"
 

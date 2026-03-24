@@ -26,31 +26,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand if Veterans can locate and fill/refill their medications"
-  - goal_2: "Identify any usability issues Veterans may experience with understanding the status of their medications"
-  - goal_3: "Identify any usability issues Veterans may experience with managing their medications"
+  - goal_1: "Understand if Veterans can locate and fill/refill their medications."
+  - goal_2: "Identify any usability issues Veterans may experience with understanding the status of their medications."
+  - goal_3: "Identify any usability issues Veterans may experience with managing their medications."
 
 research_questions:
-  - "Are Veterans able to find the information they need to fill/refill their prescriptions?"
   - "Can Veterans find and identify the correct prescription they need?"
   - "Do Veterans understand how to complete the steps to submit a refill?"
-  - "Do Veterans know that their refill request submission was successful?"
-  - "Are Veterans able to understand the statuses of their prescriptions?"
+  - "Do Veterans know that their refill request submission was successful? 2. Are Veterans able to understand the statuses of their prescriptions?"
   - "Do Veterans understand the status of a submitted order?"
   - "Do Veterans understand how to find information on what to do when a prescription is not refillable?"
   - "Do veterans understand when a prescription has not yet been filled?"
-  - "How do Veterans interpret 'expired'?"
-  - "Are Veterans able to find the information they need to manage and understand their prescriptions?"
+  - "How do Veterans interpret "expired"? 3. Are Veterans able to find the information they need to manage and understand their prescriptions?"
   - "Can Veterans find the physical description and image of their prescriptions?"
-  - "Can Veterans find the reason for use for their prescriptions?"
-  - "Do Veterans understand how to print their medication list?"
 
 hypotheses:
-  - "Most Veterans will be able to find the information they need to fill/refill their prescriptions"
-  - "Most Veterans will understand the statuses of their medications"
-  - "Most Veterans will be able to find the information they need to manage and understand their medications"
-  - "Some Veterans will confuse 'fill prescription' with 'refill prescription'"
-  - "Some Veterans will be confused by the connotation of 'expired prescription'"
+  - "_Hypothesis 1:_ Most Veterans will be able to find the information they need to fill/refill their prescriptions."
 
 expected_outcomes: "The results will help determine if our designs provide the best user experience for Veterans to manage and view their medications and identify any pain points. This will inform later iterations of the design."
 

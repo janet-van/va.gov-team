@@ -26,9 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "The questions are clear and easy enough for surviving spouses and children to understand and confidently answer."
-  - goal_2: "The flow aligns with the mental model and expected information-gathering process of surviving family members."
-  - goal_3: "Surviving spouses and children can understand which supporting documents they should upload and how to successfully upload them for their claim to be processed faster."
+  - goal_1: "`1.` The questions are clear and easy enough for surviving spouses and children to understand and confidently answer."
 
 research_questions:
   - "What feedback do family members have on individual questions?"
@@ -36,9 +34,7 @@ research_questions:
   - "Do family members understand what supporting documents are needed for their specific claim scenario?"
 
 hypotheses:
-  - "Surviving spouses and children will find the questions to be clear and easy to understand."
-  - "Family members won't find the number and content of the questions to be overly burdensome."
-  - "Family members will understand what supporting documents are needed to support their claim."
+  - "`1.` Surviving spouses and children will understand questions with minimal clarification."
 
 expected_outcomes:  "Learnings will refine questions and improve other pain points in the form so that family members can provide the data needed to efficiently and effectively process claims."
 

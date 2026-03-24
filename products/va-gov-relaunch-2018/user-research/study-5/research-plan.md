@@ -26,17 +26,13 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Assess the usability of preview.va.gov on both desktop and mobile devices"
-  - goal_2: "Validate the information architecture strategy including homepage, navigation, and benefit hubs"
-  - goal_3: "Gather feedback from current My HealtheVet Veterans on the new design and structure"
+  - goal_1: "Assess the usability of the preview.va.gov on desktop and mobile. Validate our IA strategy."
 
 research_questions:
   - "What do current MHV Veterans think of preview.va.gov?"
-  - "Can Veterans find what they need using the homepage, navigation, and benefit hubs?"
-  - "How does preview.va.gov perform on desktop versus mobile devices?"
-  - "Are Veterans seeing all the links on the homepage given its content density?"
-  - "What do users think of 'View All' in the mega menu?"
-  - "Does the Veterans Crisis Line pop-out work effectively, and do they understand it?"
+  - "Can they find what they need using the HP, Nav, and Hubs?"
+  - "How does preview perform on desktop and mobile?"
+  - "NOTE: We are not testing the sign-in / create account flow or any authenticated pages"
 
 hypotheses:
   - "The consolidated navigation structure will help Veterans find information more easily than current fragmented VA websites"

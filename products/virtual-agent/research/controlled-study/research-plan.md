@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "More Veterans will attempt to find information that requires authentication (e.g., claims-status)."
+  - goal_2: "We will see a high number of questions that the bot has not yet been trained to answer."
+  - goal_3: "There is a niche-market for this product. We wonder if:"
+  - goal_4: "Caretakers (likely more women) may give a higher satisfaction rating, or be more interested in a virtual agent/chatbot."
+  - goal_5: "Veterans who may be seeking anonymity (e.g., LGBTQ+, housing or food insecurity, mental-health crisis) may be more comfortable utilizing this tool over speaking with a human."
 
 research_questions:
   - "[Research question 1]"

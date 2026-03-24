@@ -26,16 +26,15 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Talk to 3 CHAMPVA business stakeholders for 1 hour to see how they currently manage sharing information with dependents for the call center, which may give us better insight for specific CHAMPVA business rules for sharing information across family members"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "a child 18-23 and currently enrolled in college?"
+  - "minor children?"
+  - "their spouse?"
+  - "a child 18-23 and currently enrolled in college?"
+  - "minor children?"
+  - "the Veteran?"
 
 hypotheses:
   - "[Hypothesis 1]"

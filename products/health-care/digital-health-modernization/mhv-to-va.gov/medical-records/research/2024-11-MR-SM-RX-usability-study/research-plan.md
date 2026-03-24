@@ -26,21 +26,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any pain points Veterans may experience in using the filter function to find their messages, medications, and medical records"
-  - goal_2: "Understand how Veterans use filters to find messages, medications, and medical records"
-  - goal_3: "Understand Veterans' needs and expectations for using filters within Secure Messages, Medications, and Medical Records"
+  - goal_1: "Identify any pain points Veterans may experience in using the filter function to find their messages, medications, and medical records."
+  - goal_2: "Understand how Veterans use filters to find messages, medications, and medical records."
+  - goal_3: "Understand Veterans’ needs and expectations for using filters within Secure Messages, Medications, and Medical Records."
 
 research_questions:
   - "Do filters help Veterans find their messages, medications, and medical records?"
   - "How do Veterans use filters to find their messages, medications, and medical records?"
-  - "What are Veterans' use cases for filters in Secure Messaging, Medications, and Medical Records?"
-  - "What are Veterans' expectations for filter functionality in each product?"
+  - "What are Veterans’ use cases for filters in Secure Messaging, Medications, and Medical Records?"
+  - "What are Veterans’ expectations for filter functionality in each product?"
 
 hypotheses:
-  - "Most Veterans will perceive the filters as helpful in all products"
-  - "Most Veterans will understand the difference among the filter options in Medications"
-  - "Most Veterans will find messages, medications, and medical records using the filters"
-  - "Veterans will have varied use cases and thresholds for employing filters"
+  - "_Hypothesis 1:_ Most Veterans will perceive the filters as helpful in all products."
 
 expected_outcomes: "Findings will help determine if filter designs provide the best user experience for Veterans to find their messages, medications, and medical records, and identify any pain points to inform future design iterations."
 

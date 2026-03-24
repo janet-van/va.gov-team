@@ -22,10 +22,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand in what scenarios users use site search"
-  - goal_2: "Identify pain points users experience when using search"
-  - goal_3: "Determine how effective VA.gov's search tool is at providing the information people are seeking"
-  - goal_4: "Learn where users look for information if they don't find it via VA.gov search"
+  - goal_1: "**In what scenarios do users use site search?**"
+  - goal_2: "Do users see where they can use search? Or is the hidden input box make it harder to find and to utilize?"
+  - goal_3: "Does the search button being disabled by default present any usability issues?"
+  - goal_4: "**What, if any, pain points do users experience when using search?**"
+  - goal_5: "How do those pain points differ across devices e.g. mobile, desktop, screen readers, etc."
 
 research_questions:
   - "In what scenarios do users use site search? Do users see where they can use search? Does the search button being disabled by default present any usability issues?"

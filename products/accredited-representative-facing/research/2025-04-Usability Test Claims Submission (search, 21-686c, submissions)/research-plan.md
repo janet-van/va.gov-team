@@ -29,7 +29,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate usability and value of ARP's 686c claim submission. Is it intuitive, clear, and easy to use? What could be improved?"
+  - goal_1: "Evaluate usability and value of ARP’s 686c claim submission. Is it intuitive, clear, and easy to use? What could be improved?"
   - goal_2: "Evaluate the usability and value of a submissions history view. What is valuable for a representative to reference at a glance? What could be improved?"
   - goal_3: "Understand how representatives, including cross-accredited ones, typically submit 686c and other forms. How could this impact future designs?"
 
@@ -40,17 +40,13 @@ research_questions:
   - "Are the multiple file upload instructions clear?"
   - "Is the navigation clear?"
   - "How does our v1 686c submission compare to their current solutions?"
-  - "Are the statuses and their meaning clear in submission history?"
+  - "Are the statuses and their meaning clear?"
   - "How does the submission history view compare to their current solution?"
-  - "What is a must-have, nice-to-have, and not needed for a submission history view?"
-  - "What does their workflow look like?"
-  - "What tools do they use and why?"
-  - "How does cross-accreditation impact how they submit claims, if at all?"
 
 hypotheses:
   - "The v1 claims submission tool is intuitive and easy to use"
   - "The v1 solution for submitting 686c is not valuable in the current state because it does not auto-establish in VBMS"
-  - "The submission history view helps give confidence in ARP, but representatives will not need all information shown in the prototype"
+  - "The submission history view helps give confidence in ARP, but representatives will not all information shown in the prototype"
   - "The level of instruction provided is unnecessary"
 
 expected_outcomes: "This research will inform any edits to the Claims Submission v1 design to improve its ease and clarity. It will also inform future iterations of claims submission."

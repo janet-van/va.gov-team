@@ -26,20 +26,17 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify major usability or content issues with the current prototype of secure messaging in MHV on VA.gov"
-  - goal_2: "Identify major usability issues with untested components (tertiary buttons, toolbar, attach/remove buttons)"
-  - goal_3: "Assess user experiences with updated content that aims to protect Veterans' safety"
+  - goal_1: "identify major usability or content issues with the current prototype of secure messaging in MHV on VA.gov"
+  - goal_2: "identify major usability issues with untested components"
+  - goal_3: "assess user experiences with updated content that aims to protect Veterans' safety"
 
 research_questions:
-  - "Do Veterans understand that the Search function only searches within a particular folder?"
-  - "Do Veterans understand how to create folders, store messages in folders, and rename or delete folders?"
-  - "How do users reply to a message in the updated prototype?"
-  - "Do Veterans notice and understand the information about who to call in case of an emergency?"
-  - "Do users understand how to use non-validated components?"
+  - "Tertiary buttons"
+  - "Toolbar"
+  - "Attach and Remove buttons"
 
 hypotheses:
-  - "With the updated prototype, Veterans will understand how to find, organize, and reply to messages from their healthcare providers"
-  - "Veterans will not be put at additional risk of adverse outcomes based on the updated patient safety content"
+  - "With the updated prototype, Veterans will understand how to find, organize, and reply to messages from their healthcare providers, and will not be put at additional risk of adverse outcomes based on the updated patient safety content."
 
 expected_outcomes: "Results will inform further iterations of Secure Messaging design to improve usability and safety"
 

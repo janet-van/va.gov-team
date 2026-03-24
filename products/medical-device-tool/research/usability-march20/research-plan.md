@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*Benefits & Memorials 2**"
+  - goal_2: "*This product is a migration and modernization of the hearing aid battery ordering functionality that currently exists as an iframed applet on eBenefits, with the new feature of ordering accessories. With eBenefits being sunsetted and the DLC’s interest in increasing adoption of online ordering to reduce contact center workload, we’re tasked with designing a modernized online ordering experience that will be easier for Vets and less overhead for the DLC.**"
+  - goal_3: "Do Veterans understand that batteries and accessories will be ordered on separate pages?"
+  - goal_4: "Do Veterans understand selecting and deselecting the product cards?"
+  - goal_5: "Where do Veterans expect to find the order form on VA.gov?"
 
 research_questions:
   - "[Research question 1]"

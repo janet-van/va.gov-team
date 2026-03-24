@@ -27,19 +27,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Compare the old (form pattern) and new (task pattern) versions of the medical supplies tool to determine if multistep task pattern makes completing routine tasks faster and easier"
-  - goal_2: "Understand Veterans' expectations when completing routine tasks"
+  - goal_1: "If the multistep task pattern will make completing routine and simple tasks faster and easier for Veterans."
+  - goal_2: "Veterans’ expectations when completing routine tasks."
 
 research_questions:
   - "Which pattern option enables Veterans to complete reordering medical supplies more quickly?"
   - "Which pattern option do Veterans find to be more intuitive and less difficult to use?"
-  - "What are Veterans' expectations when completing routine tasks?"
+  - "What are Veterans’ expectations when completing routine tasks?"
 
 hypotheses:
-  - "The average time to complete tasks will be lower on the new pattern"
-  - "The task success rate will be greater on the new pattern"
-  - "A higher proportion of Veterans will find the new pattern to be more intuitive and satisfying than the old experience"
-  - "Veterans expect to complete routine tasks quickly and in one session, rather than expecting to leave and come back to the task"
+  - "The average time to complete tasks will be lower on the new pattern."
+  - "The task success rate will be greater on the new pattern."
+  - "A higher proportion of Veterans will find the new pattern to be more intuitive and satisfying than the old experience."
+  - "Veterans expect to complete routine tasks quickly and in one session, rather than expecting to leave and come back to the task."
 
 expected_outcomes: "Validate if a new pattern for routine tasks is a better process for simple task completion than a form pattern, informing future design system pattern development"
 
@@ -49,9 +49,8 @@ recruitment:
   approach: "Diverse sample of Veterans with active MHV accounts"
   
   primary_criteria:
-    - "Must be Veterans"
-    - "Must currently receive VA healthcare benefits"
-    - "Must have an active MHV account that they have accessed at least once in the past 12 months"
+    - "Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research."
+    - "Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities."
     
   secondary_criteria: []
     

@@ -26,13 +26,13 @@ research_goals:
   - goal_2: "Validate concepts for reducing that confusion"
 
 research_questions:
-  - "How are requests confusing Veterans during the scheduling process?"
-  - "How are requests confusing when viewing their appointments on the VAOS home page?"
+  - "How are requests confusing Veterans during the scheduling process? When viewing their appointments on the VAOS home page?"
   - "What value do Veterans find in appointment requests?"
 
 hypotheses:
-  - "Requests are confusing during scheduling because there is no indication when a self scheduled appointment becomes a request. If we clearly show when this transition happens, and offer alternative options to making a request, Veterans will be able to make choices about how to schedule their appointment that better fit their needs."
-  - "Once an appointment is requested, Veterans expect to see them listed with their existing appointments. If we call them out alongside other appointments, Veterans will be able to more easily understand what requests are, and how to find details about them."
+  - "-----"
+  - "Requesting an appointment."
+  - "Finding their appointment requests."
 
 expected_outcomes: "Findings will be used to make appointment requests easier to understand"
 

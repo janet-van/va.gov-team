@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Confirm that MVP functionality works as expected"
-  - goal_2: "Validate that no major usability hurdles exist with alert design changes"
-  - goal_3: "Test notifications with screen reader users to validate information presentation"
+  - goal_1: "We would like to validate that no major usability hurdles have been introduced during the iterations that have occurred, especially with the changes we made to the alert design."
+  - goal_2: "We would like to test notifications with a screen reader user to validate that the information is presented in line with their mental model and they are able to act on it as intended."
+  - goal_3: "We would like to validate that when a notification is triggered in VA Notify, a user sees a notification as intended at the top of My VA with the appropriate time stamp."
+  - goal_4: "We would like to verify that if a user receives multiple notifications, they are shown as individual notifications with time stamps ordered with the newest at the top."
 
 research_questions:
   - "Does the functionality work as expected?"
@@ -37,11 +38,11 @@ research_questions:
   - "Are notifications displayed as intended when triggered in VA Notify with appropriate timestamps?"
 
 hypotheses:
-  - "Users will notice the Notifications section upon login before proceeding on the page"
-  - "Users will be able to easily take action on their notifications from My VA and dismiss them"
-  - "Users will not encounter any bugs in the Notifications section"
-  - "Screen reader users will feel that the information is presented in line with their mental model"
-  - "The current warning alert component will cause some confusion about whether notifications are system errors or personalized action items"
+  - "Users will notice the Notifications section upon login before proceeding on the page."
+  - "Users will be able to easily take action on their notifications from My VA and dismiss them."
+  - "Users will not encounter any bugs in the Notifications section."
+  - "Screen reader users will feel that the information is presented in line with their mental model, and is easily understood and acted upon."
+  - "The current warning alert component will cause some confusion about whether notifications are system errors or personalized action items."
 
 expected_outcomes: "Based on the outcome of this research study, we will either release our MVP to production, or update our design to correct any significant usability hurdles."
 

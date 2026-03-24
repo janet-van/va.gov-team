@@ -22,9 +22,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Document and prioritize outstanding usability concerns with AVA including inquiry submission and authenticated dashboard"
-  - goal_2: "Verify the implementation of recommendations provided from previous usability testing"
-  - goal_3: "Assess if confusion has been reduced compared to previous study"
+  - goal_1: "*Usability Study Goals:**"
+  - goal_2: "Document and prioritize any outstanding usability concerns with AVA, including both inquiry submission and the authenticated dashboard."
+  - goal_3: "Verify the implementation of recommendations provided from previous usability testing."
+  - goal_4: "*Research Questions:**"
+  - goal_5: "Are users able to submit inquiries successfully and without hindrance?"
 
 research_questions:
   - "Are users able to submit inquiries successfully and without hindrance?"

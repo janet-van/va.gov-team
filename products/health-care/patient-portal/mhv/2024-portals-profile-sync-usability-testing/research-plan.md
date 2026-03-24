@@ -26,8 +26,8 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Ascertain Veterans' understanding of the need for the sync and how the process will affect their contact information"
-  - goal_2: "Identify any usability issues Veterans may experience with syncing their email and phone numbers"
+  - goal_1: "Ascertain Veterans' understanding of the need for the sync and how the process will affect their contact information."
+  - goal_2: "Identify any usability issues Veterans may experience with syncing their email and phone numbers."
 
 research_questions:
   - "Can Veterans select, edit, add, remove, and verify their contact information?"
@@ -35,8 +35,7 @@ research_questions:
   - "Do they understand why this step is necessary?"
 
 hypotheses:
-  - "Most Veterans will successfully connect their MHV and VA contact information without assistance"
-  - "Many Veterans will struggle to understand that they will only have one set of contact information after the sync"
+  - "_Hypothesis 1:_ Most Veterans will successfully connect their MHV and VA contact information without assistance."
 
 expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to sync their profiles and help to identify any pain points. This will inform later iterations of the design."
 

@@ -9,7 +9,7 @@ product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "We are releasing an unauthenticated chatbot in Feb 2022 that will act as a new way to access information to the veterans, and an authenticated version in April 2022, that will provide personalization and features to access private information, such as claims and appeals status."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,28 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "How do needs from Spanish speaking veterans differ from the English speaking veterans regarding self service through the chatbot."
+  - goal_2: "How do Spanish speaking veterans interact with a chatbot."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What information are they looking for?"
+  - "What tasks are they trying to complete?"
+  - "In which situations do they look for content in Spanish or a different language than English"
+  - "Is there a language barrier? Are there enough resources in Spanish at the VA?"
+  - "What do they do when they cannot find the information they need in Spanish?"
+  - "How would they interact with the chatbot? Translation?"
+  - "How would they expect to interact via mobile? (SMS, App based)?"
+  - "How do they currently interact through the VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Spanish speaking veterans, especially family members and caregivers would prefer a chatbot as a way of interacting with the VA, rather than via telephone."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "How will this research advance your product to the next phase in the design process? What will you do with your learnings?"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach 6 Veterans caretakers or family members who are primarly Spanish spekaing and limited or non-English speaking."
   
   primary_criteria:
     - "[Must-have criterion 1]"

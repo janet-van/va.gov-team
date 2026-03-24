@@ -23,9 +23,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate that the new design has improved the usability of the homepage"
-  - goal_2: "Observe which areas participants use and how well the homepage supports Veterans and beneficiaries in completing important benefit-related tasks"
-  - goal_3: "Evaluate homepage components in context of task completion rather than in isolation"
+  - goal_1: "The goal of this research is to validate that the new design has improved the usability of the homepage. Rather than focusing participant attention on individual homepage components, we will observe which areas they use and how well the homepage supported Veterans, VA beneficiaries and those acting on behalf of Veterans in the process of completing important benefit-related tasks."
 
 research_questions:
   - "Are participants able to easily and quickly initiate tasks from the homepage?"
@@ -35,14 +33,11 @@ research_questions:
   - "What do Veterans (and others) expect from various areas of the homepage, including search functionality and VAntage Point blog promo?"
 
 hypotheses:
-  - "The prominent sign in/sign up location and CTA makes it easier for Veterans to easily sign in/sign up"
-  - "More Veterans will use the prominent sign in/sign up CTA than the header"
-  - "The streamlined design helps Veterans find the task they need to complete more quickly"
-  - "The new design includes the most common/important Veteran-facing tasks"
-  - "The link labels are sufficient for Veterans to understand/recognize"
-  - "Veterans will know to search for tasks which are not listed as most common/popular"
-  - "Veterans understand where 'other search tools' links will take them and what information they will find there"
-  - "A focused and prominently displayed VAntage Point blog promo increases Veteran engagement with the content"
+  - "The prominent sign in/sign up location and CTA makes it easier for Veterans to easily sign in/sign up."
+  - "More Veterans will use the prominent sign in/sign up CTA than the header."
+  - "The streamlined design helps Veterans find the task they need to complete more quickly."
+  - "The new design includes the most common/important Veteran-facing tasks."
+  - "The link labels are sufficient for Veterans to understand/recognize."
 
 expected_outcomes: "This research will inform iterations to the redesign, the need for future research, and release decisions for the iteration."
 
@@ -52,8 +47,7 @@ recruitment:
   approach: "Mixed cohorts - Veterans, family members, caregivers, survivors, and service members"
   
   primary_criteria:
-    - "All participants must have a computer or mobile device and are willing to use it to complete the activity"
-    - "Approximately 2/3 Veterans and 1/3 Veterans' family members, caregivers, survivors, or service members"
+    - "2/3 Veterans and 1/3 Veterans' family members or caregivers, survivors, or service members"
     - "At least 1/2 with experience using some VA benefits/services and 20% without such experience but interest in some"
     
   secondary_criteria:

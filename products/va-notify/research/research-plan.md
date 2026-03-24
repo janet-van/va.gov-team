@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "We don’t know how much information Veterans want in their emails. We are trying to discover how much information Veterans want in their emails. We are also trying to discover if the level of information they want in their emails depends on the type of email they are receiving."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,33 +26,31 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "The level of detail the recipient wants/expects to receive in email touchpoints"
+  - goal_2: "Does level of detail vary by notification type?"
+  - goal_3: "Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.*"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How much information do Veterans want in their emails?"
+  - "Does the amount of information they want vary by email type? (confirmation, benefits, etc.)"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are grateful to be receiving email communications from the VA as this is relatively new"
+  - "Veterans have a certain expectation on the value the email content should provide based on their past experiences with other email communications of a similar nature"
+  - "It’s easier to get information up front in an email than logging in and possibly having to hunt for it."
+  - "Veterans don’t like vague emails such as:"
+  - "Write a generalized statement that combines what you know + what you think will happen during the study."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "How will this research advance your product to the next phase in the design process? What will you do with your learnings?"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "OCTO works with Perigean, a small business, to handle the recruitment, scheduling, and compensation of Veterans and caregivers."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research."
+    - "Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities."
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

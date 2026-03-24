@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Do Veterans understand the different types of Veteran identification cards and the differences between them?"
+  - goal_2: "Are Veterans able to determine their eligibility for each type of ID card?"
+  - goal_3: "Do Veterans know what action to take to apply for ID cards they are eligible for?"
+  - goal_4: "Do Veterans know what to expect after they apply for an ID card? 4. **Hypothesis**: Veterans may not be aware of the different types of Veteran ID options available to them or the differences between them. Providing a page that outlines each ID and its eligibility requirements could empower the Veteran to apply for the appropriate ID or designation and begin using it to receive discounts and show their Veteran status."
 
 research_questions:
   - "[Research question 1]"

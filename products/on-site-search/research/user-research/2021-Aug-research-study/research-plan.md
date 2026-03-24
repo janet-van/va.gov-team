@@ -48,23 +48,24 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Assess utility of design concepts (was it helpful and prevented users from getting stuck?)"
-  - goal_2: "Assess usability of design concepts (was it findable and intuitive?)"
-  - goal_3: "Determine which design concepts might be helpful to users before further design exploration"
+  - goal_1: "A new search landing page that has links to other search tools (Find a Form, Resources & Support, and Find a VA Location)"
+  - goal_2: "A new link on the VA.gov home page under the "top 4" boxes that goes to the new search landing page"
+  - goal_3: "Search in the header is a link that goes to the new search landing page"
+  - goal_4: "New links at the bottom of the search results page go to other search tools"
 
 research_questions:
   - "Do users find and use the other search tools?"
   - "What are users' reactions to a landing page that highlights search tools?"
   - "Do users try using the search tools from links on the landing page?"
   - "What are users' reactions to Search in the header taking them to a landing page?"
-  - "Do users try the new search link under the 'top 4' boxes? What are users' reactions to it taking them to a landing page?"
+  - "Do users try the new search link under the "top 4" boxes? What are users' reactions to it taking them to a landing page?"
   - "Do users notice the search tool links at the bottom of the search results page? Do they try using them? Reactions?"
   - "Are users able to complete tasks without getting stuck?"
 
 hypotheses:
-  - "A search landing page that highlights other search tools will result in more users using the search tools and finding what they're looking for"
-  - "A search results page that highlights other search tools will result in more users using the search tools and finding what they're looking for"
-  - "New search link(s) near the 'top 4' boxes will result in more users finding what they're looking for"
+  - "A search *landing* page that highlights other search tools will result in more users using the search tools and finding what they're looking for."
+  - "A search *results* page that highlights other search tools will result in more users using the search tools and finding what they're looking for."
+  - "New search link(s) near the "top 4" boxes will result in more users finding what they're looking for."
 
 expected_outcomes: "Research findings (including how many participants clicked on which links) will be used to recommend which of the design concepts might be helpful to users going forward. The intent is to assess utility and usability for each design concept before more design exploration."
 

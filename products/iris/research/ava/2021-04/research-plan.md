@@ -48,18 +48,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify what changes need to be implemented before the full release of Ask VA"
-  - goal_2: "Explore Customer Satisfaction & Trust, Findability, and Task/Service Completion"
-  - goal_3: "Test the full AVA experience including form content and interaction"
+  - goal_1: "What, if any, changes need to be implemented before the full release of the Ask VA (AVA)"
+  - goal_2: "Explore topics such as Customer Satisfaction & Trust, Findability and (Task) Service Completion"
+  - goal_3: "Testing full AVA experience"
+  - goal_4: "Testing the content of the form"
 
 research_questions:
   - "Does AVA provide end users with a user-friendly method of submitting inquiries for issues regarding VA.gov?"
-  - "What are end users expectations in regards to inquiry submissions? (information needed, response time, login info, etc.)"
+  - "What are end users expectations in regards to inquiry submissions?"
+  - "Expectations in regards to: information needed to submit an inquiry, response time, login information, etc?"
   - "Does AVA provide an interface that elicits trust from the end user?"
-  - "Is plain language utilized throughout the entirety of the AVA application?"
+  - "Is “plain language” utilized throughout the entirety of the AVA application?"
 
 hypotheses:
-  - "Though users will be able to successfully submit a new inquiry, they will experience areas of uncertainty throughout the process"
+  - "Though users will be able to successfully submit a new inquiry, they will experience areas of uncertainty throughout the process."
 
 expected_outcomes: "Findings will inform final improvements to AVA before full launch, ensuring a trustworthy and user-friendly inquiry submission experience."
 

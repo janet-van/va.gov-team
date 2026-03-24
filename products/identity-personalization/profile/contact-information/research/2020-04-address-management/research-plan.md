@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand how veterans use addresses within the VA"
-  - goal_2: "Understand how veterans manage their VA addresses"
-  - goal_3: "Identify areas of improvement in the address management process"
+  - goal_1: "Address Management, VA VEO, Multi-Channel Technologies (MCT)"
+  - goal_2: "There are currently several ways for a veteran to update their contact information and addresses across VA services. VA Profile is intended to be the single repository for veteran address information, but processes, policies, and procedures to integrate with VA Profile need to be defined. Addresses are still stored across different systems, many of which are legacy systems that present interoperability challenges.Veterans have multiple channels through which they can update an address, but it..."
+  - goal_3: "How do veterans use addresses within the VA?"
+  - goal_4: "How do veterans manage their VA addresses?"
+  - goal_5: "Understanding address management more comprehensively will help improve it."
 
 research_questions:
   - "How do veterans use addresses within the VA?"

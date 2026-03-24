@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*Background**"
+  - goal_2: "*Research questions**"
+  - goal_3: "Do Veterans see forms/questionnaires as an acute problem or pain point?"
+  - goal_4: "If yes, what are some current problems/pain points Veterans face when filling out information before visits?"
+  - goal_5: "Who do Veterans believe they are interacting with when they are filling out documents? (clinicians, docs, etc.)"
 
 research_questions:
   - "[Research question 1]"

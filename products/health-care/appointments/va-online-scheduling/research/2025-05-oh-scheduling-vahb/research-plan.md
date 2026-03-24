@@ -22,29 +22,24 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate how effectively and efficiently Veterans can schedule, request, and cancel with facilities that use Oracle Health within the VAHB app"
-  - goal_2: "Identify pain points, usability issues, and unmet expectations for scheduling, requesting, and canceling with facilities that use Oracle Health within the VAHB app"
-  - goal_3: "Understand Veterans' mental model and expectations related scheduling appointment"
+  - goal_1: "`1.` **We want to evaluate how effectively and efficiently Veterans can schedule, request, and cancel with facilities that use Oracle Health within the VAHB app.**"
 
 research_questions:
   - "Can Veterans successfully schedule, request, and cancel appointments with Oracle Health facilities using the VAHB app?"
-  - "How much time, how many taps/steps, and how many errors or reversals does it take Veterans to finish each task?"
+  - "How much time, how many taps/steps, and how many errors or reversals does it take Veterans to finish each task? <!-- Note from PR: Jenny, this is measuring a few different things, it might be good to break it up. Also, it'd be good to see what your perspective is on these - what's a good vs. bad result?. For example, more taps/steps isn't always bad if the information is clearer. -->"
   - "Do Veterans feel confident that their appointment actions (scheduling, requesting, canceling) were completed successfully, why and why not?"
   - "At which screens, fields, or decision points do Veterans encounter confusion, delays, or errors while scheduling, requesting, or canceling?"
   - "Where does the current flow, content, or feedback fall short of what Veterans expect when completing these tasks?"
   - "Which aspects of the experience create frustration, anxiety, or distrust, and why?"
   - "How do Veterans decide to make an appointment when presented with available providers and scheduling options (online, request, and call)?"
   - "What details (e.g., provider name, last appointment date) do Veterans expect to see at each step to feel informed and in control?"
-  - "How do Veterans think the overall appointment scheduling process should work, and if previous experiences shape their expectations and how?"
 
 hypotheses:
-  - "At least 90% of participants will successfully schedule, request, and cancel an appointment on their first attempt without facilitator assistance"
-  - "All participants will complete each task quickly; a few may back-track or abandon the scheduling flow before finishing"
-  - "At least 85% of participants will rate their confidence in task completion as 4 or 5 on a 5-point scale"
-  - "The highest friction will occur on facilities selection and providers selection screens, due to personal needs and preferences"
-  - "Some participants will expect more content around features and functionalities that won't be available, such as type of care and providers they can't schedule with"
-  - "Most participants will prefer to schedule with a provider on the app now, instead of requesting and calling"
-  - "Participants will expect to see providers and their availabilities at the same time to help them choose who and when to schedule their appointments"
+  - "--"
+  - "For 1: when you say "without facilitator assistance" it might be helpful to clarify that. They may have questions in general - does answering those count as assistance? Or just helping them when they get completely stuck?"
+  - "For 2: How fast is "quickly"? Need a way to measure this. Also "a few may back-track" is a separate hypothesis."
+  - "For 4: How will you measure "friction"?"
+  - "For 6: Maybe change this to "Most participants will indicate a preference for scheduling through the app over requesting or calling". That focuses it on the modality vs. how they schedule (with a provider). Also, it would be good to ask them their preference both before and after they see the experience."
 
 expected_outcomes: "This research will uncover what works well, where Veterans encounter friction, and how they mentally approach scheduling appointments. These insights will guide the team in making informed, user-centered design decisions that enhance the appointment experience in both the VAHB app and the VA.gov web platform."
 

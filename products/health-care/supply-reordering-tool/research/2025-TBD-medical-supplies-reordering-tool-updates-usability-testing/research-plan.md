@@ -27,25 +27,29 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "TBD - To be defined based on specific updates being tested"
-  - goal_2: "TBD"
-  - goal_3: "TBD"
+  - goal_1: "Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.*"
 
 research_questions:
-  - "TBD - Research questions to be defined"
+  - "What will I do with what I learn from this question?"
+  - "Does this question serve the goals of my study?"
+  - "Do not write out all questions you plan to ask participants -- that should go in the conversation guide."
 
 hypotheses:
-  - "TBD - Hypotheses to be defined"
+  - "What do you already know about this problem space?"
+  - "What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)"
+  - "Write a generalized statement that combines what you know + what you think will happen during the study."
+  - "Remember to constrain the hypothesis to the goals of your study!"
 
 expected_outcomes: "TBD - Expected outcomes to be defined"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "TBD"
+  approach: "OCTO works with Perigean, a small business, to handle the recruitment, scheduling, and compensation of Veterans and caregivers."
   
   primary_criteria:
-    - "TBD - To be defined"
+    - "Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research."
+    - "Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities."
     
   secondary_criteria:
     - "TBD - To be defined"

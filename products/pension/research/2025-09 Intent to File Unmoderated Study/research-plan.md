@@ -36,9 +36,9 @@ research_questions:
   - "How effective is the messaging across successful start, successful return, and failed scenarios?"
 
 hypotheses:
-  - "Veterans will understand that by starting their application, they may receive benefits back to that date through their intent to file"
-  - "Veterans will take note of the date their application needs to be completed by (i.e. the intent to file expiration date)"
-  - "When an intent to file cannot be found, Veterans' next step will be to continue their application, rather than contact VA"
+  - "Veterans will understand that by starting their application, they may receive benefits back to that date through their intent to file."
+  - "Veterans will take note of the date their application needs to be completed by (i.e. the intent to file expiration date)."
+  - "When an intent to file cannot be found, Veterans’ next step will be to continue their application, rather than contact VA."
 
 expected_outcomes: "This research will inform messaging and design strategy for the intent to file experience across VA.gov - for the online pension application as well as other forms that automate intent to file submission"
 

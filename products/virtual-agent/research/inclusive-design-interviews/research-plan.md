@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Do partial vision or visually impared/blind users have experience with chatbots"
+  - goal_2: "Do they experience the challenges we’ve identified with the chatbot we built (see https://github.com/department-of-veterans-affairs/va.gov-team/issues/25113 for the list)"
+  - goal_3: "If they wanted to use this chatbot, what would they use it for"
+  - goal_4: "How the Veteran normally find information on va.gov - channels, why do they choose that channel and how often they use it"
+  - goal_5: "Does the Veteran sign into va.gov (using Veteran’s info) - why or why not"
 
 research_questions:
   - "[Research question 1]"

@@ -27,17 +27,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any usability issues AT-dependent Veterans may experience in understanding their Medical Records Settings, Microbiology, Pathology, and Radiology Results, Vitals, Allergies, and Download your medical record"
-  - goal_2: "Understand AT-dependent Veterans' needs and expectations within Medical Records"
+  - goal_1: "Identify any usability issues AT-dependent Veterans may experience in understanding their Medical Records Settings, Microbiology, Pathology, and Radiology Results, Vitals, Allergies, and Download your medical record."
+  - goal_2: "Understand AT-dependent Veterans’ needs and expectations within Medical Records."
 
 research_questions:
-  - "Can Veterans who use assistive technology find the information they need to manage their healthcare related to Medical Records Settings, Microbiology/Pathology/Radiology Results, Vitals, Care Summaries and Notes, Allergies, and Download medical records?"
-  - "What are Veterans' reactions to the new experience in which they review their records on screen?"
-  - "What are the goals, expectations, and experiences within Medical Records for Veterans who use assistive technologies?"
+  - "Medical Records Settings"
+  - "Microbiology, Pathology, and Radiology Results"
+  - "Vitals"
+  - "Care Summaries and Notes"
+  - "Allergies"
+  - "Download your medical records"
 
 hypotheses:
-  - "Most Veterans who use assistive technology will be able to access and understand information about their medical records to manage their health"
-  - "Most Veterans who use assistive technology will have positive reactions to the new experience in which they access their records on screen"
+  - "_Hypothesis 1:_ Most Veterans who use assistive technology will be able to access and understand information about their medical records to manage their health."
 
 expected_outcomes: "The results of the usability portion of the study will help us determine if our designs provide the best user experience for Veterans to access their medical records and help to identify any pain points. The results of the generative portion of the study will uncover Veterans' behaviors and expectations when accessing their Medical Records. Both usability and generative findings will inform future iterations of designs."
 

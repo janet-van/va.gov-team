@@ -46,19 +46,20 @@ research_goals:
   - goal_2: "Test a concept for changes to the appointments details page"
 
 research_questions:
-  - "Can appointments be found by date/time, modality, and VA vs CC?"
+  - "*1. Evaluate usability and value of the appointment list redesign.**"
+  - "Can appointments be found by:"
+  - "Date/Time?"
+  - "Modality?"
+  - "VA vs CC?"
   - "Do the type of care and provider name make sense in the list?"
-  - "Does 'Pending' and 'Past' language make sense? Are they easy to navigate to?"
-  - "Are the details pages easy to navigate to?"
-  - "Can participants easily understand the meaning of modality in the appointment list - do they understand where they need to be?"
-  - "Do Veterans need a physical print 'button'?"
-  - "What would Veterans do next after viewing their appts in the list?"
-  - "Is the information on the details pages easy to understand and scan?"
-  - "Does the back button on the details page make sense?"
+  - "Does “Pending” and “Past” language make sense?"
+  - "Are Pending and Past appointments easy to navigate to?"
 
 hypotheses:
-  - "The appointments list will provide clear, valuable information and be easy to navigate"
-  - "The details pages will provide clear, valuable information and be easy to navigate"
+  - "Provide clear, valuable information"
+  - "Be easy to navigate"
+  - "Provide clear, valuable information."
+  - "Be easy to navigate."
 
 expected_outcomes: "Finalize designs and update the appointments list. Decide on next steps for redesigning the details pages."
 

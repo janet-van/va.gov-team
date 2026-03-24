@@ -26,16 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate build functions as designed for simple mileage-only claim scenarios"
-  - goal_2: "Test entry points and navigation for new and established claimants"
-  - goal_3: "Identify API transfer failures and technical issues before production rollout"
+  - goal_1: "Entry points: Can users - new or established claimants - find where to submit for a simple mileage-only claim on VA.gov? Can participants identify what appointments are eligible for travel reimbursement?"
+  - goal_2: "New claimant submits (starts and completes) a simple mileage-only claim for a past VA appointment"
+  - goal_3: "Established claimant submits (starts and completes) a simple mileage-only claim for a past VA appointment"
+  - goal_4: "Claimant (new or established) starts claim submission on VA.gov but fails to meet criteria for adjudication on VA.gov (e.g., the claimant wants to submit a claim that includes receipts and so answers ‘no’ to one of the 3 qualifying questions) and the claimant is successfully redirected to BTSSS"
+  - goal_5: "Established claimant confirms that they have already submitted a claim for a past VA appointment"
 
 research_questions:
-  - "Can users find where to submit simple mileage-only claims on VA.gov?"
-  - "Can new claimants successfully submit a claim?"
-  - "Can established claimants successfully submit a claim?"
-  - "Does redirect to BTSSS work for ineligible claims?"
-  - "Can users identify eligible appointments for travel reimbursement?"
+  - "Does what users expect to be able to do related to submitting for Travel Pay on VA.gov match what they are able to do once on VA.gov?"
+  - "Do participants find the entry point to submission from past Appointments?"
+  - "Do participants understand that they can only submit for simple mileage reimbursement on VA.gov?"
+  - "Do participants know if, when, and where to submit their complex claims?"
+  - "Are participants accurately re-directed if they are trying to submit a complex claim?"
+  - "Are participants able to complete a simple mileage-only claim submission if applicable?"
+  - "Can participants differentiate between starting a claim and confirming that a claim has already been submitted?"
 
 hypotheses:
   - "Users will be able to successfully submit simple mileage-only claims"

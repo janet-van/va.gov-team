@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The goal of the Beneficiary Travel Pay team is to empower users to do more with their travel reimbursement claims on VA.gov. The Claim Details v2 design builds upon prior research to support users in accomplishing two well established needs: to learn the details (the why) of a claim decision and to contest, follow up or appeal a claim decision that they disagree with."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,29 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "### Outcomes"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users find the Status page?"
+  - "Can users find the Claim Details page?"
+  - "Do users expect that a Claim Details page will tell them what has happened to their claim and why?"
+  - "Once on the Claim Details page, what information do users find most valuable? Least valuable?"
+  - "Based on the information on the Claim Details page, do users understand what they can take action or when they need to do something to unblock or advance processing or payment of a claim?"
+  - "Do users find their decision letter on a Claim Details page?"
+  - "What information do users expect to find when they see the words “decision letter”?"
+  - "Can users identify if they need to take action to unblock or advance processing or payment of a claim and if so what that action is and how to take it?"
 
 hypotheses:
   - "[Hypothesis 1]"
   - "[Hypothesis 2]"
   - "[Hypothesis 3]"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Veterans want to know why a certain claim decision was reached. When a travel claim is denied, a decision letter and appellate rights document is issued. Currently, when a travel claim is denied, a Veteran is directed to the paper version of the 3 appeals processes available. All of these forms or processes have digital versions or equivalents. We hypothesize that we can provide value to the Veteran by 1) providing them information about the outcome of their claim decision on VA.gov, 2) provi..."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment Approach"
   
   primary_criteria:
     - "[Must-have criterion 1]"

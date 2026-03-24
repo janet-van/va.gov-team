@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The goal of the Beneficiary Travel Pay team is to empower users to do more with their travel reimbursement claims on VA.gov. Using a prototype of a design concept, this study will inform the design of the Travel Reimbursement Status page on VA.gov by testing the path by which users expect to find the page and how they expect to interact with the information they find on the page. This will allow the design team to iterate and adjust the design to best fit Veterans’ needs and expectations."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,31 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "### Outcomes"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What path do participants take to the Travel Reimbursement page?"
+  - "How many can locate the page without assistance?"
+  - "Where else do participants look for the information on the Travel Reimbursement page?"
+  - "What action do participants expect to be able to take from the Travel Reimbursement Status page as it is currently designed?"
+  - "What actions or capabilities would they add?"
+  - "What actions or capabilities would they change?"
+  - "What actions or capabilities would they take away? What do they see as unnecessary?"
+  - "How do participants interpret or understand the information about each claim presented?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will know that they have to log into their VA.gov account to access any information about their travel claims."
+  - "Participants will look on the MyHealtheVet on VA.gov page for information about travel claims."
+  - "Participants will look in the Claims tool for information about travel claims."
+  - "Participants will look on My VA for information about travel claims."
+  - "Participants will expect reverse chronological claim order."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The desired outcome of this research is to inform the look and feel of the Travel Claim Status page. This work will inform 1) where the Travel Reimbursement Status page should live on VA.gov, 2) what entry points should be enabled, 3) what language should be used on the page to inform users about a claim(s) and status label language and 4) what types of interaction should be prioritized enablement on this first launch."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Note: Midpoint Review is scheduled for Thursday, April 4, 2024 at 3:30pm EST. Link to GitHub ticket for Midpoint review."
   
   primary_criteria:
     - "[Must-have criterion 1]"

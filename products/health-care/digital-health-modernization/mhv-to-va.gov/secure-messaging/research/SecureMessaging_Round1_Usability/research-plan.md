@@ -26,21 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify major usability or content issues with the current concept of secure messaging in MHV on VA.gov"
-  - goal_2: "Understand how Veterans use secure messaging"
-  - goal_3: "Test both desktop and mobile user experiences"
+  - goal_1: "identify major usability or content issues with the current concept of secure messaging in MHV on VA.gov"
+  - goal_2: "understand how Veterans use secure messaging"
 
 research_questions:
   - "Are Veterans able to find who they want to message and understand who they are corresponding with?"
-  - "Based on the prototype do Veterans understand that secure messaging is not for use in emergencies?"
+  - "Based on the prototype do Veterans understand that secure messaging is not for use in emergencies? What would they do in an emergency?"
   - "How do Veterans find and organize their messages?"
   - "Are Veterans able to compose and reply to messages?"
 
 hypotheses:
-  - "Veterans will expect to be corresponding with a person through secure messaging"
-  - "Veterans will understand that SM is a not a replacement for critical/emergency services"
-  - "Veterans will have widely varied methods for finding and organizing messages"
-  - "Veterans will be able to send and reply to messages with minimal difficulty"
+  - "Veterans will expect to be corresponding with a person through secure messaging."
+  - "Veterans will understand that SM is a not a replacement for critical/emergency services."
+  - "Veterans will have have widely varied methods for finding and organzing messages."
+  - "Veterans will be able to send and reply to messages with minimal difficulty."
 
 expected_outcomes: "Results will help determine if proof of concept is headed in the right direction and identify any big usability concerns for later iterations"
 

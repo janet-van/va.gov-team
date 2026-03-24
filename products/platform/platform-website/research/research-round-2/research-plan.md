@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "The Platypus Platform Tools team."
+  - goal_2: "The product is the Platform documentation. 2. Background: Briefly, what is the background on this product? What would a new person on the team need to know about this product?"
+  - goal_3: "The Platypus Tools team has been working to organize, improve, and categorize the wide range of documentation that we have amassed to enable teams to design and build products for VA.gov."
+  - goal_4: "At the end of March 2019, we conducted a usability study on our documentation to learn if people unfamiliar with the project can find what they are looking for. The results of that study can be found here."
+  - goal_5: "We used the input from that study to make significant changes to the current documentation repo, and we plan to test these changes in this study. These changes include:"
 
 research_questions:
   - "[Research question 1]"

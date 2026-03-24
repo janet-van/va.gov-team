@@ -26,17 +26,16 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Better understand what Veterans think about providing contact information to VA"
-  - goal_2: "Learn how MVP design impacts the Veterans experience of managing contact information"
+  - goal_1: "We want to better understand what Veterans think about providing contact information to VA."
+  - goal_2: "We want to learn how our MVP design impacts the Veterans experience of managing their contact information with VA."
 
 research_questions:
-  - "Is anything confusing about the workflow we're proposing?"
-  - "What is the Veteran mental model around sharing contact information with VA?"
-  - "Are the benefits of providing information clear to people?"
-  - "Are our entry points and calls to action effective (particularly from the profile)?"
-  - "How do Veterans react to a guided flow that gives them specific step numbers?"
-  - "What do Veterans expect from 'remind me later' and 'finish this later' functionality?"
-  - "Is it clear to Veterans that each piece of contact information is optional?"
+  - "Do people comment on other parts of the profile? 2. What is the Veteran mental model around sharing contact information with VA?"
+  - "Is there any resistance or hesitation to providing contact information? If so, what is contributing to this?"
+  - "Are the benefits of providing information clear to people? 3. Are our entry points and calls to action effective (particularly from the profile)?"
+  - "How do they fit in with the IIR team’s CTA?"
+  - "Note: need to understand IIR teams tasks and how the person will look at their prototype 4. How do Veterans react to a guided flow that gives them specific step numbers? 5. What do Veterans expect from “remind me later” and “finish this later” functionality? 6. Is it clear to Veterans that each piece of contact information is optional?"
+  - "Specifically, how do they react to that checkbox that says “I don’t want to provide this” (or “skip” whatever we call it) 7. What concerns, if any, do Veterans have about being able to dismiss this workflow?"
 
 hypotheses:
   - "Veterans will understand the guided workflow for profile completion"

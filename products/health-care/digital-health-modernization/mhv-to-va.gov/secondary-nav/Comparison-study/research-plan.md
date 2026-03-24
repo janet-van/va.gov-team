@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Findings from recent wayfinding research on the MHV portal imply the following:"
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,33 +26,28 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "The purpose of this research is to assess and compare participants' ability to navigate the health portal using two distinct navigation concepts, both on mobile and desktop (total of 4 designs in all)."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants able to easily navigate to various tools within the My HealtheVet portal using the proposed secondary navigation designs?"
+  - "Can participants navigate to health-related tools that are not specifically named within the secondary navigation designs?"
+  - "How does a secondary navigation within the health portal impact participants' understanding of place within the VA.gov digital ecosystem?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will benefit from a fully visible secondary navigation (as opposed to navigation items condensed into a dropdown) to solve most navigation needs for the My HealtheVet portal."
+  - "The navigation bar will provide a sense of place within the portal."
+  - "The navigation bar will promote the understanding that the portal is a central location to perform common health-management tasks such as sending messages to their healthcare providers, accessing health records, managing and ordering prescriptions, and booking appointments."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform us on how Veterans use different navigation designs to complete health management tasks and will provide direction on the next iteration of secondary navigation on the My HealtheVet portal."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach We will partner with Perigean to recruit Veterans and we request a 30 min. kickoff meeting with Perigean to clarify recruiting needs."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Thursday, Jan 18, 9-1 eastern (ideally) or 2-5 eastern"
+    - "Let me know if you need more time options!"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

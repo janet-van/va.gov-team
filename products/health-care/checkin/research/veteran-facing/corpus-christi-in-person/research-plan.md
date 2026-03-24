@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The Modernized Check-In Team is reimaging the experience between a Veteran scheduling a medical appointment and having their appointment. In particular, the Modernized Check-In Team has created the portion of the ecosystem that enables Veterans to utilize their smartphone to “check in” to their appointments through VA.gov, which lets the VA know the patient has arrived for their appointment."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,21 +26,28 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the effectiveness of pre-check-in and check-in with Veterans"
+  - goal_2: "Observe the utilization of the Spanish version of check-in, evaluate accuracy annd quality of the translations"
+  - goal_3: "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+  - goal_4: "Evaluate effectiveness of check-in poster"
+  - goal_5: "Gain insights into product naming"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How often are Veterans using pre-check-in?"
+  - "Do Veterans assume they still have to do day-of check-in when pre-check-in is complete?"
+  - "What’s working and not working with pre-check-in and check-in?"
+  - "What changes could help improve the check-in process?"
+  - "What percentage of Veterans and/or caregivers (if any) do we observe using the Spanish translation toggle? Of those who do, what is their proficiency in English?"
+  - "Was there anything difficult to understand or could be communicated more clearly with the Spanish version of check-in?"
+  - "How often are MSAs interacting with Veterans during the check-in process?"
+  - "Are MSAs checking in Veterans with VSE that need help versus requiring them to use mobile check in?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who use pre-check-in are able to complete the required steps."
+  - "Veterans who complete pre-check-in realize that they’re still required to use check-in on the day of their appointment."
+  - "Completing the pre-check-in experience makes day-of check-in easier for Veterans since contact information, emergency contact information and next of kin information has been reviewed."
+  - "When presented with an opportunity to check in via Spanish, Veterans may choose to check in using their preferred language."
+  - "Check-in was easy to understand and used plain language for Spanish speakers."
 
 expected_outcomes: "[How will findings advance the product?]"
 

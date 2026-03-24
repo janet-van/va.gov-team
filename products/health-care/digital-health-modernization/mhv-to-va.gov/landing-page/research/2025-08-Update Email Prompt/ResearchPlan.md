@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "As VA.gov moves on to use VA Notify, users must have a contact email on file with VA.gov. If they do not, they will miss any notifications from VA.gov about their healthcare. To avoid this, VA.gov is prompting users to add, confirm or update their email address that is used for communication. This study will test that prompting process to evaluate if users understand what they need to do, why, and the potential consequences of their decisions."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,30 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Easily add, confirm or update their email address,"
+  - goal_2: "Understand the purpose of these actions, and"
+  - goal_3: "Understand the implications of their choices (e.g., skipping, confirming, updating)."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users understand that they need to confirm, update or add their contact email address and why?"
+  - "Of the content presented, what confuses users?"
+  - "Do users understand their options based on the question, understanding that those options will be different depending on the question?"
+  - "Do users feel that they have the information they need to make an decision?"
+  - "Can users identify and articulate how this information will be used?"
+  - "Can users recognize the consequences of each option?"
+  - "Do users understand how to advance?"
 
 hypotheses:
   - "[Hypothesis 1]"
   - "[Hypothesis 2]"
   - "[Hypothesis 3]"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will allow the team to decide on the best path forward. Specifically, we will better understand if users can:"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### **Recruitment Approach**"
   
   primary_criteria:
     - "[Must-have criterion 1]"

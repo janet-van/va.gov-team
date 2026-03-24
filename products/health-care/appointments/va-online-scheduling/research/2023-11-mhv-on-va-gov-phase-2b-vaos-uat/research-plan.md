@@ -26,22 +26,18 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Verify via UAT that logged in Veterans are able to utilize recently added features and data is populating as expected"
-  - goal_2: "Understand Veteran's mental models as they choose a facility or provider when scheduling an appointment"
+  - goal_1: "*UAT:** Verify via UAT that logged in Veterans are able to utilize recently added features and data is populating as expected."
+  - goal_2: "*Mental Model Study:** Understand Veteran's mental models as they choose a facility or provider when scheduling an appointment."
 
 research_questions:
-  - "Are participants able to navigate to the appointments feature from My VA and MHV on VA.gov?"
-  - "Are participants able to navigate their appointments lists?"
-  - "Can participants easily print their appointments lists?"
-  - "Are users at Cerner facilities able to navigate to My VA Health?"
-  - "Does the process of selecting a clinic (VistA) or provider (community care) meet participant expectations?"
-  - "What other information would be helpful when scheduling with a provider or clinic?"
+  - "*UAT:** 1. Are participants able to navigate between to the appointments feature from My VA and MHV on VA.gov? 1. Are participants able to navigate their appointments lists? 1. Can participants easily print their appointments lists? 1. Are users at Cerner facilities able to navigate to My VA Health?"
+  - "*Mental Model Study** 1. Does the process of selecting a clinic (VistA) or provider (community care) meet participant expectations? 1. What other information would be helpful when scheduling with a provider or clinic?"
 
 hypotheses:
-  - "Participants will be able to easily navigate to the appointments tool from all entry points"
-  - "Participants will be able to easily print a list of their appointments"
-  - "Participants at Cerner facilities will be able to easily navigate to My VA Health"
-  - "The process of selecting a facility, clinic, or provider during scheduling will meet participant expectations"
+  - "Participants will be able to easily navigate to the appointments tool from all entry points."
+  - "Participants will be able to easily print a list of their appointments."
+  - "Participants at Cerner facilities will be able to easily navigate to My VA Health."
+  - "The process of selecting a facility, clinic, or provider during scheduling will meet participant expectations."
 
 expected_outcomes: "Validate or improve breadcrumb and URL updates, descriptive back link navigation, print button design, and inform approach to improving scheduling process"
 
@@ -51,10 +47,8 @@ recruitment:
   approach: "Purposive sampling for upcoming appointments and Cerner users"
   
   primary_criteria:
-    - "All must have upcoming VA medical appointments scheduled for December 2023 or later"
-    - "All must be willing to share appointment information with research team"
-    - "All must use Login.gov or ID.me to sign into VA.gov"
-    - "At least 2 participants with upcoming appointments at Cerner facilities"
+    - "recruit 16 total participants for this study."
+    - "schedule a brief kickoff call to run through the recruitment criteria before recruiting."
     
   secondary_criteria:
     - "At least 4 participants on mobile device"

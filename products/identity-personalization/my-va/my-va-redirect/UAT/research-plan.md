@@ -26,20 +26,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Confirm that the redirect functions as expected for all login types and across devices"
-  - goal_2: "Evaluate how the redirect does or doesn't meet Veteran expectations"
-  - goal_3: "Test accessibility with screen reader users"
+  - goal_1: "Confirm that the redirect functions as expected."
+  - goal_2: "Evaluate how the redirect does or doesn’t meet Veteran expectations."
 
 research_questions:
   - "Does the functionality work as expected, for all login types and across devices?"
-  - "What do people want to do once they've landed on My VA?"
+  - "What do people want to do once they’ve landed on My VA?"
   - "Are there any points of confusion?"
 
 hypotheses:
-  - "Veterans will be able to more quickly access what is most important to them since they can bypass the homepage"
-  - "Veterans will not miss the homepage"
-  - "The most common next step will be clicking on a link we surface in My VA"
-  - "Veterans will use search if they can't find what they're looking for on My VA"
+  - "Veterans will be able to more quickly access what is most important to them since they can bypass the homepage."
+  - "Veterans will not miss the homepage."
+  - "The most common next step will be clicking on a link we surface in My VA."
+  - "Veterans will use search if they can’t find what they’re looking for on My VA."
 
 expected_outcomes: "Confirm redirect works properly and meets user expectations before full rollout"
 

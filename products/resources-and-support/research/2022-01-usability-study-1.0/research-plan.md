@@ -72,9 +72,9 @@ research_questions:
 hypotheses:
   - "Users will not know that tags are clickable"
   - "The tags currently used, such as 'All Veterans', are not helpful"
-  - "Users will be more likely to use a topics link section than search bar to look for another article"
+  - "Users will be more likely to use a topics link section that search bar to look for another article"
   - "Users will understand how to report an issue after rating an article as 'bad'"
-  - "Users will not find that the name 'Resources and support' reflects the type of content on the tool"
+  - "Users will not find that the name "Resources and support" reflects the type of content on the tool"
 
 expected_outcomes: "Confirm whether: updates allow users to provide feedback which will inform content editors on changes that can be made to improve R&S articles; updates to R&S article pages improve navigation and discoverability of more R&S articles; the name 'Resources and support' accurately informs users of what content they will find."
 

@@ -26,25 +26,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand users' expectations around what documentation is required to provide when submitting a CHAMPVA application"
-  - goal_2: "Understand where and when users expect to upload supporting documentation for their application"
-  - goal_3: "Understand how users expect uploading documents supports their CHAMPVA application, and their responsibilities to provide supporting information"
+  - goal_1: "`1.` **Understand users’ expectations around what documentation is required to provide when submitting a CHAMPVA application**"
 
 research_questions:
-  - "Do users understand what supporting documentation they'll need to upload with form 10-10d based on the information provided before they start the application?"
-  - "Does the explanation for why we require some documentation for the CHAMPVA application on the intro page make sense?"
-  - "How do users interpret the content about providing proof of marriage?"
-  - "Do users prefer to upload supporting documents at the time of answering a related question (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)?"
-  - "Do users have better recall about supporting documents to provide when uploading supporting documents within the applicant list&loop (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)?"
-  - "Does the v3 file upload component help users understand they need to provide the front and back of Medicare and Private Health Insurance cards?"
-  - "Do users know how to provide additional documentation after submitting their CHAMPVA application?"
-  - "Would users want any confirmation around uploading files?"
-  - "Does the user understand how to fix a faulty document when it fails to upload?"
+  - "*`1.`Do users understand what supporting documentation they’ll need to upload with form 10-10d based on the information provided before they start the application? (Goal 1)**"
+  - "*`2.`Does the explanation for why we require some documentation for the CHAMPVA application on the intro page make sense? (Goal 1)**"
+  - "*`3.`How do users interpret the content about providing proof of marriage? (Goal 1)**"
+  - "*`4.`Do users prefer to upload supporting documents at the time of answering a related question (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)? (Goal 2)**"
+  - "*`5.`Do users have better recall about supporting documents to provide when uploading supporting documents within the applicant list&loop (Prototype Donna, or at the end of the CHAMPVA application (Prototype Rose?) (Goal 2)**"
+  - "*`6.`Does the v3 file upload component help users understand they need to provide the front and back of Medicare and Private Health Insurance cards? (Goal 3)**"
+  - "*`7.`Do users know how to provide additional documentation after submitting their CHAMPVA application? (Goal 3)**"
+  - "*`8.`Would users want any confirmation around uploading files? (Goal 3)**"
 
 hypotheses:
-  - "Users will understand what supporting documentation is needed based on intro page information"
-  - "Users will prefer uploading documents at contextually relevant points during the application rather than at the end"
-  - "The v3 file upload component will effectively communicate the need for front and back of insurance cards"
+  - "--"
+  - "*[Enter hypotheses here]**"
+  - "--"
 
 expected_outcomes: "Research will inform decisions around where users upload supporting documentation when completing form 10-10d, and will inform how additional subsections of the integrated form experience (with 10-7959c) handle and instruct users to upload supporting documentation"
 

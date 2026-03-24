@@ -23,26 +23,24 @@ research_format:
 # Research Goals & Questions
 research_goals:
   - goal_1: "Identify major usability or content issues with the current prototype of secure messaging in MHV on VA.gov"
-  - goal_2: "Identify major usability issues with untested components (tertiary buttons, toolbar, attach/remove buttons)"
+  - goal_2: "Identify major usability issues with untested components"
   - goal_3: "Assess user experiences with updated content that aims to protect Veterans' safety"
 
 research_questions:
-  - "Do Veterans understand that the Search function only searches within a particular folder and how does this affect their behaviors?"
-  - "Do Veterans expect the Search function to search within message attachments and threads?"
-  - "Do Veterans understand how to create, rename, or delete folders and do they value folder functionality?"
-  - "How do users reply to a message in the updated prototype and do they understand the additional reply functionality?"
-  - "Do Veterans understand how to attach a file to a message?"
-  - "Do veterans understand that message drafts are automatically saved?"
-  - "Do veterans understand that some messages are part of a multimessage conversation?"
-  - "Do veterans understand which messages have been read and which have not?"
-  - "Do Veterans notice and understand the information about who to call in case of an emergency and how quickly to expect a response from their providers?"
-  - "Do users understand how to use non-validated components (tertiary buttons, toolbar, attach and remove buttons)?"
+  - "Finding a message:*"
+  - "Organizing messages:*"
+  - "Replying to a message:*"
+  - "Message Threads:*"
+  - "Patient safety:*"
+  - "Untested components:*"
+  - "Tertiary buttons"
+  - "Toolbar"
 
 hypotheses:
-  - "With the updated prototype, Veterans will understand how to find messages from their healthcare providers"
-  - "Veterans will understand how to reply to messages and add/remove attachments"
-  - "Veterans will understand how to create, edit, and delete folders"
-  - "Veterans will not be put at additional risk of adverse outcomes based on the updated patient safety content"
+  - "How to find messages from their healthcare providers"
+  - "How to reply to messages from their healthcare providers"
+  - "How to add and remove attachments to messages from their healthcare providers"
+  - "How to create, edit, and delete folders from their healthcare providers"
 
 expected_outcomes: "Findings will inform design refinements before development and ensure the secure messaging experience meets Veterans' needs for communicating with their healthcare providers safely and effectively."
 
@@ -52,11 +50,7 @@ recruitment:
   approach: "Lean maximum variation strategy with diverse sample across age, abilities, and ethnicities"
   
   primary_criteria:
-    - "All must have been to a VA health care facility for a medical appointment in the last 12 months"
-    - "At least 12 participants must regularly use Secure Messaging"
-    - "At least 12 participants must not use MyHealtheVet"
-    - "At least 12 participants who are mobile users"
-    - "At least 12 participants who are desktop users"
+    - "*Recruitment approach**"
     
   secondary_criteria:
     - "12 participants over the age of 55 years"

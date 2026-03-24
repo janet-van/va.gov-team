@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The Eligibility and Enrollment product line is a part of the Veterans Experience Services (VES) portfolio. Our team aims to uncover the issues that Veterans and their families face when trying to determine eligibility and enroll in VA benefits and services."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,29 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "How Veterans determine eligibility and enroll in VA health services and benefits"
+  - goal_2: "What differences exist between application processes (paper vs. digital)"
+  - goal_3: "Veteran pain points related to eligibility and enrollment"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How Veterans navigate the current eligibility and enrollment processes for health benefits"
+  - "What touchpoints Veterans have with the VAMC and HEC and their staff"
+  - "Pain points relating to eligibility and enrollment"
+  - "What systems and processes might support Veterans in receiving the health benefits they've earned - and how the VA's current E&E architecture supports (or fails to support) their efforts"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans find that the overall benefits landscape is overwhelming and confusing."
+  - "It's hard to find benefit information that applies specifically to them."
+  - "Determining personal eligibility is difficult and the processes are unclear."
+  - "The difficulty of getting required documentation for eligibility applications provides a significant barrier to seeking benefits."
+  - "Entering the same information multiple times is frustrating for Veterans."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings from this research will be used for two purposes:"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach"
   
   primary_criteria:
     - "[Must-have criterion 1]"

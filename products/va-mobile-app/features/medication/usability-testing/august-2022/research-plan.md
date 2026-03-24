@@ -28,7 +28,7 @@ research_goals:
 research_questions:
   - "Are users able to easily find and access the refill modal?"
   - "Do users understand where requested refills go and where to find requested refills?"
-  - "Are users able to successfully find prescriptions they're looking for?"
+  - "Are users able to successfully find prescriptions they’re looking for?"
   - "Do users understand the tab structure and what items could be in the tabs?"
 
 hypotheses:

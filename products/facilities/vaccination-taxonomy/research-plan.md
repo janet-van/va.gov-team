@@ -23,7 +23,6 @@ research_format:
 # Research Goals & Questions
 research_goals:
   - goal_1: "Learn the Veteran mental models for vaccination within the health service taxonomy, primarily for VAMCs"
-  - goal_2: "Understand where in the VHA service taxonomy Veterans expect vaccination services to be found"
 
 research_questions:
   - "Where in the VHA service taxonomy do Veterans expect vaccination services to be found (primary care, pharmacy, specialty, or separate taxon)?"

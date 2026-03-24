@@ -38,12 +38,10 @@ research_goals:
 research_questions:
   - "Does the in-product education (IPE) component help Veterans accomplish their goals in Medications on VA.gov?"
   - "How do Veterans interact with the IPE components?"
-  - "What are Veterans' perceptions of the IPE components?"
+  - "What are Veterans’ perceptions of the IPE components?"
 
 hypotheses:
-  - "Most Veterans will notice the IPE components"
-  - "Most Veterans will ignore the component on first seeing it but will choose 'Don't show again' on subsequent sightings"
-  - "Most Veterans will find the IPE components helpful"
+  - "_Hypothesis 1: Most Veterans will notice the IPE components._"
 
 expected_outcomes: "The results of the study will help us determine if our designs provide the best user experience for Veterans to understand changes to Medications and to identify any pain points. This will inform future design iterations"
 

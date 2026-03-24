@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Our project is part of the Digital Health Modernization strategy, which aims to create a centralized place for Veterans to access their health information and do tasks related to managing health care. As part of this effort, MyHealtheVet (MHV) will be replatformed to VA.gov. We developed a prototype of what MHV on VA.gov could look like, which we are testing as part of this research."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,27 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "determine if Veterans understand the concept of MHV on VA.gov as their centralized place to access health care"
+  - goal_2: "identify major usability or content issues with the current concept of MHV on VA.gov on mobile devices"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will Veterans understand the concept of a centralized place to access their health care as shown in this design?"
+  - "How would Veterans expect to get to the health care information?"
+  - "What would they expect to see in their My Health if they were logged in? Not logged in?"
+  - "Will Veterans be able to accomplish the main health tasks related to appointments, secure messaging, pharmacy, and medical records with this design?"
+  - "What is the Veteran perception of how the health apartment would fit into how they manage their health care at the VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will easily understand the idea of a centralized place where they can access their VA health care information"
+  - "Veterans will expect a personalized experience if logged in, such as their specific prescriptions, appointments, or information relevant to their care"
+  - "Veterans will be able to accomplish a variety of health tasks as designed in this prototype"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results of this study will help us determine if our proof of concept is headed in the right direction, and if there are any big usability concerns that Veterans experience with the designs."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach The audience is Veterans with and without VA health care, to be recruited by Perigean. Participant criteria below were created using a lean but representative approach, see our Recruitment Checker table."
   
   primary_criteria:
     - "[Must-have criterion 1]"

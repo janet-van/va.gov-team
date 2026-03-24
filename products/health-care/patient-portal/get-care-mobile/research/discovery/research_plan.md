@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "What product & team: Get Care Discovery Sprint, a 6 week engagement."
+  - goal_2: "Background: Veterans have access to countless types of care services, making it complicated to know what kind of care to access and how to access it. There are many siloed resources for care within the VA, including: VA MISSION Act/community care, My HealtheVet, VAOS, VA Video Care, telehealth, secure messaging, specialty mobile apps, etc. For Veterans, this can lead to frustration due to the different combinations of experiences they may encounter while also creating an administrative burden..."
+  - goal_3: "Research questions: How do Veterans experience access care from the VA? What do they think of as care? What experiences have worked well for them? Where have they encountered friction? How wide of a variety of tools or resources do people use? What conditions make them encounter new opportunities for methods of care or access?"
+  - goal_4: "Hypothesis: The experiences will likely be varied, but we suspect that Veterans are frustrated by the many different places they need to go to access these sources as well as the inconsistent data and experiences. We also suspect that Veterans may not know about tools and opportunities that might work for their situation."
 
 research_questions:
   - "[Research question 1]"

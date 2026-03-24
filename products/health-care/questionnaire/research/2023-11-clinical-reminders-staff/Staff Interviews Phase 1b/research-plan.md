@@ -22,9 +22,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Compare and contrast the BHL screening tool with the eScreening tool based on provider experience"
-  - goal_2: "Assess impact on provider workflows, data entry burden, and notification fatigue after extended pilot period"
-  - goal_3: "Determine which tool is preferred and identify areas for improvement"
+  - goal_1: "Compare and constrast the BHL screening to with the eScreening tool."
+  - goal_2: "How easy was it to learn to use the tool?"
+  - goal_3: "How easy was the configuration/set up process for the tool?"
+  - goal_4: "How long did it take to learn to use the tool?"
+  - goal_5: "Would providers change anything about the training they received? If yes, what?"
 
 research_questions:
   - "Compare and contrast the BHL screening to with the eScreening tool."
@@ -62,8 +64,6 @@ recruitment:
     - "A minimum of one Healthcare System Technical Administrator (HSTA) and/or Clinical Application Coordinator (CAC) per pilot location"
     - "One Toxic Exposure Screening (TES) Navigator at each pilot location"
     - "At least 2 staff members must have reviewed positive screener results"
-    - "At least 2 staff members must have reviewed negative screener results"
-    - "At least 1 staff member must have reviewed both positive and negative screener results"
     
 participants:
   va_staff: 15

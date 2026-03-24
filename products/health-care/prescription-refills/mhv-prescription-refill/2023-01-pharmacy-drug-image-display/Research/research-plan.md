@@ -22,20 +22,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate drug image ease of use and navigability"
-  - goal_2: "Determine if the proposed design changes are helpful to Veteran's experience on the Medication Details page"
-  - goal_3: "Determine the purpose of Veteran's visiting the Medication Details page, and what can be done to facilitate those needs"
+  - goal_1: "Evaluate drug image ease of use and navigability."
+  - goal_2: "Determine if the proposed design changes are helpful to Veteran’s experience on the Medication Details page."
+  - goal_3: "Determine the purpose of Veteran’s visiting the Medication Details page, and what can be done to facilitate those needs."
 
 research_questions:
   - "Can Veterans navigate the new designs of the Medication Details page and open the necessary drug images?"
-  - "Why do Veterans currently visit the Medication Details page? What actions do they take?"
-  - "Is there anything that is missing that Veterans wish they saw on the Medication Details page?"
+  - "*In reference to what is currently in production:* Why do Veterans currently visit the Medication Details page? What actions do they take? Is there anything that is missing that Veterans wish they saw?"
   - "What do Veterans expect to see on the Medical Details page? How did Veterans respond to the drug image?"
   - "How do Veterans react to the new designs? What were the pain points?"
 
 hypotheses:
-  - "We believe that Veterans will be able to navigate through the new designs and easily access the drug image link"
-  - "We believe that Veterans will appreciate a new level of accuracy and record keeping of prescriptions"
+  - "We believe that Veterans will be able to navigate through the new designs and easily access the drug image link."
+  - "We believe that Veterans will appreciate a new level of accuracy and record keeping of prescriptions."
 
 expected_outcomes: "Before implementing significantly different designs, testing will determine how Veterans feel about the proposed changes. Findings will inform next steps for implementation."
 

@@ -26,23 +26,17 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Vaccines, Allergies, and Vitals records, including what information Veterans expect to see and whether they understand the information presented"
-  - goal_2: "Identify if Veterans know how to print/download both an individual record and list of records"
-  - goal_3: "Identify any barriers that may prevent Veterans with mild to severe Cognitive Disabilities from completing their Medical Records management goals"
-  - goal_4: "Identify any barriers that may prevent Veterans who use Assistive Technologies from completing their Medical Record management goals"
+  - goal_1: "Identify what information Veterans expect to see within the detail view."
+  - goal_2: "Identify if Veterans understand the information presented in the list and detail views. 2. Identify if Veterans know how to print/download both an individual record and list of records. 3. Identify any barriers that may prevent Veterans who have mild to severe Cognitive Disabilities from completing their Medical Records management goals. 4. Identify any barriers that may prevent Veterans who use Assistive Technologies from completing their Medical Record management goals."
 
 research_questions:
-  - "Can Veterans who use Assistive Technologies find the information they need to manage their health related to care summaries and notes, allergies, vaccines, and vitals?"
-  - "Can Veterans who use Assistive Technologies print/download a list and an individual record?"
-  - "What is Veterans' perception of the new experience in which they can view their records on screen?"
+  - "Care summaries and notes"
+  - "Allergies"
+  - "Vaccines"
+  - "Vitals 2. Can Veterans who use Assistive Technologies print/download a list and an individual record? 3. What is Veterans' perception of the new experience in which they can view their records on screen?"
 
 hypotheses:
-  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Vaccinations records to manage their health"
-  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Allergies & reactions records to manage their health"
-  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Care Summaries & Notes to manage their health"
-  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Vitals to manage their health"
-  - "Most Veterans who use Assistive Technologies will find the information presented in their Medical Records adequate for managing their health"
-  - "Most Veterans who use Assistive Technologies will be able to easily access and understand the downloaded PDF file of their medical record information"
+  - "_Hypothesis 1:_ Most Veterans who use Assistive Technologies will be able to access and understand the information about their ‘Vaccinations’ records to manage their health."
 
 expected_outcomes: "Findings will identify usability issues and accessibility barriers that inform iterative improvements to Medical Records interface for Veterans using assistive technologies, ensuring equitable access to health information."
 

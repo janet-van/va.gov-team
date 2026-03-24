@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate when and how intent to file messaging might be effective for Veterans and evaluate the usability of the proposed content and experience"
-  - goal_2: "Understand Veterans' expectations after an ITF is created"
-  - goal_3: "Understand Veterans' existing mental model (if any) of ITF and their barriers to taking action to starting an application"
+  - goal_1: "When and where would information about the ITF date and its purpose be of benefit to Veterans?"
+  - goal_2: "What does a Veteran expect to see after starting their application \[clicks *Start the pension application*\]?"
+  - goal_3: "What aspects of the flow provide clarity or cause confusion?"
+  - goal_4: "What questions or concerns do Veterans have about intent to file?"
+  - goal_5: "What action do Veterans take (i.e. file an ITF or not) and what is their stated reasoning?"
 
 research_questions:
   - "When and where would information about the ITF date and its purpose be of benefit to Veterans?"
@@ -43,9 +45,11 @@ research_questions:
   - "Are Veterans familiar with the intent to file process? What are Veterans' perceptions of the ITF process?"
 
 hypotheses:
-  - "Leading intent to file messaging with its benefits will encourage Veterans to start their application because if the benefits are clear and compelling, Veterans will be motivated to take action to reserve an earlier effective date"
-  - "Veterans will feel confident about continuing their application when intent to file expiration is described in proximity to action-oriented next steps because Veterans are concerned about ITF expiry but need clarity on when they need to complete their application and why"
-  - "Veterans may hesitate to continue their application if they are first introduced to intent to file immediately after clicking 'Start the Pension application' because Veterans may expect to start filling out an application, not to be introduced to a new process"
+  - "Leading intent to file messaging with its benefits will encourage Veterans to start their application."
+  - "Why? Because if the benefits are clear and compelling, we hypothesize that Veterans will be motivated to take action to reserve an earlier effective date."
+  - "Veterans will feel confident about continuing their application when intent to file expiration is described in proximity to action-oriented next steps."
+  - "Why? Because Veterans are concerned about intent to file expiry but need clarity on when they need to complete their application and why."
+  - "Veterans may hesitate to continue their application if they are first introduced to intent to file immediately after clicking “*Start the Pension application*”."
 
 expected_outcomes: "This research will inform messaging and design strategy for the intent to file experience, for the online pension application as well as VA.gov as a whole. It will deepen our understanding of Veteran perceptions and comprehension of the intent to file process."
 

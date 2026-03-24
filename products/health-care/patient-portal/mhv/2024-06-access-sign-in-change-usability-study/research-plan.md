@@ -26,8 +26,8 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Ascertain Veterans' understanding of the content that communicates the sign in changes"
-  - goal_2: "Identify any usability issues Veterans may experience with sign in messaging and interactions"
+  - goal_1: "Ascertain Veterans’ understanding of the content that communicates the sign in changes."
+  - goal_2: "Identify any usability issues Veterans may experience with sign in messaging and interactions."
 
 research_questions:
   - "Do Veterans understand the process and consequence of removing their MHV user ID and password?"
@@ -35,9 +35,7 @@ research_questions:
   - "Do Veterans know what to do if they blocked their Login.gov or ID.me accounts?"
 
 hypotheses:
-  - "Some Veterans will understand the process and consequence of retiring their MHV user ID and password"
-  - "Many Veterans will struggle to follow the instructions for retiring their MHV user ID and password"
-  - "Most participants will understand how to unblock their accounts"
+  - "_Hypothesis 1:_ Some Veterans will understand the process and consequence of retiring their MHV user ID and password."
 
 expected_outcomes: "The results will help determine if designs provide the best user experience for Veterans to make changes to their sign in options and help identify any pain points. This will inform later iterations of the design."
 

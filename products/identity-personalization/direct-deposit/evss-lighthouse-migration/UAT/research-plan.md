@@ -26,20 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Confirm Direct Deposit section functions as intended for ID.me and Login.gov users"
-  - goal_2: "Validate that users can edit and save bank information for comp & pen payments"
-  - goal_3: "Ensure confirmation emails are sent when direct deposit info is updated"
+  - goal_1: "Users see direct deposit section of the profile and receive comp & pen payments can edit and save their bank info."
+  - goal_2: "Users who save direct deposit for comp & pen information receive a confirmation email."
+  - goal_3: "Users that open the edit modal and click cancel will see modal close and previously-saved direct deposit information will still be saved."
+  - goal_4: "Users that click to edit direct deposit information cannot submit the form with errors."
+  - goal_5: "Users that click to edit direct deposit information will get an error if they input a bogus routing number."
 
 research_questions:
   - "Are eligible users able to successfully view and save their bank information?"
   - "When users update their direct deposit information, do they receive a confirmation email?"
-  - "Are users able to open the edit modal, click cancel, and see previously-saved info still saved?"
-  - "Are users prevented from submitting the form with errors or a bogus routing number?"
+  - "Are users able to open the edit modal, click cancel, and see the previously-saved directly deposit information still saved in their Profile?"
+  - "Are users prevented from submitting the direct deposit form with errors or a bogus routing number?"
 
 hypotheses:
-  - "Direct Deposit will function as expected after migration to Lighthouse"
-  - "All four research questions will be answered affirmatively"
-  - "Users will not notice any difference in functionality"
+  - "Direct Deposit will function as expected, answering affirmatively to all four research questions."
 
 expected_outcomes: "Based on UAT results, either release to production or make updates to correct bugs or usability issues identified during testing."
 

@@ -26,23 +26,26 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "`1.` **Identify any usability issues or confusing language in the CHAMPVA Application Status prototype.**"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "*`1.` In what section of MyVA do participants expect to find their CHAMPVA application? Are they able to navigate to the status tool without assistance?**"
+  - "*`2.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**"
+  - "*`3.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**"
+  - "*`4.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**"
+  - "*`5.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**"
+  - "*`6.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**"
+  - "*`7.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**"
+  - "*`8.` What are opportunities to help participants understand the status of their CHAMPVA application?**"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "*Think through these prompts to develop strong hypotheses:** `What do you intend to learn and measure from this study?`"
+  - "--"
+  - "Navigating to the status tool from MyVA, understanding what section to find CHAMPVA Applications in"
+  - "Understanding that CHAMPVA applications are the only applications included in the status tool"
+  - "Interpreting the steps a CHAMPVA application will go through to be processed, and understanding the current status of their application"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`"
 
 # Recruitment & Participants
 recruitment:

@@ -9,7 +9,7 @@ product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "### Briefly, what is the background on this product? What would a new person on the team need to know about this product? The mobile app aims to enable Veterans who are already engaged with VA to perform routine transactions so that users can more easily and quickly do quick tasks with VA. As we have built the app we have done QA, and we are preparing for UAT."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,21 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "### What product & team are you doing this research for? This UAT will be conducted by the mobile app team for the flagship VA mobile app."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Sign In"
+  - "General"
+  - "Profile"
+  - "Personal & contact information"
+  - "Military information"
+  - "Direct deposit"
+  - "Letters"
+  - "Settings"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "### What is your hypothesis for this research? The MVP mobile app will mostly work as expected, but we will discover issues and bugs that we did not previously know about across the scope of the app."
 
 expected_outcomes: "[How will findings advance the product?]"
 

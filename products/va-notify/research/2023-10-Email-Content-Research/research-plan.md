@@ -26,18 +26,20 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Discover the level of detail the recipient wants/expects to receive in email touchpoints"
-  - goal_2: "Understand if level of detail varies by notification type"
-  - goal_3: "Develop a set of best practices for email communication for VA Notify users"
+  - goal_1: "The level of detail the recipient wants/expects to receive in email touchpoints"
+  - goal_2: "Does level of detail vary by notification type?"
+  - goal_3: "Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.*"
 
 research_questions:
   - "How much information do Veterans want in their emails?"
   - "Does the amount of information they want vary by email type? (confirmation, benefits, etc.)"
 
 hypotheses:
-  - "Veterans want more information in their emails instead of requiring them to login in order to get the information"
+  - "Veterans are grateful to be receiving email communications from the VA as this is relatively new"
   - "Veterans have a certain expectation on the value the email content should provide based on their past experiences with other email communications of a similar nature"
-  - "Veterans don't like vague emails and prefer detailed information up front rather than having to hunt for it after logging in"
+  - "It’s easier to get information up front in an email than logging in and possibly having to hunt for it."
+  - "Veterans don’t like vague emails such as:"
+  - "Write a generalized statement that combines what you know + what you think will happen during the study."
 
 expected_outcomes: "We will be able to provide our users with best practices for writing email content for Veterans and their beneficiaries. This will: increase recipient satisfaction, increase ease of email creation, and provide consistency in approach to creating email notifications across content types and services."
 
@@ -47,8 +49,8 @@ recruitment:
   approach: "Inclusive recruitment with maximum variation"
   
   primary_criteria:
-    - "10 Veterans / 3 Caregivers"
-    - "Must currently receive emails"
+    - "Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research."
+    - "Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities."
     
   secondary_criteria:
     - "As wide a distribution as possible of type of Veteran, Age, Gender, and Level of Ability"

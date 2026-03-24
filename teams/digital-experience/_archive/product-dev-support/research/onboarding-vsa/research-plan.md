@@ -38,9 +38,8 @@ research_questions:
   - "[Research question 5]"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The VSP Product Support team is providing relevant, valuable information during the onboarding process."
+  - "Teams will feel empowered to start their work quickly. (What is quickly?)"
 
 expected_outcomes: "[How will findings advance the product?]"
 

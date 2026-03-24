@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand Veterans' preferences for expressing COVID-19 vaccine interest"
-  - goal_2: "Identify trusted sources for COVID-19 vaccine information"
-  - goal_3: "Determine preferred methods and frequency for receiving vaccine status updates"
+  - goal_1: "**The Pooling of Interest:** Through VA.gov, Veterans will be asked to indicate their interest in receiving a COVID-19 vaccine. Receipt of the vaccine will depend on the Veteran’s place in the phased prioritization guidelines (Advisory Committee on Immunization Practices - ACIP) and is based on their age and medical risk conditions. The capture of interest in the vaccine near-real time will provide a national snapshot of interest that could be assigned to the local VAMC and provide valuable i..."
+  - goal_2: "**Communications and the Dissemination of Information and Updates:** The solution will also leverage existing technologies that are currently available nation-wide (i.e., VETText, etc.) which provides an ability for direct messaging to Veterans (mass or group or targeted). This would provide a vehicle for providing sources for trusted and authoritative information on the vaccine which may be provided nationally at VA.GOV as well as more locally-based communication from a VAMC. This may also p..."
+  - goal_3: "**Vaccine:**"
+  - goal_4: "Are you interested in receiving the COVID-19 vaccine?"
+  - goal_5: "Why?"
 
 research_questions:
   - "Are you interested in receiving the COVID-19 vaccine? Why or why not?"

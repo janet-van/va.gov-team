@@ -26,23 +26,15 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand VSOs' experiences working with Veterans on Veterans pension claims"
-  - goal_2: "Understand VSOs' perspectives on the reasons why claims don't get completed/submitted"
-  - goal_3: "Understand VSOs' perspectives on the typical causes for development letters to be issued when working with Pension-eligible Veterans"
-  - goal_4: "Understand areas of the application that VSOs may need to clarify for their Veteran clients"
-  - goal_5: "Understand VSOs' understanding of ITF, the Pension application, and Pension service"
-  - goal_6: "Understand the tools VSOs use to help Veterans apply for Pension benefits as well as behaviors and sentiments about the Pension application and service"
+  - goal_1: "*Desired outcomes are to understand:**"
+  - goal_2: "VSOs' experiences working with Veterans on Veterans pension claims"
+  - goal_3: "VSOs’ perspectives on the reasons why claims don't get completed/submitted"
+  - goal_4: "VSOs’ perspectives on the typical causes for development letters to be issued when working with Pension-eligible Veterans"
+  - goal_5: "Areas of the application that VSOs may need to clarify for their Veteran clients"
 
 research_questions:
-  - "What is the VSOs experience helping Veterans understand the 527EZ pension benefit?"
-  - "What are common characteristics, experiences, questions of Veterans seeking pension benefits?"
-  - "How do eligible Veterans learn about the 527EZ Pension Benefit?"
-  - "What is the experience of VSOs in helping eligible Veterans apply for the pension benefit?"
-  - "Where do VSOs typically provide the most support in the application process?"
-  - "What challenges do VSOs observe that Veterans have with gathering records and applying for pension benefits?"
-  - "What is the VSOs understanding of ITF and how it's used?"
-  - "What tools do VSOs use to support Veterans in the application process?"
-  - "What are VSOs' perceptions of Veterans experience of receiving and maintaining benefits?"
+  - "*Hypotheses**"
+  - "*Methodology**"
 
 hypotheses:
   - "Understanding the first-hand experience of VSOs using the VA.gov Pension application to support Veterans may help the team better understand what areas of the application create challenges for the Veteran"

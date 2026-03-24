@@ -26,21 +26,15 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any pain points Veterans may experience in accessing their medical records"
-  - goal_2: "Understand the criteria Veterans use to find and identify medical records"
-  - goal_3: "Understand Veterans' needs and expectations within Medical Records"
+  - goal_1: "Identify any pain points Veterans may experience in accessing their medical records."
+  - goal_2: "Understand the criteria Veterans use to find and identify medical records."
+  - goal_3: "Understand Veterans’ needs and expectations within Medical Records."
 
 research_questions:
-  - "How are Veterans finding specific health records in My HealtheVet Classic? How does it compare to finding their health records in MyChart?"
-  - "What types of information do Veterans look for when trying to find a specific record?"
-  - "What would help Veterans find the information they need in their health records?"
-  - "What types of information do Veterans need to understand and identify a record?"
-  - "How do Veterans feel when searching within their health records?"
+  - "How does it compare to finding their health records in MyChart? 2. What types of information do Veterans look for when trying to find a specific record? 3. What would help Veterans find the information they need in their health records? 4. What types of information do Veterans need to understand and identify a record? 5. How do Veterans feel when searching within their health records?"
 
 hypotheses:
-  - "Most Veterans can access their health records more quickly and easily in MyChart than in My HealtheVet Classic"
-  - "Most Veterans will use dates to find and identify records"
-  - "Most Veterans will prefer to have a sort, filter, or search function within their health records"
+  - "_Hypothesis 1:_ Most Veterans can access their health records more quickly and easily in MyChart than in My HealtheVet Classic."
 
 expected_outcomes: "Both findability and generative findings will uncover Veterans' behaviors and expectations when accessing their Medical Records, informing future iterations of designs including potential sort, filter, and search functionality."
 

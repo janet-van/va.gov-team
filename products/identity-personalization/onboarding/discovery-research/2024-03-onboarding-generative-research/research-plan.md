@@ -26,8 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any problems people experience when separating from the military that could be improved or resolved through VA.gov"
-  - goal_2: "Determine if we need to make changes to existing VA.gov features, or build new ones, to help people onboard to VA"
+  - goal_1: "Our primary goal with this research is to identify any problems people experience when separating from the military that could be improved or resolved through VA.gov."
 
 research_questions:
   - "What role does VA.gov have in onboarding people to VA?"
@@ -37,9 +36,11 @@ research_questions:
   - "What are the top questions transitioning service members have about VA?"
 
 hypotheses:
-  - "VA.gov will be able to improve the process of onboarding to VA through content and IA updates targeted to service members, especially on topics of eligibility, applying for benefits, and benefits of creating a VA.gov account"
-  - "People will want a personalized experience when onboarding to VA that reflects their specific situation, but not necessarily expect that to be possible through a government agency like VA"
-  - "There isn't a single online tool or experience that will resolve problems people have when they separate from service and transition to VA"
+  - "VA.gov will be able to improve the process of onboarding to VA through content and IA updates targeted to service members, especially on the following topics:"
+  - "eligibility"
+  - "applying for benefits"
+  - "benefits of creating a VA.gov account."
+  - "People will want a personalized experience when onboarding to VA that reflects their specific situation, but not necessarily expect that to be possible through a government agency like VA."
 
 expected_outcomes: "This research will help us determine if we need to make changes to existing VA.gov features, or build new ones, to help people onboard to VA."
 

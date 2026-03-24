@@ -26,15 +26,14 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Determine if Veterans understand the concept of MHV on VA.gov as their centralized place to access health care"
-  - goal_2: "Identify major usability or content issues with the current concept of MHV on VA.gov on mobile devices"
-  - goal_3: "Test mobile version of designs iterated from Round 1 testing"
+  - goal_1: "determine if Veterans understand the concept of MHV on VA.gov as their centralized place to access health care"
+  - goal_2: "identify major usability or content issues with the current concept of MHV on VA.gov on mobile devices"
 
 research_questions:
   - "Will Veterans understand the concept of a centralized place to access their health care as shown in this design?"
   - "How would Veterans expect to get to the health care information?"
   - "What would they expect to see in their My Health if they were logged in? Not logged in?"
-  - "Will Veterans be able to accomplish the main health tasks related to appointments, secure messaging, pharmacy, and medical records?"
+  - "Will Veterans be able to accomplish the main health tasks related to appointments, secure messaging, pharmacy, and medical records with this design?"
   - "What is the Veteran perception of how the health apartment would fit into how they manage their health care at the VA?"
 
 hypotheses:

@@ -26,21 +26,17 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Vaccines, Allergies, and Vitals records, including what information Veterans expect to see and whether they understand the information presented"
-  - goal_2: "Identify if Veterans know how to print/download both an individual record and list of records"
-  - goal_3: "Identify any barriers that may prevent Veterans with mild to severe Cognitive Disabilities from completing their Medical Records management goals"
+  - goal_1: "Identify what information Veterans expect to see within the detail view."
+  - goal_2: "Identify if Veterans understand the information presented in the list and detail views. 2. Identify if Veterans know how to print/download both an individual record and list of records. 3. Identify any barriers that may prevent Veterans who have mild to severe Cognitive Disabilities from completing their Medical Records management goals."
 
 research_questions:
-  - "Can Veterans find the information they need to manage their health related to care summaries and notes, allergies, vaccines, and vitals?"
-  - "Can Veterans print/download a list and an individual record?"
-  - "What is Veterans' perception of the new experience in which they can view their records on screen?"
+  - "Care summaries and notes"
+  - "Allergies"
+  - "Vaccines"
+  - "Vitals"
 
 hypotheses:
-  - "Most Veterans will be able to access and understand the information about their Vaccinations records to manage their health"
-  - "Most Veterans will be able to access and understand the information about their Allergies & reactions records to manage their health"
-  - "Most Veterans will be able to access and understand the information about their Care Summaries & Notes to manage their health"
-  - "Most Veterans will be able to access and understand the information about their Vitals to manage their health"
-  - "Most Veterans will find the information presented in their Medical Records adequate for managing their health"
+  - "_Hypothesis 1:_ Most Veterans will be able to access and understand the information about their ‘Vaccinations’ records to manage their health."
 
 expected_outcomes: "Findings will identify usability issues and barriers for Veterans with cognitive disabilities, informing iterative improvements to Medical Records interface design."
 
@@ -50,11 +46,7 @@ recruitment:
   approach: "targeted recruitment with focus on cognitive disabilities and device diversity"
   
   primary_criteria:
-    - "15 participants must regularly use MHV"
-    - "10 participants with cognitive disabilities - mild to severe"
-    - "11 participants who are mobile users"
-    - "11 participants who are desktop users"
-    - "No current or previous (within the past 5 years) VA Employees"
+    - "*Recruitment approach**"
     
   secondary_criteria:
     - "Age distribution: 75+ (5), 65-74 (7), 55-64 (4), 35-54 (5), 18-34 (2)"

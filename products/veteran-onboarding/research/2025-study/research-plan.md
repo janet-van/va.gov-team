@@ -38,20 +38,17 @@ testing_protocol:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand how new Veterans currently approach VA.gov and what causes decision paralysis"
-  - goal_2: "Evaluate effectiveness and preference between modal design approaches (application-focused vs. action-focused)"
+  - goal_1: "`1.` **Understand how new Veterans currently approach VA.gov and what causes decision paralysis**"
 
 research_questions:
-  - "What are new Veterans current experiences and pain points when first accessing VA.gov?"
-  - "How do new Veterans decide what to do first on VA.gov?"
-  - "Which modal version (application-focused vs. action-focused) do new Veterans prefer and why?"
-  - "What are the usability issues and pain points with each modal version?"
-  - "How well do the modal options align with new Veterans actual priorities and needs?"
+  - "*`1.` What are new Veterans current experiences and pain points when first accessing VA.gov?**"
+  - "*`2.` How do new Veterans decide what to do first on VA.gov?**"
+  - "*`3.` Which modal version (application-focused vs. exploration-focused) do new Veterans prefer and why?**"
+  - "*`4.` What are the usability issues and pain points with each modal version?**"
+  - "*`5.` How well do the modal options align with new Veterans actual priorities and needs?**"
 
 hypotheses:
-  - "New Veterans will prefer clear, actionable guidance over open-ended exploration, reducing decision paralysis and improving task completion"
-  - "Application-focused options (Version A) will be preferred by Veterans who know what they want to apply for, while action-focused options (Version B) will appeal to Veterans who are still exploring their options"
-  - "Both modal versions will result in higher satisfaction and task completion rates compared to no onboarding guidance"
+  - "New Veterans will prefer clear, actionable guidance over open-ended exploration, reducing decision paralysis and improving task completion. Application-focused options (Version A) will be preferred by Veterans who know what they want to apply for, while action-focused options (Version B) will appeal to Veterans who are still exploring their options. Both modal versions will result in higher satisfaction and task completion rates compared to no onboarding guidance."
 
 expected_outcomes: "This research will determine which modal version to implement and identify any usability issues to address before launch. Findings will inform the final modal design, content, and implementation strategy to reduce new Veteran decision paralysis and improve first-time user experience on VA.gov."
 

@@ -26,20 +26,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand Veterans' mental models and processes for choosing a triage group from their contact list in Secure Messaging"
-  - goal_2: "Understand the identifiers Veterans associate with their healthcare providers"
-  - goal_3: "Understand Veterans' experiences with Secure Messaging and how it shapes their interactions"
+  - goal_1: "Understand Veterans' mental models and processes for choosing a triage group from their contact list in Secure Messaging."
+  - goal_2: "Understand the identifiers Veterans associate with their healthcare providers."
+  - goal_3: "Understand Veterans' experiences with Secure Messaging and how it shapes their interactions with it."
 
 research_questions:
   - "What information do Veterans bring into a Secure Messaging interaction?"
   - "What types of information do Veterans look for when trying to figure out who to send a secure message to on their provider team(s)?"
-  - "What are their processes for deciding and how do they figure things out if they can't find what they're looking for?"
+  - "What kind of information are they looking for to guide their behavior?"
+  - "What are their processes for deciding?"
+  - "How do they figure things out if they can't find what they're looking for?"
   - "What relevant past experiences have shaped Veterans' expectations when sending a message to their providers?"
   - "How have Veterans had instructions for sending a message communicated to them in the past?"
+  - "What issues do Veterans have with understanding triage groups today? What has helped overcome these issues?"
 
 hypotheses:
-  - "Many Veterans will not know the names of their providers"
-  - "Most Veterans will be familiar with the location and facility/clinic of their providers"
+  - "_Hypothesis 1:_ Many Veterans will not know the names of their providers."
 
 expected_outcomes: "The results will help identify Veterans' mental model and processes in choosing triage groups and inform future research and design solutions"
 
@@ -49,9 +51,11 @@ recruitment:
   approach: "Maximum variation sampling excluding assistive technology users"
   
   primary_criteria:
-    - "Desktop/Laptop/Tablet users only (no assistive technology due to card sort limitations)"
-    - "Mix of frequent (9) and infrequent (9) MHV Secure Messaging users"
-    - "Age distribution emphasizing older Veterans"
+    - "*Recruitment approach**"
+    - "*Recruitment criteria**"
+    - "*Primary criteria (must-haves)**"
+    - "(4) 75+"
+    - "(6) 65 – 74"
     
   secondary_criteria:
     - "6 participants with cognitive disability"

@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "This discovery research is part of the Discovery Sprint for the Operations team on the Veteran Services Platform (VSP)."
+  - goal_2: "Background: This project initiated on the idea that the current technical infrastructure built and maintained by VSP will not be able to scale to support many more VFS teams building on VA.gov. The Operations team has a broad sense of the pain points that developers currently experience when building on VA.gov, but aims to validate its assumptions with current VFS team developers do thoroughly understand the problem in order to recommend solutions and prioritize them on the team's roadmap."
+  - goal_3: "Research questions: What question(s) do you hope to be able to answer after completing this research?"
+  - goal_4: "Hypothesis: What is your hypothesis for this research?"
 
 research_questions:
   - "[Research question 1]"

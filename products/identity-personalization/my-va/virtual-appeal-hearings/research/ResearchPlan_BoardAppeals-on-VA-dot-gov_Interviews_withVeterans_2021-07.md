@@ -26,9 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand where in VA.gov authenticated experience Veterans expect to find and change information about their Board hearing"
-  - goal_2: "Identify what information Veterans need to confidently make a decision about virtual hearing"
-  - goal_3: "Learn how Veterans currently find and manage information about their Board hearing"
+  - goal_1: "### **Product and Team**"
 
 research_questions:
   - "Where in the VA.gov authenticated experience do Veterans expect to be able to change their existing hearing request type to virtual?"
@@ -36,9 +34,9 @@ research_questions:
   - "How do Veterans find and manage information about their Board hearing now?"
 
 hypotheses:
-  - "Veterans will expect to see and make changes to their existing hearing request within the Track Claims section of the VA.gov authenticated experience"
-  - "Veterans may have concerns about virtual hearing technology requirements that would impact their willingness to choose the virtual hearing format"
-  - "Veterans will want to receive clear guidance on next steps"
+  - "Veterans will expect to see and make changes to their existing hearing request within the Track Claims section of the VA.gov authenticated experience."
+  - "Veterans may have concerns about virtual hearing technology requirements that would impact their willingness to choose the virtual hearing format."
+  - "Veterans will want to receive clear guidance on next steps."
 
 expected_outcomes: "Inform next stages of design for choosing a virtual hearing on VA.gov"
 

@@ -21,26 +21,21 @@ research_format:
   moderated: false # Options: true, false
   
 # Research Goals & Questions
-research_goals: 
-  - goal_1: "Assess whether users can find key information related to top tasks on the site easily and with confidence."
-  - goal_2: "Determine if the labels used in navigation meet the mental model of our users."
-  - goal_3: "Determine if adding 'My VA' and 'My HealtheVet' to the top level of navigation impacts findability of tools related to managing benefits."
+research_goals:
+  - goal_1: "`1.` Assess whether users can find key information related to top tasks on the site easily and with confidence."
+  - goal_2: "`2.` Determine if the labels used in navigation meet the mental model of our users."
+  - goal_3: "`3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing benefits."
 
 research_questions:
-  - "Can users easily find information related to applying for key benefits?"
-  - "Can users easily find key tools that help them manage benefits they are already receiving?"
-  - "Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?"
-  - "Where do users look for information related to benefits for a Veteran family member or caregiver?"
-  - "Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?"
-  - "Are Veterans able to determine which hub contains information related to the VR&E program?"
-  - "Is 'My VA' a common pathway to tools related to managing benefits?"
-  - "Is 'My HealtheVet' a common pathway to tools related to managing health care?"
+  - "`1.` Can users easily find information related to applying for key benefits?"
+  - "`2.` Can users easily find key tools that help them manage benefits they are already receiving?"
+  - "`3.` Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?"
 
 hypotheses:
-  - "Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs."
-  - "Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members."
-  - "Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools."
-  - "Users will most commonly look in 'My VA' and 'My HealtheVet' as ways to get to tools to manage their benefits."
+  - "`1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs."
+  - "`2.` Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members."
+  - "`3.` Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools."
+  - "`4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits."
 
 expected_outcomes: "Findings will inform and help prioritize changes to navigation/menu labels, groupings, and/or broader site organization to improve findability of key tasks, benefits information, and benefit-management tools."
 

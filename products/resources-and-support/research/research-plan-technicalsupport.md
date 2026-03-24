@@ -9,13 +9,13 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "To assess the feasibility and potential impact of implementing screen sharing capabilities in veteran support services by gathering insights from veterans."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Survey Instrument: An online questionnaire designed to gather data on veterans' experiences, prefere"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -26,9 +26,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess Needs: Understand veterans' needs and preferences regarding support services."
+  - goal_2: "Evaluate Potential Impact: Measure how screensharing could improve service delivery and satisfaction."
+  - goal_3: "Identify Barriers: Identify technical, privacy, and acceptance barriers to adopting screensharing technology."
+  - goal_4: "Gather Feedback: Collect qualitative and quantitative feedback to guide decision-making."
 
 research_questions:
   - "[Research question 1]"
@@ -38,9 +39,7 @@ research_questions:
   - "[Research question 5]"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Based on our understanding of the problem space and our assumptions, we can formulate the following hypothesis:"
 
 expected_outcomes: "[How will findings advance the product?]"
 

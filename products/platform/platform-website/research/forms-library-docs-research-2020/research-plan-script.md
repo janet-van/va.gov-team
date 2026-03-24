@@ -26,9 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "This research is for the forms library documentation on the Content and IA team, in collaboration with members of the Product Support and Front-End Tools teams."
 
 research_questions:
   - "[Research question 1]"

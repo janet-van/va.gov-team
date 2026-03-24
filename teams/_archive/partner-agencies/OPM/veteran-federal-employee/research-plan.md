@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*_1. What product & team are you doing this research for?_**"
+  - goal_2: "*_2. Background: Briefly, what is the background on this product? What would a new person on the team need to know about this product?_**"
+  - goal_3: "*_3. Research questions: What question(s) do you hope to be able to answer after completing this research?_**"
+  - goal_4: "What are the service touchpoints between Federal Employees (including Veterans), agency HR, and OPM?"
+  - goal_5: "What is the current service experience from the Federal Employee perspective? How do HR officers & OPM map to this perspective?"
 
 research_questions:
   - "[Research question 1]"

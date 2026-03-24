@@ -26,8 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Better understand end users and their experience learning about, applying for, maintaining, and receiving Veterans Pension benefits"
-  - goal_2: "Validate existing research findings or identify divergences in what we understand about the Veteran journey gathered so far, especially by proxy in the VSO study"
+  - goal_1: "*1. Better understand our end users and their experience learning about, applying for, maintaining, and receiving Veterans Pension benefits.**"
+  - goal_2: "How do users learn about the Veteran pension benefit? (Awareness)"
+  - goal_3: "What is their experience applying for the Veteran pension benefit? (Application Usage and Completion)"
+  - goal_4: "What is their experience receiving and maintaining the Veteran pension benefit? (Post-submission/ Approval)"
+  - goal_5: "*2. Validate existing research findings or identify divergences in what we understand about the Veteran journey that have been gathered so far; especially by proxy in the VSO study.**"
 
 research_questions:
   - "How do users learn about the Veteran pension benefit? (Awareness)"
@@ -36,11 +39,11 @@ research_questions:
   - "What are the convergences and divergences in the Veteran and advocate experience in this study compared to existing research?"
 
 hypotheses:
-  - "Veterans tend to seek out pension benefits when they are already experiencing financial hardship or other adverse conditions"
-  - "Veterans learn about pension through word of mouth or communications from both trusted or predatory sources outside the VA (e.g. pension poachers)"
-  - "Veterans often need others to help support completion of the application, such as a VSO, family member, or other advocate"
-  - "Veterans experience challenges completing the application such as: large amount of information required for submission, unclear or missing information, and lack of direction on necessary follow-up steps"
-  - "Veterans experience high error rates post application submission that require additional action on their part or their advocate's part"
+  - "Veterans tend to seek out pension benefits when they are already experiencing financial hardship or other adverse conditions."
+  - "Veterans learn about pension through word of mouth or communications from both trusted or predatory sources outside the VA (e.g. pension poachers)."
+  - "Veterans often need others to help support completion of the application, such as a VSO, family member, or other advocate."
+  - "Veterans experience challenges completing the application such as: the large amount of information required for submission, unclear or missing information, and lack of direction on necessary follow-up steps."
+  - "Veterans experience high error rates post application submission that require additional action on the part of them or their advocate."
 
 expected_outcomes: "Deepen understanding of the perceptions and experiences of pension-eligible Veterans and their family members or caregivers. Validate and provide direction for the most impactful VA 21P-527EZ form changes that will increase accurate and efficient benefit dispersals. Create informal updates to existing journey maps to be used as internal resource. Reduce errors and boost efficiency for adjudicators by making the form easier to complete for end users."
 

@@ -9,13 +9,13 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "This product is reimagining the ecosystem that allows a Veteran to check in for a medical appointment. The healthcare experience team in particular is creating the portion of the ecosystem that enables a Veteran to utilize their mobile device to check-in (letting the VA know that they have arrived for their appointment) via VA.gov."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Staff at the MVP site(s) will ask Veterans a series of questions ideally towards the end of their ap"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -26,21 +26,25 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Conduct user acceptance testing to evaluate if multiple steps in the check-in process are functioning as planned at the pilot location."
+  - goal_2: "Understand if the updated poster is easier to use, addresses pain points from the original poster, and identify improvements (if any)."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "This research study should cover:"
+  - "Are Veterans able to utilize the new mobile check-in solution without intervention from MSAs?"
+  - "Are the additional verification steps clear to the Veteran?"
+  - "How is the read-only contact information review feature being used?"
+  - "How is the multiple check-in feature being used?"
+  - "What are veteran’s expectations when they see the triage appointments?"
+  - "Are returning mobile patients experiencing check in issues?"
+  - "Are veterans able to complete the check in with guidance from the the new poster?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The Veterans will successfully check-in via their mobile phone, and verify their identities without additional points of friction."
+  - "The updated poster successfully communicates the need to wait for a link to continue the check-in process and offers guidance on how to send a text to initiate check-in."
+  - "The Veterans will be able to view and understand the display of multiple appointments for the day."
+  - "There should be minimal to no impact to clinical staff's workflow on how they know a Veteran has arrived for their appointment."
+  - "Veteran and staff responses will indicate that the mobile phone check-in solution is useful and does not negatively impact experience or clinical workflow."
 
 expected_outcomes: "[How will findings advance the product?]"
 

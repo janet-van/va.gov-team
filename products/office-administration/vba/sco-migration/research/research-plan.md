@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Currently, VBA GI Bill School Resources comprises three pages on benefits.va.gov. These pages provide resource links and documents for School Certifying Officials and administrators. The resources allow users to complete required training and certification, view upcoming events and announcements, access various tools, and support military-connected students."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -31,16 +31,13 @@ research_goals:
   - goal_3: "[Third research goal]"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How might the user interface, information architecture, design or content be adjusted to improve usability?"
+  - "Are users able to easily locate the School Resources area of the site?"
+  - "Are users able to easily return to the School Resources page after viewing resources on other VA sites?"
+  - "Are users able to locate the resources that enable them to perform their job and support military-connected students?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The improved organization, layout and functionality of the new School Resources pages will increase the SCOs’ and school administrator’s ability to locate key content and functionality that allows them to perform their job efficiently and better support military-connected students."
 
 expected_outcomes: "[How will findings advance the product?]"
 

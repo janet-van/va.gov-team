@@ -27,23 +27,23 @@ research_format:
 # Research Goals & Questions
 research_goals:
   - goal_1: "Validate assumptions regarding areas of improvement for the letter and test Veteran comprehension and reaction"
-  - goal_2: "Build on our current understanding of Veteran's communication preferences"
+  - goal_2: "Build on our current understanding of Veteran’s communication preferences"
   - goal_3: "Deepen our understanding of the experience of this cohort of Veterans and find out how they might respond to this outreach"
 
 research_questions:
-  - "Is the length of the letter impacting readability and Veteran comprehension?"
-  - "Is the call to action clear and compelling?"
+  - "Validate our assumptions about the letter"
+  - "Is the length of the letter impacting the letter’s readability and Veteran comprehension?"
+  - "Is the call to action clear?"
+  - "Is the benefit to taking immediate action in response to the letter clear and compelling to our cohort of Veterans?"
+  - "Understanding Veteran comprehension, motivation, and barriers to action"
   - "Do Veterans understand the contents of the outreach letter?"
-  - "What are Veteran perceptions of different forms of communication (letter vs. email vs. text)?"
-  - "What is this cohort's awareness level of the PACT Act?"
-  - "How might Veterans respond to targeted outreach based on their medical records?"
-  - "What role might caregivers play in this experience?"
-  - "How do we build trust with Veterans in this interaction?"
+  - "Is the call to action clear and compelling?"
+  - "What questions or concerns do Veterans have about the outreach?"
 
 hypotheses:
-  - "Veterans are unfamiliar with changes in eligibility as a result of the PACT Act becoming law"
-  - "Veterans may be confused by or uncomfortable with targeted outreach based on access to their medical records"
-  - "The call to action in the outreach letter is clear and compelling"
+  - "Veterans are unfamiliar with changes in eligibility as a result of the PACT Act becoming law."
+  - "Veterans may be confused by or uncomfortable with targeted outreach based on access to their medical records."
+  - "The call to action in the outreach letter is clear and compelling."
 
 expected_outcomes: "Inform our outreach format, content and strategy; deepen understanding of Veteran communication preferences and perceptions; identify barriers and opportunities to streamline the experience from proactive notification to filing a claim; provide recommendations for the project roadmap"
 

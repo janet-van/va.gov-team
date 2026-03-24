@@ -26,18 +26,15 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate if incorporating critical alert components and notifications center will guide Veterans toward timely actions and create a more responsive, personalized homepage experience"
-  - goal_2: "Validate if updating My VA to reflect recommendations from prior research and analytics match Veteran mental models"
+  - goal_1: "`1.` **Validate if incorporating critical alert components and notifications center will guide Veterans toward timely actions and create a more responsive, personalized homepage experience.**"
 
 research_questions:
-  - "Will updating My VA to align with changes suggested by prior research and analytics, improve Veteran's awareness of what needs to be done and how to take action?"
-  - "Are Veterans successfully able to navigate to their profile and to the new notifications page from My VA?"
-  - "Are there any sections that are confusing or missing from the profile that Veterans expect to see?"
+  - "*`1.`Will updating My VA to align with changes suggested by prior research and analytics, improve Veteran’s awareness of what needs to be done and how to take action?]**"
+  - "*`2.`Are Veterans successfully able to navigate to their profile and to the new notifications page from My VA? ]**"
+  - "*`3.`Are there any sections that are confusing or missing from the profile that Veterans expect to see?**"
 
 hypotheses:
-  - "Based on prior research and analytics, we believe updating My VA and profile according to previous recommendations will align with Veteran mental models"
-  - "Based on prior research and analytics, we believe Veterans will want all of their notifications (note: notifications inform users about updates and reminders prompting engagement or action) in a centralized location on VA.gov"
-  - "Based on previous research and analytics, we believe that the updated authenticated menu navigation will meet Veterans expectations"
+  - "--"
 
 expected_outcomes: "Outcome will be a validated redesign for incorporating new components, new sections, and notifications center into My VA"
 

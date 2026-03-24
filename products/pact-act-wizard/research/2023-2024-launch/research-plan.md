@@ -52,22 +52,23 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Validate that questions drafted for the PACT Act Wizard are clear and easy for Veterans and family members to understand and confidently answer"
-  - goal_2: "Ensure Veterans and family members can understand from results if they might be eligible for disability or health care based on the PACT Act"
-  - goal_3: "Verify Veterans and family members can understand from results how to apply for benefits related to the PACT Act based on their situation"
+  - goal_1: "The **questions drafted for the PACT Act Wizard are clear and easy** enough for Veterans (or family members seeking information on behalf of a Veteran) to understand and confidently answer."
+  - goal_2: "Veterans (or family members seeking information on behalf of a Veteran) can **understand from the results if they might be eligible** for disability or health care based on the PACT Act."
+  - goal_3: "Veterans (or family members seeking information on behalf of a Veteran) can **understand from the results how to apply for benefits** related to the PACT Act based on their situation."
 
 research_questions:
-  - "What feedback do Veterans and others have on individual questions?"
-  - "What feedback do Veterans and others have on the entire set of questions (total number and similar structure)?"
-  - "Do Veterans and others know enough about their military service to answer the questions?"
-  - "What feedback do Veterans and others have on the results (date/range, presumptive conditions, next steps)?"
-  - "If the tool says they're eligible, what do they say they would do next?"
+  - "Total number of questions"
+  - "Similar structure of the questions"
+  - "Date/range"
+  - ""Presumptive conditions""
+  - "Next steps"
 
 hypotheses:
-  - "Veterans and others will find the questions to be clear and easy to understand and answer"
-  - "Veterans and others will find the number and content of questions to be relevant and not overly burdensome"
-  - "The results are simple enough for Veterans and others to understand and are not misleading"
-  - "Veterans and others will understand what 'presumptive conditions' mean after reading the plain language description"
+  - "Veterans (and others) will find the questions to be clear and easy to understand and answer."
+  - "Veterans (and others) will find the number and content of the questions to be relevant to their understanding of the PACT Act and how it applies to them (or the Veteran)."
+  - "Veterans (and others) won't find the number and content of the questions to be overly burdensome."
+  - "The results are simple enough for Veterans (and others) to understand and are not misleading."
+  - "Veterans (and others) will understand what "presumptive conditions" mean after reading the plain language description in the results flow."
 
 expected_outcomes: "Learnings will help refine questions and the presentation of results in the wizard"
 

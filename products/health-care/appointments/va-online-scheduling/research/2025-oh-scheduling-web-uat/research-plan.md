@@ -22,21 +22,21 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Test Oracle Health scheduling functionality, and report any issues with the feature"
-  - goal_2: "Test Oracle Health after-visit summary functionality, and report any issues with the feature"
-  - goal_3: "(Stretch Goal) Better understand a user's mental model around how they choose providers"
+  - goal_1: "`1.` **Test Oracle Health scheduling functionality, and report any issues with the feature.**"
 
 research_questions:
-  - "Are participants able to easily complete all of the scheduling and after-visit summary scenarios?"
-  - "Are any scenarios difficult to complete?"
-  - "Are any features missing that are critical to scheduling an appointment?"
-  - "(Stretch) What information and considerations are important to participants when choosing a new provider?"
-  - "(Stretch) What information and considerations are important to participants when scheduling with an existing provider?"
+  - "*`1.`Are participants able to easily complete all of the scheduling and after-visit summary scenarios?**"
+  - "*`2.`Are any scenarios difficult to complete?**"
+  - "*`3.`Are any features missing that are critical to scheduling an appointment?**"
+  - "*`4.`(Stretch) What information and considerations are important to participants when choosing a new provider?**"
+  - "*`5.`(Stretch) What information and considerations are important to participants when scheduling with an existing provider?**"
 
 hypotheses:
-  - "Users will be able to complete the scheduling scenarios they test with little difficulty"
+  - "--"
+  - "Users will be able to complete the scheduling scenarios they test with little difficulty."
   - "Users will be able to easily access and view their after-visit summaries"
-  - "Users will identify other features or details that would help them choose a provider more easily"
+  - "Users will identify other features or details that would help them choose a provider more easily."
+  - "--"
 
 expected_outcomes: "We will resolve any major issues before opening up the functionality to more facilities. And any learnings about the provider list will be used to improve this pattern overall."
 

@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Initially called the "Learning Center", Resources & Support (R&S) leverages a variety of Drupal content types to provide an unauthenticated self-serve library with targeted, supplemental information to help Veterans and other beneficiaries understand their VA benefits. Since launching in 2020, R&S has expanded to include 100 published articles (as of December 2024). We expect the number of articles will continue to grow via the ongoing migration of content to VA.gov from legacy sites."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,33 +26,38 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get user feedback on the new filter design and functionality to find information"
+  - goal_2: "Understand which of the search, filtering, and browsing options users choose to interact with and in what order"
+  - goal_3: "Learn if the labels and groupings of filters align with user mental models"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "*Goal 1. Get user feedback on the new filter design and functionality to find information**"
+  - "Do users understand how to access the filter overlay modal?"
+  - "Do users understand the and/or logic between filters across/within filter groups?"
+  - "Do users understand the Apply filters, Clear all, and X buttons in filter overlay modal?"
+  - "Do users understand how to dimiss a filter once it's applied?"
+  - "Do users understand how the filter chips on results/detail pages (w/X) work vs. on the landing page (w/o X)?"
+  - "*Goal 2. Understand which of the search, filtering, and browsing options users choose to interact with and in what order**"
+  - "What do people do first--searching, filtering, or browsing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will understand the search, filtering, and browsing functionality available to them"
+  - "Users will understand the labels of filters and filter groups"
+  - "Users are able to find the information that they're looking for"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate the proposed design so we can start building it. There may be a second round of usability testing once it is built in Staging to get feedback from assistive tech users."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### Recruitment approach We would like Perigean to recruit **14 people** who meet the below criteria in order to get **10 completed sessions**:"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "7 Veterans"
+    - "2 Service members"
+    - "3 Caregivers of a Veteran"
+    - "2 Family members of a Veteran"
+    - "Downloading the Zoom mobile app before entering the session"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"

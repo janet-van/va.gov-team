@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Veteran Affairs (VA) continues to digitize across systems and services to ensure access and security for all Veterans. The phased migration to Login.gov ameliorates barriers by consolidating platform login and increasing security for Veterans and non-Veteran users. For the digital migration to login.gov, VA is conducting a phased communication campaign to ensure that the shift to digital does not leave any Veterans behind. The phased communication campaign provides online and physical touchpo..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,9 +26,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "### Primary Discover new strategies, language, and channels to educate Veterans about Login.gov.<br /> Leverage trusted communities and resources to provide migration support, especially to those who display more hesitancy and resistance.<br /> Uncover jobs to be done that pertain to accessibility and edge cases.<br /> Increase the efficiency and effectiveness of our iterations through rapid workshops and prototypes.<br />"
 
 research_questions:
   - "[Research question 1]"
@@ -47,7 +45,7 @@ expected_outcomes: "[How will findings advance the product?]"
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Each session will have up to 9 participants per session. For the duration of the study, Perigean will oversee recruitment. Over recruitment is encouraged assuming likelihood of no shows/drop out therefore criteria will be out of 9. The study is organized into a three session pilot and three series of sessions (See study session timeline below). For the pilot and three series, there will be an unique cohort recruited for each. Each cohort will need to register for each study session within the..."
   
   primary_criteria:
     - "[Must-have criterion 1]"

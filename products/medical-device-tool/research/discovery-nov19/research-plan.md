@@ -26,9 +26,11 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "*Benefits & Memorials 2** 2. Background: <br>"
+  - goal_2: "*This product is a migration and modernization of the hearing aid battery and prosthetic sock ordering functionality that currently exists as an iframed applet on eBenefits. With eBenefits being sunsetted and the DLC’s interest in increasing adoption of online ordering to reduce contact center workload, we’re tasked with designing a new online ordering experience that will be simpler for Vets and less overhead for the DLC.** 3. Research questions:"
+  - goal_3: "Why do Veterans choose one ordering method over the other?"
+  - goal_4: "Are they consistently using the same methods? Why change?"
+  - goal_5: "Why is the online method underutilized by Veterans?"
 
 research_questions:
   - "[Research question 1]"

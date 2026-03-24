@@ -22,27 +22,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand Veterans' mental model for scheduling with their PACT, especially regarding the different teams' roles"
-  - goal_2: "Identify opportunities to update UI on the clinic selection page or any other pages in the scheduling flow"
-  - goal_3: "Understand whether Veterans consider SUD to be part of mental health when scheduling appointments and how they prefer to schedule it"
+  - goal_1: "`1.` **Understand Veterans’ mental model for scheduling with their PACT, especially regarding the different teams' roles.**"
 
 research_questions:
-  - "How do Veterans navigate the Type of Care selection page, the location selection page, and the clinic selection page in the appointment scheduling flow?"
-  - "What parts (if any) of the scheduling flow cause friction?"
-  - "What do Veterans think about the clinic selection page?"
-  - "What would the clinic selection page look like in an ideal world?"
-  - "Are Veterans aware of their PACT and who/what roles are considered part of their team? If yes, do Veterans associate their PACT with the appointments they are scheduling through the tool?"
-  - "Do Veterans think SUD is a mental health sub-type of care?"
+  - "*`1.`How do Veterans navigate the Type of Care selection page, the location selection page, and the clinic selection page in the appointment scheduling flow?**"
+  - "*`2.`What parts (if any) of the scheduling flow cause friction?**"
+  - "*`3.`What do Veterans think about the clinic selection page?**"
+  - "*`4.`What would the clinic selection page look like in an ideal world?**"
+  - "*`5.`Are Veterans aware of their PACT and who/what roles are considered part of their team? If yes, do Veterans associate their PACT with the appointments they are scheduling through the tool?**"
+  - "*`6.`Do Veterans think SUD is a mental health sub-type of care?**"
 
 hypotheses:
-  - "Veterans may be confused and unsure about which clinic to select due to a significantly longer list of options and clinic names that are unclear or difficult to interpret"
-  - "Veterans prioritize scheduling appointments based on type of care, location, provider, and availability, while selecting a specific clinic is generally less important in their decision-making process"
-  - "Most Veterans likely do not know what a PACT is, who their assigned PACT is, or whether they have ever seen a provider from that team"
-  - "Veterans who know what the assigned PACT is and have seen providers on their assigned PACT may expect to schedule directly with them instead of choosing a clinic"
-  - "Most Veterans may not recognize the connection between type of care, clinic selection, and their assigned providers, even if they know what a PACT is"
-  - "Veterans may recognize some clinics from previous experiences, but more clinics may not improve their online scheduling experience"
-  - "Most Veterans may not expect to find SUD service under the Mental Health category, but the descriptive context on the sub-type of care page may help them understand and learn this organization"
-  - "Some Veterans may select primary care when asked to schedule appointments to discuss unhealthy use of drugs or alcohol"
+  - "--"
+  - "**Veterans may be confused and unsure about which clinic to select due to a significantly longer list of options and clinic names that are unclear or difficult to interpret.**"
+  - "**Veterans prioritize scheduling appointments based on type of care, location, provider, and availability, while selecting a specific clinic is generally less important in their decision-making process.**"
+  - "**Most Veterans likely do not know what a PACT is, who their assigned PACT is, or whether they have ever seen a provider from that team.**"
+  - "**Veterans who know what the assigned PACT is and have seen providers on their assigned PACT may expect to schedule directly with them instead of choosing a clinic.**"
 
 expected_outcomes: "The learnings from this study will clarify how Veterans understand PACT and schedule with their care team, guide UI improvements to the scheduling flow, and reveal how Veterans view SUD as part of mental health and prefer to schedule it."
 

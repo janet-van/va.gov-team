@@ -22,20 +22,17 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Gain insights into where on VA.gov Veterans, family members, and caregivers would go to complete health care related tasks"
-  - goal_2: "Understand navigation patterns for 'get benefits' health care tasks"
-  - goal_3: "Understand navigation patterns for 'manage benefits' health care tasks"
+  - goal_1: "The goal of this research is to gain insights into where on VA.gov Veterans, family members, and caregivers would go to complete health care related tasks."
 
 research_questions:
-  - "Where do users go on the VA.gov home page when asked to complete a task related to exploring and applying for benefits (i.e. 'get benefits')?"
-  - "Where do users go on the VA.gov home page when asked to complete a task related to managing their health care and benefits (i.e. 'manage benefits')?"
-  - "Does a persistent 'My health' option in the header impact the findability of health care related content and tools positively or negatively?"
+  - "Where do users go on the VA.gov home page when asked to complete a task related to exploring and applying for benefits (i.e. "get benefits")?"
+  - "Where do users go on the VA.gov home page when asked to complete a task related to managing their health care and benefits (i.e. "manage benefits")?"
+  - "Does a persistent "My health" option in the header impact the findability of health care related content and tools positively or negatively?"
   - "Do Veterans who are not enrolled in health care navigate differently than Veterans who are enrolled in health care?"
   - "Do family members and caregivers navigate differently than Veterans?"
 
 hypotheses:
-  - "Displaying the 'My health' link in the header regardless of authentication status will primarily attract Veterans who are already enrolled in health care due to familiarity with My HealtheVet"
-  - "Veterans who are not enrolled in health care, as well as family members and caregivers, will not attempt to navigate to health care content related to 'get benefits' via the 'My health' link"
+  - "Displaying the "My health" link in the header regardless of authentication status will primarily attract Veterans who are already enrolled in health care due to familiarity with My HealtheVet, and Veterans who are not enrolled in health care, as well as family members and caregivers, will not attempt to navigate to health care content related to "get benefits" via that link."
 
 expected_outcomes: "This research will help inform placement of entry points into the 'get benefits' and 'manage benefits' experience for health care"
 
@@ -45,9 +42,8 @@ recruitment:
   approach: "Inclusive recruitment strategies focusing on Veterans, family members, and caregivers"
   
   primary_criteria:
-    - "Mix of Veterans and family members/caregivers"
-    - "Mix of Veterans enrolled and not enrolled in VA healthcare"
-    - "Mix of enrollment statuses and benefit usage"
+    - "Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research."
+    - "Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities."
     
   secondary_criteria:
     - "Diverse representation across underserved Veteran populations"

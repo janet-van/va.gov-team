@@ -31,18 +31,18 @@ research_goals:
   - goal_3: "[Third research goal]"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "*Research goal #1: Understand if Veterans can find and interact with forms from the app.**"
+  - "*Research goal #2: Identify if Veterans can fill out a form from the app on their own.**"
+  - "*Research goal #3: Identify any usability issues Veterans may experience when interacting with forms on the mobile app.**"
+  - "*Research goal #4: Identify if Veterans can start a form and come back to it at a later time to complete.**"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "*Research goal #1: Understand if Veterans can find and interact with forms from the app.**"
+  - "*Research goal #2: Identify if Veterans can fill out a form from the app on their own.**"
+  - "*Research goal #3: Identify any usability issues Veterans may experience when interacting with forms on the mobile app.**"
+  - "*Research goal #4: Identify if Veterans can start a form and come back to it at a later time to complete.**"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results of the study will help us determine if Veterans are able to fill out and complete forms from the mobile app and to identify any pain points. This will inform future form development on the app."
 
 # Recruitment & Participants
 recruitment:

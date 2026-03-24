@@ -26,24 +26,28 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Evaluate effectiveness of pre-check-in and check-in with MSAs at high-utilization facility (11% utilization vs 1.2% average)"
-  - goal_2: "Understand percentage of Spanish speakers and nuances within that population about patient check-in"
-  - goal_3: "Gain insights on incorporating travel reimbursement into check-in experience"
+  - goal_1: "Evaluate the effectiveness of pre-check-in and check-in with MSAs"
+  - goal_2: "Better understand the percentage of Spanish speakers and if nuances exist within that population about patient check-in"
+  - goal_3: "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+  - goal_4: "Understand how, if at all, MSAs are using VSE-CS"
+  - goal_5: "Understand what staff roles are interested in PCI reports as well as what data they are interested in reviewing"
 
 research_questions:
-  - "What's working and not working with pre-check-in and check-in?"
+  - "What’s working and not working with pre-check-in and check-in?"
+  - "What changes could help improve the check-in process?"
   - "How often are MSAs interacting with Veterans during the check-in process?"
-  - "What's been the impact on MSA workload and what are the issues MSAs are helping Veterans troubleshoot?"
-  - "What's the percentage of Veterans that are bi-lingual and low English proficient Spanish speakers?"
-  - "When do Veterans expect to complete a travel reimbursement claim in relation to their appointment?"
-  - "What information do travel assistants use to review and approve reimbursement requests?"
+  - "Are MSAs checking in Veterans with VSE that need help versus requiring them to use mobile check in?"
+  - "What’s been the impact on MSA workload?"
+  - "How often are MSAs troubleshooting errors or clearing review flags?"
+  - "How comfortable are MSAs troubleshooting errors or clearing review flags?"
+  - "What are the issues that MSAs are helping Veterans troubleshoot?"
 
 hypotheses:
-  - "The pre-check-in experience makes day-of check-in easier for staff since contact information has been reviewed"
-  - "MSAs will have shorter lines of Veterans waiting to be checked in"
-  - "MSAs are comfortable with troubleshooting error messages with Veterans and know how to clear appropriate review flags in VSE"
-  - "MSAs provide Spanish translation support in an ad-hoc fashion to Veterans/caregivers when needed"
-  - "MSAs will indicate that Veterans would prefer to file a travel reimbursement with their check-in versus a separate encounter"
+  - "The pre-check-in experience makes day-of check-in easier for staff since contact information, emergency contact information and next of kin information has been reviewed."
+  - "MSAs will have limited interaction with Veterans during check-in since Veterans are able to check-in on their smartphone."
+  - "MSAs will check Veterans in with VSE that don’t have a smartphone or have difficulty using their smartphone."
+  - "MSAs will have shorter lines of Veterans waiting to be checked in."
+  - "The number of applications that MSAs use to manage the check-in process will be reduced and, therefore, workload will be decreased."
 
 expected_outcomes: "Findings will inform best practices for check-in implementation, Spanish language support, and travel reimbursement integration decisions"
 

@@ -26,21 +26,24 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand the current experience with Form 21P-537 - how surviving spouses receive, interpret, complete, and track outcomes"
-  - goal_2: "Identify knowledge gaps about marital status requirements, remarriage rules, reinstatement eligibility, and documentation needs"
-  - goal_3: "Evaluate the value proposition of an online version and understand submission method preferences"
+  - goal_1: "*Understand the current experience with Form 21P-537**"
+  - goal_2: "Learn how surviving spouses receive, interpret, and complete the current paper form"
+  - goal_3: "Identify pain points, areas of confusion, and barriers to timely completion"
+  - goal_4: "Understand what happens after submission and how surviving spouses track outcomes"
+  - goal_5: "*Identify knowledge gaps that need to be addressed**"
 
 research_questions:
+  - "*Goal 1: Understand the current experience with Form 21P-537**"
   - "How do surviving spouses receive and initially react to the form?"
   - "What challenges do they encounter when completing and submitting it?"
-  - "What do surviving spouses understand about why they're receiving this form and how remarriage affects their benefits?"
-  - "Are they aware that benefits may be reinstated if a remarriage ends?"
-  - "Would an online option be helpful, and for whom?"
+  - "How do they track the outcome and what happens after submission?"
+  - "Who do they turn to for help (VSO, county veterans office, VA call center)?"
+  - "*Goal 2: Identify knowledge gaps about marital status requirements**"
+  - "What do surviving spouses understand about why they're receiving this form?"
+  - "How well do they understand how remarriage affects their benefits?"
 
 hypotheses:
-  - "The form creates confusion or anxiety - surviving spouses don't anticipate receiving Form 21P-537 and don't fully understand its purpose"
-  - "Knowledge gaps prevent optimal benefit utilization - many surviving spouses don't understand the full impact of remarriage on benefits or reinstatement eligibility"
-  - "Digital preferences vary by user characteristics - an online version will be valuable for digitally comfortable surviving spouses but may not be preferred by those less comfortable with technology"
+  - "### **1: The form creates confusion or anxiety**"
 
 expected_outcomes: "This research will help design better content and information architecture, make informed decisions about features and submission methods, and identify success metrics based on what matters most to surviving spouses"
 
@@ -50,10 +53,11 @@ recruitment:
   approach: "Lean maximum variation with 3 cohorts based on marital status scenarios"
   
   primary_criteria:
-    - "Currently receiving VA survivor benefits (Survivors Pension or DIC)"
-    - "Experience with Form 21P-537 or marital status verification in the past 2 years"
-    - "Distribution across 3 marital status cohorts: not remarried (4), remarried and currently married (3), remarried with marriage ended (3)"
-    - "Digital literacy diversity: at least 4 very comfortable, 4 somewhat comfortable, and 3 not very comfortable with online forms"
+    - "*Intended audience:** Surviving spouses of Veterans who are currently receiving VA pension benefits (Survivors Pension or Dependency and Indemnity Compensation) and have experience with Form 21P-537 or periodic marital status verification."
+    - "*Recruitment strategy:** We'll use a lean maximum variation approach with **3 cohorts** based on marital status scenarios to ensure we capture diverse experiences:"
+    - "**Cohort 1:** Surviving spouses who have not remarried (4 participants, at least 2 age 57+)"
+    - "**Cohort 2:** Surviving spouses who have remarried and are currently married (3 participants, at least 2 age 57+)"
+    - "**Cohort 3:** Surviving spouses who remarried and the marriage ended, with potential for pension reinstatement (3 participants, at least 2 age 57+)"
     
   secondary_criteria:
     - "At least 3 participants who have worked with VSO or county veterans office"

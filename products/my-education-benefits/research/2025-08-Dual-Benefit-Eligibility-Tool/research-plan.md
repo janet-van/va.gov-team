@@ -22,26 +22,25 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Gather more insight into GI Bill beneficiaries understanding of benefit language and what terminology would be most beneficial to see"
-  - goal_2: "Determine if the organization of information and layout in the flow, primarily in the recommendation step, is intuitive and easy for users"
+  - goal_1: "Gather more insight into GI Bill beneficiares understanding of benefit language and what terminology would be most beneficial to see"
+  - goal_2: "Determine if the organization of information and layout in the flow, primarly in the recommendation step, is intuitive and easy for users"
   - goal_3: "Assess users' trust and confidence using the tool and in making decisions related to their education benefits"
   - goal_4: "Assess users' help-seeking behavior within the flow and understand what actions they take"
 
 research_questions:
-  - "Do users understand the information presented about them first in the flow? Does it build their trust?"
+  - "Do users understand the information presented about them first in the flow? Does it build their trust? </br>"
   - "What specific terminology causes confusion and what alternatives resonate better?"
   - "How familiar are users with the benefit language and terminology used with the tool? What other language are beneficiaries familiar with?"
   - "Is the hierarchy of information and layout clear for users? Does it help them understand our recommendation and the alternative option?"
   - "How do users verify the accuracy of calculations shown?"
   - "What information is missing that would help users make decisions?"
-  - "Do users trust the recommendation? If not, how do users feel about the alternative distribution option?"
-  - "Is the impact to their benefits clearly outlined and easily understood by users?"
-  - "At what point in the flow do users feel confident enough to proceed vs. wanting to exit for help?"
+  - "Do users trust the recommendation? If not, how do users feel about the alternative distribution option? </br>"
+  - "Is the impact to their benefits clearly outlined and easily understood by users? </br>"
 
 hypotheses:
-  - "By using this tool, users will have a better understanding of how Rudisill impacts their benefits by translating their qualifying service to real outcomes. Users will successfully identify their recommended allocation in under 5 minutes."
-  - "Presenting users with clear information about their benefit level, benefit type, entitlement, along with other important information will build their trust in the recommendation. 70% of users will express trust in the tool's calculations."
-  - "There will be some confusion on the benefit language used and within the allocation step as those are either new interactions or have varied understandings within the GI Bill beneficiary user group."
+  - "We hypothesize that by using this tool, users will have a better understanding of how Rudisill impacts their benefits by translating their qualifying service to real outcomes. Users will successfully identify their recommended allocation in under 5 minutes."
+  - "We hypothesize that presenting users with clear information about their benefit level, benefit type, entitlement, along with other important information will build their trust in the recommendation. 70% of users will express trust in the tool's calcuations."
+  - "We assume there will be some confusion on the benefit language used and within the allocation step as those are either new interactions or have varied understandings within the GI Bill beneficiary user group."
 
 expected_outcomes: "User research will inform improvements needed and validate interactions in the flow, information displayed, and allocation method that will best help users easily understand and make decisions in regards to changing or updating their education benefit(s)."
 

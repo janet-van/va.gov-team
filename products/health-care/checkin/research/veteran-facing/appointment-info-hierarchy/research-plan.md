@@ -9,7 +9,7 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "The Modernized Check-In Team is reimaging the experience between a Veteran scheduling a medical appointment and having their appointment. In particular, the Modernized Check-In Team has created the portion of the ecosystem that enables Veterans to utilize their smartphone to “check in” to their appointments through VA.gov, which lets the VA know the patient has arrived for their appointment."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
@@ -26,28 +26,34 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Recently added"
+  - goal_2: "provider's name"
+  - goal_3: "type of care"
+  - goal_4: "location (floor and room numbers)"
+  - goal_5: "modality (in-person, telephone, etc)"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What appointment information is important to review when determining what appointment Veterans need to check-in for?"
+  - "In this scenario, how do Veterans rank the importance of each appointment data item?"
+  - "What appointment information is important to review when check-in is complete, but the Veteran wants to know what to do next?"
+  - "In this scenario, how do Veterans rank the importance of each appointment data item?"
+  - "What appointment information is important to review when trying to understand what appointment Veterans are completing pre-check-in for?"
+  - "In this scenario, how do Veterans rank the importance of each appointment data item?"
+  - "What appointment information is important to review when pre-check-in is complete, but the Veteran wants to know what to do next?"
+  - "In this scenario, how do Veterans rank the importance of each appointment data item?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans and caregivers will generally agree on which data is most important when determining what appointment they need to check-in for."
+  - "Veterans and caregivers will generally agree on which data is most important when check-in is complete, but they want to know what to do next."
+  - "Veterans and caregivers will generally agree on which data is most important when trying to understand what appointment they are completing pre-check-in for."
+  - "Veterans and caregivers will generally agree on which data is most important when pre-check-in is complete, but they want to know what to do next."
 
 expected_outcomes: "[How will findings advance the product?]"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "We would like Perigean to recruit 63 people using the cohorts below in order to get at least 30 completes (ideally 40-50). This study will be broken up into 7 mini studies, segmented by the 7 cohorts below."
   
   primary_criteria:
     - "[Must-have criterion 1]"

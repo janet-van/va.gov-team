@@ -22,9 +22,11 @@ research_format:
 
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand if the proposed taxons (service names) make sense to Veterans and their families"
-  - goal_2: "Determine if participants' interpretations of the taxons match their intended meaning"
-  - goal_3: "Learn how Veterans group and categorize the taxons and what vocabulary they use"
+  - goal_1: "Education and training [new taxon]"
+  - goal_2: "Transition counseling [new taxon]"
+  - goal_3: "Veteran connections [new taxon]"
+  - goal_4: "Whole health [existing taxon]"
+  - goal_5: "*Research questions**"
 
 research_questions:
   - "Do the proposed taxons make sense to Veterans and their families?"

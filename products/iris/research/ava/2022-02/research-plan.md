@@ -22,8 +22,7 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Document and prioritize any outstanding usability concerns with AVA, including both inquiry submission and authenticated dashboard"
-  - goal_2: "Verify implementation of new dashboard upgrades and help SCOs and VA employees with handling caseloads in AVA"
+  - goal_1: "We are trying to learn the following from this research: · Document and prioritize any outstanding usability concerns with AVA, including both inquiry submission and the authenticated dashboard. · Verify the implementation of new dashboard upgrades, and help SCOs and VA employees with handling caseloads in AVA."
 
 research_questions:
   - "Do the recent UI upgrades (Tabs: Personal, Business) in the Dashboard make a better overall experience?"
@@ -32,10 +31,7 @@ research_questions:
   - "Do users understand the new tabs and their functions?"
 
 hypotheses:
-  - "The new tab feature will create much-needed views for AVA users (SCOs and VA employees) handling cases specific to GI Bill and VA Benefits"
-  - "There will be less burden for users handling cases in the AVA dashboard specific to GI Bill and Benefits inquiries"
-  - "Though the business tab will create a specific view of inquiries, there is possibly a lack of understanding of how the tab appears for users"
-  - "Insights from participants will provide guidance on needed onboarding of the new tabs and their functionality"
+  - "What do you intend to learn and measure from this study? Think through these prompts to develop a strong hypothesis. · The new tab feature, released for the week Dec 10, 2021, will create much-needed views for AVA users (SCOs and VA employees) handling cases specific to GI Bill and VA Benefits. · There will be less burden for users handling cases in the AVA dashboard specific to the GI Bill and Benefits inquiries. · Though the business tab will create a specific view of inquiries, there is po..."
 
 expected_outcomes: "Advance AskVA product and streamline more upgrades in design process. Learnings will solidify more efficient workflow for SCOs and VA employees handling cases."
 

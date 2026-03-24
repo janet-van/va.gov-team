@@ -26,9 +26,9 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand if Veterans can locate and fill/refill their medications"
-  - goal_2: "Identify any usability issues Veterans may experience with managing their medications"
-  - goal_3: "Understand Veterans' expectations and preferences for using Medications on Va.gov"
+  - goal_1: "Understand if Veterans can locate and fill/refill their medications."
+  - goal_2: "Identify any usability issues Veterans may experience with managing their medications."
+  - goal_3: "Understand Veterans’ expectations and preferences for using Medications on Va.gov."
 
 research_questions:
   - "Can Veterans refill individual or multiple medications?"
@@ -39,15 +39,9 @@ research_questions:
   - "Do Veterans understand the status of their medications?"
   - "Can Veterans find information on how to renew medications?"
   - "How do Veterans find a specific medication on their list?"
-  - "What information do Veterans seek?"
-  - "Can Veterans print/download their medication list or an individual medication?"
-  - "What medications-related tasks do Veterans wish to be able to do?"
 
 hypotheses:
-  - "Most Veterans will successfully refill individual and multiple medications"
-  - "Most Veterans will respond positively to the updated refill flow"
-  - "Most Veterans will successfully print or download individual and multiple medications"
-  - "Most Veterans will find information on medications"
+  - "_Hypothesis 1:_ Most Veterans will successfully refill individual and multiple medications."
 
 expected_outcomes: "The results will help determine if designs provide the best user experience for Veterans to manage and view their medications. This will inform later iterations of the design."
 

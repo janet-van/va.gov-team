@@ -26,19 +26,22 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand users' mental models for travel claim statuses"
-  - goal_2: "Identify alternative language that aligns with user understanding"
-  - goal_3: "Create recommendations for Veteran-facing status language"
+  - goal_1: "### **Outcome**"
 
 research_questions:
-  - "What do users see as the purpose of a claim status?"
-  - "What language do users naturally use to describe claim progress?"
-  - "How do current statuses align or misalign with user expectations?"
-  - "What alternative language resonates better with users?"
+  - "What do users see as the purpose of a Claim status?"
+  - "How strongly does the status ‘label’ align with the status definition to the users’ mental model?"
+  - "What would users label each definition?"
+  - "How closely does the term users’ use to label a definition match the official status label?"
+  - "What words or terms resonate with users?"
+  - "What would users define each label as meaning?"
+  - "What words or terms resonate with users?"
+  - "What currently used Travel Claims statuses do users conflate with each other or see as duplicative?"
 
 hypotheses:
-  - "Current status language does not align with Veterans' mental models"
-  - "User-sourced language will bridge gap between user understanding and system requirements"
+  - "Hypothesis: Users will conflate all statuses related to payment being approved or out for payment"
+  - "Hypothesis: Users will create fewer statuses"
+  - "Hypothesis: Users will create status labels that focus on what requires action on their end"
 
 expected_outcomes: "Generative, first-version set of recommended changes to Veteran-facing travel claim statuses with alternative language sourced from users"
 
