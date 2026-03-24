@@ -172,46 +172,146 @@ def extract_team_and_product_from_path(file_path):
     parent = Path(file_path).parent.name
     return parent, parent
 
+def clean_text_for_yaml(text):
+    """Clean and format text for YAML frontmatter."""
+    # Remove excessive whitespace and newlines
+    text = re.sub(r'\s+', ' ', text).strip()
+    # Remove markdown links but keep the text
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+    # Limit length
+    if len(text) > 500:
+        text = text[:497] + '...'
+    return text
+
+def extract_section_content(content, header_pattern):
+    """Extract content from a markdown section by header pattern."""
+    match = re.search(header_pattern, content, re.DOTALL | re.IGNORECASE)
+    if match:
+        section_text = match.group(1).strip()
+        return section_text
+    return None
+
+def extract_list_items(text, max_items=5):
+    """Extract bullet point items from text."""
+    # Try bullet points first
+    items = re.findall(r'(?:^|\n)[\s]*[-*+]\s*(.+?)(?=\n[\s]*[-*+]|\n\n|\Z)', text, re.DOTALL)
+    if items:
+        return [clean_text_for_yaml(item.strip()) for item in items[:max_items]]
+    
+    # Try numbered lists
+    items = re.findall(r'(?:^|\n)[\s]*\d+\.\s*(.+?)(?=\n[\s]*\d+\.|\n\n|\Z)', text, re.DOTALL)
+    if items:
+        return [clean_text_for_yaml(item.strip()) for item in items[:max_items]]
+    
+    return []
+
+def extract_paragraph(text):
+    """Extract first substantial paragraph from text."""
+    # Remove bullet points and numbered lists
+    clean = re.sub(r'(?:^|\n)[\s]*[-*+]\s*.+', '', text)
+    clean = re.sub(r'(?:^|\n)[\s]*\d+\.\s*.+', '', clean)
+    
+    # Get first paragraph
+    paragraphs = [p.strip() for p in clean.split('\n\n') if p.strip()]
+    if paragraphs:
+        return clean_text_for_yaml(paragraphs[0])
+    return None
+
 def extract_info_from_content(content, file_type):
-    """Extract useful information from file content."""
+    """Extract useful information from file content using NLP and section parsing."""
     info = {
         'has_goals': False,
         'has_questions': False,
         'has_hypotheses': False,
+        'has_background': False,
+        'has_recruitment': False,
         'goals': [],
         'questions': [],
-        'methodology': 'TBD'
+        'hypotheses': [],
+        'background': None,
+        'problem_statement': None,
+        'methodology': 'TBD',
+        'recruitment_approach': None,
+        'primary_criteria': [],
+        'expected_outcomes': None,
     }
     
-    # Look for goals section
-    goals_match = re.search(r'##\s*(?:Research\s+)?Goals?\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL | re.IGNORECASE)
+    # Extract Background/Problem Statement (try ## and ### headers)
+    background_match = extract_section_content(content, r'##\s+\*?\*?Background\*?\*?\s*\n(.*?)(?=\n##|\Z)')
+    if background_match:
+        info['has_background'] = True
+        info['background'] = extract_paragraph(background_match)
+        info['problem_statement'] = info['background']  # Use same text for problem statement
+    
+    # Extract Research Goals (try ## and ### headers)
+    goals_match = extract_section_content(content, r'##\s+\*?\*?(?:Research\s+)?Goals?\*?\*?\s*\n(.*?)(?=\n##|\Z)')
     if goals_match:
         info['has_goals'] = True
-        goals_text = goals_match.group(1)
-        # Extract bullet points
-        goals = re.findall(r'[-*]\s*(.+)', goals_text)
-        info['goals'] = [g.strip() for g in goals[:3]]  # Take first 3
+        goals = extract_list_items(goals_match, max_items=5)
+        if goals:
+            info['goals'] = goals
+        else:
+            # Try to extract from paragraphs
+            para = extract_paragraph(goals_match)
+            if para:
+                info['goals'] = [para]
     
-    # Look for research questions
-    questions_match = re.search(r'##\s*(?:Research\s+)?Questions?\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL | re.IGNORECASE)
+    # Extract Research Questions (try ## and ### headers)
+    questions_match = extract_section_content(content, r'##\s+\*?\*?(?:Research\s+)?Questions?\*?\*?\s*\n(.*?)(?=\n##|\Z)')
     if questions_match:
         info['has_questions'] = True
-        questions_text = questions_match.group(1)
-        questions = re.findall(r'[-*]\s*(.+)', questions_text)
-        info['questions'] = [q.strip() for q in questions[:5]]  # Take first 5
+        questions = extract_list_items(questions_match, max_items=8)
+        if questions:
+            info['questions'] = questions
     
-    # Look for hypotheses
-    hyp_match = re.search(r'##\s*Hypothes[ei]s\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL | re.IGNORECASE)
+    # Extract Hypotheses (try ## and ### headers)
+    hyp_match = extract_section_content(content, r'##\s+\*?\*?Hypothes[ei]s\*?\*?\s*\n(.*?)(?=\n##|\Z)')
     if hyp_match:
         info['has_hypotheses'] = True
+        hypotheses = extract_list_items(hyp_match, max_items=5)
+        if hypotheses:
+            info['hypotheses'] = hypotheses
+        else:
+            # Try paragraph
+            para = extract_paragraph(hyp_match)
+            if para:
+                info['hypotheses'] = [para]
     
-    # Try to detect methodology
-    if re.search(r'usability\s+test', content, re.IGNORECASE):
-        info['methodology'] = 'usability testing'
-    elif re.search(r'interview', content, re.IGNORECASE):
-        info['methodology'] = 'semi-structured interviews'
-    elif re.search(r'card\s+sort', content, re.IGNORECASE):
-        info['methodology'] = 'card sort'
+    # Extract Expected Outcomes (try ## and ### headers)
+    outcome_match = extract_section_content(content, r'##\s+\*?\*?(?:Expected\s+)?Outcome?s?\*?\*?\s*\n(.*?)(?=\n##|\Z)')
+    if outcome_match:
+        info['expected_outcomes'] = extract_paragraph(outcome_match)
+    
+    # Extract Recruitment information (try ## and ### headers)
+    recruitment_match = extract_section_content(content, r'##\s+\*?\*?Recruitment\*?\*?\s*\n(.*?)(?=\n##|\Z)')
+    if recruitment_match:
+        info['has_recruitment'] = True
+        info['recruitment_approach'] = extract_paragraph(recruitment_match)
+        
+        # Look for criteria within recruitment section
+        criteria = extract_list_items(recruitment_match, max_items=5)
+        if criteria:
+            info['primary_criteria'] = criteria
+    
+    # Extract Methodology (try ## and ### headers)
+    methodology_match = extract_section_content(content, r'##\s+\*?\*?Methodology\*?\*?\s*\n(.*?)(?=\n##|\Z)')
+    if methodology_match:
+        method_text = extract_paragraph(methodology_match)
+        if method_text:
+            info['methodology'] = method_text[:100]  # Limit length
+    
+    # If not found or empty, try to detect methodology from content
+    if info['methodology'] == 'TBD':
+        if re.search(r'tree\s+test', content, re.IGNORECASE):
+            info['methodology'] = 'tree testing'
+        elif re.search(r'usability\s+test', content, re.IGNORECASE):
+            info['methodology'] = 'usability testing'
+        elif re.search(r'semi-structured\s+interview', content, re.IGNORECASE):
+            info['methodology'] = 'semi-structured interviews'
+        elif re.search(r'\binterview', content, re.IGNORECASE):
+            info['methodology'] = 'interviews'
+        elif re.search(r'card\s+sort', content, re.IGNORECASE):
+            info['methodology'] = 'card sort'
     
     return info
 
@@ -308,8 +408,74 @@ def replace_placeholder_frontmatter(file_path, file_type='research_plan'):
         # Replace methodology if detected
         if content_info['methodology'] != 'TBD':
             new_frontmatter = re.sub(
-                r'methodology:\s*"\[e\.g\.,.*?\]"',
+                r'methodology:\s*"(?:\[e\.g\.,.*?\]|TBD)"',
                 f'methodology: "{content_info["methodology"]}"',
+                new_frontmatter
+            )
+        
+        # Replace problem statement
+        if content_info['problem_statement']:
+            new_frontmatter = re.sub(
+                r'problem_statement:\s*"(?:\[What problem.*?\]|TBD)"',
+                f'problem_statement: "{content_info["problem_statement"]}"',
+                new_frontmatter
+            )
+        
+        # Replace research goals
+        if content_info['goals']:
+            # Build YAML list for goals
+            goals_yaml = '\n'.join([f'  - goal_{i+1}: "{goal}"' for i, goal in enumerate(content_info['goals'])])
+            # Replace the goals section
+            new_frontmatter = re.sub(
+                r'research_goals:\s*\n(?:  - goal_\d+:.*\n?)+',
+                f'research_goals:\n{goals_yaml}\n',
+                new_frontmatter
+            )
+        
+        # Replace research questions
+        if content_info['questions']:
+            # Build YAML list for questions
+            questions_yaml = '\n'.join([f'  - "{q}"' for q in content_info['questions']])
+            # Replace the questions section
+            new_frontmatter = re.sub(
+                r'research_questions:\s*\n(?:  - ".*\n?)+',
+                f'research_questions:\n{questions_yaml}\n',
+                new_frontmatter
+            )
+        
+        # Replace hypotheses
+        if content_info['hypotheses']:
+            # Build YAML list for hypotheses
+            hypotheses_yaml = '\n'.join([f'  - "{h}"' for h in content_info['hypotheses']])
+            # Replace the hypotheses section
+            new_frontmatter = re.sub(
+                r'hypotheses:\s*\n(?:  - ".*\n?)+',
+                f'hypotheses:\n{hypotheses_yaml}\n',
+                new_frontmatter
+            )
+        
+        # Replace expected outcomes
+        if content_info['expected_outcomes']:
+            new_frontmatter = re.sub(
+                r'expected_outcomes:\s*"(?:\[How will.*?\]|TBD)"',
+                f'expected_outcomes: "{content_info["expected_outcomes"]}"',
+                new_frontmatter
+            )
+        
+        # Replace recruitment approach
+        if content_info['recruitment_approach']:
+            new_frontmatter = re.sub(
+                r'approach:\s*"(?:\[e\.g\.,.*?\]|TBD)"',
+                f'approach: "{content_info["recruitment_approach"]}"',
+                new_frontmatter
+            )
+        
+        # Replace primary criteria
+        if content_info['primary_criteria']:
+            criteria_yaml = '\n'.join([f'    - "{c}"' for c in content_info['primary_criteria']])
+            new_frontmatter = re.sub(
+                r'primary_criteria:\s*\n(?:    - ".*\n?)+',
+                f'primary_criteria:\n{criteria_yaml}\n',
                 new_frontmatter
             )
         
@@ -324,6 +490,14 @@ def replace_placeholder_frontmatter(file_path, file_type='research_plan'):
         print(f"     Team: {team}, Product: {product}, Date: {date}")
         if content_info['methodology'] != 'TBD':
             print(f"     Methodology: {content_info['methodology']}")
+        if content_info['goals']:
+            print(f"     Extracted {len(content_info['goals'])} goals")
+        if content_info['questions']:
+            print(f"     Extracted {len(content_info['questions'])} research questions")
+        if content_info['hypotheses']:
+            print(f"     Extracted {len(content_info['hypotheses'])} hypotheses")
+        if content_info['problem_statement']:
+            print(f"     Extracted background/problem statement")
         
         return True
         

@@ -9,13 +9,13 @@ product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: "Veterans currently lack the ability to easily check the status of their Travel Reimbursement claim once it has been submitted (and is processed through the BTSSS system). This leads to Veterans being unaware of actions or changes they need to make in order to get reimbursed, ultimately leading to them being less likely to be reimbursed. We propose providing Veterans with a way to see the status of their submitted travel claim directly on VA.gov without having to go to the separate BTSS system..."
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: "[New product or iteration?]"
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -26,33 +26,38 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "To gauge if users’ mental models about a travel claim changes over the lifespan of the claim"
+  - goal_2: "To gauge if users associate a travel claim more strongly with the event that generated the claim of with other claim types supported by the VA"
+  - goal_3: "To identify where users expect to find information on the status of their Travel claim on VA.gov. More specifically, to evaluate the"
+  - goal_4: "Overall Success"
+  - goal_5: "Overall Directness"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users associate information about a Travel Claim with other information about the event that triggered the claim (ie, the Appointment) or with information about other types of Claims with the VA?"
+  - "Where do users look for information about the status of their Travel Claims on VA.gov?"
+  - "Do users differentiate between where they expect to find information on a specific travel claim from information on travel claims in general?"
+  - "What names or labels for information about their personal Travel Claims resonate with users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We hypothesize that participants will look for more recent Travel Claims associated with the Appointment that generated the claim."
+  - "We hypothesize that participants will look for older claims (6+ months ago) in the Claim status tool or Payments section."
+  - "We hypothesize that participants will look for an overview of their past Travel Claims history in their Profile or Payments section."
+  - "We hypothesize that participants will look for status updates on Travel Pay claims on its own its own distinct page"
+  - "We hypothesize that users will look information on Travel Claims - recent or historical - in the My VA health benefits section of MyHealtheVet"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will give us insight into where we should put and how we should group information/updates on post-submission Travel Claims on VA.gov. This will give us insight into where users expect to find information about…"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "### **Screener**"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "In the past 5 years, how many times have you filed for travel reimbursement from the VA?"
+    - "I have never submitted for travel reimbursement from the VA (qualify C, G depending on age)"
+    - "1 - 2 times in the past 5 years (qualify for qualify D, H depending on age)"
+    - "3 - 5 times in the past 5 years (qualify for B, F depending on age)"
+    - "More than 6 times in the past 5 years (qualify for A, E depending on age)"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"
