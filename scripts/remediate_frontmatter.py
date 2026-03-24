@@ -4,13 +4,31 @@ Automated frontmatter remediation script for research plans and conversation gui
 
 This script helps fix files identified in the frontmatter audit by:
 1. Adding frontmatter templates to files with none
-2. Attempting to extract information from content to replace placeholders
-3. Providing a framework for manual review and completion
+2. Replacing placeholder data with smart-extracted information from content and paths
+3. Extracting team, product, date, and methodology information automatically
 
 Usage:
-  python3 remediate_frontmatter.py --mode add-template --file <path>
-  python3 remediate_frontmatter.py --mode smart-replace --file <path>
-  python3 remediate_frontmatter.py --mode batch --csv frontmatter_audit.csv --status no_frontmatter --limit 10
+  # Add frontmatter to a single file without any
+  python3 remediate_frontmatter.py --mode add-template --file <path> --file-type research_plan
+  
+  # Process all files with no frontmatter from CSV audit
+  python3 remediate_frontmatter.py --mode batch --csv frontmatter_audit.csv --status no_frontmatter
+  
+  # Replace placeholders in files with placeholder data
+  python3 remediate_frontmatter.py --mode batch --csv frontmatter_audit.csv --status has_placeholder
+  
+  # Dry run to see what would be changed
+  python3 remediate_frontmatter.py --mode batch --csv frontmatter_audit.csv --status has_placeholder --dry-run
+  
+  # Process only first 10 files
+  python3 remediate_frontmatter.py --mode batch --csv frontmatter_audit.csv --status has_placeholder --limit 10
+
+Features:
+  - Automatically extracts team/product names from file paths
+  - Detects dates from filenames (e.g., 2024-01 -> 2024-01-01)
+  - Auto-detects research methodology from content
+  - Skips template files and platform/ directory
+  - Provides detailed progress reporting
 """
 
 import os
