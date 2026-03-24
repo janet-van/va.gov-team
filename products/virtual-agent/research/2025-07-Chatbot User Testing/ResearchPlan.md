@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for Virtual Agent, 2025-07"
+date: 2025-07-01
+last_updated: 2025-07-01
+team: "virtual-agent"
+product: "virtual-agent"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -71,10 +71,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2025-07-01"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "2025-07-01 to 2025-07-01"
+  research_review_submission: "2025-07-01"
   
 session_details:
   duration_minutes: 60

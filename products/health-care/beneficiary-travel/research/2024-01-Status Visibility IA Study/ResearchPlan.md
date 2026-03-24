@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for Health Care, 2024-01"
+date: 2024-01-01
+last_updated: 2024-01-01
+team: "health-care"
+product: "health-care"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -71,10 +71,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2024-01-01"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "2024-01-01 to 2024-01-01"
+  research_review_submission: "2024-01-01"
   
 session_details:
   duration_minutes: 60

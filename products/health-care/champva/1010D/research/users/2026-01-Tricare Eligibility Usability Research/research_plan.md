@@ -135,10 +135,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2026-01-01"
   pilot_participant: "[Name]"
   research_dates: "2026-02-09 to 2026-02-20"
-  research_review_submission: "YYYY-MM-DD"
+  research_review_submission: "2026-01-01"
   
 session_details:
   duration_minutes: 45

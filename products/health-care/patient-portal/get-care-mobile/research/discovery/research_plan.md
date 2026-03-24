@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for Health Care"
+date: 2026-03-24
+last_updated: 2026-03-24
+team: "health-care"
+product: "health-care"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -71,10 +71,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2026-03-24"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "2026-03-24 to 2026-03-24"
+  research_review_submission: "2026-03-24"
   
 session_details:
   duration_minutes: 60

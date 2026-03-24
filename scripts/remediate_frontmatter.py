@@ -197,6 +197,122 @@ def extract_info_from_content(content, file_type):
     
     return info
 
+def has_placeholder_data(frontmatter_text):
+    """Check if frontmatter has placeholder data."""
+    placeholder_indicators = [
+        'TBD',
+        '[Team',
+        '[Product',
+        '[AUTHOR',
+        'YYYY-MM-DD',
+        '[First research goal]',
+        '[Research question',
+        '[e.g.',
+    ]
+    return any(indicator in frontmatter_text for indicator in placeholder_indicators)
+
+def replace_placeholder_frontmatter(file_path, file_type='research_plan'):
+    """Replace placeholder frontmatter with smart extracted content."""
+    try:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        
+        # Check if file has frontmatter
+        if not content.strip().startswith('---'):
+            print(f"  ⚠️  File has no frontmatter: {file_path}")
+            return False
+        
+        # Extract frontmatter and body
+        parts = content.split('---', 2)
+        if len(parts) < 3:
+            print(f"  ⚠️  Invalid frontmatter format: {file_path}")
+            return False
+        
+        frontmatter = parts[1]
+        body = parts[2]
+        
+        # Check if frontmatter has placeholders
+        if not has_placeholder_data(frontmatter):
+            print(f"  ℹ️  No placeholders found: {file_path}")
+            return False
+        
+        # Extract team, product from path
+        team, product = extract_team_and_product_from_path(file_path)
+        
+        # Try to extract date from filename or content
+        date_match = re.search(r'20\d{2}-\d{2}', file_path)
+        if date_match:
+            date = date_match.group(0) + '-01'  # Add day
+        else:
+            date = datetime.now().strftime('%Y-%m-%d')
+        
+        # Extract info from body content
+        content_info = extract_info_from_content(body, file_type)
+        
+        # Build better title
+        title_parts = []
+        if team and team not in ['research', 'alt text']:
+            title_parts.append(team.replace('-', ' ').title())
+        if product and product != team:
+            title_parts.append(product.replace('-', ' ').title())
+        if date_match:
+            title_parts.append(date_match.group(0))
+        
+        title = f"Research Plan for {', '.join(title_parts)}" if title_parts else f"Research Plan for {team}, {product}, {date}"
+        
+        # Replace placeholders in frontmatter
+        new_frontmatter = frontmatter
+        
+        # Replace title
+        new_frontmatter = re.sub(
+            r'title:\s*"Research Plan for \[Team, Product, Date\]"',
+            f'title: "{title}"',
+            new_frontmatter
+        )
+        
+        # Replace dates
+        new_frontmatter = re.sub(r'\bYYYY-MM-DD\b', date, new_frontmatter)
+        
+        # Replace team
+        new_frontmatter = re.sub(
+            r'team:\s*"\[Team Name\]"',
+            f'team: "{team}"',
+            new_frontmatter
+        )
+        
+        # Replace product
+        new_frontmatter = re.sub(
+            r'product:\s*"\[Product Name\]"',
+            f'product: "{product}"',
+            new_frontmatter
+        )
+        
+        # Replace methodology if detected
+        if content_info['methodology'] != 'TBD':
+            new_frontmatter = re.sub(
+                r'methodology:\s*"\[e\.g\.,.*?\]"',
+                f'methodology: "{content_info["methodology"]}"',
+                new_frontmatter
+            )
+        
+        # Build new content
+        new_content = '---' + new_frontmatter + '---' + body
+        
+        # Write back
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+        
+        print(f"  ✅ Replaced placeholders: {file_path}")
+        print(f"     Team: {team}, Product: {product}, Date: {date}")
+        if content_info['methodology'] != 'TBD':
+            print(f"     Methodology: {content_info['methodology']}")
+        
+        return True
+        
+    except Exception as e:
+        print(f"  ❌ Error processing {file_path}: {e}")
+        return False
+
 def add_frontmatter_template(file_path, file_type='research_plan'):
     """Add frontmatter template to a file that has none."""
     try:
@@ -266,6 +382,11 @@ def process_batch_from_csv(csv_path, status_filter, file_type_filter=None, limit
                 break
             
             file_path = row['path']
+            
+            # Skip template files
+            if 'template' in file_path.lower() or file_path.startswith('platform/'):
+                continue
+            
             # Prepend products/ or teams/ or platform/ based on path
             if not file_path.startswith('products/') and not file_path.startswith('teams/') and not file_path.startswith('platform/'):
                 # Determine which directory
@@ -290,6 +411,9 @@ def process_batch_from_csv(csv_path, status_filter, file_type_filter=None, limit
             
             if status_filter == 'no_frontmatter':
                 if add_frontmatter_template(full_path, row['file_type']):
+                    success += 1
+            elif status_filter == 'has_placeholder':
+                if replace_placeholder_frontmatter(full_path, row['file_type']):
                     success += 1
             
             processed += 1

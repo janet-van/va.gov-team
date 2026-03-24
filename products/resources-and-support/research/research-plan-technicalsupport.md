@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
+title: "Research Plan for Resources And Support"
 date: 
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+last_updated: 2026-03-24
+team: "resources-and-support"
+product: "resources-and-support"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -71,10 +71,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2026-03-24"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "2026-03-24 to 2026-03-24"
+  research_review_submission: "2026-03-24"
   
 session_details:
   duration_minutes: 60
