@@ -1,0 +1,81 @@
+{
+  "profile_id": "legacy-taxonomy",
+  "profile_version": "1.0.0",
+  "description": "Legacy taxonomy profile aligned with research-taxonomy-generator dimensions.",
+  "confidence_denominator_factor": 0.3,
+  "dimensions": {
+    "finding_types": {
+      "usability_issue": ["difficult", "struggle", "confusion", "unclear", "challenging", "friction"],
+      "accessibility_barrier": ["screen reader", "assistive technology", "keyboard", "low vision", "wcag", "captions"],
+      "positive_finding": ["easy", "intuitive", "clear", "successful", "helpful", "satisfied"],
+      "content_issue": ["wording", "language", "terminology", "jargon", "readability", "misleading"],
+      "navigation_issue": ["navigate", "navigation", "find", "wayfinding", "lost", "locate"],
+      "trust_issue": ["trust", "distrust", "skeptic", "suspicious", "doubt", "verify"],
+      "unmet_need": ["need", "want", "wish", "missing", "lack", "gap"],
+      "mental_model_mismatch": ["expected", "assumption", "mental model", "anticipated", "didn't expect"],
+      "process_issue": ["process", "workflow", "steps", "time-consuming", "repetitive", "too many"],
+      "emotional_response": ["anxious", "stressed", "frustrated", "upset", "worried", "relief"]
+    },
+    "product_areas": {
+      "health_care": ["health", "medical", "clinic", "hospital", "appointment", "medication"],
+      "benefits_claims": ["claim", "benefit", "compensation", "disability", "appeal", "rating"],
+      "education": ["education", "gi bill", "school", "tuition", "chapter 33"],
+      "housing": ["home loan", "mortgage", "coe", "housing"],
+      "debt_financial": ["debt", "payment", "financial", "waiver", "repayment"],
+      "identity_auth": ["sign in", "login", "authentication", "id.me", "login.gov", "password"],
+      "records_documents": ["record", "document", "letter", "download", "upload", "evidence"],
+      "forms": ["form", "application", "submit", "pdf", "paper form", "prefill"],
+      "search": ["search", "find a form", "filter", "sort"],
+      "appointments": ["appointment", "scheduling", "telehealth", "check-in"],
+      "notifications": ["notification", "email", "text message", "reminder", "status update"]
+    },
+    "user_groups": {
+      "veterans": ["veteran", "vets", "former military"],
+      "service_members": ["service member", "active duty", "transitioning", "pre-discharge"],
+      "caregivers": ["caregiver", "family caregiver", "primary caregiver"],
+      "dependents": ["dependent", "spouse", "child", "survivor"],
+      "assistive_tech_users": ["screen reader", "assistive technology", "voiceover", "jaws", "nvda"],
+      "cognitive_disability": ["cognitive", "tbi", "ptsd", "memory", "learning disability"],
+      "older_veterans": ["older veteran", "elderly", "aging", "senior"],
+      "rural_veterans": ["rural", "remote area", "limited internet"],
+      "low_digital_literacy": ["not comfortable", "unfamiliar with", "not tech savvy"],
+      "lgbtq_plus": ["lgbtq", "transgender", "nonbinary"],
+      "minority_veterans": ["black veteran", "hispanic", "asian", "minority"],
+      "homeless_veterans": ["homeless", "housing insecurity", "unhoused"]
+    },
+    "research_themes": {
+      "navigation_wayfinding": ["navigate", "navigation", "wayfinding", "findability"],
+      "form_completion": ["form", "complete", "submit", "save in progress", "prefill"],
+      "content_comprehension": ["understand", "readability", "plain language", "clarity"],
+      "error_handling": ["error", "fail", "validation", "recover"],
+      "mobile_experience": ["mobile", "smartphone", "touch", "small screen"],
+      "sign_in_authentication": ["sign in", "login", "credential", "mfa"],
+      "status_tracking": ["status", "track", "progress", "pending"],
+      "information_seeking": ["search", "look for", "find information", "discover"],
+      "task_completion": ["complete", "finish", "goal", "abandonment"],
+      "notification_communication": ["notification", "email", "text", "alert"]
+    },
+    "veteran_journey_stages": {
+      "discovering_benefits": ["discover", "eligibility", "first time"],
+      "applying_for_benefits": ["apply", "application", "submit", "filing"],
+      "managing_benefits": ["manage", "check status", "renew", "ongoing"],
+      "resolving_issues": ["resolve", "dispute", "appeal", "fix"],
+      "transitioning": ["transition", "separating", "discharge", "civilian"]
+    },
+    "severity_indicators": {
+      "critical": ["cannot", "unable", "blocked", "impossible", "abandon"],
+      "high": ["most participants", "majority", "significant", "frequently"],
+      "medium": ["some participants", "several", "mixed", "sometimes"],
+      "low": ["one participant", "minor", "rare", "uncommon"]
+    },
+    "emotional_states": {
+      "frustrated": ["frustrat", "annoyed", "irritat"],
+      "confused": ["confus", "uncertain", "unclear"],
+      "anxious": ["anxious", "worried", "stressed"],
+      "overwhelmed": ["overwhelm", "too much", "daunting"],
+      "satisfied": ["satisfied", "happy", "pleased"],
+      "empowered": ["empower", "confident", "in control"],
+      "distrustful": ["distrust", "skeptic", "suspicious"]
+    }
+  }
+}

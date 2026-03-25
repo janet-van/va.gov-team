@@ -22,7 +22,11 @@ function toSortedObjectOfCounts(map) {
   );
 }
 
-function generatePortfolioAnalysis({ enrichmentFindings, canonicalFindings }) {
+function generatePortfolioAnalysis({
+  enrichmentFindings,
+  canonicalFindings,
+  taxonomyDimensions = ENRICHMENT_TAXONOMY,
+}) {
   const labelFrequency = new Map();
   const productCoverageMap = new Map();
   const userGroupCoverageMap = new Map();
@@ -91,7 +95,7 @@ function generatePortfolioAnalysis({ enrichmentFindings, canonicalFindings }) {
   }
 
   const allProducts = Array.from(productCoverageMap.keys()).sort();
-  const userGroupLabels = Object.keys(ENRICHMENT_TAXONOMY.user_groups || {});
+  const userGroupLabels = Object.keys((taxonomyDimensions && taxonomyDimensions.user_groups) || {});
 
   const underservedGroupsAnalysis = {};
   for (const group of userGroupLabels) {

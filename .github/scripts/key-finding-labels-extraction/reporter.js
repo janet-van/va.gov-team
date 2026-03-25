@@ -7,6 +7,9 @@ const VALIDATION_FILE = 'key-finding-labels-extraction-validation.json';
 const PATTERNS_FILE = 'key-finding-labels-extraction-patterns.json';
 const ENRICHMENT_FILE = 'key-finding-labels-extraction-enrichment.json';
 const PORTFOLIO_FILE = 'key-finding-labels-extraction-portfolio.json';
+const ADJUDICATION_FILE = 'key-finding-labels-extraction-adjudication.json';
+const FEEDBACK_INGESTION_FILE = 'key-finding-labels-extraction-feedback-ingestion.json';
+const CORRECTION_APPLICATION_FILE = 'key-finding-labels-extraction-correction-application.json';
 const NARRATIVE_REPORT_FILE = 'key-finding-labels-extraction-report.md';
 const STEP_SUMMARY_FILE = 'key-finding-labels-extraction-step-summary.md';
 
@@ -21,7 +24,15 @@ function toMarkdownList(entries) {
   return entries.map(([key, count]) => `- ${key}: ${count}`).join('\n');
 }
 
-function buildSummaryMarkdown({ summary, validation, patterns, enrichment, portfolio }) {
+function buildSummaryMarkdown({
+  summary,
+  validation,
+  patterns,
+  enrichment,
+  portfolio,
+  feedbackIngestion,
+  correctionApplication,
+}) {
   const topLabels = topNEntries(patterns.label_counts, 10);
 
   const errorFiles = new Map();
@@ -46,6 +57,15 @@ function buildSummaryMarkdown({ summary, validation, patterns, enrichment, portf
     `- Unique label categories used: ${summary.unique_label_categories}`,
     `- Unique labels used: ${summary.unique_labels}`,
     `- Canonical findings enriched: ${(enrichment && enrichment.findings && enrichment.findings.length) || 0}`,
+    `- Feedback corrections ingested: ${
+      (feedbackIngestion &&
+        feedbackIngestion.summary &&
+        feedbackIngestion.summary.records_valid) ||
+      0
+    }`,
+    `- Feedback corrections applied: ${
+      (correctionApplication && correctionApplication.corrections_applied) || 0
+    }`,
     '',
     '## Top Labels',
     toMarkdownList(topLabels),
@@ -65,6 +85,9 @@ function writeArtifacts({
   patterns,
   enrichment = null,
   portfolio = null,
+  adjudication = null,
+  feedbackIngestion = null,
+  correctionApplication = null,
   narrativeReport = '',
   outDir = '.',
 }) {
@@ -76,6 +99,9 @@ function writeArtifacts({
   const patternsPath = path.join(outDir, PATTERNS_FILE);
   const enrichmentPath = path.join(outDir, ENRICHMENT_FILE);
   const portfolioPath = path.join(outDir, PORTFOLIO_FILE);
+  const adjudicationPath = path.join(outDir, ADJUDICATION_FILE);
+  const feedbackIngestionPath = path.join(outDir, FEEDBACK_INGESTION_FILE);
+  const correctionApplicationPath = path.join(outDir, CORRECTION_APPLICATION_FILE);
   const narrativeReportPath = path.join(outDir, NARRATIVE_REPORT_FILE);
   const stepSummaryPath = path.join(outDir, STEP_SUMMARY_FILE);
 
@@ -85,9 +111,26 @@ function writeArtifacts({
   fs.writeFileSync(patternsPath, `${JSON.stringify(patterns, null, 2)}\n`);
   fs.writeFileSync(enrichmentPath, `${JSON.stringify(enrichment || {}, null, 2)}\n`);
   fs.writeFileSync(portfolioPath, `${JSON.stringify(portfolio || {}, null, 2)}\n`);
+  fs.writeFileSync(adjudicationPath, `${JSON.stringify(adjudication || {}, null, 2)}\n`);
+  fs.writeFileSync(
+    feedbackIngestionPath,
+    `${JSON.stringify(feedbackIngestion || {}, null, 2)}\n`,
+  );
+  fs.writeFileSync(
+    correctionApplicationPath,
+    `${JSON.stringify(correctionApplication || {}, null, 2)}\n`,
+  );
   fs.writeFileSync(narrativeReportPath, `${String(narrativeReport || '').trim()}\n`);
 
-  const summaryMd = buildSummaryMarkdown({ summary, validation, patterns, enrichment, portfolio });
+  const summaryMd = buildSummaryMarkdown({
+    summary,
+    validation,
+    patterns,
+    enrichment,
+    portfolio,
+    feedbackIngestion,
+    correctionApplication,
+  });
   fs.writeFileSync(stepSummaryPath, `${summaryMd}\n`);
 
   return {
@@ -98,6 +141,9 @@ function writeArtifacts({
       patternsPath,
       enrichmentPath,
       portfolioPath,
+      adjudicationPath,
+      feedbackIngestionPath,
+      correctionApplicationPath,
       narrativeReportPath,
       stepSummaryPath,
     ],
@@ -112,6 +158,9 @@ module.exports = {
   PATTERNS_FILE,
   ENRICHMENT_FILE,
   PORTFOLIO_FILE,
+  ADJUDICATION_FILE,
+  FEEDBACK_INGESTION_FILE,
+  CORRECTION_APPLICATION_FILE,
   NARRATIVE_REPORT_FILE,
   STEP_SUMMARY_FILE,
   writeArtifacts,

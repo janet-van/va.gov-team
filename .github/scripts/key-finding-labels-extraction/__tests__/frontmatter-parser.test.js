@@ -54,4 +54,16 @@ product: debt
   assert.equal(result.findings[0].finding_title.includes('Veterans reported'), true);
   assert.equal(result.warnings.length, 1);
   assert.equal(result.warnings[0].code, 'FRONTMATTER_PLACEHOLDER_KEY_FINDING');
+  assert.equal(result.stats.has_frontmatter, true);
+  assert.equal(result.stats.has_key_findings_array, true);
+  assert.equal(result.stats.valid_findings, 1);
+  assert.equal(result.stats.placeholder_skipped, 1);
+});
+
+test('parseFrontmatterFindingsFromContent reports stats when frontmatter is missing', () => {
+  const result = parseFrontmatterFindingsFromContent('# no frontmatter', 'products/debt/findings.md');
+  assert.equal(result.findings.length, 0);
+  assert.equal(result.stats.has_frontmatter, false);
+  assert.equal(result.stats.has_key_findings_array, false);
+  assert.equal(result.stats.valid_findings, 0);
 });

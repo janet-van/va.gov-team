@@ -72,17 +72,31 @@ function parseFrontmatterFindingsFromContent(content, filePath) {
   const frontmatter = extractFrontmatter(content);
 
   if (!frontmatter || typeof frontmatter !== 'object') {
-    return { findings: [], warnings, metadata: null, demographicsSummary: null };
+    return {
+      findings: [],
+      warnings,
+      metadata: null,
+      demographicsSummary: null,
+      stats: {
+        has_frontmatter: false,
+        has_key_findings_array: false,
+        valid_findings: 0,
+        placeholder_skipped: 0,
+      },
+    };
   }
 
   const keyFindings = Array.isArray(frontmatter.key_findings) ? frontmatter.key_findings : [];
+  const hasKeyFindingsArray = Array.isArray(frontmatter.key_findings);
   const findings = [];
+  let placeholderSkipped = 0;
 
   keyFindings.forEach((value, index) => {
     const text = typeof value === 'string' ? value.trim() : '';
     if (!text) return;
 
     if (isPlaceholderFinding(text) || text.length < 10) {
+      placeholderSkipped += 1;
       warnings.push({
         file: filePath,
         finding_id: null,
@@ -119,6 +133,12 @@ function parseFrontmatterFindingsFromContent(content, filePath) {
       date: frontmatter.date || null,
     },
     demographicsSummary: extractDemographicsSummary(frontmatter),
+    stats: {
+      has_frontmatter: true,
+      has_key_findings_array: hasKeyFindingsArray,
+      valid_findings: findings.length,
+      placeholder_skipped: placeholderSkipped,
+    },
   };
 }
 

@@ -51,6 +51,7 @@ test('integration: mixed fixture corpus produces expected outputs', async () => 
       taxonomyMode: 'warn',
       taxonomyFile: path.join(fixtureRoot, 'taxonomy.yml'),
       taxonomyUrl: '',
+      emitLegacyTaxonomy: true,
       outDir: '.',
     });
 
@@ -67,7 +68,22 @@ test('integration: mixed fixture corpus produces expected outputs', async () => 
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-patterns.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-enrichment.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-portfolio.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-adjudication.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-feedback-ingestion.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-correction-application.json')));
     assert.ok(fs.existsSync(path.join(tmpDir, 'key-finding-labels-extraction-report.md')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'reports', 'research-taxonomy', 'taxonomy-data.json')));
+    assert.ok(fs.existsSync(path.join(tmpDir, 'reports', 'research-taxonomy', 'taxonomy-report.md')));
+
+    const legacyTaxonomyData = JSON.parse(
+      fs.readFileSync(
+        path.join(tmpDir, 'reports', 'research-taxonomy', 'taxonomy-data.json'),
+        'utf8',
+      ),
+    );
+    assert.equal(legacyTaxonomyData.summary.skipped.no_frontmatter, 6);
+    assert.equal(legacyTaxonomyData.summary.skipped.no_key_findings, 0);
+    assert.equal(legacyTaxonomyData.summary.skipped.placeholder_only, 0);
   } finally {
     process.chdir(cwd);
     fs.rmSync(tmpDir, { recursive: true, force: true });
