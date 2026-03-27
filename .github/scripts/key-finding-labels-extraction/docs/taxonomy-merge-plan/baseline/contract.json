@@ -1,0 +1,146 @@
+{
+  "artifact_families": {
+    "legacy_taxonomy": {
+      "required_files": [
+        {
+          "path": "reports/research-taxonomy/taxonomy-data.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "generated_at",
+            "summary",
+            "taxonomy_definition",
+            "taxonomy_analysis",
+            "reports"
+          ]
+        },
+        {
+          "path": "reports/research-taxonomy/taxonomy-report.md",
+          "type": "markdown",
+          "required_h2_sections": [
+            "Summary",
+            "Taxonomy Dimensions",
+            "Label Frequency Analysis",
+            "Cross-Product Patterns",
+            "Product Coverage Analysis",
+            "Assistive Technology Coverage",
+            "Underserved Groups Gap Analysis",
+            "Methodology"
+          ]
+        }
+      ]
+    },
+    "key_finding_extraction": {
+      "required_files": [
+        {
+          "path": "key-finding-labels-extraction-summary.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "artifact_schema_version",
+            "generated_at",
+            "files_scanned",
+            "valid_findings",
+            "error_count",
+            "warning_count"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-findings.json",
+          "type": "json"
+        },
+        {
+          "path": "key-finding-labels-extraction-validation.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "errors",
+            "warnings"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-patterns.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "pattern_trigger_counts",
+            "service_journey_counts",
+            "label_counts",
+            "label_cooccurrence_counts"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-enrichment.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "artifact_schema_version",
+            "findings"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-portfolio.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "artifact_schema_version",
+            "label_frequency",
+            "product_coverage",
+            "user_group_coverage",
+            "cross_product_patterns",
+            "underserved_groups_analysis",
+            "assistive_tech_coverage"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-adjudication.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "mode",
+            "enabled",
+            "total_findings",
+            "findings_flagged",
+            "flagged_findings"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-feedback-ingestion.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "mode",
+            "enabled",
+            "loaded",
+            "source_file",
+            "schema_version",
+            "corrections",
+            "summary",
+            "errors",
+            "warnings"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-correction-application.json",
+          "type": "json",
+          "required_top_level_keys": [
+            "artifact_schema_version",
+            "mode",
+            "enabled",
+            "feedback_loaded",
+            "corrections_total",
+            "corrections_applied",
+            "corrections_ignored",
+            "findings_touched",
+            "dimension_changes",
+            "corrected_findings",
+            "change_log"
+          ]
+        },
+        {
+          "path": "key-finding-labels-extraction-report.md",
+          "type": "markdown",
+          "required_h2_sections": [
+            "Summary",
+            "Top Suggested Labels",
+            "Cross Product Patterns",
+            "Underserved Group Signals",
+            "Assistive Technology Coverage"
+          ]
+        }
+      ]
+    }
+  }
+}

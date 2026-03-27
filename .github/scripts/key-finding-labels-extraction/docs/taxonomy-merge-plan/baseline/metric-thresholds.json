@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "id": "legacy_total_reports_scanned",
+      "family": "legacy_taxonomy",
+      "path": "reports/research-taxonomy/taxonomy-data.json",
+      "metric": "summary_metrics.total_reports_scanned",
+      "mode": "absolute",
+      "max_delta": 0
+    },
+    {
+      "id": "legacy_reports_with_findings",
+      "family": "legacy_taxonomy",
+      "path": "reports/research-taxonomy/taxonomy-data.json",
+      "metric": "summary_metrics.reports_with_findings",
+      "mode": "absolute",
+      "max_delta": 0
+    },
+    {
+      "id": "legacy_total_key_findings",
+      "family": "legacy_taxonomy",
+      "path": "reports/research-taxonomy/taxonomy-data.json",
+      "metric": "summary_metrics.total_key_findings",
+      "mode": "absolute",
+      "max_delta": 0
+    },
+    {
+      "id": "legacy_taxonomy_data_size",
+      "family": "legacy_taxonomy",
+      "path": "reports/research-taxonomy/taxonomy-data.json",
+      "metric": "size_bytes",
+      "mode": "relative",
+      "max_delta": 0.1
+    },
+    {
+      "id": "legacy_taxonomy_report_size",
+      "family": "legacy_taxonomy",
+      "path": "reports/research-taxonomy/taxonomy-report.md",
+      "metric": "size_bytes",
+      "mode": "relative",
+      "max_delta": 0.1
+    }
+  ]
+}

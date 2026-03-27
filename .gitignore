@@ -13,4 +13,22 @@ __pycache__/
 *.pyc
 
 # Ignore temporary files for logging and debugging locally
-tmp/
+*/tmp/*
+
+# Local extraction artifacts (generated)
+/key-finding-labels-extraction-*.json
+/key-finding-labels-extraction-*.md
+
+# Taxonomy merge baseline run outputs (generated)
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-check.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-snapshot.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-parity.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-threshold-check.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-feedback-scorecard.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-drift-report.md
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset.jsonl
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset-manifest.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-trend-check.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-*.json
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-*.jsonl
+.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-*.md

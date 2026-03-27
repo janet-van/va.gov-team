@@ -1,0 +1,29 @@
+{
+  "global": {
+    "require_file_existence_parity": true,
+    "require_json_top_level_keys_parity": true,
+    "require_markdown_h2_parity": true
+  },
+  "numeric_tolerances": {
+    "legacy_taxonomy/reports/research-taxonomy/taxonomy-data.json/summary_metrics/total_reports_scanned": {
+      "mode": "absolute",
+      "value": 0
+    },
+    "legacy_taxonomy/reports/research-taxonomy/taxonomy-data.json/summary_metrics/reports_with_findings": {
+      "mode": "absolute",
+      "value": 0
+    },
+    "legacy_taxonomy/reports/research-taxonomy/taxonomy-data.json/summary_metrics/total_key_findings": {
+      "mode": "absolute",
+      "value": 0
+    },
+    "legacy_taxonomy/reports/research-taxonomy/taxonomy-data.json/size_bytes": {
+      "mode": "relative",
+      "value": 0.05
+    },
+    "legacy_taxonomy/reports/research-taxonomy/taxonomy-report.md/size_bytes": {
+      "mode": "relative",
+      "value": 0.05
+    }
+  }
+}

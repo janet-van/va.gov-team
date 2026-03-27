@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": "rows_total_minimum",
+      "metric": "rows_total",
+      "mode": "min",
+      "min_value": 3410
+    },
+    {
+      "id": "rows_total_relative_drop",
+      "metric": "rows_total",
+      "mode": "max_relative_drop",
+      "max_delta": 0.35
+    },
+    {
+      "id": "rows_with_corrections_rate_delta",
+      "metric": "rows_with_corrections_rate",
+      "mode": "absolute",
+      "max_delta": 0.05
+    }
+  ],
+  "required_dimensions": [
+    "emotional_states",
+    "finding_types",
+    "journey_stages",
+    "product_areas",
+    "research_themes",
+    "severity_levels",
+    "user_groups"
+  ],
+  "tuned_from": {
+    "baseline_manifest": "/Users/oddball/Documents/GitHub/va-gov/va.gov-team/.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset-manifest.json",
+    "baseline_generated_at": "2026-03-30T16:20:19.799Z",
+    "rows_total": 6821,
+    "min_rows_ratio": 0.5,
+    "min_rows_floor": 500,
+    "max_relative_drop": 0.35,
+    "correction_rate_max_delta": 0.05
+  }
+}

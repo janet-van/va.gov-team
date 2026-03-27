@@ -1,59 +1,83 @@
 # Key Finding Labels Extraction
 
-Node-based extractor for `yaml key-finding-labels` blocks and frontmatter content in research reports.
+This workflow scans research markdown files, extracts findings, enriches them with taxonomy labels, and writes both:
+- modular extraction artifacts (`key-finding-labels-extraction-*`)
+- legacy compatibility artifacts (`reports/research-taxonomy/*`)
 
-## Local run
+## What It Does
+1. Finds research files in `products/` and `teams/`.
+2. Parses:
+- fenced `yaml key-finding-labels` blocks
+- frontmatter `key_findings[]`
+3. Normalizes and merges findings into canonical records.
+4. Enriches findings with taxonomy suggestions.
+5. Optionally applies review corrections.
+6. Optionally emits legacy taxonomy report outputs.
 
-```bash
-node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --out-dir=./.github/tmp/findings
-```
-
-Optional taxonomy file for warning-only value checks:
-
-```bash
-node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --taxonomy-mode=warn --taxonomy-file=.github/scripts/key-finding-labels-extraction/__fixtures__/taxonomy.yml --out-dir=./.github/tmp/findings
-```
-
-Default behavior:
-
-- `--taxonomy-mode=off` (default): schema-only hard validation, no taxonomy dependency.
-- `--taxonomy-mode=warn`: load taxonomy from a local file and emit unknown-label warnings (never hard fail on unknown values).
-- Missing `finding_id` values are auto-generated deterministically as `F######` using `source_file + finding_title` and logged as warnings.
-- Every finding also gets a deterministic global UID `finding_uid` in the form `KF-xxxxxxxxxxxx`, generated from `source_file + finding_id_local + finding_title`. This was important so that each finding could have a deterministic id that is based on a known set of file data.
-- Frontmatter `key_findings[]` are parsed and merged into canonical enrichment records.
-- Enrichment is always-on and generates advisory `suggested_labels` with confidence scores.
-
-Optional custom scan roots:
+## Quick Start (Local)
+Run from repo root:
 
 ```bash
-node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --roots=tmp/sample-findings-reports
+node .github/scripts/key-finding-labels-extraction/run.js \
+  --mode=local \
+  --scan=full \
+  --taxonomy-mode=off \
+  --emit-legacy-taxonomy=true
 ```
 
-## Workflow simulation
-
-You need act installed locally first via https://github.com/nektos/act
+Useful local variants:
 
 ```bash
-act workflow_dispatch -W .github/workflows/key-finding-labels-extraction.yml
+# Warning-only taxonomy value checks from a local taxonomy file
+node .github/scripts/key-finding-labels-extraction/run.js \
+  --mode=local \
+  --scan=full \
+  --taxonomy-mode=warn \
+  --taxonomy-file=.github/scripts/key-finding-labels-extraction/__fixtures__/taxonomy.yml
+
+# Limit scan roots for fast iteration
+node .github/scripts/key-finding-labels-extraction/run.js \
+  --mode=local \
+  --scan=full \
+  --roots=tmp/sample-findings-reports
 ```
 
-## Artifacts
+## How GitHub Workflow Uses It
+Workflow file: `.github/workflows/key-finding-labels-extraction.yml`
 
+The workflow runs extraction, then executes gates in this order:
+1. Output contract check
+2. Determinism check (run twice + compare snapshots)
+3. Baseline metric threshold check
+4. Recalibration trend check (strict/blocking mode enabled)
+
+It then uploads extraction, legacy, and baseline gate artifacts.
+
+## Main Runtime Flags
+- `--taxonomy-mode=off|warn`
+- `--taxonomy-profile=enrichment-taxonomy|legacy-taxonomy`
+- `--emit-legacy-taxonomy=true|false`
+- `--embedding-mode=off|stub`
+- `--fusion-mode=rules_only|weighted`
+- `--llm-adjudication-mode=off|policy`
+- `--review-feedback-mode=off|warn|strict`
+- `--review-feedback-file=<path>`
+- `--correction-application-mode=off|apply`
+
+## Output Artifacts
 - `key-finding-labels-extraction-summary.json`
 - `key-finding-labels-extraction-findings.json`
 - `key-finding-labels-extraction-validation.json`
 - `key-finding-labels-extraction-patterns.json`
 - `key-finding-labels-extraction-enrichment.json`
 - `key-finding-labels-extraction-portfolio.json`
+- `key-finding-labels-extraction-adjudication.json`
+- `key-finding-labels-extraction-feedback-ingestion.json`
+- `key-finding-labels-extraction-correction-application.json`
 - `key-finding-labels-extraction-report.md`
 - `key-finding-labels-extraction-step-summary.md`
+- `reports/research-taxonomy/taxonomy-data.json` (when legacy emit is enabled)
+- `reports/research-taxonomy/taxonomy-report.md` (when legacy emit is enabled)
 
-## TODO
-
-- Improve findings document identification. Using a filename match misses some files. Could we leverage a small LLM model to identify? Other approaches for matching to file content?
-- Review warnings, accuracy of outputs, and taxonomy sources
-- Add additional triggers besides workflow_dispatch
-- Move artifacts into a versioned set of files that are written as PR when action runs
-- Incremental updates instead of entire repo run every time
-- Convert to YAML if/when needed
-- Review research finding documents that don't include yaml for an automated augmentation strategy
+## Related Docs
+- Taxonomy merge/modernization docs: `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/README.md`
