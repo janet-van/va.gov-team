@@ -43,7 +43,7 @@ test('check-recalibration-trends reports failed checks when thresholds are excee
   execFileSync(
     process.execPath,
     [
-      '.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-recalibration-trends.js',
+      '.github/scripts/key-finding-labels-extraction/cli/check-recalibration-trends.js',
       `--baseline=${baselinePath}`,
       `--current=${currentPath}`,
       `--thresholds=${thresholdsPath}`,

@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { generateFeedbackScorecard } = require('../../../feedback-scorecard');
+const { generateFeedbackScorecard } = require('../feedback-scorecard');
 
 function parseArgs(argv) {
   const options = {

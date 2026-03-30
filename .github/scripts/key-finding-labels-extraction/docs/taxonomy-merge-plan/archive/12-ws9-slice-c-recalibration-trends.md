@@ -7,7 +7,7 @@ Add executable trend checks for recalibration outputs with configurable blocking
 - Added threshold policy:
   - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/recalibration-thresholds.json`
 - Added trend check command:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-recalibration-trends.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/check-recalibration-trends.js`
 - Added test:
   - `__tests__/recalibration-trend-check-script.test.js`
 - Added workflow steps/artifacts:

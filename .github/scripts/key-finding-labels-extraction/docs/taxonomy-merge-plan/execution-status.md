@@ -1,6 +1,7 @@
 # Execution Status
 
 ## Current State
+
 - Program: taxonomy merge and modernization
 - Location: `.github/scripts/key-finding-labels-extraction`
 - Phase: MVP
@@ -8,6 +9,7 @@
 - Active slice: Stabilization (WS9 gate tuning and mode decisions)
 
 ## Completed
+
 - Created merge strategy and workstream decomposition.
 - Defined iteration loop standard for coding-agent handoffs.
 - Recorded git divergence note as non-blocking for implementation.
@@ -128,7 +130,7 @@
   - Wrote stability consolidation artifact:
     - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-recalibration-stability.json`
   - Added reusable stability-cycle script:
-    - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/run-recalibration-stability-cycle.js`
+    - `.github/scripts/key-finding-labels-extraction/cli/run-recalibration-stability-cycle.js`
   - Re-ran strict 3-run monitoring via script; all runs passed with consistent row totals (`6821`).
   - Created non-zero correction baseline run using review feedback + correction application mode:
     - `rows_with_corrections=60` of `rows_total=6821` (rate ~= `0.0088`)
@@ -141,19 +143,22 @@
   - Verified skip counters are populated from actual frontmatter parsing stats in emitted legacy taxonomy data.
 
 ## In Progress
+
 - Implementing WS9 foundation:
   - Continue periodic monitoring of blocking trend gate behavior across subsequent workflow runs.
 
 ## Next Queue (Ordered)
+
 1. Continue periodic stability-cycle monitoring and trend report review.
 2. Optionally replace synthetic correction baseline with real adjudication-review corrections.
-3. Commit/PR packaging (deferred by user for later review).
 
 ## Blockers
+
 - None for document/design work.
 - Local branch ancestry divergence remains unresolved, but this is explicitly non-blocking for feature work.
 
 ## Rules For Agents
+
 - Touch only files listed in the active slice scope.
 - Do not change artifact shapes without schema/version notes.
 - Record test commands and results for each slice.

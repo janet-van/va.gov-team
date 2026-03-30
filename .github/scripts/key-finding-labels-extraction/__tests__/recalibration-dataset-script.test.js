@@ -71,7 +71,7 @@ test('generate-recalibration-dataset writes jsonl and manifest outputs', () => {
   execFileSync(
     process.execPath,
     [
-      '.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js',
+      '.github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js',
       `--summary=${summaryPath}`,
       `--enrichment=${enrichmentPath}`,
       `--feedback=${feedbackPath}`,

@@ -7,7 +7,7 @@ Add executable hooks so review corrections become measurable and automation-read
 - Added scorecard module:
   - `.github/scripts/key-finding-labels-extraction/feedback-scorecard.js`
 - Added scorecard command:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-feedback-scorecard.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/generate-feedback-scorecard.js`
 - Added scorecard unit test:
   - `__tests__/feedback-scorecard.test.js`
 - Wired workflow step and artifact upload for:

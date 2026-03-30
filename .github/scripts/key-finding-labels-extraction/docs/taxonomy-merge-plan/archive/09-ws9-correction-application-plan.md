@@ -20,7 +20,7 @@ Apply reviewed corrections to produce measurable classifier improvements while p
   - Include metadata for profile/version/source and correction provenance.
 - Proposed files:
   - `.github/scripts/key-finding-labels-extraction/recalibration-export.js`
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js`
   - `.github/scripts/key-finding-labels-extraction/__tests__/recalibration-export.test.js`
 - Acceptance:
   - Schema-documented export with deterministic row ordering.
@@ -31,7 +31,7 @@ Apply reviewed corrections to produce measurable classifier improvements while p
   - Add comparison command for current vs previous recalibration dataset/metrics.
   - Gate on configured precision/recall trendline thresholds per dimension.
 - Proposed files:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-recalibration-trends.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/check-recalibration-trends.js`
   - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/recalibration-thresholds.json`
 - Acceptance:
   - Reports pass/fail with clear dimension-level deltas.

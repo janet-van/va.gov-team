@@ -46,17 +46,17 @@ jobs:
 
       - name: Validate output contract (blocking)
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-contract.js
+          node .github/scripts/key-finding-labels-extraction/cli/check-contract.js
           --strict=true
 
       - name: Capture first snapshot
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/capture-snapshot.js
+          node .github/scripts/key-finding-labels-extraction/cli/capture-snapshot.js
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-snapshot-run1.json
 
       - name: Validate baseline metric thresholds (blocking)
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-metric-thresholds.js
+          node .github/scripts/key-finding-labels-extraction/cli/check-metric-thresholds.js
           --baseline=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-snapshot.json
           --current=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-snapshot-run1.json
           --thresholds=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/metric-thresholds.json
@@ -73,12 +73,12 @@ jobs:
 
       - name: Capture second snapshot
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/capture-snapshot.js
+          node .github/scripts/key-finding-labels-extraction/cli/capture-snapshot.js
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-snapshot-run2.json
 
       - name: Compare snapshots for determinism (blocking)
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/compare-snapshots.js
+          node .github/scripts/key-finding-labels-extraction/cli/compare-snapshots.js
           --baseline=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-snapshot-run1.json
           --current=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-snapshot-run2.json
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-determinism-parity.json
@@ -86,23 +86,23 @@ jobs:
 
       - name: Generate feedback scorecard
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-feedback-scorecard.js
+          node .github/scripts/key-finding-labels-extraction/cli/generate-feedback-scorecard.js
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-feedback-scorecard.json
 
       - name: Generate drift report
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-drift-report.js
+          node .github/scripts/key-finding-labels-extraction/cli/generate-drift-report.js
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-drift-report.md
 
       - name: Generate recalibration dataset
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js
+          node .github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js
           --out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-recalibration-dataset.jsonl
           --manifest-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-recalibration-dataset-manifest.json
 
       - name: Check recalibration trends (configurable strict mode)
         run: >
-          node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-recalibration-trends.js
+          node .github/scripts/key-finding-labels-extraction/cli/check-recalibration-trends.js
           --baseline=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset-manifest.json
           --current=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/workflow-recalibration-dataset-manifest.json
           --thresholds=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/recalibration-thresholds.json

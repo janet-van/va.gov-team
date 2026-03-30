@@ -5,7 +5,7 @@ Provide a concrete path to tune recalibration trend thresholds and promote trend
 
 ## Implemented Scope
 - Added threshold tuning command:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/tune-recalibration-thresholds.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/tune-recalibration-thresholds.js`
 - Added tuning command test:
   - `__tests__/tune-recalibration-thresholds-script.test.js`
 - Updated workflow trend strictness from hardcoded value to env toggle:

@@ -26,7 +26,7 @@ test('tune-recalibration-thresholds derives threshold values from baseline manif
   execFileSync(
     process.execPath,
     [
-      '.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/tune-recalibration-thresholds.js',
+      '.github/scripts/key-finding-labels-extraction/cli/tune-recalibration-thresholds.js',
       `--baseline-manifest=${baselinePath}`,
       `--out-file=${outPath}`,
       '--min-rows-ratio=0.4',

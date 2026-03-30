@@ -5,7 +5,7 @@ Provide one command path that summarizes deterministic gates, threshold checks, 
 
 ## Implemented Scope
 - Added drift report command:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-drift-report.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/generate-drift-report.js`
 - Added command test:
   - `__tests__/drift-report-script.test.js`
 - Added workflow step and artifact upload for:

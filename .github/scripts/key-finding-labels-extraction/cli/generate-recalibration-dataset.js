@@ -5,7 +5,7 @@ const path = require('path');
 const {
   generateRecalibrationRows,
   buildRecalibrationManifest,
-} = require('../../../recalibration-export');
+} = require('../recalibration-export');
 
 function parseArgs(argv) {
   const options = {

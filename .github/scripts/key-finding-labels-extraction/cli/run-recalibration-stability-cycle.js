@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 function parseArgs(argv) {
   const options = {
@@ -39,8 +39,11 @@ function parseArgs(argv) {
   return options;
 }
 
-function runCommand(cwd, command) {
-  execSync(command, {
+function runCommand(cwd, args) {
+  if (!Array.isArray(args) || args.length === 0) {
+    throw new Error('runCommand requires a non-empty args array');
+  }
+  execFileSync(args[0], args.slice(1), {
     cwd,
     stdio: 'pipe',
     encoding: 'utf8',
@@ -61,14 +64,15 @@ function ensureBaselineManifest({
   runCommand(
     repoRoot,
     [
-      'node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js',
+      'node',
+      '.github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js',
       '--summary=key-finding-labels-extraction-summary.json',
       '--enrichment=key-finding-labels-extraction-enrichment.json',
       '--feedback=key-finding-labels-extraction-feedback-ingestion.json',
       '--correction=key-finding-labels-extraction-correction-application.json',
       '--out-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset.jsonl',
       '--manifest-file=.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/baseline/latest-recalibration-dataset-manifest.json',
-    ].join(' '),
+    ],
   );
 }
 
@@ -91,7 +95,14 @@ function main() {
     console.log(`[stability] run ${i}: extraction`);
     runCommand(
       repoRoot,
-      'node .github/scripts/key-finding-labels-extraction/run.js --mode=workflow --scan=full --taxonomy-mode=off --emit-legacy-taxonomy=true',
+      [
+        'node',
+        '.github/scripts/key-finding-labels-extraction/run.js',
+        '--mode=workflow',
+        '--scan=full',
+        '--taxonomy-mode=off',
+        '--emit-legacy-taxonomy=true',
+      ],
     );
 
     const runDataset = `${outPrefix}-dataset-run${i}.jsonl`;
@@ -102,27 +113,29 @@ function main() {
     runCommand(
       repoRoot,
       [
-        'node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js',
+        'node',
+        '.github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js',
         '--summary=key-finding-labels-extraction-summary.json',
         '--enrichment=key-finding-labels-extraction-enrichment.json',
         '--feedback=key-finding-labels-extraction-feedback-ingestion.json',
         '--correction=key-finding-labels-extraction-correction-application.json',
         `--out-file=${runDataset}`,
         `--manifest-file=${runManifest}`,
-      ].join(' '),
+      ],
     );
 
     console.log(`[stability] run ${i}: trend check`);
     runCommand(
       repoRoot,
       [
-        'node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/check-recalibration-trends.js',
+        'node',
+        '.github/scripts/key-finding-labels-extraction/cli/check-recalibration-trends.js',
         `--baseline=${baselineManifestPath}`,
         `--current=${runManifest}`,
         `--thresholds=${thresholdsPath}`,
         `--out-file=${runTrend}`,
         `--strict=${options.strict ? 'true' : 'false'}`,
-      ].join(' '),
+      ],
     );
 
     const manifest = readJson(runManifest);

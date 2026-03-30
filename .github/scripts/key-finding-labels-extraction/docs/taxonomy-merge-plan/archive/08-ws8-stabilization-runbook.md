@@ -24,8 +24,8 @@ Operational guidance for running, reviewing, and triaging WS8 artifacts.
 1. Run extraction and WS8 hooks:
 ```bash
 node .github/scripts/key-finding-labels-extraction/run.js --mode=local --scan=full --emit-legacy-taxonomy=true
-node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-feedback-scorecard.js
-node .github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-drift-report.js
+node .github/scripts/key-finding-labels-extraction/cli/generate-feedback-scorecard.js
+node .github/scripts/key-finding-labels-extraction/cli/generate-drift-report.js
 ```
 2. Verify scorecard sanity:
 - `corrections_total` is non-negative.

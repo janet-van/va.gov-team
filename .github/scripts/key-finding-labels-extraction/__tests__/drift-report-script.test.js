@@ -35,7 +35,7 @@ test('generate-drift-report script writes consolidated markdown report', () => {
   execFileSync(
     process.execPath,
     [
-      '.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-drift-report.js',
+      '.github/scripts/key-finding-labels-extraction/cli/generate-drift-report.js',
       `--threshold=${thresholdPath}`,
       `--determinism=${determinismPath}`,
       `--feedback-scorecard=${feedbackPath}`,

@@ -7,7 +7,7 @@ Export deterministic training/evaluation rows from existing workflow artifacts w
 - Added export module:
   - `.github/scripts/key-finding-labels-extraction/recalibration-export.js`
 - Added export command:
-  - `.github/scripts/key-finding-labels-extraction/docs/taxonomy-merge-plan/scripts/generate-recalibration-dataset.js`
+  - `.github/scripts/key-finding-labels-extraction/cli/generate-recalibration-dataset.js`
 - Added tests:
   - `__tests__/recalibration-export.test.js`
   - `__tests__/recalibration-dataset-script.test.js`
