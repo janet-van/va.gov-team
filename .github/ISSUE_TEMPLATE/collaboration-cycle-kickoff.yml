@@ -1,11 +1,9 @@
-# TODO: Update the name once we are ready to make this live.
-# name: "Collaboration Cycle Kickoff"
+---
 name: "Collaboration Cycle Kickoff [DRAFT - DO NOT USE]"
-description: "Kick off the Collaboration Cycle process for your product"
-title: "Collaboration Cycle for [Team Name, Product Name, Feature Name]"
-# TODO: Update the labels once we are ready to make this live.
-# labels: ["collab-cycle-review", "collaboration-cycle", "CC-Request", "ADE CC"]
-labels: ["collaboration-cycle-testing"]
+description: Kick off the Collaboration Cycle process for your product
+title: Collaboration Cycle for [Team Name, Product Name, Feature Name]
+labels:
+- collaboration-cycle-testing
 assignees: []
 body:
   - type: markdown
@@ -24,19 +22,18 @@ body:
       label: Your team name
       description: "Select your team from the list (sorted alphabetically). Not seeing your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)"
       options:
-      - 1010 Health Apps (33001)
-      - ADE (23001)
       - Accelerate Cybersecurity Excellence (ACE) (24001)
-      - Accreditation (10001)
+      - Accessibility Digital Experience (ADE) (23001)
+      - Accredited Reps. - Accreditation (10001)
+      - Accredited Reps. - Appoint (10002)
+      - Accredited Reps. - Benefits (10003)
       - Analytics and Insights (23002)
-      - Appoint (10002)
       - Ask VA (22008)
       - Authenticated Experience (22001)
       - BIO Aquia (19002)
       - BIO HEART (19003)
       - BIO Huntridge (19004)
       - BIO Pingwind (19001)
-      - Benefits (10003)
       - Benefits Management Tools 1 (11001)
       - Benefits Management Tools 2 (11002)
       - Benefits Management Tools 3 (11003)
@@ -49,7 +46,8 @@ body:
       - Decision Reviews (11004)
       - Dependents Management Tools (13001)
       - Design & Forms Systems (23003)
-      - Disability Core 526 (12002)
+      - Disability Benefits Crew - Core 526 (12002)
+      - Disability Benefits Crew Team 5 (12004)
       - Disability Pathways (12003)
       - Employee Experience (11005)
       - Faceted Search (21004)
@@ -57,9 +55,9 @@ body:
       - Financial Management (22003)
       - GovCIO VEBT (40002)
       - Governance (23004)
+      - Health Apps (33001)
       - Horizon (31001)
       - Hydra (32001)
-      - IVC Forms (33002)
       - Identity (20001)
       - Medical Records (31002)
       - Medications, Medical Devices and Supplies (31003)
@@ -82,6 +80,7 @@ body:
       - VA Chatbot (21002)
       - VES Transition Experience (21003)
       - VEText (39001)
+      - VFMP Status Integration (33003)
       - Veteran Support (22007)
       - Watch Engineers (24006)
     validations:
@@ -100,10 +99,17 @@ body:
       description: See [terms and definitions on products vs. features](https://depo-platform-documentation.scrollhelp.site/getting-started/product-operations-terms-and-definition).
     validations:
       required: true
-  - type: input
-    id: product-outline
+  - type: textarea
+    id: initiative-overview
     attributes:
-      label: Product outline
+      label: Initiative overview
+      description: Briefly describe what you are building.
+    validations:
+      required: true
+  - type: input
+    id: product-directory-link
+    attributes:
+      label: Product directory link
       description: Please enter a URL for your product in the Product Directory. If your product isn't in the directory, or needs to be updated, [Request an update to the Product directory](https://github.com/department-of-veterans-affairs/product-directory/issues/new?template=update-product-request.yml).
     validations:
       required: true

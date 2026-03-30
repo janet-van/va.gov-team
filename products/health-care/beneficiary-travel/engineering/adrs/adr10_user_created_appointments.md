@@ -105,6 +105,30 @@ Through the cross-functional discussions, the team identified several key decisi
 
 ---
 
+### Findings from slack conversations
+
+What is the largest count of "children" facilities for a given VAMC aka "parent" facility?
+- NASHVILLE VA MEDICAL CENTER - 3123 records
+
+What is the smallest count of "children" facilities for a given VAMC aka "parent" facility?
+- Over 20 VAMCs have a count of 1 record
+
+The BTSSS system has a field called `btsss_preferredfacility` which correlates to the `home facility` and `btsss_preferredfacility2` which correlates to the `preferred facility`.
+
+What is the smallest character facility name?
+- 2 characters
+
+How many characters should be required for a filtering on facility name?
+- at least 2
+
+Why cant we use the PPMS list to get the community care facilities?
+- The PPMS list does not have a station id field
+  - This field is required in order for us to filter on the `home facility`.
+  - There are over 100,000 records so we need to filter these records down. Given the "parent" and "child" relationship between facilities we need the station number so that we can do that.
+  - The PPMS list also does not have the same facility id that is in BTSSS. PPMS has a 10 digit id for facilities that looks like this `1144688854` where as BTSSS returns guids for the facility id that look like this `e5e2ca33-7f04-ee11-8f6d-001dd806ee99`. There is no way to match up PPMS data to BTSSS so that we could even get the station id
+
+___
+
 ### Options considered for how to determine the facilities list
 Per our meeting on 3/17/2026 we now know that we will need to determine a given veterans home facility. The API Team will need to update their logic for the `GET Contact` endpoint so that the response returns a `homeFacility`.
 
@@ -227,6 +251,7 @@ If that is not viable, we will likely pursue enhancing or extending existing API
   - Performance
   - Implementation complexity
 
-
+## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+- 3/26/2026 Mark and Kay said that CXI discussions were going very slowly so at this point we are dropping that option and moving forward with option #2 where the API Team Builds or updates the endpoint for get facilities.
 
 

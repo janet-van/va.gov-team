@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for VA Mobile App Homescreen Redesign, March 2026"
 date: 2026-03-11
-last_updated: 2026-03-11
+last_updated: 2026-03-30
 team: "VA Mobile App (Core Mobile)"
 product: "VA Health and Benefits Mobile App"
 product_area: "authenticated"
@@ -32,14 +32,13 @@ research_questions:
   - "What level of detail do users need for homescreen content so that they can take action and complete tasks?"
   - "Do users notice, understand, and take action on items in 'Action required' and 'Activity' sections?"
   - "When tasks are surfaced on the homescreen, how do users want and expect to complete them?"
-  - "Does homescreen information architecture affect how users prioritize items and tasks?"
   - "When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating away?"
   - "What causes users confusion or misunderstandings?"
   - "Are there any terms or processes that cause particular confusion for users with cognitive disabilities?"
 
 hypotheses:
   - "Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen."
-  - "Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout."
+  - "Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout."
   - "Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile."
   - "Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments."
   - "Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments prep."
@@ -47,7 +46,7 @@ hypotheses:
   - "Users will be able to describe in their own words what the 'Action required' section is for."
   - "Users will want to take action on both 'Action required' items and 'Activity' items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay."
   - "Users may not be able to articulate exactly what kind of items belong in the 'Activity' section."
-  - "Users will want to complete tasks directly from the homescreen when possible."
+  - "Users will want to complete tasks as directly as possible."
   - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
   - "Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls to action."
   - "Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'"
@@ -59,7 +58,7 @@ recruitment:
   approach: "Lean maximum variation"
 
   primary_criteria:
-    - "Be on a mobile device or tablet (recruit mix of device types)"
+    - "Be on a mobile device (recruit mix of device types)"
     - "During the session, be willing to share a web browser window on their device"
     - "Have a working microphone"
     - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
@@ -75,7 +74,7 @@ recruitment:
     - "At least 3, no degree"
   screener_questions:
     - question: "Which device(s) would you use to join the research session?"
-      qualifying_response: "Mobile phone – Android, Mobile phone – iPhone, Tablet – Android, or Tablet – iPad"
+      qualifying_response: "Mobile phone – Android, Mobile phone – iPhone"
     - question: "How often did you use the Veterans Affairs Health and Benefits App on your smartphone or tablet in the past year?"
       qualifying_response: "I used it rarely, I used it at least once a month, or I used it at least once a week"
     - question: "What is your service-related disability rating?"
@@ -290,8 +289,7 @@ Are there moments that matter?</summary>
 
 1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
 2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
-3. Does homescreen information architecture affect how users prioritize items and tasks?
-4. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
+3. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
 
 **Research goal 3: Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
 
@@ -318,7 +316,7 @@ Are there moments that matter?</summary>
 ---
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
-2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout.
+2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
@@ -329,7 +327,7 @@ Are there moments that matter?</summary>
 2. Users will be able to describe in their own words what the "Action required" section is for. 
 3. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
 4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
-5. Users will want to complete tasks directly from the homescreen when possible.
+5. Users will want to complete tasks as directly as possible.
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
 **Research goal 3: Understand how users interpret and use homescreen content and capabilities**
@@ -429,7 +427,7 @@ During the session:
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 **All participants must:**
-- `Be on a mobile device or tablet (recruit mix of device types)`
+- `Be on a mobile device (recruit mix of device types)`
 - `During the session, be willing to share a web browser window on their device`
 - `Have a working microphone`
 - `Have Zoom downloaded to their device prior to the session and know how to share their screen`
@@ -459,8 +457,6 @@ During the session:
    
 - Mobile phone – Android: Qualify
 - Mobile phone – iPhone: Qualify
-- Tablet – Android: Qualify
-- Tablet – iPad: Qualify
 - None of the above: Disqualify
 
 **2. How often did you use the [Veterans Affairs Health and Benefits App](https://mobile.va.gov/app/va-health-and-benefits) on your smartphone or tablet in the past year?**

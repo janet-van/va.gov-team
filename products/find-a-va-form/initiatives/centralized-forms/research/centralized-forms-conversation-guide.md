@@ -1,40 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Public Websites Team, Centralized Forms Discovery Research, March 2026"
+type: "Conversation Guide"
+study_date: "2026-03-01"
+authors:
+  - "Tina Kambil"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "AUD:Family-members"
+  - "PRDT:Find-a-form"
+  - "PRDT:Forms"
+  - "RESRCH:Discovery"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:All-benefits"
+  - "DSC:Content-presentation"
+  - "DSP:Search-and-discovery"
+  - "DSP:Form-submission"
+  - "HDW:Desktop"
+  - "HDW:Smartpne"
+  - "VETJNY:Getting-out"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Public Websites - Search & Discovery Team"
+portfolio: "Digital Experience"
+product:
+  - "Find a VA Form"
+  - "Centralized Forms Initiative"
+research_round: "Discovery"
+participant_count: "TBD"
+study_length: "60 minutes"
+date: "2026-03"
 ---
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives. This ensures consistency and completeness across all research documentation.
 
 # Conversation Guide for Centralized Forms
 
@@ -105,22 +102,22 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
-# Warm-up Questions (Optional) - 5 minutes
+# Warm-up Questions - 5 minutes
 
 Before we look at the website, I have a couple questions about how you usually do VA forms. 
 
- • Can you briefly describe the last time you needed to complete a VA form?
- • How did you find the form you needed?
- • How confident did you feel about understanding what you needed before starting the form?
- • Do you normally complete forms online, on paper/PDF, or both?
+- • Can you briefly describe the last time you needed to complete a VA form?
+- • How did you find the form you needed?
+- • How confident did you feel about understanding what you needed before starting the form?
+- • Do you normally complete forms online, on paper/PDF, or both?
 
 
 ## First Task: Current State Navigation discussion - 5 minutes
 
 Before we look at the prototype:
- • If you needed a VA form today, where would you start looking?
- • How long does it typically take for you to find the right form?
- • What kinds of information do you look for before beginning a form?
+- • If you needed a VA form today, where would you start looking?
+- • How long does it typically take for you to find the right form?
+- • What kinds of information do you look for before beginning a form?
 
 ## Second Task: Maximal Form - 25 minutes
 
@@ -128,42 +125,49 @@ Before we look at the prototype:
 Imagine you…[based on how they usually access forms]…and found this page. I’d like you to take a look at it as if you we’re planning to complete this form to get disability benefits. Talk me through what you’re noticing and what you would do here. 
 
 Probes:
- • What drew your attention first?  
- 
- • Does anything feel confusing or unexpected?  
+- • What drew your attention first?  
+- • Does anything feel confusing or unexpected?  
  
 2.2 Identify Whether It’s the Right Form  
-Task: “How would you confirm whether this is the right form for your situation?”  
+Task: “How would you confirm whether this is the right form for your situation?”
+
 Comprehension Checkpoint:
- • Highlight or point out the information that tells you whether this form applies to you. 
- • Is any information missing or unclear?
+- • Highlight or point out the information that tells you whether this form applies to you. 
+- • Is any information missing or unclear?
+ 
  Where would you expect to go for futher information (if they needed it)? (What helps you know that/navigate?)
 
 2.3: Understand Available Submission Options
 Task: “Show me how you would begin completing this form.”
+
 Probes:
- • Which option would you choose (online, PDF, help from a professional)? Why?
- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
+- • Which option would you choose (online, PDF, help from a professional)? Why?
+- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
+ 
  
 2.4: Identify Options for Getting Help
 Task: “If you needed help filling out this form, where would you go on this page?”
+
 Probes:
  Ease of Use Getting Help Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify how to get help with the form? [Why?]
  
 2.5: Identify Next steps/Related/Supporting Forms
-User need/comprehension check. What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
-“If you needed to find other forms related to this one, where would you expect them to be?”
+User need/comprehension check.
+- What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
+- “If you needed to find other forms related to this one, where would you expect them to be?”
+
 Probe:
- • Do you see anything here you’d expect to help you?
+- • Do you see anything here you’d expect to help you?
 
 
 Stopping Point: Information Hierarchy & Comprehension Review
-Prompt:
- • Tell me the three most important pieces of information on this page.
- • Is anything too detailed, too repetitive, or missing?
- • How confident on a scale of 1-5 do you feel that you could start the form now where 1 is not at all confident and 5 is extremely confident? Why?
 
-If time, go ahead and imagine that you are going to fill out this form online (click through)
+Prompt:
+- • Tell me the three most important pieces of information on this page.
+- • Is anything too detailed, too repetitive, or missing?
+- • How confident on a scale of 1-5 do you feel that you could start the form now where 1 is not at all confident and 5 is extremely confident? Why?
+
+- If time, go ahead and imagine that you are going to fill out this form online (click through to online intro page)
 First impressions of this page.
 
 
@@ -181,38 +185,45 @@ First impressions of this page.
 
 3.1: Identify Key Information on a Minimal Form
 Task: “What is this form about, and how would you know if it’s right for you?”
+
 Probes:
- • What information do you look at first?
- • Does this feel like enough information?
+- • What information do you look at first?
+- • Does this feel like enough information?
  
 3.2: Identify What’s Needed to Prepare
 Task: “Before starting the form, what would you need to prepare?”
+
 Comprehension Checkpoint:
- • Please highlight or call out the content that helps you understand the requirements.
- • Is the timing of this information appropriate? Too early? Too late?
+- • Please highlight or call out the content that helps you understand the requirements.
+- • Is the timing of this information appropriate? Too early? Too late?
  
 3.3: Understand Available Submission Options
 Task: “Show me how you would begin completing this form.”
+
 Probes:
- • Which option would you choose? Why?
- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
+- • Which option would you choose? Why?
+- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
  
 **Task Additional:** Download Form Flow (2 screens)
 Task: Imagine you want to download this form to submit it. “Show me how you would download this form.”
+
 Screen 1 probes:
- • What is this screen telling you?
- • What would you do next?
+- • What is this screen telling you?
+- • What would you do next?
 
-Standard Ease of use scale question on download process 1-5 where 1 is very difficult and 5 is very easy. 
+- Standard Ease of use scale question on download process 1-5 where 1 is very difficult and 5 is very easy. 
 
-Task/Probe back to Detail Page: “Once you've downloaded the form, what would you expect to do next?”
+- Task/Probe back to Detail Page: “Once you've downloaded the form, what would you expect to do next?”
+
 Probe:
- • Where would you go if you needed help submitting this form?
+- • Where would you go if you needed help submitting this form?
+
 3.5: Identify Next steps/Related/Supporting Forms
 Task: User need/comprehension check. What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
- “If you needed to find other forms related to this one, where would you expect them to be?”
+ 
+- “If you needed to find other forms related to this one, where would you expect them to be?”
 Probe:
- • Do you see anything here you’d expect to help you?
+- • Do you see anything here you’d expect to help you?
 
 
 > [!NOTE]
@@ -228,8 +239,11 @@ Probe:
 
 # Post-Task Interview - 5 minutes
 Overall reflection:
- • How easy or difficult was it to understand what you needed to do for forms one a scale of 1 to 5 where 1 is very difficult and 5 is very easy?
+
+ • How easy or difficult was it to understand what you needed to do for forms on a scale of 1 to 5 where 1 is very difficult and 5 is very easy?
+ 
  • What, if anything, would improve your confidence in completing forms on VA.gov?
+ 
  • Did you prefer having everything on one page or would you prefer separate pages?
 
 - Any questions for me? 
@@ -263,7 +277,5 @@ In the rare case of an emergency during a session, be prepared with an [emergenc
 - [ ] Review alignment with your research plan tags
 - [ ] Update the last_modified date
 
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
 
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
 
