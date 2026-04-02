@@ -4,8 +4,9 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Eng):** Deliver a release-ready CST experience that renders CHAMPVA PEGA status across each page (homepage, Status, Files, Overview tabs)
-- **SPRINT GOAL (UX):** Deliver finalized content revisions for CHAMPVA sendback letters and supporting Status Tool messaging
+- **SPRINT GOAL (Eng):** Deliver a functional CST experience that renders CHAMPVA PEGA status across each page (homepage, Status, Files, Overview tabs)
+- **SPRINT GOAL (UX):** Assist Health Apps UX in delivering CHAMPVA-specific feedback and content considerations for Enhanced 10-10d CCL/ sendback letter review (phase 1), which will influence/be used as input for  Status Tool CCL/ sendback letter feedback (phase 2).
+- **SPRINT GOAL (UX):** Deliver required supporting materials, final artifact updates, and coordination support to enable VA UX to successfully launch the CHAMPVA Status Tool research study by 4/14.
 
 
 ## 📆 Sprint 5 (Mar 18 – Mar 31) 

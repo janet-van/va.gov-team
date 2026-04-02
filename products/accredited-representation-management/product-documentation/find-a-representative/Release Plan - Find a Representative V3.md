@@ -18,7 +18,7 @@ Feature Toggle/flag:
       -    [X] Content above the sign-in block matches the figma
       -    [X] Updated Note and hyperlinked `Learn About` section are showing as expected just below the radio buttons
       -    [X] Use my location button is showing as expected
-      -    [ ] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenative", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
+      -    [X] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenative", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
       -    [X] Ensure `sort by` button was removed and you can now sort just by updating that drop down
       -    [X] Ensure the Name/Mileage on the contact cards align with figma designs
       -    [X] Ensure the icons align with the figma designs.
@@ -27,7 +27,7 @@ Feature Toggle/flag:
 - [X] Any "launch blocking" findings from Team QA have been addressed.
 - [X] The feature flag `find_a_representative_enabled` has been set to `Off` 
 - [X] Datadog monitoring is set up to track errors for combo box and search.
-- [ ] Google Analytics is set up to track specific search parameters.
+- [ ] Google Analytics is set up to track specific search parameters. -- **_Actively working on this with the Analytics team.  GA tracking is already set up but ~1 month out from DOMO_**
 
 Any other issues or requirements that should be addressed prior to rollout?
 
@@ -36,19 +36,18 @@ Any other issues or requirements that should be addressed prior to rollout?
 ### Go/No Go meeting on March 30, 2026
 Synchronous Go/No Go (Placeholder)
 
-- [ ] review the release plan with your team.
-- [ ] review the plan with your OCTO representative.
-- [ ] Finalize the release date
+- [X] review the release plan with your team.
+- [X] review the plan with your OCTO representative.
+- [X] Finalize the release date
 
-**Verdict: TBD**
+**Verdict: Go for release on Wednesday 4/1/26 as an initial test**
 
-## Release Details (April 1, 2026)
+## Release Details (April 6, 2026 -- Full Permanent Release)
 
-- [ ] Enable in Production to 20% of users for first day then turn on for 100% on Monday April 7th.
-- [ ] Confirm the release to Production, with a test user
-- [ ] Communicate release to ARP pilot users via Teams/Email
-- [ ] Mia to send out BLUF Statement
-- [ ] Communicate release to VBA and VSO liason office plus DAV leadership
+- [X] Enable in Production to 100% of users on 4/1 and monitor for any errors on 4/2 & again on 4/6.  If everything looks good with no errors we will send out the BLUF statement on Monday 4/6.
+- [X] Confirm the release to Production, with a test user
+- [ ] Mia to send out BLUF Statement on 4/6.
+- [ ] Communicate release to VBA and VSO liason office plus DAV leadership on 4/6.
 
 ***
 
@@ -75,9 +74,7 @@ While we cannot think of any events that would be critical enough to merit a rol
 ## Post Launch Metrics
 
 ### 1-Week Results Post-Launch 
-Intent to File [Datadog Dashboard Widgets](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-intent-to-file.md)
-<img width="1281" height="957" alt="Screenshot 2026-02-03 at 8 21 43 AM" src="https://github.com/user-attachments/assets/e03e44ce-686e-41a8-8cec-bd9a8f615b87" />
-<img width="1270" height="910" alt="Screenshot 2026-02-03 at 8 21 57 AM" src="https://github.com/user-attachments/assets/b22e15d8-b3a4-4868-8858-af831ebe80ea" />
+
 
 
 ### 1-Month Results Post Launch

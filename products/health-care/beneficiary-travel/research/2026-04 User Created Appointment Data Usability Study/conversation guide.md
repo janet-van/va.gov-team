@@ -63,9 +63,11 @@ consent_for_clips: true
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
 
-`List and complete any project-specific setup tasks for this study below:`
+`List and complete any project-specific setup tasks for this study below:`   
 
-- [ ] Unhide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
+- [ ] Remember to email external stakeholders the day before their session
+- [ ] Hide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
+- [ ] Check which entry point page the participant will see first in the [tracker](https://docs.google.com/spreadsheets/d/1VYXLkJXNbPTV6oAzhz-AJvlfiCuB7AoZqMwB6yrQYMw/edit?gid=0#gid=0)
 
 ### Day of the session
 
@@ -160,7 +162,7 @@ Before we start, I have a few things that I want to go over with you:
 `Moderator: Now we’re going to take a look at the prototype. As a reminder, it’s a representation of the site, and some things will work like you'd expect, but other things won't be clickable. If you try to click something and it doesn't work, just let me know what you were trying to do, and I'll help us move forward.`   
 
 > [!IMPORTANT]
-> Notetaker should paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
+> Moderator paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
 
 `In the chat, you’ll find a link to the prototype. Please click that link.`
 
@@ -171,7 +173,7 @@ Once they say the link is open:
 > [!NOTE]
 > If the participant struggles to screenshare, provide them with guidance. Reference the [Zoom screensharing support article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596).
 
-`Here’s the scenario I’d like you to imagine: Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
+`Here’s the scenario I’d like you to imagine: On March 31, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
 
 `Now you’d like to file for travel pay for your appointment. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment. Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
 
@@ -246,19 +248,29 @@ _If participant does not find the link on the page, prompt them to scroll furthe
 > - 3. Do they express any concern about this process?
 > - 4. Do they seem to understand that this is for a specific scenario of missing appointments?
 
+### Facility selection
+`Moderator: In our scenario, you went to Puget Sound Dermatology. What would you do next?`
+
+1. What would you do if you couldn’t find your facility in this list?
+
+`Moderator: Because this is a prototype, you won’t be able to actually search, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
+> - 2. What do they say they would search for?
+> - 3. When they land on the page, do they think that a search as already occurred?
+
 ### Appointment information page
-`Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
+`Moderator: Go ahead and take some time to observe this page. Again, you won’t be able to actually input anything, but you can click and speak out loud as you go.`   
 
 #### Page sections   
-**Facility selection**   
-* What would you do if you couldn’t find your facility in this list?
+
+**Appointment date/time:**  
+_Notice if users refer to timezone text_
 
 **Appointment name:**
 * What would you put in this field?
-
-**Appointment type**   
-* What do these “types” listed here mean to you?
-* Do you know which kind you would choose?   
 
 **Did you attend your appointment? question:**
 * Why do you think we’re asking for this information?
@@ -271,17 +283,16 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
-> - 2. Do they notice that the time selector has AM/PM, but no question about timezone?
-> - 3. Is the hint text helpful or do participants still express confusion?
+> - 1. Do they notice that the time selector has AM/PM and the information timezones?
+> - 2. Is the hint text helpful or do participants still express confusion?
 
 ### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
 2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
 3. What do you think the “edit” button does?
-4. What do you expect to happen after you continue?
-5. What do you think will happen to your information if you left this page?
+4. What do you think will happen to your information if you left this page?
+5. What do you expect to happen after you continue?
 
 `Moderator: Now I’d like to pause again for a minute and imagine a new scenario. Let’s pretend that this dermatology appointment was actually in VA’s system already, but you were in a hurry and just missed seeing it. So the appointment is there, but you just didn’t notice it.`   
 
@@ -314,6 +325,8 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 4. What does the phrase "Proof of care received" mean to you?
 5. How might that change if it said "Proof of attendance"?
 6. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
+
+7. _Prompt user to select the file that looks right to them, then take the next step in their task._
    
 > [!NOTE]
 > #### Things to watch for:
@@ -348,8 +361,9 @@ _Participant selects mileage_
 `Moderator: Take a look at this page. What do you see here?`   
 
 1. What do you think you need to do next?
-2. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
-3. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
+2. _If users don't open accordions, prompt_: How would you be sure you had entered all the information correctly?
+3. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
+4. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
 
 > [!NOTE]
 > #### Things to watch for:
@@ -396,7 +410,7 @@ _If the user does not notice the note, prompt them with:_
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
-`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on Manage and file travel reimbursement claims.` 
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on file and manage travel reimbursement claims.` 
 
 _Instruct user to click on the option they did not start from last time, either "Go to your past appointments" or "Review your travel reimbursement claims"_
 
@@ -414,12 +428,26 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 2. What reasoning do they provide for a preference?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
-`Moderator: Now that you’ve seen both pages, I’d like to show them to you side-by-side. Take a moment to look at both pages again.`   
+_Moderator prepares to screenshare either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data. Note the order in [this Google sheet](https://docs.google.com/spreadsheets/d/1VYXLkJXNbPTV6oAzhz-AJvlfiCuB7AoZqMwB6yrQYMw/edit?gid=0#gid=0)._
 
-1. What stands out to you? What do you notice?
-2. Which page makes it clearer that you can file for an appointment that isn’t on your list?
-3. If you could only pick one version, which one would you pick? Why would you pick that one?
-4. Is there anything you’d change about the entry point on either page?  
+`Moderator: Now I'm going to show you something to get your feedback. I'm going to stop your screen sharing. Can you navigate back to the Zoom app?` 
+
+_Once user confirms that they are viewing the Zoom app:_ `I'm now going to share my screen. Can you see me scrolling on a page called [page name]? If it appears small on our screen, you can pinch and stretch the screen to zoom in.`
+
+_Once user confirms they can see the page:_ `Now that you’ve seen both the Travel claims list and Past appointments list, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task. First, let's look at [either Travel claims list or Past appointments list].` 
+
+1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
+
+_Moderator switches to the other page._ `Now consider the [other page name].` 
+
+1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
+
+`Now consider both pages. We can go back and forth between them, if you like.` 
+
+1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
+2. If you could only pick one version, which one would you pick?
+   - Why would you pick that one?
+3. Is there anything you’d change about how you'd start the process of filing for your dermatology appointment, on either page?  
 
 > [!NOTE]
 > ### Things to watch for:
