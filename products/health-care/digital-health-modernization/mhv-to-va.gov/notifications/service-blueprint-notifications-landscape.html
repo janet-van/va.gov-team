@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HealtheVet Health Notifications: Landscape &amp; Opportunities — April 2026</title>
+  <style>
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #F0F0F0;
+      color: #323A45;
+      font-size: 14px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ===== LAYOUT ===== */
+    .page-container {
+      max-width: 1720px;
+      margin: 0 auto;
+      padding: 32px 32px 56px;
+    }
+
+    /* ===== CARD BASE ===== */
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #D6D7D9;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    /* ===== PAGE HEADER ===== */
+    .page-header {
+      background: linear-gradient(135deg, #112E51 0%, #1C4F8A 100%);
+      color: white;
+      padding: 36px 44px 40px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 280px; height: 280px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 50%;
+    }
+    .page-header::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; right: 140px;
+      width: 160px; height: 160px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 50%;
+    }
+    .page-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .page-badge {
+      display: inline-block;
+      padding: 3px 12px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.9);
+    }
+    .page-date {
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+    }
+    .page-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.3;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .page-subtitle {
+      font-size: 15px;
+      color: rgba(255,255,255,0.72);
+      margin-bottom: 0;
+      line-height: 1.55;
+      max-width: 840px;
+      position: relative;
+    }
+    .page-description {
+      font-size: 13px;
+      color: rgba(255,255,255,0.62);
+      line-height: 1.78;
+      max-width: 860px;
+      padding-top: 20px;
+      margin-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.14);
+      position: relative;
+    }
+    .page-description strong { color: rgba(255,255,255,0.9); }
+
+    /* ===== LEGEND ===== */
+    .legend-bar {
+      padding: 14px 24px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .legend-heading {
+      font-size: 11px;
+      font-weight: 700;
+      color: #5B616B;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-right: 6px;
+      white-space: nowrap;
+    }
+    .legend-divider {
+      width: 1px;
+      height: 26px;
+      background: #D6D7D9;
+      margin: 0 8px;
+      flex-shrink: 0;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .legend-item:hover { background: #F5F5F5; }
+    .legend-name { font-size: 12px; font-weight: 600; color: #1B1B1B; }
+    .legend-detail { font-size: 11px; color: #5B616B; }
+
+    /* ===== STATUS INDICATORS ===== */
+    .s {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .s-lg  { width: 26px; height: 26px; font-size: 12px; }
+    .s-sm  { width: 20px; height: 20px; font-size: 10px; }
+    .s-exists   { background: #2E8540; color: #fff; }
+    .s-partial  { background: #E59F00; color: #fff; }
+    .s-gap      { background: #D83933; color: #fff; }
+    .s-coming   { background: #0071BB; color: #fff; }
+    .s-disabled { background: #fff; border: 2px solid #D83933; color: #D83933; }
+    .s-none     { background: #D6D7D9; color: #5B616B; }
+    .s-unknown  { background: #FAD980; color: #7A5800; }
+
+    /* ===== EHR BADGES ===== */
+    .ehr {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+    .ehr-vista  { background: #112E51; color: #fff; }
+    .ehr-oh     { background: #D83933; color: #fff; }
+    .ehr-na     { background: #AEB0B5; color: #fff; }
+    .ehr-legacy { background: #112E51; color: #fff; opacity: 0.45; }
+
+    /* ===== INLINE TAGS ===== */
+    .tag {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: 600;
+      background: #F1F1F1;
+      color: #5B616B;
+      border: 1px solid #D6D7D9;
+      white-space: nowrap;
+    }
+    .tag-vetext   { background: #E8F4FD; color: #205493; border-color: #9EC8E8; }
+    .tag-vanotify { background: #EAF4EC; color: #2A6932; border-color: #9DC8A0; }
+    .tag-vahb     { background: #FEF7E5; color: #7A5800; border-color: #E5C46B; }
+    .tag-web      { background: #EFF6FB; color: #0071BB; border-color: #9EC8E8; }
+    .tag-cboc     { background: #F7F0FC; color: #62469B; border-color: #C8A8E8; }
+    .tag-warn     { background: #FFF1F0; color: #D83933; border-color: #E8A0A0; }
+    .tag-info     { background: #EFF6FB; color: #0071BB; border-color: #9EC8E8; }
+    .tag-future   { background: #F7F0FC; color: #62469B; border-color: #C8A8E8; }
+
+    /* ===== SECTION HEADING ===== */
+    .section-heading {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1B1B1B;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-heading::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: #D6D7D9;
+    }
+
+    /* ===== MATRIX ===== */
+    .matrix-section { margin-bottom: 36px; }
+    .matrix-scroll { overflow-x: auto; padding-bottom: 4px; }
+
+    .matrix {
+      display: grid;
+      grid-template-columns: 230px 1fr 1fr 1fr 1fr 1fr 1.18fr;
+      gap: 6px;
+      min-width: 1360px;
+    }
+
+    /* Group header row */
+    .gh-spacer { /* empty col 0 placeholder */ }
+    .gh {
+      padding: 9px 18px;
+      border-radius: 4px 4px 0 0;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      text-align: center;
+    }
+    .gh-external {
+      grid-column: span 4;
+      background: #E1EFF8;
+      color: #1A4971;
+      border: 1px solid #BAD9EE;
+      border-bottom: none;
+    }
+    .gh-inapp {
+      grid-column: span 2;
+      background: #E6F2FB;
+      color: #005A96;
+      border: 1px solid #9EC8E8;
+      border-bottom: none;
+    }
+
+    /* Column headers */
+    .ch {
+      padding: 12px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1B1B1B;
+      text-align: center;
+      background: #F5F5F5;
+      border: 1px solid #D6D7D9;
+    }
+    .ch .ch-name { display: block; }
+    .ch .ch-sys  { display: block; font-size: 10px; font-weight: 400; color: #5B616B; margin-top: 3px; }
+    .ch-tool {
+      text-align: left;
+      background: #EBEBEB;
+      font-size: 11px;
+      font-weight: 700;
+      color: #5B616B;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+    }
+    .ch-web {
+      background: #EFF6FB;
+      border-left: 3px solid #0071BB;
+      color: #0071BB;
+    }
+    .ch-web .ch-sys { color: #4D9DCC; }
+    .ch-focus-badge {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 700;
+      background: #0071BB;
+      color: #fff;
+      padding: 1px 6px;
+      border-radius: 3px;
+      letter-spacing: 0.03em;
+      margin-top: 6px;
+    }
+
+    /* Row headers */
+    .rh {
+      padding: 14px 16px;
+      background: #F8F8F8;
+      border: 1px solid #D6D7D9;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+    }
+    .rh-name { font-size: 14px; font-weight: 700; color: #1B1B1B; line-height: 1.35; }
+    .rh-ehr  { display: flex; gap: 4px; flex-wrap: wrap; }
+    .rh-note {
+      font-size: 10px;
+      font-style: italic;
+      color: #5B616B;
+      line-height: 1.55;
+      margin-top: 4px;
+      padding-top: 7px;
+      border-top: 1px dashed #D6D7D9;
+    }
+
+    /* ===== DATA CELLS ===== */
+    .cell {
+      background: #FFFFFF;
+      border: 1px solid #D6D7D9;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      min-height: 106px;
+    }
+    .cell-web {
+      background: #EFF6FB;
+      border-left: 3px solid #0071BB;
+    }
+    .cell-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .cell-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #1B1B1B;
+      line-height: 1.4;
+    }
+    .cell-body {
+      font-size: 11px;
+      color: #5B616B;
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+    .cell-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 2px;
+    }
+    .cell-note {
+      font-size: 10px;
+      font-style: italic;
+      color: #5B616B;
+      line-height: 1.55;
+      padding-top: 6px;
+      border-top: 1px dashed #E0E0E0;
+    }
+    .cell-route {
+      font-size: 10px;
+      color: #AEB0B5;
+    }
+
+    /* Empty / None cells */
+    .cell-empty {
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      opacity: 0.72;
+    }
+    .cell-dash { font-size: 20px; color: #C5C6C8; font-weight: 300; line-height: 1; }
+    .cell-none-text { font-size: 10px; color: #AEB0B5; text-align: center; line-height: 1.4; }
+
+    /* Notification bullet list */
+    .notif-list { list-style: none; padding: 0; margin: 3px 0; }
+    .notif-list li {
+      font-size: 10px;
+      color: #323A45;
+      padding: 1.5px 0 1.5px 11px;
+      position: relative;
+      border-bottom: 1px solid #F5F5F5;
+      line-height: 1.55;
+    }
+    .notif-list li:last-child { border-bottom: none; }
+    .notif-list li::before { content: '•'; position: absolute; left: 0; color: #2E8540; font-weight: 800; }
+    .notif-list li.upcoming::before { color: #0071BB; }
+
+    /* ===== INSIGHTS SECTION ===== */
+    .insights-section { margin-bottom: 36px; }
+    .insights-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .insight-card { padding: 22px 22px 20px; }
+    .insight-card-green { border-left: 4px solid #2E8540; }
+    .insight-card-red   { border-left: 4px solid #D83933; }
+    .insight-card-blue  { border-left: 4px solid #0071BB; }
+    .insight-icon { font-size: 26px; margin-bottom: 10px; }
+    .insight-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1B1B1B;
+      margin-bottom: 9px;
+      line-height: 1.4;
+    }
+    .insight-body { font-size: 13px; color: #5B616B; line-height: 1.65; }
+
+    /* ===== SYSTEMS SECTION ===== */
+    .systems-section { margin-bottom: 36px; }
+    .systems-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .system-card { padding: 22px 26px; }
+    .system-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .system-logo {
+      width: 38px; height: 38px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 900;
+      flex-shrink: 0; letter-spacing: -0.02em;
+    }
+    .sl-vetext   { background: #112E51; color: #fff; }
+    .sl-vanotify { background: #2E8540; color: #fff; }
+    .sl-profile  { background: #0071BB; color: #fff; font-size: 18px; }
+    .system-name { font-size: 16px; font-weight: 700; color: #112E51; }
+    .system-desc { font-size: 13px; color: #323A45; line-height: 1.65; margin-bottom: 14px; }
+    .system-props { display: flex; flex-wrap: wrap; gap: 6px; }
+    .system-prop { font-size: 11px; padding: 3px 9px; border-radius: 3px; background: #F1F1F1; color: #5B616B; border: 1px solid #D6D7D9; }
+
+    /* ===== FOOTER ===== */
+    .page-footer {
+      text-align: center;
+      padding: 24px 0 0;
+      font-size: 12px;
+      color: #AEB0B5;
+      border-top: 1px solid #D6D7D9;
+      line-height: 1.7;
+    }
+
+    /* ===== PRINT ===== */
+    @media print {
+      body { background: #fff; }
+      .page-container { padding: 16px; max-width: none; }
+      .matrix { min-width: 1100px; }
+      .insights-grid { grid-template-columns: repeat(4, 1fr); }
+      .systems-grid { grid-template-columns: repeat(3, 1fr); }
+      .page-header { background: #112E51 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-container">
+
+  <!-- ============================== -->
+  <!-- PAGE HEADER                    -->
+  <!-- ============================== -->
+  <header class="page-header">
+    <div class="page-header-meta">
+      <span class="page-badge">Service Blueprint</span>
+      <span class="page-date">April 2026 &nbsp;·&nbsp; Digital Health Modernization &nbsp;·&nbsp; My HealtheVet on VA.gov</span>
+    </div>
+    <h1 class="page-title">My HealtheVet Health Notifications: Landscape &amp; Opportunities</h1>
+    <p class="page-subtitle">What exists today across channels, where gaps exist, and where we can better serve Veterans on VA.gov</p>
+    <p class="page-description">
+      This artifact maps every existing health-related notification and in-app activity signal across the VA ecosystem — SMS, email, push, and in-app cards — for eight core health tools.
+      <strong>Rows</strong> represent health tools; <strong>columns</strong> represent delivery channels, grouped as external outbound notifications (SMS/email/push) and on-screen in-app activity (VAHB mobile and VA.gov web).
+      The rightmost column — <strong>In-App Activity (VA.gov / MHV Landing Page)</strong> — is highlighted as the primary opportunity space: it currently has the most gaps and is the focus of the MHV "recent activity" initiative.
+    </p>
+  </header>
+
+  <!-- ============================== -->
+  <!-- LEGEND                         -->
+  <!-- ============================== -->
+  <div class="legend-bar card">
+    <span class="legend-heading">Status Key</span>
+    <div class="legend-divider"></div>
+
+    <div class="legend-item">
+      <span class="s s-lg s-exists">✓</span>
+      <span><span class="legend-name">Exists</span> <span class="legend-detail">— Live &amp; functioning</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-partial">◆</span>
+      <span><span class="legend-name">Partial / Improve</span> <span class="legend-detail">— Something exists but incomplete</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-gap">■</span>
+      <span><span class="legend-name">Gap / Create</span> <span class="legend-detail">— Nothing exists; data may be available</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-coming">▶</span>
+      <span><span class="legend-name">Coming Soon</span> <span class="legend-detail">— In active development</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-disabled">○</span>
+      <span><span class="legend-name">Disabled</span> <span class="legend-detail">— Built but currently turned off</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-none">–</span>
+      <span><span class="legend-name">None</span> <span class="legend-detail">— Nothing exists, nothing planned</span></span>
+    </div>
+    <div class="legend-item">
+      <span class="s s-lg s-unknown">?</span>
+      <span><span class="legend-name">Unknown</span> <span class="legend-detail">— Needs verification</span></span>
+    </div>
+  </div>
+
+  <!-- ============================== -->
+  <!-- MATRIX                         -->
+  <!-- ============================== -->
+  <section class="matrix-section">
+    <h2 class="section-heading">Notification &amp; Activity Landscape by Health Tool and Channel</h2>
+    <div class="matrix-scroll">
+      <div class="matrix">
+
+        <!-- ── GROUP HEADER ROW ── -->
+        <div class="gh-spacer"></div>
+        <div class="gh gh-external">External Notifications &mdash; Outbound to Veteran (SMS / Email / Push)</div>
+        <div class="gh gh-inapp">In-App / On-Screen &mdash; Veteran must be logged in</div>
+
+        <!-- ── COLUMN HEADER ROW ── -->
+        <div class="ch ch-tool">Health Tool</div>
+
+        <div class="ch">
+          <span class="ch-name">SMS</span>
+          <span class="ch-sys">VEText</span>
+        </div>
+        <div class="ch">
+          <span class="ch-name">SMS</span>
+          <span class="ch-sys">VA Notify</span>
+        </div>
+        <div class="ch">
+          <span class="ch-name">Email</span>
+          <span class="ch-sys">VA Notify</span>
+        </div>
+        <div class="ch">
+          <span class="ch-name">Push</span>
+          <span class="ch-sys">VAHB Mobile App</span>
+        </div>
+        <div class="ch">
+          <span class="ch-name">In-App Activity</span>
+          <span class="ch-sys">VAHB Mobile Home Screen</span>
+        </div>
+        <div class="ch ch-web">
+          <span class="ch-name">In-App Activity</span>
+          <span class="ch-sys">VA.gov / MHV Landing Page</span>
+          <span class="ch-focus-badge">★ Primary Focus</span>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 1: APPOINTMENTS                         -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Appointments</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-vista">VistA</span>
+          </div>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">10 notification types — rich coverage</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <ul class="notif-list">
+            <li>Upcoming appointment reminder</li>
+            <li>Veteran-initiated auto-cancel</li>
+            <li>Clinic-cancelled appointment</li>
+            <li>Scheduling attempt reminder</li>
+            <li>Pre check-in</li>
+            <li>Day-of check-in</li>
+            <li>Post-appointment reminder</li>
+            <li>Community care scheduling</li>
+            <li>Community care post-appointment</li>
+            <li>Open Slot Management (OSM)</li>
+          </ul>
+          <div class="cell-tags">
+            <span class="tag tag-vetext">VEText</span>
+            <span class="tag">Auto opt-in</span>
+            <span class="tag">SMS STOP to opt out</span>
+          </div>
+          <p class="cell-note">Pre check-in &amp; Check-in will transition when facilities migrate to Oracle Health.</p>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VA Notify SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No email coverage</span>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="s s-sm s-unknown">?</span>
+          <span class="cell-none-text">Push notification status unverified</span>
+          <div class="cell-tags" style="justify-content:center;">
+            <span class="tag">Needs verification</span>
+          </div>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Upcoming appointments: [X] in the next 30 days</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Count of confirmed upcoming appointments. Card does not appear if zero.</p>
+          <div class="cell-tags"><span class="tag tag-vahb">VAHB Home Screen</span></div>
+          <p class="cell-route">→ Appointments &gt; Upcoming tab</p>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">Nearest upcoming only — no count</span>
+            <span class="s s-sm s-partial">◆</span>
+          </div>
+          <p class="cell-body">Single nearest upcoming appointment card on <strong>My VA</strong>. No visibility on MHV landing page beyond a generic link. No total count.</p>
+          <div class="cell-tags">
+            <span class="tag tag-web">My VA</span>
+          </div>
+          <p class="cell-note">Opportunity: Show count of upcoming appointments on MHV landing page. Match VAHB mobile parity.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 2: SECURE MESSAGES                      -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Secure Messages</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-vista">VistA</span>
+            <span class="ehr ehr-oh">OH</span>
+          </div>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VEText SMS coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">"You have a new message"</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Sent automatically when a provider sends a message. Works on both VistA and Oracle Health. Non-opt-outable.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag">Non-opt-out</span>
+            <span class="tag">VistA + OH</span>
+          </div>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">2 email notifications</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body"><strong>"You have a new message"</strong> — triggered on new provider message. VistA + OH.<br><strong>"Welcome to Secure Messaging"</strong> — when user becomes SM-eligible. VistA only.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag">Non-opt-out</span>
+          </div>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Push on provider reply</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Push notification delivered when a provider replies to a Veteran's message thread.</p>
+          <div class="cell-tags"><span class="tag tag-vahb">VAHB Push</span></div>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Messages: [X] unread</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Count of unread messages shown on home screen activity card. Blue dot indicator.</p>
+          <div class="cell-tags"><span class="tag tag-vahb">VAHB Home Screen</span></div>
+          <p class="cell-route">→ Messages &gt; Inbox</p>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">Unread dot indicator only — no count</span>
+            <span class="s s-sm s-partial">◆</span>
+          </div>
+          <p class="cell-body">Blue dot indicator next to "Go to inbox" on MHV landing page and My VA. Indicates unread messages exist, but does not show a count.</p>
+          <div class="cell-tags">
+            <span class="tag tag-web">MHV Landing Page</span>
+            <span class="tag tag-web">My VA</span>
+          </div>
+          <p class="cell-note">Opportunity: Upgrade dot to "[X] unread messages" count. Most cross-channel coverage of any tool — web is the weakest link.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 3: MEDICATIONS                          -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Medications</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-vista">VistA</span>
+            <span class="ehr ehr-oh">OH</span>
+          </div>
+          <p class="rh-note">Some Veterans receive no medication notifications at all — if their facility doesn't have VEText and their meds aren't shipped from the CBOC central distribution center.</p>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Facility-dependent — partial coverage</span>
+            <span class="s s-sm s-partial">◆</span>
+          </div>
+          <ul class="notif-list">
+            <li>1 medication shipped</li>
+            <li>Multiple medications shipped</li>
+            <li>Window pickup ready (ScriptPro)</li>
+            <li class="upcoming">Rx refill available <em style="color:#0071BB;">(coming 2027)</em></li>
+            <li class="upcoming">CMOP shipment notification <em style="color:#0071BB;">(no timeline)</em></li>
+          </ul>
+          <div class="cell-tags">
+            <span class="tag tag-vetext">VEText</span>
+            <span class="tag">Not all facilities</span>
+            <span class="tag">Daily 8 AM batch</span>
+            <span class="tag">Opt-in</span>
+          </div>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VA Notify SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">CBOC shipped — opt-in only</span>
+            <span class="s s-sm s-partial">◆</span>
+          </div>
+          <p class="cell-body">Email when centrally-distributed (CBOC) medications have tracking information added. <strong>Only covers meds shipped from the central distribution center</strong> — facility-dispensed meds not included.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag tag-cboc">CBOC only</span>
+            <span class="tag">Opt-in via Profile</span>
+          </div>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="s s-sm s-unknown">?</span>
+          <span class="cell-none-text">Push notification status unverified</span>
+          <div class="cell-tags" style="justify-content:center;">
+            <span class="tag">Needs verification</span>
+          </div>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Prescriptions: [X] ready to refill</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Count of prescriptions eligible for refill displayed on home screen activity card.</p>
+          <div class="cell-tags"><span class="tag tag-vahb">VAHB Home Screen</span></div>
+          <p class="cell-route">→ Prescriptions page</p>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">No medication activity — zero coverage</span>
+            <span class="s s-sm s-gap">■</span>
+          </div>
+          <p class="cell-body">No medication activity surfaced anywhere on VA.gov web. No refill count, no shipment status, no actions surfaced.</p>
+          <div class="cell-tags">
+            <span class="tag tag-warn">High priority gap</span>
+          </div>
+          <p class="cell-note">Opportunity: Surface prescriptions ready to refill count. VAHB data is available today — web parity is the next step.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 4: MEDICAL RECORDS                      -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Medical Records<br><span style="font-size:11px; font-weight:400; color:#5B616B;">Labs &amp; Tests</span></span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-oh">OH</span>
+            <span class="ehr ehr-legacy">VistA (legacy)</span>
+          </div>
+          <p class="rh-note">No server-side "new since last visit" concept for medical records. Building "new labs" activity requires either a new backend endpoint or client-side timestamp comparison.</p>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VEText coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">New lab &amp; test result</span>
+            <span class="s s-sm s-coming">▶</span>
+          </div>
+          <p class="cell-body"><em>Coming soon.</em> Automatic notification when new lab result is available. OH only. Deep-links to exact result page. Non-opt-outable. Content is aggressively de-identified.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag ehr-oh" style="border-radius:3px; padding:1px 6px;">OH only</span>
+            <span class="tag">Non-opt-out</span>
+          </div>
+          <p class="cell-note">Also existing: medical image download success/failure notifications (VistA + OH).</p>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="s s-sm s-unknown">?</span>
+          <span class="cell-none-text">Push notification status unverified</span>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VAHB activity card</span>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">No records activity — coordinated launch planned</span>
+            <span class="s s-sm s-gap">■</span>
+          </div>
+          <p class="cell-body">No "new labs" activity surfaced on web. Medical records team is building this. <strong>Coordinated launch planned with MHV landing page redesign.</strong></p>
+          <div class="cell-tags">
+            <span class="tag tag-info">Coordinated launch</span>
+          </div>
+          <p class="cell-note">Opportunity: "You have [X] new lab results" on landing page. Depends on VA Notify email rollout + new backend "last seen" tracking.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 5: TRAVEL PAY                           -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Travel Pay</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-na">N/A</span>
+          </div>
+          <p class="rh-note">No external notifications exist for travel pay across any channel. VAHB mobile is the only surface that proactively informs Veterans.</p>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VEText coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No email coverage</span>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No push coverage</span>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">Past appts: [X] eligible for travel</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Count of past appointments eligible for travel pay reimbursement. Shown on home screen.</p>
+          <div class="cell-tags"><span class="tag tag-vahb">VAHB Home Screen</span></div>
+          <p class="cell-route">→ Appointments &gt; Past tab</p>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">No travel pay activity</span>
+            <span class="s s-sm s-gap">■</span>
+          </div>
+          <p class="cell-body">No travel pay activity surfaced on web. Veterans have no visibility into eligibility or claim status. No external notifications exist on any other channel.</p>
+          <div class="cell-tags">
+            <span class="tag tag-warn">Gap</span>
+          </div>
+          <p class="cell-note">Opportunity: Surface count of travel-eligible past appointments. VAHB data is available today.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 6: MEDICAL SUPPLIES                     -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Medical Supplies</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-na">N/A</span>
+          </div>
+          <p class="rh-note">Complete notification dead zone — no coverage of any kind on any channel. Future opportunity: "Supplies eligible for re-order."</p>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No coverage</span>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No coverage</span>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VAHB activity card</span>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">No activity anywhere — future opportunity</span>
+            <span class="s s-sm s-gap">■</span>
+          </div>
+          <p class="cell-body">Completely absent across all channels. No external or in-app notifications of any kind on any platform.</p>
+          <div class="cell-tags">
+            <span class="tag tag-future">Future opportunity</span>
+          </div>
+          <p class="cell-note">"Supplies eligible for re-order" would require net-new data integration with no existing analogue.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 7: MEDICAL CO-PAYS                      -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">Medical Co-pays<br>&amp; Billing</span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-na">N/A</span>
+          </div>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VEText coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">"New co-pay established" — disabled</span>
+            <span class="s s-sm s-disabled">○</span>
+          </div>
+          <p class="cell-body">Email notification exists in VA Notify but is <strong>currently disabled</strong> due to problems with unclear co-pay statuses. Timeline for re-enablement is unknown.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag tag-warn">⚠ Disabled</span>
+          </div>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No push coverage</span>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VAHB activity card</span>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">No billing activity — future opportunity</span>
+            <span class="s s-sm s-gap">■</span>
+          </div>
+          <p class="cell-body">No co-pay or billing activity on web. External email notification is disabled due to data quality issues.</p>
+          <div class="cell-tags">
+            <span class="tag tag-future">Future opportunity</span>
+          </div>
+          <p class="cell-note">Blocked by co-pay status data quality problems. Re-evaluate when external notification is re-enabled.</p>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ROW 8: 10-10EZR FORM                        -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="rh">
+          <span class="rh-name">10-10EZR Form<br><span style="font-size:11px; font-weight:400; color:#5B616B;">Health Benefits Update</span></span>
+          <div class="rh-ehr">
+            <span class="ehr ehr-na">N/A</span>
+          </div>
+        </div>
+
+        <!-- SMS VEText -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VEText coverage</span>
+        </div>
+
+        <!-- SMS VA Notify -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No SMS coverage</span>
+        </div>
+
+        <!-- Email VA Notify -->
+        <div class="cell">
+          <div class="cell-top">
+            <span class="cell-title">"Your update (submission) failed"</span>
+            <span class="s s-sm s-exists">✓</span>
+          </div>
+          <p class="cell-body">Automatic email when a 10-10EZR form submission fails. Error-state notification only — no success confirmation.</p>
+          <div class="cell-tags">
+            <span class="tag tag-vanotify">VA Notify</span>
+            <span class="tag">Error notification</span>
+            <span class="tag">Automatic</span>
+          </div>
+        </div>
+
+        <!-- Push VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No push coverage</span>
+        </div>
+
+        <!-- In-App VAHB -->
+        <div class="cell cell-empty">
+          <span class="cell-dash">—</span>
+          <span class="s s-sm s-none">–</span>
+          <span class="cell-none-text">No VAHB activity card</span>
+        </div>
+
+        <!-- In-App Web -->
+        <div class="cell cell-web">
+          <div class="cell-top">
+            <span class="cell-title">Low priority for web recent activity</span>
+            <span class="s s-sm s-none">–</span>
+          </div>
+          <p class="cell-body">10-10EZR is an annual update form, not a recurring health management tool. Low priority for MHV landing page "recent activity" initiative.</p>
+          <div class="cell-tags">
+            <span class="tag">Out of scope for now</span>
+          </div>
+        </div>
+
+      </div><!-- /.matrix -->
+    </div><!-- /.matrix-scroll -->
+  </section>
+
+  <!-- ============================== -->
+  <!-- INSIGHTS                       -->
+  <!-- ============================== -->
+  <section class="insights-section">
+    <h2 class="section-heading">Key Insights</h2>
+    <div class="insights-grid">
+
+      <div class="card insight-card insight-card-green">
+        <div class="insight-icon">💬</div>
+        <h3 class="insight-title">Secure Messages is the most complete</h3>
+        <p class="insight-body">The only tool with coverage across nearly all channels — SMS, email, push, VAHB in-app, and web. Automatic and non-opt-outable across VistA and Oracle Health. The web surface exists but is incomplete (dot indicator only, no count).</p>
+      </div>
+
+      <div class="card insight-card insight-card-red">
+        <div class="insight-icon">💊</div>
+        <h3 class="insight-title">Medications has the biggest gap between what's possible and what's surfaced</h3>
+        <p class="insight-body">VAHB mobile surfaces refill-ready prescriptions; web surfaces nothing. External notifications are fragmented — CBOC email is opt-in, VEText is facility-dependent. Some Veterans receive zero medication notifications of any kind.</p>
+      </div>
+
+      <div class="card insight-card insight-card-red">
+        <div class="insight-icon">🚫</div>
+        <h3 class="insight-title">Travel Pay, Medical Supplies, and Co-pays are notification dead zones</h3>
+        <p class="insight-body">Minimal to zero coverage across all channels. Travel Pay has only a single VAHB activity card. Medical Supplies has nothing anywhere. Co-pays have a disabled email notification. All three are future opportunities requiring new work.</p>
+      </div>
+
+      <div class="card insight-card insight-card-blue">
+        <div class="insight-icon">🌐</div>
+        <h3 class="insight-title">The web portal is the biggest single gap</h3>
+        <p class="insight-body">The In-App (VA.gov) column has the most gaps of any channel. Only 2 of 8 tools surface any activity on web — both incomplete. This is the primary focus of the MHV recent activity initiative and represents the highest-leverage opportunity in the ecosystem.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SYSTEMS CONTEXT                -->
+  <!-- ============================== -->
+  <section class="systems-section">
+    <h2 class="section-heading">Notification Platform Overview</h2>
+    <div class="systems-grid">
+
+      <div class="card system-card">
+        <div class="system-header">
+          <div class="system-logo sl-vetext">VE</div>
+          <span class="system-name">VEText</span>
+        </div>
+        <p class="system-desc">Facility-dependent SMS system built on CPRS/VistA data. Not available VA-wide — each facility opts in and budgets separately. Covers primarily VA appointments, community care scheduling, and prescription tracking. All Veterans are auto-opted in at the facility level; can opt out by replying STOP to received messages.</p>
+        <div class="system-props">
+          <span class="system-prop">SMS only</span>
+          <span class="system-prop">Facility-dependent</span>
+          <span class="system-prop">VistA / CPRS data</span>
+          <span class="system-prop">Auto-opted in</span>
+          <span class="system-prop">Quiet hours 8am–8pm local time</span>
+          <span class="system-prop">SMS STOP to opt out</span>
+          <span class="system-prop">SMS START to re-enroll</span>
+        </div>
+      </div>
+
+      <div class="card system-card">
+        <div class="system-header">
+          <div class="system-logo sl-vanotify">VA</div>
+          <span class="system-name">VA Notify</span>
+        </div>
+        <p class="system-desc">VA-wide notification platform supporting email, SMS, and push notifications (VAHB Mobile App). Template-driven passthrough — does not store Veteran data. Partners with VA Profile for preference management. SMS notifications can take up to 12 weeks to implement due to telecom compliance requirements.</p>
+        <div class="system-props">
+          <span class="system-prop">Email + SMS + Push</span>
+          <span class="system-prop">VA-wide</span>
+          <span class="system-prop">Template-driven</span>
+          <span class="system-prop">Requires API key + privacy review</span>
+          <span class="system-prop">SMS: up to 12 weeks to implement</span>
+          <span class="system-prop">VAHB push integration</span>
+        </div>
+      </div>
+
+      <div class="card system-card">
+        <div class="system-header">
+          <div class="system-logo sl-profile">☰</div>
+          <span class="system-name">VA.gov Profile — Notification Settings</span>
+        </div>
+        <p class="system-desc">The authenticated settings page where Veterans manage notification preferences. Some tools are opt-in here (appointments reminders, medication shipment). Secure Messages is automatic and non-opt-outable — it does not appear in Profile settings at all. Note: opting out via SMS STOP and then re-checking a Profile box may not reactivate — Veterans may need to reply START to a prior message.</p>
+        <div class="system-props">
+          <span class="system-prop">Preference management UI</span>
+          <span class="system-prop">SM: automatic (not listed)</span>
+          <span class="system-prop">Appointments: opt-in</span>
+          <span class="system-prop">Meds shipment: opt-in</span>
+          <span class="system-prop">SMS STOP may override Profile setting</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- FOOTER                         -->
+  <!-- ============================== -->
+  <footer class="page-footer">
+    <p><strong>My HealtheVet Health Notifications: Landscape &amp; Opportunities</strong> &mdash; April 2026 &mdash; VA.gov Digital Health Modernization</p>
+    <p>Source documents: Notifications Current State Report (Feb 2026) &nbsp;·&nbsp; Web &amp; VAHB Recent Activity Analysis (Apr 2026) &nbsp;·&nbsp; 1-Year Technical Improvement Plan (Apr 2026)</p>
+  </footer>
+
+</div><!-- /.page-container -->
+</body>
+</html>
