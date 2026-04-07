@@ -21,16 +21,16 @@ We believe that veterans lack a clear mental model of the 526 as a potentially m
 Establish clear, consistent visibility of the relationship between the 21-526EZ and its ancillary forms at every critical touchpoint, from the landing page through post-submission confirmation, so that veterans can make informed decisions, submit complete and accurate information, and understand what they signed.
 
 ## Goals
-- Reduce abandonment at ancillary form triggers.
-- Reduce preventable support contact related to form confusion and post-submission questions.
-- Increase veteran confidence and trust through the submission experience.
+- Reduce abandonment at ancillary form triggers
+- Reduce preventable support contact related to form confusion and post-submission questions
+- Increase veteran confidence and trust through the submission experience
 
 
 ## Scope
-- 21-526EZ landing page: setting expectation for potential multi-form scope.
-- Ancillary form entry points within form, in flow moments where ancillary forms are triggered.
-- Review and submit page list forms that will be submitted.
-- Confirmation page and follow-up emails; plain-language summary of what was submitted and which forms failed.
+- 21-526EZ landing page: setting expectation for potential multi-form scope
+- Ancillary form entry points within form, in flow moments where ancillary forms are triggered
+- Review and submit page list forms that will be submitted
+- Confirmation page and follow-up emails; plain-language summary of what was submitted and which forms failed
 - Research synthesis mapping existing abandonment, qualitative and call center data to specific flow touch points
 
 
@@ -85,7 +85,7 @@ Establish clear, consistent visibility of the relationship between the 21-526EZ 
 
 2 have limited research (21-0966, 21-10210), and 
 
-4 have no research — including high-impact forms like the 21-4142 (high usage, privacy implications), 21-0972 (111K downloads, legal signing authority), and 26-4555 (high-dollar benefit).
+4 have no research — including high-impact forms like the 21-4142 (high usage, privacy implications), 21-0972 (111K downloads, legal signing authority), and 26-4555 (high-dollar benefit)
 
 
 ## Areas to explore 
@@ -147,7 +147,7 @@ Whether the veteran navigates the disability benefits menu or uses the global se
 🔸 [Staging Review finding: Update intro page 138280](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138280) 4/02/2026 EPIC 0781
 **Platform stakeholder**: Shira Goodman
 **Details**:
-- VA.gov Experience Standard - issue: User encounters outdated design components or patterns.
+- VA.gov Experience Standard - issue: User encounters outdated design components or patterns
 - VA.gov Experience Standard - category: Consistency
 
 <hr />
@@ -229,9 +229,9 @@ The Review and Submit page does not enumerate all submitted forms. Veterans are 
 Connected Forms: Reduce post-submission confusion of ancillary forms within the 21-526EZ flow (https://github.com/department-of-veterans-affairs/va.gov-team/issues/135721)
 
 ### Pain point
-- Post-submission — confirmation page and emails do not clarify which forms were submitted or which failed.
+- Post-submission — confirmation page and emails do not clarify which forms were submitted or which failed
 
-### Inherited from KPI Metrics
+### Inherited Form KPI Metrics
 
 | Inherited Form | Downloads (9/1/2021–9/1/2022, Find a Form) | Mail Submissions (Prior Year, Central Mail) |
 |---|---|---|
@@ -255,7 +255,7 @@ Comparison to 2025 paper submissions
 
 **Design opportunities**
 - What pattern can notifications and confirmation pages show to help veterans clearly understand what they have submitted
-- Metrics baseline: ~97% submission success rate, ~25–30% download/print interaction on confirmation, with duplicate submissions and abandonment rates tracked at the page level.
+- Metrics baseline: ~97% submission success rate, ~25–30% download/print interaction on confirmation, with duplicate submissions and abandonment rates tracked at the page level
 
 
 <hr />
