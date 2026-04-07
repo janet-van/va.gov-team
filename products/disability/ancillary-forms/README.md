@@ -1,7 +1,16 @@
-
-
-
 # Connected forms
+
+Authors: Justin Linn, Ann Laidlaw & Brent Schneider
+
+Date: 4/7/2026
+
+**Super Epic:** [Connected Forms - Help users understand the relationship between the disability application and its many supporting forms](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114934)
+
+✅ [Discovery Milestone 1 - Refining the super epic problem statement, goals, and setting initial hypotheses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135710)
+
+✅ [Discovery Milestone 2 - Review hypotheses for roadmap & plan next steps](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137288#issuecomment-4195639614)
+
+
 
 ## Hypothesis
 We believe that veterans lack a clear mental model of the 526 as a potentially multi-form submission, which leads to abandonment at the ancillary form entry point, poor data quality, and post-submission confusion, as evidenced by page-level abandonment rates, qualitative friction findings in the evidence, and nested form flow and call center contact patterns.
@@ -92,6 +101,8 @@ Public Websites & Facilities (PW&F) team:
 - Tim Shundo (tim.shundo@civicactions.com)
 - Tina Kambil (tina.kambil@agile6.com)
 - Dave Pickett (dave.pickett@civicactions.com)
+
+We learned from Shannon Ford that the intro page is an outdated pattern. 
 
 PW&F is focused on the unauthenticated pages
 DBC is focused on the disability claims forms and pages
