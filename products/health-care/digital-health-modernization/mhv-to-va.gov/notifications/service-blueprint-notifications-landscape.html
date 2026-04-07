@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MHV Health Notifications: Landscape &amp; Opportunities</title>
+<style>
+  /* ============================================================
+     BASE / RESET
+     ============================================================ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #F0F0F0;
+    color: #1B1B1B;
+    min-width: 1400px;
+    padding: 32px 40px 64px;
+    line-height: 1.5;
+  }
+
+  /* ============================================================
+     HEADER
+     ============================================================ */
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    gap: 32px;
+  }
+
+  .page-header-left h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1B1B1B;
+    letter-spacing: -0.3px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+
+  .page-header-left .subtitle {
+    font-size: 16px;
+    color: #5B616B;
+    max-width: 740px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+
+  .page-header-left .date-stamp {
+    font-size: 14px;
+    color: #71767A;
+  }
+
+  /* ============================================================
+     LEGEND CARD
+     ============================================================ */
+  .legend-card {
+    background: #FFFFFF;
+    border: 1px solid #D6D7D9;
+    border-radius: 6px;
+    padding: 16px 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    min-width: 340px;
+    flex-shrink: 0;
+  }
+
+  .legend-card h3 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #71767A;
+    margin-bottom: 12px;
+  }
+
+  .legend-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px 20px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #1B1B1B;
+    white-space: nowrap;
+  }
+
+  .legend-item .icon { font-size: 15px; line-height: 1; }
+
+  /* ============================================================
+     SECTION LABELS (spans columns)
+     ============================================================ */
+  .section-span-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0;
+    padding: 0 0 0 260px; /* offset for the row-label column */
+  }
+
+  .section-span {
+    flex: 1;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 4px 4px 0 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .section-external {
+    flex: 4; /* spans 4 columns */
+    background: #F2F2F2;
+    color: #5B616B;
+    border: 1px solid #D6D7D9;
+    border-bottom: none;
+  }
+
+  .section-inapp {
+    flex: 2; /* spans 2 columns */
+    background: #E0EEF8;
+    color: #0071BB;
+    border: 1px solid #C4DAEA;
+    border-bottom: none;
+  }
+
+  /* ============================================================
+     MATRIX WRAPPER
+     ============================================================ */
+  .matrix-wrapper {
+    overflow-x: auto;
+    margin-bottom: 32px;
+  }
+
+  /* ============================================================
+     COLUMN HEADERS
+     ============================================================ */
+  .col-headers {
+    display: grid;
+    grid-template-columns: 252px repeat(6, 1fr);
+    gap: 8px;
+    margin-bottom: 0;
+    align-items: end;
+  }
+
+  .col-header {
+    background: #FFFFFF;
+    border: 1px solid #D6D7D9;
+    border-radius: 4px 4px 0 0;
+    padding: 12px 14px 10px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  .col-header-empty {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .col-header-web {
+    background: #EFF6FB;
+    border: 1px solid #C4DAEA;
+    border-bottom: 3px solid #0071BB;
+    position: relative;
+  }
+
+  .col-header .col-number {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #71767A;
+    margin-bottom: 4px;
+  }
+
+  .col-header .col-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1B1B1B;
+    line-height: 1.3;
+    margin-bottom: 3px;
+  }
+
+  .col-header-web .col-title { color: #0071BB; }
+
+  .col-header .col-subtitle {
+    font-size: 11px;
+    color: #71767A;
+    line-height: 1.3;
+  }
+
+  .col-header-web .col-subtitle { color: #205493; }
+
+  .primary-focus-badge {
+    display: inline-block;
+    margin-top: 5px;
+    background: #0071BB;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 2px 7px;
+    border-radius: 10px;
+  }
+
+  /* ============================================================
+     MATRIX ROWS
+     ============================================================ */
+  .matrix-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .matrix-row {
+    display: grid;
+    grid-template-columns: 252px repeat(6, 1fr);
+    gap: 8px;
+    margin-bottom: 8px;
+    align-items: stretch;
+  }
+
+  /* ============================================================
+     ROW LABEL CELL
+     ============================================================ */
+  .row-label-cell {
+    background: #E8E8E8;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  .row-label-cell .tool-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1B1B1B;
+    line-height: 1.3;
+  }
+
+  .ehr-badges {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+  .ehr-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    line-height: 1;
+  }
+
+  .ehr-vista { background: #112E51; color: #FFFFFF; }
+  .ehr-oh { background: #D83933; color: #FFFFFF; }
+  .ehr-na { background: #AEB0B5; color: #FFFFFF; }
+
+  .ehr-both {
+    display: inline-flex;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1;
+  }
+
+  .ehr-both-vista {
+    background: #112E51;
+    color: #FFFFFF;
+    padding: 3px 6px;
+  }
+
+  .ehr-both-oh {
+    background: #D83933;
+    color: #FFFFFF;
+    padding: 3px 6px;
+  }
+
+  /* ============================================================
+     DATA CELL CARDS
+     ============================================================ */
+  .cell-card {
+    background: #FFFFFF;
+    border: 1px solid #D6D7D9;
+    border-radius: 4px;
+    padding: 12px 14px 10px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 90px;
+  }
+
+  .cell-card-web {
+    background: #EFF6FB;
+    border-color: #C4DAEA;
+    border-left: 3px solid #0071BB;
+  }
+
+  .cell-card-none {
+    background: #F5F5F5;
+    border-color: #D6D7D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AEB0B5;
+    font-size: 18px;
+  }
+
+  .cell-card-none-web {
+    background: #EFF6FB;
+    border-color: #C4DAEA;
+    border-left: 3px solid #0071BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  /* Status badge */
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    line-height: 1;
+    align-self: flex-start;
+    margin-bottom: 2px;
+  }
+
+  .status-exists { background: #E5F2EA; color: #2E8540; border: 1px solid #94BFA2; }
+  .status-partial { background: #FFF8E0; color: #9B6B00; border: 1px solid #E5C76A; }
+  .status-gap { background: #FBEAEA; color: #D83933; border: 1px solid #E59393; }
+  .status-soon { background: #E0EEF8; color: #0071BB; border: 1px solid #8CB8D8; }
+  .status-disabled { background: #FBEAEA; color: #D83933; border: 1px solid #D83933; }
+  .status-unknown { background: #FFFBEC; color: #9B6B00; border: 1px solid #FAD980; }
+  .status-none { background: #F0F0F0; color: #71767A; border: 1px solid #D6D7D9; }
+  .status-low { background: #F0F0F0; color: #71767A; border: 1px solid #D6D7D9; }
+
+  .cell-notif-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1B1B1B;
+    line-height: 1.35;
+  }
+
+  .cell-notif-desc {
+    font-size: 11.5px;
+    color: #3D4551;
+    line-height: 1.5;
+  }
+
+  .cell-note {
+    font-size: 11px;
+    color: #71767A;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 2px;
+    padding-top: 4px;
+    border-top: 1px dashed #D6D7D9;
+  }
+
+  /* ============================================================
+     ROW ANNOTATION BANNER
+     ============================================================ */
+  .row-annotation {
+    grid-column: 1 / -1;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    background: #FFF8E0;
+    border: 1px solid #E5C76A;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 11.5px;
+    color: #5C4A00;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .row-annotation-icon { font-size: 14px; flex-shrink: 0; }
+
+  /* ============================================================
+     INSIGHT CARDS
+     ============================================================ */
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #71767A;
+    margin-bottom: 14px;
+    margin-top: 0;
+  }
+
+  .section-block {
+    margin-bottom: 32px;
+  }
+
+  .cards-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .insight-card {
+    background: #FFFFFF;
+    border: 1px solid #D6D7D9;
+    border-radius: 6px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-left-width: 4px;
+  }
+
+  .insight-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1B1B1B;
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+
+  .insight-card p {
+    font-size: 13px;
+    color: #3D4551;
+    line-height: 1.6;
+  }
+
+  /* ============================================================
+     SYSTEMS CONTEXT CARDS
+     ============================================================ */
+  .systems-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .system-card {
+    background: #FFFFFF;
+    border: 1px solid #D6D7D9;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .system-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .system-icon {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .system-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1B1B1B;
+    line-height: 1.3;
+  }
+
+  .system-card p {
+    font-size: 13px;
+    color: #3D4551;
+    line-height: 1.6;
+  }
+
+  /* ============================================================
+     PRINT
+     ============================================================ */
+  @media print {
+    body {
+      background: #FFFFFF;
+      padding: 16px;
+      min-width: auto;
+    }
+
+    .cell-card,
+    .insight-card,
+    .system-card,
+    .legend-card {
+      box-shadow: none;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .matrix-wrapper { overflow-x: visible; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     PAGE HEADER
+     ============================================================ -->
+<header class="page-header">
+  <div class="page-header-left">
+    <h1>My HealtheVet Health Notifications: Landscape &amp; Opportunities</h1>
+    <p class="subtitle">What exists today across channels, where gaps exist, and where we can better serve Veterans on VA.gov</p>
+    <p class="date-stamp">Last updated: April 2026</p>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend-card" role="complementary" aria-label="Status legend">
+    <h3>Legend</h3>
+    <div class="legend-items">
+      <div class="legend-item"><span class="icon">✅</span> Exists — live and functioning</div>
+      <div class="legend-item"><span class="icon">🔶</span> Partial / Opportunity to improve</div>
+      <div class="legend-item"><span class="icon">🟥</span> Gap / Opportunity to create</div>
+      <div class="legend-item"><span class="icon">🔵</span> Coming soon — in active development</div>
+      <div class="legend-item"><span class="icon">🔴</span> Disabled — built but turned off</div>
+      <div class="legend-item"><span class="icon">⬜</span> None — nothing exists or planned</div>
+      <div class="legend-item"><span class="icon">❓</span> Unknown — needs verification</div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     MATRIX
+     ============================================================ -->
+<div class="matrix-wrapper" role="region" aria-label="Notification landscape matrix">
+
+  <!-- Section span labels -->
+  <div class="section-span-row" aria-hidden="true">
+    <div class="section-span section-external">External Notifications (Outbound to Veteran)</div>
+    <div class="section-span section-inapp">In-App / On-Screen (Veteran must be logged in)</div>
+  </div>
+
+  <!-- Column headers -->
+  <div class="col-headers" role="row">
+    <div class="col-header col-header-empty" role="columnheader"></div>
+
+    <div class="col-header" role="columnheader">
+      <div class="col-number">Col 1</div>
+      <div class="col-title">SMS (VEText)</div>
+      <div class="col-subtitle">Facility-dependent · CPRS-based</div>
+    </div>
+
+    <div class="col-header" role="columnheader">
+      <div class="col-number">Col 2</div>
+      <div class="col-title">SMS (VA Notify)</div>
+      <div class="col-subtitle">VA-wide</div>
+    </div>
+
+    <div class="col-header" role="columnheader">
+      <div class="col-number">Col 3</div>
+      <div class="col-title">Email (VA Notify)</div>
+      <div class="col-subtitle">VA-wide</div>
+    </div>
+
+    <div class="col-header" role="columnheader">
+      <div class="col-number">Col 4</div>
+      <div class="col-title">Push (VAHB Mobile)</div>
+      <div class="col-subtitle">VA Notify · VAHB app</div>
+    </div>
+
+    <div class="col-header" role="columnheader">
+      <div class="col-number">Col 5</div>
+      <div class="col-title">In-App Activity (VAHB Mobile)</div>
+      <div class="col-subtitle">Home screen cards</div>
+    </div>
+
+    <div class="col-header col-header-web" role="columnheader">
+      <div class="col-number">Col 6</div>
+      <div class="col-title">In-App Activity (VA.gov Web)</div>
+      <div class="col-subtitle">MHV Landing Page</div>
+      <div><span class="primary-focus-badge">⭐ Primary Focus</span></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ROW 1 — APPOINTMENTS
+       ============================================================ -->
+  <div class="matrix-rows" role="rowgroup">
+
+    <div class="matrix-row" role="row">
+      <!-- Row label -->
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">🗓 Appointments</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-vista">VistA only</span>
+        </div>
+      </div>
+
+      <!-- Col 1: SMS VEText -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Rich coverage — 10 notification types</div>
+        <div class="cell-notif-desc">Upcoming reminders, auto-cancel, clinic cancellation, scheduling reminders, pre-check-in, check-in, post-appointment reminders, community care scheduling, community care post-appt, Open Slot Management.</div>
+        <div class="cell-note">All automatic, opt-out via SMS reply. Pre-check-in &amp; check-in will need interim solutions when facilities move to Oracle Health.</div>
+      </div>
+
+      <!-- Col 2: SMS VA Notify -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3: Email VA Notify -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 4: Push VAHB -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-unknown">❓ Unknown</span>
+        <div class="cell-notif-desc">Needs verification — uncertain whether push notifications exist for appointments in VAHB mobile.</div>
+      </div>
+
+      <!-- Col 5: In-App VAHB -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Upcoming appointments count</div>
+        <div class="cell-notif-desc">"Upcoming appointments: [X] in the next 30 days." Routes to Appointments → Upcoming tab.</div>
+      </div>
+
+      <!-- Col 6: In-App Web (Primary Focus) -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-partial">🔶 Opportunity</span>
+        <div class="cell-notif-name">Partial — nearest upcoming only</div>
+        <div class="cell-notif-desc">Appointment card on My VA shows nearest upcoming appointment only. No visibility on MHV landing page — only a generic link. No count of upcoming appointments.</div>
+      </div>
+    </div><!-- /row 1 -->
+
+    <!-- ============================================================
+         ROW 2 — SECURE MESSAGES
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">✉️ Secure Messages</span>
+        <div class="ehr-badges">
+          <span class="ehr-both">
+            <span class="ehr-both-vista">VistA</span><span class="ehr-both-oh">OH</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">"You have a new message"</div>
+        <div class="cell-notif-desc">Triggered when new message sent to Veteran. Automatic, no opt-out.</div>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">"You have a new message" + Welcome</div>
+        <div class="cell-notif-desc">"You have a new message" email + "Welcome to Secure Messaging" (VistA only). Automatic.</div>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Push — new provider reply</div>
+        <div class="cell-notif-desc">Push notification delivered when provider replies to a secure message.</div>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Unread message count</div>
+        <div class="cell-notif-desc">"Messages: [X] unread." Routes to Messages → Inbox. Blue dot indicator.</div>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-partial">🔶 Opportunity</span>
+        <div class="cell-notif-name">Partial — dot only, no count</div>
+        <div class="cell-notif-desc">Blue dot indicator next to "Go to inbox" on MHV landing page and My VA. No count — just a dot. No numeric visibility.</div>
+      </div>
+    </div><!-- /row 2 -->
+
+    <!-- ============================================================
+         ROW 3 — MEDICATIONS
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">💊 Medications</span>
+        <div class="ehr-badges">
+          <span class="ehr-both">
+            <span class="ehr-both-vista">VistA</span><span class="ehr-both-oh">OH</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-partial">🔶 Partial</span>
+        <div class="cell-notif-name">Shipped + window pickup</div>
+        <div class="cell-notif-desc">Single &amp; multiple-med shipped notifications + window pickup. Not all facilities have VEText. Daily batch at 8 AM local time.</div>
+        <div class="cell-note">Coming soon: Rx Refill available (2027), CMOP shipment (no timeline). Facility-dependent.</div>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-partial">🔶 Partial — CBOC only</span>
+        <div class="cell-notif-name">Prescription shipped (centrally-distributed)</div>
+        <div class="cell-notif-desc">Shipped notifications via CBOC (central distribution center). Opt-in via VA Profile. Only covers centrally-shipped meds, not facility-shipped meds.</div>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-unknown">❓ Unknown</span>
+        <div class="cell-notif-desc">Needs verification — uncertain whether push notifications exist for medications in VAHB mobile.</div>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Prescriptions ready to refill</div>
+        <div class="cell-notif-desc">"Prescriptions: [X] ready to refill." Routes to Prescriptions page.</div>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-gap">🟥 Gap — High Priority</span>
+        <div class="cell-notif-name">Nothing on web</div>
+        <div class="cell-notif-desc">No indicator for prescriptions ready to refill, shipped, or otherwise. Zero medication activity on the MHV landing page.</div>
+      </div>
+    </div><!-- /row 3 grid -->
+
+    <!-- Row 3 annotation -->
+    <div class="matrix-row" style="margin-top:-4px; margin-bottom:8px;" role="row">
+      <div class="row-annotation" role="cell" style="grid-column: 1 / -1;">
+        <span class="row-annotation-icon">⚠️</span>
+        <span><strong>Coverage gap across all channels:</strong> Some Veterans get <em>no</em> medication notifications at all — if their facility doesn't have VEText enabled <em>and</em> their medications aren't shipped from a central CBOC distribution center.</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ROW 4 — MEDICAL RECORDS
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">🧪 Medical Records (Labs &amp; Tests)</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-oh" title="New lab results notification: Oracle Health only">OH (new results)</span>
+        </div>
+        <div class="ehr-badges" style="margin-top:3px;">
+          <span class="ehr-both" title="Medical image download: both systems">
+            <span class="ehr-both-vista">VistA</span><span class="ehr-both-oh">OH</span>
+          </span>
+          <span style="font-size:10px; color:#71767A; align-self:center;">img download</span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-soon">🔵 Coming Soon</span>
+        <div class="cell-notif-name">"You have a new lab &amp; test result"</div>
+        <div class="cell-notif-desc">Deep-links to exact result. Oracle Health only. Non-opt-outable. Aggressively de-identified content in message body.</div>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-unknown">❓ Unknown</span>
+        <div class="cell-notif-desc">Needs verification — uncertain whether push notifications exist for lab results in VAHB mobile.</div>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-gap">🟥 Gap — Coordinated Launch</span>
+        <div class="cell-notif-name">Nothing — coordinated with med records team</div>
+        <div class="cell-notif-desc">No "new since last visit" concept exists server-side. Medical records team is building this capability — planned coordinated launch with MHV landing page redesign.</div>
+      </div>
+    </div><!-- /row 4 grid -->
+
+    <!-- Row 4 annotation -->
+    <div class="matrix-row" style="margin-top:-4px; margin-bottom:8px;" role="row">
+      <div class="row-annotation" role="cell" style="grid-column: 1 / -1;">
+        <span class="row-annotation-icon">🔬</span>
+        <span><strong>No server-side "new" concept for medical records.</strong> Current tracking of what results are new is session-scoped only — not persisted on the server. The medical records team is solving this as part of their upcoming work.</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ROW 5 — TRAVEL PAY
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">🚗 Travel Pay</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-na">N/A</span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">Past appointments eligible for travel</div>
+        <div class="cell-notif-desc">"Past appointments: [X] eligible for travel reimbursement." Routes to Appointments → Past tab.</div>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-gap">🟥 Gap — Opportunity</span>
+        <div class="cell-notif-name">Nothing on web</div>
+        <div class="cell-notif-desc">No travel pay activity surfaced anywhere on VA.gov. Veterans must navigate independently to discover eligibility.</div>
+      </div>
+    </div><!-- /row 5 grid -->
+
+    <!-- Row 5 annotation -->
+    <div class="matrix-row" style="margin-top:-4px; margin-bottom:8px;" role="row">
+      <div class="row-annotation" role="cell" style="grid-column: 1 / -1;">
+        <span class="row-annotation-icon">💡</span>
+        <span><strong>No external notifications exist for travel pay across any channel.</strong> VAHB mobile is the only surface that proactively surfaces eligible travel reimbursement claims to Veterans.</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ROW 6 — MEDICAL SUPPLIES
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">🩺 Medical Supplies</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-na">N/A</span>
+        </div>
+      </div>
+
+      <!-- Cols 1-5: all None -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-gap">🟥 Future Opportunity</span>
+        <div class="cell-notif-name">Nothing anywhere — future priority</div>
+        <div class="cell-notif-desc">No notifications or activity of any kind across any channel. Future opportunity: surface "supplies eligible for re-order" once foundational activity infrastructure is established.</div>
+      </div>
+    </div><!-- /row 6 grid -->
+
+    <!-- Row 6 annotation -->
+    <div class="matrix-row" style="margin-top:-4px; margin-bottom:8px;" role="row">
+      <div class="row-annotation" role="cell" style="grid-column: 1 / -1;">
+        <span class="row-annotation-icon">🔇</span>
+        <span><strong>Complete notification dead zone.</strong> Medical Supplies has zero notifications or activity across all 6 channels and both platforms. Nothing exists or is currently planned.</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ROW 7 — MEDICAL CO-PAYS & BILLING
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">💳 Medical Co-pays &amp; Billing</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-na">N/A</span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-disabled">🔴 Disabled</span>
+        <div class="cell-notif-name">"New co-pay established"</div>
+        <div class="cell-notif-desc">Currently DISABLED due to problems. Team actively working to identify issues and re-enable this notification.</div>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-gap">🟥 Future Opportunity</span>
+        <div class="cell-notif-name">Nothing — future priority</div>
+        <div class="cell-notif-desc">No co-pay activity surfaced on VA.gov. Future opportunity: "Co-payments due" once external notification is re-enabled and foundational activity infrastructure exists.</div>
+      </div>
+    </div><!-- /row 7 -->
+
+    <!-- ============================================================
+         ROW 8 — 10-10EZR FORM
+         ============================================================ -->
+    <div class="matrix-row" role="row">
+      <div class="row-label-cell" role="rowheader">
+        <span class="tool-name">📋 10-10EZR Form</span>
+        <div class="ehr-badges">
+          <span class="ehr-badge ehr-na">N/A</span>
+        </div>
+      </div>
+
+      <!-- Col 1 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="cell-card" role="cell">
+        <span class="status-badge status-exists">✅ Exists</span>
+        <div class="cell-notif-name">"Your update failed"</div>
+        <div class="cell-notif-desc">Triggered on form submission failure. Automatic — no opt-in or opt-out required.</div>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 5 -->
+      <div class="cell-card cell-card-none" role="cell" aria-label="None">
+        <span class="status-badge status-none">⬜ None</span>
+      </div>
+
+      <!-- Col 6 -->
+      <div class="cell-card cell-card-web" role="cell">
+        <span class="status-badge status-low">⬜ Low Priority</span>
+        <div class="cell-notif-name">Nothing — low priority</div>
+        <div class="cell-notif-desc">No recent activity surfaced for form submissions on the MHV landing page. Low priority for near-term work.</div>
+      </div>
+    </div><!-- /row 8 -->
+
+  </div><!-- /matrix-rows -->
+</div><!-- /matrix-wrapper -->
+
+
+<!-- ============================================================
+     KEY INSIGHT CARDS
+     ============================================================ -->
+<section class="section-block" aria-labelledby="insights-heading">
+  <h2 class="section-title" id="insights-heading">Key Insights</h2>
+  <div class="cards-row">
+
+    <div class="insight-card" style="border-left-color: #2E8540;">
+      <h4>💬 Secure Messages is the most complete</h4>
+      <p>Secure Messages is the only health tool with coverage across all 6 channels — SMS, email, push, mobile in-app, and partial web. It's also the only tool with automatic, non-opt-outable notifications: users <em>always</em> know when they have a new message from a provider.</p>
+    </div>
+
+    <div class="insight-card" style="border-left-color: #D83933;">
+      <h4>💊 Medications has the biggest gap between what's possible and what's surfaced</h4>
+      <p>VAHB mobile already shows prescriptions ready to refill, but the web portal has <strong>zero</strong> medication activity. External notifications are fragmented across CBOC email and VEText SMS — meaning some Veterans get no medication notifications at all, depending on their facility.</p>
+    </div>
+
+    <div class="insight-card" style="border-left-color: #D83933;">
+      <h4>🔇 Travel Pay, Medical Supplies, and Co-pays are notification dead zones</h4>
+      <p>These tools have little to no notification coverage across any channel. Travel pay has an activity card on VAHB mobile but nothing else. Medical supplies and co-pays have nothing anywhere. These are future opportunities once the foundational recent activity system is in place on web.</p>
+    </div>
+
+    <div class="insight-card" style="border-left-color: #0071BB;">
+      <h4>🌐 The web portal is the biggest single gap</h4>
+      <p>Column 6 (In-App Web) has the most gaps of any channel. Only 2 of 8 health tools surface any activity on VA.gov, and both are incomplete (dot-only indicator for messages; nearest-only for appointments, no count). This is the primary focus area: bringing the same visibility that VAHB mobile already provides into the MHV landing page.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SYSTEMS CONTEXT CARDS
+     ============================================================ -->
+<section class="section-block" aria-labelledby="systems-heading">
+  <h2 class="section-title" id="systems-heading">Underlying Systems &amp; Platforms</h2>
+  <div class="systems-row">
+
+    <div class="system-card">
+      <div class="system-card-header">
+        <span class="system-icon">💬</span>
+        <h4>VEText</h4>
+      </div>
+      <p>Facility-dependent SMS system relying on CPRS data. Primarily VistA. Veterans are auto-opted-in; opt-out via SMS reply. Not all facilities have VEText enabled. Subject to legally mandated quiet hours (8 AM–8 PM facility local time). Powers most Appointments notifications — the richest single coverage area.</p>
+    </div>
+
+    <div class="system-card">
+      <div class="system-card-header">
+        <span class="system-icon">📧</span>
+        <h4>VA Notify</h4>
+      </div>
+      <p>VA-wide passthrough system supporting email, SMS, and push (VAHB mobile app). Template-driven — requires an API key + privacy review to create new notification types. Templates are <strong>not centrally managed</strong>: no single source of truth for what notifications exist or what they contain. Powers Secure Messages and medication shipping email notifications.</p>
+    </div>
+
+    <div class="system-card">
+      <div class="system-card-header">
+        <span class="system-icon">⚙️</span>
+        <h4>VA.gov Profile — Notification Settings</h4>
+      </div>
+      <p>Opt-in settings exist in VA Profile for select tools (e.g., medication shipping via email). Secure Messages is automatic and does <strong>not</strong> appear in Profile settings. VEText appointments are auto-enrolled with opt-out by SMS reply. This is where Veterans manage their notification preferences today — and the gap between what's there and what Veterans expect is itself a UX problem.</p>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
