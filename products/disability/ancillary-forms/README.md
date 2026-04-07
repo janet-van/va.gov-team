@@ -8,7 +8,9 @@ Date: 4/7/2026
 
 ✅ [Discovery Milestone 1 - Refining the super epic problem statement, goals, and setting initial hypotheses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135710)
 
-✅ [Discovery Milestone 2 - Review hypotheses for roadmap & plan next steps](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137288#issuecomment-4195639614)
+✅ [Discovery Milestone 2 - Review hypotheses for roadmap & plan next steps](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137288)
+
+🔲 [Next, high-level recommendations](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114934#issuecomment-4195229443)
 
 
 
