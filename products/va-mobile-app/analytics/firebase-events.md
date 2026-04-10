@@ -1,7 +1,5 @@
 # Data Dictionary: Firebase Events
 
-Last updated: 4/29/2025
-
 ## Allergies
 
 | Event Name | Purpose |
