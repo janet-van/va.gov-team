@@ -197,7 +197,7 @@ Video interviews over Zoom (60 minutes for non-AT participants, 90 minutes for A
 - Click-through to list pages with "RECENT" badges next to recent items
 - Click-through to list pages with "RECENT" Indicators next to recent items
 
-> **Note:** The coded prototype is currently being built by the lead UX designer. The prototype must be complete before submitting to Research Ops.
+> **Note:** The coded prototype is currently being built by the lead UX designer. 
 
 ---
 
