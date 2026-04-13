@@ -29,7 +29,7 @@
 
 Thanks for joining us today! My name is Laura and I'll be moderating. One of my colleagues will be taking notes throughout the session. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
-**(For AT sessions only):** I also have [**accessibility specialist name**] joining us today. They're here to help with any technical aspects related to the assistive technology you're using — they won't be moderating, just available to help if any technical issues come up.
+**(For AT sessions only):** I also have [**accessibility specialist name**] joining us today. They're here to help with any technical aspects related to the assistive technology you're using, they won't be moderating, just available to help if any technical issues come up.
 
 Today we're going to talk about your experience using your VA patient portal to manage your healthcare online. We will ask you to walk us through how you see what's new in your health portal and view your medical records. We'll also look at some new designs that we're working on.
 
