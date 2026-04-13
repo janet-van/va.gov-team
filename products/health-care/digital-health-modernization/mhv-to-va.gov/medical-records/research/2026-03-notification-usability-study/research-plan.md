@@ -197,7 +197,7 @@ Video interviews over Zoom (60 minutes for non-AT participants, 90 minutes for A
 - Click-through to list pages with "RECENT" badges next to recent items
 - Click-through to list pages with "RECENT" Indicators next to recent items
 
-> **Note:** The coded prototype is currently being built by the lead UX designer. The prototype must be complete before submitting to Research Ops — it cannot be submitted without it.
+> **Note:** The coded prototype is currently being built by the lead UX designer. The prototype must be complete before submitting to Research Ops.
 
 ---
 
@@ -218,7 +218,7 @@ Video interviews over Zoom (60 minutes for non-AT participants, 90 minutes for A
 
 **Recruiting partner:** Perigean
 
-> **Note on recruitment survey:** There is a limit to how many questions Perigean can include in the Calendly screener survey. Consider a tiered approach (1st-tier questions for all participants; 2nd-tier AT-specific questions for those who indicate AT use). Provide a copy or link to the recruitment survey to Perigean before the kickoff call so both parties can review it together.
+> **Note on recruitment survey:** There is a limit to how many questions Perigean can include in the Calendly screener survey. Consider a tiered approach (Tier 1 questions for all participants; Tier 2 AT-specific questions for those who indicate AT use). Provide a copy or link to the recruitment survey to Perigean before the kickoff call so both parties can review it together.
 
 > **AT participant vetting:** If there are any questions about whether a recruited AT participant meets the qualification criteria, contact the ADE team via their Slack channel. ADE can vet AT participants for appropriateness.
 
