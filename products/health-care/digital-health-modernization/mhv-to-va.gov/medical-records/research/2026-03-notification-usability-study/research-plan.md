@@ -385,7 +385,6 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 **Pilot sessions:** Plan for **1-2 screen reader pilots** and **1 screen magnification pilot**. ADE accessibility specialists can run pilot sessions with AT participants.
 
-> **Note on Cindy Merrill (ADE):** Cindy is on medical leave and returns **April 23**. She is available to observe and support pilot sessions after that date.
 
 **Pilot session details:**
 - `Pilot participant name:` TBD - coordinate with ADE team
