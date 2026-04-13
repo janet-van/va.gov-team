@@ -434,7 +434,7 @@ TBD (pending prototype completion and Research Ops approval)
 - `Research guide writing and task development:` **Laura Simpson**
 - `Participant recruiting & screening:` **Perigean**
 - `Project point of contact:` **Laura Simpson** and **Jonathan Nelson**
-- `Accessibility specialist (for AT sessions):` **ADE Team** — An ADE accessibility specialist will join AT sessions to make observations about the assistive technology and provide technical support. ADE can also help with planning after Research Ops approval, and can help with conducting research and running AT pilot sessions. See the [ADE intake ticket #138956](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138956) for coordination details.
+- `Accessibility specialist (for AT sessions):` **ADE Team** — An ADE accessibility specialist will join AT sessions to make observations about the assistive technology and provide technical support. See the [ADE intake ticket #138956](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138956) for coordination details.
 - `Note-takers:` TBD
 - `Observers:`
   - **[TBD]**
