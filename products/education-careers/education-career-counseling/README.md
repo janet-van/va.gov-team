@@ -14,19 +14,6 @@
 - Compelte accessibility audit to identify outstanding issues
 - Complete form component audit to ensure all design system components are up-to-date
 
-### Initiatives
-- [2024 Online form Updates](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/education-career-counseling/Initiative-Brief-PCPG-Form-Updates.md)
-
-   
-## Screenshots
-
-### Before
-- 
-
-
-
-
-
 <!-- WARNING: This is a template meant to be copied and then modified. Please DO NOT MODIFY directly or MOVE this file. -->
 # Product Outline Template
 *Iterating on a product? Have a new feature? Check out the [Initiative Brief Template.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/initiative-brief-template.md)*
