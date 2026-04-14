@@ -8,32 +8,6 @@
 - [Prefilling military history](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/feature-briefs/Service%20history%20API.md)
 
 
-### Key Performance Indicators (KPIs)
-* *What data (qual or quant) will you look at to understand if your initial set of functionality is meeting your desired user and business outcomes, and not bringing about the undesired outcomes?*
-* _What are the most important metrics that track with this product/initiative's success?_
-* _Include links to Domo or Google Analytics Dashboards/Reports_
-* _**Limit 5-6 KPIs per product**__
-
-| KPI                             | Baseline Value | Target Value | Actual Value | Link to Data Source |
-|---------------------------------|----------------|--------------|--------------|---------------------|
-| # of online claims per year     |                |              |              |                     |
-| # of claim errors               |                |              |              |                     |
-| # of session to complete claim  |                |              |              |                     |
-
-### Objectives and Key results (OKRs)
-_What are the measurable targets you're aiming for that delivers value for Veterans?_
-
-- Objective: Online claims are processed as quickly as possible
-  - Key result: Average # of days to process an online form
-
-- Objective: Veterans have a positive experience when completing the online form flow
-  - Key result: 
-  - Key result: 
----
-
-## Assumptions
-- *Include indication of which assumption you think is most risky. Your Solution Approach (next section) should describe how you'll validate that assumption w/your initial set of functionality*
-
 ## Solution Approach
 
 - Complete usability baseline research to determine priorities for improvement
@@ -43,20 +17,11 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 ### Initiatives
 - [2024 Online form Updates](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/education-career-counseling/Initiative-Brief-PCPG-Form-Updates.md)
 
---- 
-
-## Solution Narrative
-
-### Current Status
-
-### Key Decisions
-
----
    
 ## Screenshots
 
 ### Before
-- [PCPG Form Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1691434304975/3f0c405c820c184d21393b3bbd76324a5ee7c677?sender=u934f98f179a86c76e6ee9592)
+- 
 
 
 
@@ -177,6 +142,7 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 ## Screenshots
 
 ### Before
+[PCPG Form Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1691434304975/3f0c405c820c184d21393b3bbd76324a5ee7c677?sender=u934f98f179a86c76e6ee9592)
 
 ### After
 
