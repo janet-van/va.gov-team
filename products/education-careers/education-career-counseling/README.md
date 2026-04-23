@@ -41,8 +41,8 @@ Personalized Career Planning and Guidance (PCPG), or VA Chapter 36, offers free 
 - Online claims are lost
 
 ## Desired Business Outcomes
-
 - Online form submissions can be successfuly processed by downstream systems
+- Veterans and families can easily 
 
 
 ## Undesired Business Outcomes
